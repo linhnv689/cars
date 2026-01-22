@@ -2745,16 +2745,15 @@ body .wpcf7 .wpcf7-submit:hover {
 }
 
 .car-top {
-    width: 85px;
+    width: 70px;
     position: fixed;
     bottom: 5%;
-    right: 30px;
+    right: 15px;
     z-index: 999;
     cursor: pointer;
 
     transform: translateY(200%);
     opacity: 0;
-
     transition: transform 1s ease, opacity 0.6s ease;
 }
 
@@ -2805,12 +2804,12 @@ body .wpcf7 .wpcf7-submit:hover {
     transition: transform 1.4s ease-in-out;
 }
 
-/* ===== ĐÈN (GẮN VÀO SPAN) ===== */
+/* ===== Car light ===== */
 .car-top span:before {
     content: "";
     position: absolute;
-    top: -1px;
-    left: 0;
+    top: 2px;
+    left: 2px;
     width: 85px;
     height: 89px;
     background: url(../img/car-focus.png) no-repeat 0 0;
@@ -2824,12 +2823,12 @@ body .wpcf7 .wpcf7-submit:hover {
     opacity: 1;
 }
 
-/* 🚗 Chạy lên → turn on */
+/* Run up → turn on */
 .car-top.car-run-up span:before {
     opacity: 1;
 }
 
-/* Khi chạy về → turn on */
+/* Run back → turn on */
 .car-top.car-run-back span:before {
     opacity: 1;
     top: 90px;
@@ -11693,6 +11692,10 @@ ul.ro-list-inline-block li {
     margin-bottom: 30px
 }
 
+.tb-header-wrap.tb-header-v5 .mobile-leftbar .tb-logo img {
+    transform: scaleX(-1);
+}
+
 .tb-header-wrap.tb-header-v5 .mobile-leftbar .social-bottom {
     margin-top: 200px
 }
@@ -12224,7 +12227,7 @@ ul.ro-list-inline-block li {
 @media(max-width:1199px) {
     .tb-header-wrap.tb-header-v5 .mobile-header .fa-bars {
         top: 30px;
-        color: #111;
+        color: #fff;
         position: fixed;
         z-index: 1
     }
