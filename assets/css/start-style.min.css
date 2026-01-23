@@ -5637,7 +5637,7 @@ body ins {
     font-size: 12px;
     font-family: Roboto;
     color: #999;
-    margin-bottom: 15px !important
+    margin-bottom: 6px !important
 }
 
 .woocommerce .tb-products-grid .tb-product-item-inner .tb-content .car-vehicles li:before {
@@ -18548,4 +18548,22 @@ body .location-car .custom-location .search_box .search_item .slp_ui_button {
 
 .tb-header-wrap .multicolumn .tb-recent-thumb img {
     width: 100%
+}
+
+.color-box-list>span {
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.color-box-list .box {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: currentColor;
+}
+
+.color-only {
+    font-size: 0;
 }
