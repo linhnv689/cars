@@ -11269,7 +11269,8 @@ ul.ro-list-inline-block li {
     right: 15px
 }
 
-.tb-header-wrap.tb-header-v5 .mobile-leftbar .sub-menu li a img {
+.tb-header-wrap.tb-header-v5 .mobile-leftbar .sub-menu li a img,
+.tb-header-wrap.tb-header-v5 .mobile-leftbar .sub-menu li a video {
     width: 100%;
 }
 
