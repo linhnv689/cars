@@ -613,9 +613,7 @@
             width: 100%;
         }
 
-        .tb-header-wrap.tb-header-v5 .mobile-leftbar {
-            background-color: #1b2026;
-        }
+
 
         .tb-header-v6 .tb-header-menu .tb-header-menu-inner {
             background-color: #193755;
@@ -1165,17 +1163,21 @@
     <style>
         /* Base */
         .overlay-menu {
+            padding: 0 20px;
             position: fixed;
+            margin: 15px;
+            z-index: 1000;
             inset: 0;
-            background: rgba(0, 0, 0, 0.95);
+            width: 50%;
             display: flex;
-
+            flex-wrap: wrap;
             align-items: center;
+            background: #1b2026;
             opacity: 0;
             pointer-events: none;
             transform: translateY(-10px);
             transition: opacity 0.5s ease, transform 0.5s ease;
-            z-index: 1000;
+
         }
 
         /* Menu visible state */
@@ -1199,24 +1201,32 @@
             transform: translateY(0);
         }
 
-        .overlay-menu ul li:nth-child(1) {
+        .overlay-menu h3 {
             transition-delay: 0.15s;
         }
 
-        .overlay-menu ul li:nth-child(2) {
+        .overlay-menu ul li:nth-child(1) {
             transition-delay: 0.25s;
         }
 
-        .overlay-menu ul li:nth-child(3) {
+        .overlay-menu ul li:nth-child(2) {
             transition-delay: 0.35s;
         }
 
-        .overlay-menu ul li:nth-child(4) {
+        .overlay-menu ul li:nth-child(3) {
             transition-delay: 0.45s;
         }
 
-        .overlay-menu ul li:nth-child(5) {
+        .overlay-menu ul li:nth-child(4) {
             transition-delay: 0.55s;
+        }
+
+        .overlay-menu ul li:nth-child(5) {
+            transition-delay: 0.65s;
+        }
+
+        .overlay-menu .sub-menu {
+            transition-delay: 0.75s;
         }
 
         .overlay-menu a {
@@ -1227,9 +1237,9 @@
         }
 
         .menu-btn {
-            position: absolute;
-            top: 24px;
+            position: fixed;
             left: 24px;
+            top: 24px;
             z-index: 1001;
             padding-top: 2px;
         }
@@ -1287,69 +1297,27 @@
                         <img src="assets/img/logo.png" alt="Logo">
                     </a>
                 </div>
-                <div class="mobile-leftbar overlay-menu rounded-2" tabindex="0">
+                <div class="mobile-leftbar overlay-menu" tabindex="0">
                     <!-- <a class="br-button fa fa-close" href="javascript:;"></a> -->
                     <button id="mobile-bar-v4-close" class="menu-btn">
                         <span class="bar"></span>
                         <span class="bar"></span>
                         <span class="bar"></span>
                     </button>
-                    <div class="tb-logo mb-0">
-                        <a href="https://autopro.jwsuperthemes.com/">
-                            <!-- <span>AUTO</span>PRO -->
-                            <img src="assets/img/logo.png" alt="Logo">
-                        </a>
-                    </div>
-                    <div class="px-4">
-                        <h3 class="text-white">Hyper Sports Cars</h3>
+                    <div class="w-100 position-relative">
+                        <h3 class="text-white">Hypercar Collection</h3>
                         <ul id="menu-menu-1" class="mobile-nav ps-0">
                             <li id="menu-item-25"
                                 class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-25"
                                 data-depth="0"><a href="https://autopro.jwsuperthemes.com/home/"><span
-                                        class="menu-title">ASTON MARTIN<i class="fa fa-fw fa-angle-down"></i>
+                                        class="menu-title">ASTON MARTIN <i class="fa-solid fa-angle-right"></i></i>
                                     </span></a>
-                                <ul class='standar-dropdown standard autodrop_submenu sub-menu dropdown-menu'
-                                    style="width:200px;">
-                                    <li id="menu-item-331"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home/"><span
-                                                class="menu-title dropdown-item">Home Page V1</span></a></li>
-                                    <li id="menu-item-401"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v2/"><span
-                                                class="menu-title dropdown-item">Home Page V2</span></a></li>
-                                    <li id="menu-item-329"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v3/"><span
-                                                class="menu-title dropdown-item">Home Page V3</span></a></li>
-                                    <li id="menu-item-328"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-328"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v4/"><span
-                                                class="menu-title dropdown-item">Home Page V4</span></a></li>
-                                    <li id="menu-item-327"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-314 current_page_item menu-item-327"
-                                        data-depth="1"><a href="index.html"><span class="menu-title dropdown-item">Home
-                                                Page
-                                                V5</span></a>
-                                    </li>
-                                    <li id="menu-item-326"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-326"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v6/"><span
-                                                class="menu-title dropdown-item">Home Page V6</span></a></li>
-                                    <li id="menu-item-325"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-325"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v7/"><span
-                                                class="menu-title dropdown-item">Home Page V7</span></a></li>
-                                    <li id="menu-item-324"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v8/"><span
-                                                class="menu-title dropdown-item">Home Page V8</span></a></li>
-                                </ul>
+
                             </li>
                             <li id="menu-item-22"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has_full_width menu-item-22"
-                                data-depth="0"><a href="#" class=""><span class="menu-title">BUGATTI<i
-                                            class="fa fa-fw fa-angle-down"></i> </span></a>
+                                data-depth="0"><a href="#" class=""><span class="menu-title">BUGATTI <i
+                                            class="fa-solid fa-angle-right"></i></span></a>
                                 <ul class='multicolumn columns3 drop_full_width sub-menu dropdown-menu'
                                     style="width:600px;">
                                     <li id="menu-item-339"
@@ -1394,95 +1362,14 @@
                                                         class="menu-title">Cadillac</span></a></li>
                                         </ul>
                                     </li>
-                                    <li id="menu-item-346"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-346"
-                                        data-depth="1"><a class="dropdown-item"><span class="menu-title">BY MAKE
-                                                TWO</span></a>
-                                        <ul class='sub-menu mega-bg-image dropdown-menu'
-                                            style="background-image:url(uploads/2016/12/22.jpg);background-repeat:no-repeat;background-attachment:scroll;background-position:center;background-size:cover;">
-                                            <li id="menu-item-364"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Caterham</span></a></li>
-                                            <li id="menu-item-365"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-365"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Chevrolet</span></a>
-                                            </li>
-                                            <li id="menu-item-366"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-366"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Chrysler</span></a></li>
-                                            <li id="menu-item-367"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-367"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Citroen</span></a></li>
-                                            <li id="menu-item-368"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-368"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Dacia</span></a></li>
-                                            <li id="menu-item-369"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-369"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Ferrari</span></a></li>
-                                            <li id="menu-item-370"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-370"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Fiat</span></a></li>
-                                            <li id="menu-item-371"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-371"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Ford</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li id="menu-item-347"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-347"
-                                        data-depth="1"><a class="dropdown-item"><span class="menu-title">BUY MAKE
-                                                THREE</span></a>
-                                        <ul class='   sub-menu mega-bg-image dropdown-menu'
-                                            style="background-image:url(../wp-content/uploads/2016/12/33.jpg);background-repeat:no-repeat;background-attachment:scroll;background-position:center;background-size:cover;">
-                                            <li id="menu-item-373"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-373"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Honda</span></a></li>
-                                            <li id="menu-item-374"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-374"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Hyundai</span></a></li>
-                                            <li id="menu-item-375"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-375"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Infiniti</span></a></li>
-                                            <li id="menu-item-376"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-376"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Jaguar</span></a></li>
-                                            <li id="menu-item-377"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-377"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Jeep</span></a></li>
-                                            <li id="menu-item-378"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-378"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Kia</span></a></li>
-                                            <li id="menu-item-379"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-379"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Lamborghini</span></a>
-                                            </li>
-                                            <li id="menu-item-380"
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-380"
-                                                data-depth="2"><a href="#" class="dropdown-item"><span
-                                                        class="menu-title">Land Rover</span></a>
-                                            </li>
-                                        </ul>
-                                    </li>
+
+
                                 </ul>
                             </li>
                             <li id="menu-item-24"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has_full_width blog-mega menu-item-24"
-                                data-depth="0"><a href="#"><span class="menu-title">FERRARI<i
-                                            class="fa fa-fw fa-angle-down"></i> </span></a>
+                                data-depth="0"><a href="#"><span class="menu-title">FERRARI <i
+                                            class="fa-solid fa-angle-right"></i> </span></a>
                                 <ul class='multicolumn columns3 drop_full_width sub-menu dropdown-menu'
                                     style="width:600px;">
                                     <li id="menu-item-1165"
@@ -1512,91 +1399,22 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li id="menu-item-1162"
-                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1162"
-                                        data-depth="1"><a class="dropdown-item"><span class="menu-title">Featured
-                                                post</span></a>
-                                        <div id="zo-recent-posts-widget-with-thumbnails-4"
-                                            class="widget widget_zo-recent-posts-widget-with-thumbnails">
-                                            <ul>
-                                                <li>
-                                                    <div class="tb-recent-thumb"> <a
-                                                            href="https://autopro.jwsuperthemes.com/mitsubishi-l200-triton-savana-5/"
-                                                            data-original-title="Mitsubishi L200 Triton Savana"><img
-                                                                alt="Mitsubishi L200 Triton Savana"
-                                                                class="attachment-featuredImageCropped"
-                                                                src="uploads/2016/12/X6-feature-100x60.jpg"></a>
-                                                        <div class="recent-thumb-overlay"></div>
-                                                    </div>
-                                                    <div class="tb-recent-detail">
-                                                        <div class="tb-post-title">
-                                                            <h3><a href="https://autopro.jwsuperthemes.com/mitsubishi-l200-triton-savana-5/"
-                                                                    title="Mitsubishi L200 Triton Savana"> Mitsubishi
-                                                                    L200
-                                                                    Triton Savana </a></h3>
-                                                        </div>
-                                                        <div class="tb-post-date"><i class="fa fa-calendar"></i><span>13
-                                                                Oct
-                                                                2022</span></div>
-                                                    </div>
-                                                <li>
-                                                    <div class="tb-recent-thumb"> <a
-                                                            href="https://autopro.jwsuperthemes.com/modern-volvo-v40-t5-car-wd-car-11-1920x1200/"
-                                                            data-original-title="Modern Volvo V40 T5 car WD car 11"><img
-                                                                alt="Modern Volvo V40 T5 car WD car 11"
-                                                                class="attachment-featuredImageCropped"
-                                                                src="uploads/2016/12/subaru_impreza_wrx_sti_blue_blue_garage_94452_3840x2400-100x60.jpg"></a>
-                                                        <div class="recent-thumb-overlay"></div>
-                                                    </div>
-                                                    <div class="tb-recent-detail">
-                                                        <div class="tb-post-title">
-                                                            <h3><a href="https://autopro.jwsuperthemes.com/modern-volvo-v40-t5-car-wd-car-11-1920x1200/"
-                                                                    title="Modern Volvo V40 T5 car WD car 11"> Modern
-                                                                    Volvo
-                                                                    V40 T5 car WD </a></h3>
-                                                        </div>
-                                                        <div class="tb-post-date"><i class="fa fa-calendar"></i><span>12
-                                                                Oct
-                                                                2022</span></div>
-                                                    </div>
-                                                <li>
-                                                    <div class="tb-recent-thumb"> <a
-                                                            href="https://autopro.jwsuperthemes.com/mitsubishi-l200-triton-savana-2/"
-                                                            data-original-title="Mitsubishi L200 Triton Savana"><img
-                                                                alt="Mitsubishi L200 Triton Savana"
-                                                                class="attachment-featuredImageCropped"
-                                                                src="uploads/2016/12/RC-feature-100x60.jpg"></a>
-                                                        <div class="recent-thumb-overlay"></div>
-                                                    </div>
-                                                    <div class="tb-recent-detail">
-                                                        <div class="tb-post-title">
-                                                            <h3><a href="https://autopro.jwsuperthemes.com/mitsubishi-l200-triton-savana-2/"
-                                                                    title="Mitsubishi L200 Triton Savana"> Mitsubishi
-                                                                    L200
-                                                                    Triton Savana </a></h3>
-                                                        </div>
-                                                        <div class="tb-post-date"><i class="fa fa-calendar"></i><span>12
-                                                                Oct
-                                                                2022</span></div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
+
                                     <li id="menu-item-1163"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1163"
                                         data-depth="1">
                                         <div id="text-38" class="widget widget_text">
                                             <div class="textwidget"><img class="responsive"
                                                     src="uploads/2016/12/ads2-2.jpg" alt="ads-header"></div>
-                                            <div style="clear:both;"></div>
+
                                         </div>
                                     </li>
                                 </ul>
                             </li>
                             <li id="menu-item-23"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-23"
-                                data-depth="0"><a href="#"><span class="menu-title">KOENIGSEGG</span></a>
+                                data-depth="0"><a href="#"><span class="menu-title">KOENIGSEGG <i
+                                            class="fa-solid fa-angle-right"></i></span></a>
                                 <ul class='standar-dropdown standard autodrop_submenu sub-menu dropdown-menu'
                                     style="width:200px;">
                                     <li id="menu-item-1485"
@@ -1664,6 +1482,26 @@
                                             class="dropdown-item"><span class="menu-title">About Us</span></a></li>
                                 </ul>
                             </li>
+                        </ul>
+                        <ul class='standar-dropdown standard autodrop_submenu sub-menu hide-scroll active '>
+                            <li id="menu-item-331"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
+                                data-depth="1"><a href="https://autopro.jwsuperthemes.com/home/">
+                                    <img src="uploads/2026/aston-martin/valkyrie-coupe/valkyrie-final-1.webp"
+                                        alt="valkyrie-final-1">
+                                    <span class="menu-title">Valkyrie Coupe</span></a></li>
+                            <li id="menu-item-401"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401"
+                                data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v2/"><img
+                                        src="uploads/2026/aston-martin/valkyrie-amr-pro/valkyrie-amr-pro-final-2.jpg"
+                                        alt="valkyrie-amr-pro-final-2">
+                                    <span class="menu-title">Valkyrie AMR Pro</span></a></li>
+                            <li id="menu-item-329"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"
+                                data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
+                                        src="uploads/2026/aston-martin/valkyrie-lm/valkyrie-lmh-final-1.webp"
+                                        alt="valkyrie-lmh-final-6">
+                                    <span class="menu-title">Valkyrie LM</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -1950,10 +1788,10 @@
                                                                                     class="animsition-link tb-thumb-effect"
                                                                                     data-tb-thumb="true"> <img
                                                                                         width="656" height="360"
-                                                                                        src="uploads/2026/aston-martin/valkyrie/amvalkyrie_thumbnail.png"
+                                                                                        src="uploads/2026/aston-martin/valkyrie-coupe/amvalkyrie_thumbnail.png"
                                                                                         class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                                                         alt=""
-                                                                                        srcset="uploads/2026/aston-martin/valkyrie/amvalkyrie_thumbnail.png 656w, uploads/2026/aston-martin/valkyrie/amvalkyrie_thumbnail.png 600w"
+                                                                                        srcset="uploads/2026/aston-martin/valkyrie-coupe/amvalkyrie_thumbnail.png 656w, uploads/2026/aston-martin/valkyrie-coupe/amvalkyrie_thumbnail.png 600w"
                                                                                         sizes="(max-width: 656px) 100vw, 656px" />
                                                                                 </a></div>
                                                                             <div class="tb-content content-bottom">
