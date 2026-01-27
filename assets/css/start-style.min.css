@@ -2749,9 +2749,8 @@ body .wpcf7 .wpcf7-submit:hover {
     position: fixed;
     bottom: 5%;
     right: 15px;
-    z-index: 999;
+    z-index: 100;
     cursor: pointer;
-
     transform: translateY(200%);
     opacity: 0;
     transition: transform 1s ease, opacity 0.6s ease;
@@ -11198,13 +11197,9 @@ ul.ro-list-inline-block li {
     transition: all .3s ease-in-out
 }
 
-.tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav {
-    height: calc(100vh - 250px);
-    max-width: 250px;
-}
-
 .tb-header-wrap.tb-header-v5 .mobile-leftbar h3 {
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav>li:before {
@@ -11219,22 +11214,18 @@ ul.ro-list-inline-block li {
 
 .tb-header-wrap.tb-header-v5 .mobile-leftbar .sub-menu {
     display: none;
-    position: absolute;
-    left: 265px;
     height: 100%;
-    top: 0;
-    flex-wrap: wrap;
     overflow-y: auto;
     background-color: #fff;
-    padding: 20px
+    padding: 15px;
 }
 
 .tb-header-wrap.tb-header-v5 .mobile-leftbar .sub-menu.active {
     display: block;
-    -webkit-animation: fadeInLeft2 .4s both;
-    -moz-animation: fadeInLeft2 .4s both;
-    -o-animation: fadeInLeft2 .4s both;
-    animation: fadeInLeft2 .4s both
+    -webkit-animation: fadeInUp .4s both;
+    -moz-animation: fadeInUp .4s both;
+    -o-animation: fadeInUp .4s both;
+    animation: fadeInUp .4s both
 }
 
 .hide-scroll {
@@ -11275,19 +11266,17 @@ ul.ro-list-inline-block li {
 }
 
 .tb-header-wrap.tb-header-v5 .mobile-leftbar .sub-menu li a span {
-    display: block;
     margin-top: -50px;
     margin-left: 15px;
+    display: block;
+
     font-size: 30px;
+    color: #fff;
 }
 
 .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav>li a {
     line-height: 50px;
-    color: #111;
-    display: inline-block;
-    font-size: 13px;
-    font-weight: 700;
-    font-family: Montserrat;
+
 }
 
 .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav>li .tb-menu-custom-block {
@@ -11296,45 +11285,20 @@ ul.ro-list-inline-block li {
 
 .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav>li>a {
     color: #fff;
-    font-size: 12px;
-    font-family: Montserrat
+    font-size: 13px;
+    font-family: Montserrat;
 }
 
 .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav>li:hover>a {
     padding-left: 0
 }
 
-@media(max-width:1199px) {
-
-    .tb-header-wrap.tb-header-3 .tb-header-menu .tb-menu .tb-menu-list>ul>li>a,
-    .tb-header-wrap.tb-header-v1 .tb-header-menu .tb-menu .tb-menu-list>ul>li>a,
-    .tb-header-wrap.tb-header-v2-custom .tb-header-menu .tb-menu .tb-menu-list>ul>li>a,
-    .tb-header-wrap.tb-header-v24 .tb-header-menu .tb-menu .tb-menu-list>ul>li>a,
-    .tb-header-wrap.tb-header-v4 .tb-header-menu .tb-menu .tb-menu-list>ul>li>a,
-    .tb-header-wrap.tb-header-v7 .tb-header-menu .tb-menu .tb-menu-list>ul>li>a,
-    .tb-header-wrap.tb-header-v8 .tb-header-menu .tb-menu .tb-menu-list>ul>li>a {
-        padding: 0 10px !important
-    }
-
-    .tb-header-wrap.tb-header-v2 .tb-logo-v2 {
-        display: none
-    }
-
-    .tb-header-wrap.tb-header-v2 .tb-header-menu {
-        color: #5d5d5d;
-        background: #000
-    }
-
-    .tb-header-wrap.tb-header-v2 .tb-header-menu .tb-logo,
-    .tb-header-wrap.tb-header-v2 .tb-header-menu .tb-menu-sidebar {
-        opacity: 1
-    }
-}
+@media(max-width:1199px) {}
 
 @media(max-width:767px) {
-    .tb-header-wrap.tb-header-v5 .mobile-leftbar {
-        overflow-x: hidden;
-        overflow-y: auto
+
+    .tb-header-wrap.tb-header-v5 .mobile-leftbar .sub-menu li a span {
+        font-size: 16px;
     }
 
     .tb-header-wrap.tb-header-v2 .tb-header-menu .widget_mini_sal .item-hd1,
@@ -11483,9 +11447,6 @@ ul.ro-list-inline-block li {
 }
 
 @media(max-width:1369px) and (max-height:801px) {
-    .tb-header-wrap.tb-header-v5 .mobile-leftbar {
-        padding-top: 0
-    }
 
     .tb-header-wrap.tb-header-v5 .mobile-leftbar .tb-logo {
         padding: 25px 0;
@@ -16825,11 +16786,6 @@ ul.ro-list-inline-block li {
 
     .main .tabs-gl {
         bottom: 12% !important
-    }
-
-    .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav {
-        text-align: center;
-        padding-left: 0
     }
 
     .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav>li ul {
