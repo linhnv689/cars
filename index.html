@@ -434,16 +434,16 @@
     <div class="" id="jws_theme_wrapper">
         <div class="clearfix">
             <div
-                class="tb-header-wrap ct-inc-megamenu tb-header-v5 tb-header-stick d-flex align-items-center justify-content-between px-3 px-sm-5">
+                class="tb-header-wrap ct-inc-megamenu tb-header-v5 tb-header-stick d-flex align-items-center justify-content-between px-3 px-sm-4">
                 <!-- Start Header Sidebar -->
-                <div class="mobile-header">
+                <div class="mobile-header mt-4">
                     <button id="mobile-bar-v4" class="menu-btn">
                         <span class="bar"></span>
                         <span class="bar"></span>
                         <span class="bar"></span>
                     </button>
                 </div>
-                <div class="tb-logo mb-0">
+                <div class="tb-logo mb-0 d-none">
                     <a href="https://autopro.jwsuperthemes.com/">
                         <img src="assets/img/logo.png" alt="Logo">
                     </a>
@@ -3641,6 +3641,22 @@
                 </span>
             </div>
 
+            <!-- ===== OVERLAY BODY ===== -->
+            <div id="overlay-wrap" class="overlay-body">
+                <div class="loader">
+                    <div class="car-stage">
+                        <!-- ĐƯỜNG: sẽ được show sau 1s -->
+                        <div id="road" class="road" aria-hidden="true"></div>
+
+                        <!-- XE: xuất hiện sau khi road đã show -->
+                        <div id="carWrap" class="car-wrap" title="Đang khởi động...">
+                            <img src="assets/img/vecteezy_supercar-png-file-format-silhouette-for-coloring_9638868.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <link rel='stylesheet' id='flexslider2-css' href='assets/vendors/flexslider/flexslider.css' type='text/css'
                 media='all' />
@@ -3676,71 +3692,6 @@
             <!-- Collection section -->
             <script type='text/javascript' src='plugins/js_composer/assets/lib/vc_tabs/vc-tabs.min.js'></script>
 
-            <script>
-                (function () {
-                    const container = document.querySelector('.hero-video');
-                    const video = container.querySelector('.hero-video__media');
-
-                    if (!container || !video) return;
-
-                    // Helper: play/pause safe (bắt promise play bị reject vì policy)
-                    const safePlay = () => {
-                        // Khi hover lần đầu, bắt đầu load video
-                        if (video.preload === 'none') {
-                            // Đổi preload để browser bắt đầu tải khi cần
-                            video.preload = 'metadata';
-                            // Với một số trình duyệt, gọi load() kích hoạt pipeline
-                            if (video.load) try { video.load(); } catch (e) { }
-                        }
-                        const p = video.play();
-                        if (p && typeof p.catch === 'function') {
-                            p.catch(() => {/* ignore autoplay reject */ });
-                        }
-                    };
-
-                    const safePauseAndReset = () => {
-                        try { video.pause(); } catch (e) { }
-                        // Reset về đầu cho lần hover sau
-                        try { video.currentTime = 0; } catch (e) { }
-                    };
-
-                    // --- Desktop hover ---
-                    container.addEventListener('mouseenter', () => {
-                        container.classList.add('is-playing');
-                        safePlay();
-                    });
-
-                    container.addEventListener('mouseleave', () => {
-                        container.classList.remove('is-playing');
-                        safePauseAndReset();
-                    });
-
-                    // --- Mobile: toggle bằng tap ---
-                    // (mobile không có hover, nên dùng click để bật/tắt)
-                    let isTouch = false;
-                    window.addEventListener('touchstart', () => { isTouch = true; }, { passive: true });
-
-                    container.addEventListener('click', () => {
-                        // Chỉ xử lý toggle trên thiết bị có touch (hoặc nếu bạn muốn cả desktop click)
-                        if (!isTouch) return;
-                        const active = container.classList.toggle('is-playing');
-                        if (active) safePlay(); else safePauseAndReset();
-                    });
-
-                    // Tối ưu: dừng video khi rời khỏi viewport (tiết kiệm tài nguyên)
-                    if ('IntersectionObserver' in window) {
-                        const io = new IntersectionObserver((entries) => {
-                            entries.forEach(entry => {
-                                if (!entry.isIntersecting) {
-                                    container.classList.remove('is-playing');
-                                    safePauseAndReset();
-                                }
-                            });
-                        }, { threshold: 0.1 });
-                        io.observe(container);
-                    }
-                })();
-            </script>
 </body>
 
 </html>

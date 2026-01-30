@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Preloader — Road sau 1s, rồi xe xuất hiện và chạy</title>
+    <style>
+        :root {
+            --overlay-gray: #2b2b2b;
+
+            /* Quãng chạy (responsive ở dưới) */
+            --car-distance: 200px;
+
+            /* Thời gian xe chạy 1 lần */
+            --car-run-ms: 3000ms;
+
+            --ease: cubic-bezier(.22, .61, .36, 1);
+        }
+
+        /* Responsive: tăng quãng chạy theo kích thước màn */
+        @media (min-width: 480px) {
+            :root {
+                --car-distance: 240px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            :root {
+                --car-distance: 280px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            :root {
+                --car-distance: 320px;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+            background: #ffffff;
+            /* nền trang thật */
+            color: #111827;
+            overflow-x: hidden;
+        }
+
+        /* ===== Overlay xám ===== */
+        .overlay-body {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            background: var(--overlay-gray);
+            display: grid;
+            place-items: center;
+            transition: opacity .45s ease, visibility .45s ease;
+        }
+
+        .overlay-body.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .loader {
+            display: grid;
+            place-items: center;
+            gap: 12px;
+        }
+
+        /* Sân khấu giữa màn hình */
+        .car-stage {
+            position: relative;
+            width: min(92vw, 720px);
+            height: clamp(120px, 22vw, 180px);
+            display: grid;
+            place-items: center;
+            overflow: visible;
+        }
+
+        /* ===== ĐƯỜNG: có fade-in ===== */
+        .road {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, 22px);
+            /* thấp hơn xe một chút */
+            width: 320px;
+            height: 20px;
+            border-radius: 999px;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .55), rgba(0, 0, 0, 0));
+            filter: blur(0.8px);
+            pointer-events: none;
+
+            /* Ẩn ban đầu, chờ JS thêm .show để fade-in */
+            opacity: 0;
+            transition: opacity 600ms var(--ease);
+        }
+
+        .road.show {
+            opacity: 1;
+        }
+
+        /* Vạch đứt giữa đường */
+        .road::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 70%;
+            height: 2px;
+            background:
+                repeating-linear-gradient(to right,
+                    rgba(255, 255, 255, .9) 0 16px,
+                    rgba(255, 255, 255, 0) 16px 28px);
+            filter: drop-shadow(0 0 1px rgba(255, 255, 255, .35));
+            opacity: .9;
+        }
+
+        /* ===== XE =====
+       - Ban đầu ẩn (opacity 0)
+       - Xuất hiện (fade-in 1s) sau khi đường đã hiện
+       - Sau đó mới chạy */
+        .car-wrap {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(calc(-50% + (var(--car-distance) * -0.5)), -50%);
+            opacity: 0;
+            /* ẩn ban đầu */
+            transition: opacity 1000ms var(--ease);
+            /* fade-in 1s */
+            will-change: transform, opacity;
+            height: 82px;
+            overflow: hidden;
+        }
+
+        .car-wrap.show {
+            opacity: 1;
+        }
+
+        /* chỉ hiện, chưa chạy */
+
+        .car-wrap img {
+            height: 105px;
+            display: block;
+            transform: scaleX(-1);
+            /* hướng sang phải */
+        }
+
+        /* Khi .play -> bắt đầu chạy */
+        .car-wrap.play {
+            animation: driveOne var(--car-run-ms) var(--ease) 1 forwards;
+        }
+
+        @keyframes driveOne {
+            from {
+                transform: translate(calc(-50% + (var(--car-distance) * -0.5)), -50%);
+            }
+
+            to {
+                transform: translate(calc(-50% + (var(--car-distance) * 0.5)), -50%);
+            }
+        }
+
+        /* Reduce motion */
+        @media (prefers-reduced-motion: reduce) {
+            .car-wrap {
+                transition: none;
+                animation: none;
+                opacity: 1;
+                transform: translate(-50%, -50%);
+            }
+
+            .overlay-body {
+                transition: none;
+            }
+
+            .road {
+                transition: none;
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ===== OVERLAY BODY ===== -->
+    <div id="overlay-wrap" class="overlay-body">
+        <div class="loader">
+            <div class="car-stage">
+                <!-- ĐƯỜNG: sẽ được show sau 1s -->
+                <div id="road" class="road" aria-hidden="true"></div>
+
+                <!-- XE: xuất hiện sau khi road đã show -->
+                <div id="carWrap" class="car-wrap" title="Đang khởi động...">
+                    <img src="assets/img/vecteezy_supercar-png-file-format-silhouette-for-coloring_9638868.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ===== THAM SỐ TIMELINE =====
+        const ROAD_SHOW_DELAY_MS = 1000;  // 1s: road xuất hiện
+        const CAR_FADE_MS = 1000;  // 1s: xe fade-in
+        const CAR_RUN_MS = 3000;  // 3s: xe chạy 1 lần
+
+        const overlayWrap = document.getElementById('overlay-wrap');
+        const road = document.getElementById('road');
+        const carWrap = document.getElementById('carWrap');
+
+        window.addEventListener('load', () => {
+            // T = 1s: hiện road
+            setTimeout(() => {
+                road.classList.add('show');
+
+                // T = 2s: sau khi road đã hiện 1s -> cho xe bắt đầu fade-in
+                setTimeout(() => {
+                    carWrap.classList.add('show');
+
+                    // T = 3s: sau khi xe đã fade-in 1s -> bắt đầu chạy
+                    setTimeout(() => {
+                        carWrap.classList.add('play');
+                    }, CAR_FADE_MS);
+
+                    // (tuỳ chọn) T = 3s + 3s = 6s: chạy xong -> ẩn overlay
+                    setTimeout(() => {
+                        // overlayWrap.classList.add('hidden');
+                    }, CAR_FADE_MS + CAR_RUN_MS);
+
+                }, ROAD_SHOW_DELAY_MS);
+
+            }, ROAD_SHOW_DELAY_MS);
+            // - setTimeout 1: Wait 1s to road show
+            // - setTimeout 2: Wait 1s (total 2 seconds), car starts to fade in.
+            // - setTimeout 3: Wait 1s (total 3 seconds), car starts run
+        });
+
+        // Fallback an toàn
+        setTimeout(() => {
+            if (!overlayWrap.classList.contains('hidden')) {
+                // overlayWrap.classList.add('hidden');
+            }
+        }, ROAD_SHOW_DELAY_MS + ROAD_SHOW_DELAY_MS + CAR_FADE_MS + CAR_RUN_MS + 1500);
+    </script>
+</body>
+
+</html>
