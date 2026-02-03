@@ -292,141 +292,6 @@
             transition: opacity 0.24s ease-in-out;
         }
     </style>
-    <style type="text/css" data-type="vc_shortcodes-custom-css">
-        .vc_custom_1497518860445 {
-            padding-top: 77px;
-            padding-bottom: 79px;
-            background-image: url(uploads/2016/12/bg-home5cvf2b4.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .vc_custom_1484360951484 {
-            padding-top: 82px;
-            padding-bottom: 0px;
-            background-color: #272e36;
-        }
-
-        .vc_custom_1482893476361 {
-            padding-bottom: 28px;
-            background-color: #272e36;
-        }
-
-        .vc_custom_1496721749713 {
-            padding-right: 0px;
-        }
-
-        .vc_custom_1496721829590 {
-            padding-left: 0px;
-        }
-
-        /* Base */
-        .overlay-menu {
-            padding: 15px;
-            position: fixed;
-            z-index: 1;
-            inset: 0;
-            width: 50%;
-            background: #1b2026;
-            opacity: 0;
-            pointer-events: none;
-            transform: translateY(-10px);
-            transition: opacity 0.5s ease, transform 0.5s ease;
-        }
-
-
-        @media (min-width: 768px) {
-            .overlay-menu {
-                /* margin: 15px; */
-            }
-        }
-
-        /* Menu visible state */
-        body.menu-open .overlay-menu {
-            opacity: 1;
-            pointer-events: auto;
-            transform: translateY(0);
-        }
-
-        .menu-btn .bar {
-            display: block;
-            width: 28px;
-            height: 3px;
-            margin: 5px 0;
-            background: #fff;
-            transition: 0.4s;
-        }
-
-        body.menu-open .menu-btn .bar:nth-child(1) {
-            transform: rotate(45deg) translate(5px, 5px);
-        }
-
-        body.menu-open .menu-btn .bar:nth-child(2) {
-            opacity: 0;
-        }
-
-        body.menu-open .menu-btn .bar:nth-child(3) {
-            transform: rotate(-45deg) translate(6px, -6px);
-        }
-    </style>
-    <style>
-        /* Container làm gốc định vị */
-        .hero-video {
-            position: relative;
-            width: 100%;
-            aspect-ratio: 16 / 9;
-            background: #000;
-            overflow: hidden;
-            cursor: pointer;
-            /* giúp user biết có thể tương tác trên mobile */
-        }
-
-        /* Ảnh cover mặc định hiển thị */
-        .hero-video__image {
-            position: absolute;
-            inset: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-            z-index: 0;
-            pointer-events: none;
-            user-select: none;
-        }
-
-        /* Video fill khung, ẩn mặc định */
-        .hero-video__media {
-            position: absolute;
-            inset: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            opacity: 0;
-            transition: opacity 260ms ease;
-            z-index: 1;
-            /* bỏ pointer-events: none để cho mobile click vào container vẫn được,
-         sự kiện ta gắn trên container */
-        }
-
-        /* Khi hover (desktop) hoặc khi active (JS toggle), video hiện lên */
-        .hero-video:hover .hero-video__media,
-        .hero-video.is-playing .hero-video__media {
-            opacity: 1;
-        }
-
-        .hero-video,
-        .hero-video * {
-            box-sizing: border-box;
-        }
-
-        /* Giảm chuyển động cho người dùng chọn reduce motion */
-        @media (prefers-reduced-motion: reduce) {
-            .hero-video__media {
-                transition: none;
-            }
-        }
-    </style>
 </head>
 
 <body class="page-template-default page woocommerce-no-js wide wpb-js-composer vc_responsive">
@@ -435,7 +300,7 @@
         <div class="tb-header-wrap ct-inc-megamenu tb-header-v5 d-flex align-items-center px-3 px-sm-4">
             <!-- Start Header Sidebar -->
             <div class="mobile-header d-flex align-items-center">
-                <button id="mobile-bar-v4" class="menu-btn jws_theme_open_menu me-3 mt-5">
+                <button id="mobile-bar-v4" class="menu-btn jws_theme_open_menu me-3 mt-4">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -449,339 +314,313 @@
             <div class="mobile-leftbar overlay-menu hide-scroll" tabindex="0">
                 <!-- <a class="br-button fa fa-close" href="javascript:;"></a> -->
 
-                <ul id="menu-menu-1" class="mobile-nav ps-0 mb-0 w-100">
-                    <li id="menu-item-25">
-                        <a href="#menu-item-aston-martin" class="menu-item-link">
+                <ul id="menu-menu-1" class="mobile-nav">
+                    <li>
+                        <a href="#" class="menu-item-link level1">
                             <span class="menu-title">ASTON MARTIN
+                                <i class="fa-solid fa-angle-right"></i>
+                            </span>
+                        </a>
+                        <div class="mobile-nav-wrap">
+                            <ul class="mobile-nav-sub level1">
+                                <li>
+                                    <a href="#menu-item-aston-martin-vantage" class="menu-item-link level2">Vantage
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <ul id="menu-item-aston-martin-vantage" class='mobile-nav-sub level2'>
+                                        <li id="menu-item-331"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="#menu-item-aston-martin-vantage-s"
+                                                class="menu-item-link level3"><span class="menu-title">Vantage
+                                                    S</span></a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="https://autopro.jwsuperthemes.com/home/">
+                                                    <img src="uploads/2026/aston-martin/valkyrie-coupe/valkyrie-final-1.webp"
+                                                        alt="valkyrie-final-1">
+                                                    <span class="menu-title">Vantage S</span></a>
+                                            </div>
+                                        </li>
+                                        <li id="menu-item-331"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="#menu-item-aston-martin-vantage-1"
+                                                class="menu-item-link level3"><span
+                                                    class="menu-title">Vantage</span></a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="https://autopro.jwsuperthemes.com/home-page-v2/"><img
+                                                        src="uploads/2026/aston-martin/valkyrie-amr-pro/valkyrie-amr-pro-final-2.jpg"
+                                                        alt="valkyrie-amr-pro-final-2">
+                                                    <span class="menu-title">Vantage</span></a>
+                                            </div>
+                                        </li>
+                                        <li id="menu-item-331"
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="#menu-item-aston-martin-vantage-roadster"
+                                                class="menu-item-link level3"><span class="menu-title">Vantage
+                                                    Roadster</span></a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
+                                                        src="uploads/2026/aston-martin/valkyrie-lm/valkyrie-lmh-final-1.webp"
+                                                        alt="valkyrie-lmh-final-6">
+                                                    <span class="menu-title">Vantage Roadster</span></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-item-link level1">
+                            <span class="menu-title">BUGATTI
+                                <i class="fa-solid fa-angle-right"></i>
+                            </span>
+                        </a>
+                        <div class="mobile-nav-wrap">
+                            <ul class="mobile-nav-sub level1">
+                                <li>
+                                    <a href="#" class="menu-item-link level2">Current
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <ul id="menu-item-aston-martin-vantage" class='mobile-nav-sub level2'>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="#menu-item-aston-martin-vantage-s"
+                                                class="menu-item-link level3"><span class="menu-title">Tourbillon
+                                                    S</span></a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="#">
+                                                    <div class="hero-video" aria-label="Bugatti Tourbillon video teaser"
+                                                        role="button">
+
+                                                        <img class="hero-video__image"
+                                                            alt="a blue bugatti chiron is sitting on a dark surface"
+                                                            src="uploads/2026/bugatti/tourbillon/bugatti-tourbillon-card.avif" />
+
+
+                                                        <video class="hero-video__media"
+                                                            src="uploads/2026/bugatti/tourbillon/2025-model-teaser-videos-tourbillon_720.mp4?fm=mp4&amp;w=1920&amp;video-codec=av1&amp;video-bitrate=2m"
+                                                            playsinline autoplay muted loop preload="none"></video>
+
+
+                                                    </div>
+                                                </a>
+                                                <span class="hero-video__caption">Tourbillon</span>
+                                            </div>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="#menu-item-aston-martin-vantage-1"
+                                                class="menu-item-link level3"><span class="menu-title">W16
+                                                    Mistral</span></a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="#">
+                                                    <div class="hero-video" aria-label="Bugatti Tourbillon video teaser"
+                                                        role="button">
+
+                                                        <img class="hero-video__image"
+                                                            alt="a blue bugatti chiron is sitting on a dark surface"
+                                                            src="uploads/2026/bugatti/w16-mistral/bugatti-w16mistral-card_v3.avif" />
+
+
+                                                        <video class="hero-video__media"
+                                                            src="uploads/2026/bugatti/w16-mistral/2025-model-teaser-videos-w16mistral_720.mp4?fm=mp4&w=1920&video-codec=av1&video-bitrate=2m"
+                                                            playsinline autoplay muted loop preload="none"></video>
+
+                                                    </div>
+                                                </a>
+                                                <span class="hero-video__caption">W16 Mistral</span>
+                                            </div>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="#menu-item-aston-martin-vantage-roadster"
+                                                class="menu-item-link level3"><span class="menu-title">Bolide</span></a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="#">
+                                                    <div class="hero-video" aria-label="Bugatti Tourbillon video teaser"
+                                                        role="button">
+
+                                                        <img class="hero-video__image"
+                                                            alt="a blue bugatti chiron is sitting on a dark surface"
+                                                            src="uploads/2026/bugatti/bolide/bugatti-bolide-card.avif" />
+
+
+                                                        <video class="hero-video__media"
+                                                            src="uploads/2026/bugatti/bolide/2025-model-teaser-videos-bolide_720.mp4?fm=mp4&w=1920&video-codec=av1&video-bitrate=2m"
+                                                            playsinline autoplay muted loop preload="none"></video>
+
+
+                                                    </div>
+
+                                                </a>
+                                                <span class="hero-video__caption">Bolide</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#menu-item-bugatti-contemporary" class="menu-item-link level2">Contemporary
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <ul class="mobile-nav-sub level2">
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="" class="menu-item-link level3">
+                                                <span class="menu-title">Chiron</span>
+                                            </a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="#"><img
+                                                        src="uploads/2026/bugatti/chiron/01-BUGATTI_Chiron-Super-Sport_ext.avif"
+                                                        alt="01-BUGATTI_Chiron-Super-Sport_ext.avif">
+                                                    <span class="menu-title">Chiron</span></a>
+                                            </div>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="" class="menu-item-link level3">
+                                                <span class="menu-title">La Voiture Noire</span>
+                                            </a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="#">
+                                                    <img src="uploads/2026/bugatti/la-voiture-noire/lavoiturenoire-og.jpg"
+                                                        alt="lavoiturenoire-og.jpg">
+                                                    <span class="menu-title">La Voiture Noire</span></a>
+                                            </div>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="" class="menu-item-link level3">
+                                                <span class="menu-title">Divo</span>
+                                            </a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="#">
+                                                    <img src="uploads/2026/bugatti/divo/bugatti-divo-card.jpg"
+                                                        alt="bugatti-divo-card.jpg">
+                                                    <span class="menu-title">Divo</span></a>
+                                            </div>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="#" class="menu-item-link level3">
+                                                <span class="menu-title">Centodieci</span>
+                                            </a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="#">
+                                                    <img src="uploads/2026/bugatti/centodieci/bugatti-centodieci-card.jpg"
+                                                        alt="bugatti-centodieci-card.jpg">
+                                                    <span class="menu-title">Centodieci</span></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li id="menu-item-25">
+                        <a href="#" class="menu-item-link level1">
+                            <span class="menu-title">FERRARI
                                 <i class="fa-solid fa-angle-right"></i></i>
                             </span>
                         </a>
-                        <ul id="menu-item-aston-martin"
-                            class='standar-dropdown standard autodrop_submenu sub-menu hide-scroll active mb-0'>
-                            <li id="menu-item-331"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
-                                data-depth="1"><a href="https://autopro.jwsuperthemes.com/home/">
-                                    <img src="uploads/2026/aston-martin/valkyrie-coupe/valkyrie-final-1.webp"
-                                        alt="valkyrie-final-1">
-                                    <span class="menu-title">Valkyrie Coupe</span></a></li>
-                            <li id="menu-item-401"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401"
-                                data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v2/"><img
-                                        src="uploads/2026/aston-martin/valkyrie-amr-pro/valkyrie-amr-pro-final-2.jpg"
-                                        alt="valkyrie-amr-pro-final-2">
-                                    <span class="menu-title">Valkyrie AMR Pro</span></a></li>
-                            <li id="menu-item-329"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"
-                                data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
-                                        src="uploads/2026/aston-martin/valkyrie-lm/valkyrie-lmh-final-1.webp"
-                                        alt="valkyrie-lmh-final-6">
-                                    <span class="menu-title">Valkyrie LM</span></a></li>
-                        </ul>
-                    </li>
-                    <li id="menu-item-22">
-                        <a href="#menu-item-bugatti" class="menu-item-link"><span class="menu-title">BUGATTI
-                                <i class="fa-solid fa-angle-down"></i></span>
-                        </a>
-                        <ul class="mobile-nav-sub">
-                            <li>
-                                <a href="#menu-item-bugatti-current" class="menu-item-link sub">Current
-                                    <i class="fa-solid fa-angle-right"></i>
-                                </a>
-                                <ul id="menu-item-bugatti-current"
-                                    class='standar-dropdown standard autodrop_submenu sub-menu hide-scroll mb-0'>
-                                    <li id="menu-item-401"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401">
-                                        <a href="#">
-                                            <div class="hero-video" aria-label="Bugatti Tourbillon video teaser"
-                                                role="button">
-
-                                                <img class="hero-video__image"
-                                                    alt="a blue bugatti chiron is sitting on a dark surface"
-                                                    src="uploads/2026/bugatti/tourbillon/bugatti-tourbillon-card.avif" />
-
-
-                                                <video class="hero-video__media"
-                                                    src="uploads/2026/bugatti/tourbillon/2025-model-teaser-videos-tourbillon_720.mp4?fm=mp4&amp;w=1920&amp;video-codec=av1&amp;video-bitrate=2m"
-                                                    playsinline autoplay muted loop preload="none"></video>
-
-                                                <span class="hero-video__caption">Tourbillon</span>
+                        <div class="mobile-nav-wrap">
+                            <ul class="mobile-nav-sub level1">
+                                <li>
+                                    <a href="" class="menu-item-link level2">Supercars
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <ul id="menu-item-aston-martin-vantage" class='mobile-nav-sub level2'>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="#menu-item-aston-martin-vantage-s"
+                                                class="menu-item-link level3"><span class="menu-title">F80
+                                                    S</span></a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="https://autopro.jwsuperthemes.com/home/">
+                                                    <img src="uploads/2026/ferrari/f80/670e5fe21eb0fa0055671923.avif"
+                                                        alt="valkyrie-final-1">
+                                                    <span class="menu-title">F80</span></a>
                                             </div>
-                                        </a>
-                                    </li>
-                                    <li id="menu-item-401"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401">
-                                        <a href="#">
-                                            <div class="hero-video" aria-label="Bugatti Tourbillon video teaser"
-                                                role="button">
-
-                                                <img class="hero-video__image"
-                                                    alt="a blue bugatti chiron is sitting on a dark surface"
-                                                    src="uploads/2026/bugatti/w16-mistral/bugatti-w16mistral-card_v3.avif" />
-
-
-                                                <video class="hero-video__media"
-                                                    src="uploads/2026/bugatti/w16-mistral/2025-model-teaser-videos-w16mistral_720.mp4?fm=mp4&w=1920&video-codec=av1&video-bitrate=2m"
-                                                    playsinline autoplay muted loop preload="none"></video>
-
-                                                <span class="hero-video__caption">W16 Mistral</span>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="#menu-item-aston-martin-vantage-1"
+                                                class="menu-item-link level3"><span class="menu-title">LaFerrari
+                                                    Aperta</span></a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="https://autopro.jwsuperthemes.com/home-page-v2/"><img
+                                                        src="uploads/2026/ferrari/laferrari-aperta/649c2cbecf423600232ad58e-menu-past-models-2023-la ferrari-aperta-land.avif"
+                                                        alt="valkyrie-amr-pro-final-2">
+                                                    <span class="menu-title">LaFerrari Aperta</span></a>
                                             </div>
-                                        </a>
-                                    </li>
-                                    <li id="menu-item-401"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401">
-                                        <a href="#">
-                                            <div class="hero-video" aria-label="Bugatti Tourbillon video teaser"
-                                                role="button">
-
-                                                <img class="hero-video__image"
-                                                    alt="a blue bugatti chiron is sitting on a dark surface"
-                                                    src="uploads/2026/bugatti/bolide/bugatti-bolide-card.avif" />
-
-
-                                                <video class="hero-video__media"
-                                                    src="uploads/2026/bugatti/bolide/2025-model-teaser-videos-bolide_720.mp4?fm=mp4&w=1920&video-codec=av1&video-bitrate=2m"
-                                                    playsinline autoplay muted loop preload="none"></video>
-
-                                                <span class="hero-video__caption">Bolide</span>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="#menu-item-aston-martin-vantage-roadster"
+                                                class="menu-item-link level3"><span
+                                                    class="menu-title">LaFerrari</span></a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
+                                                        src="uploads/2026/ferrari/laferrari/649c2d1f437d870023cf5190-menu-past-models-2023-la ferrari-land.avif"
+                                                        alt="valkyrie-lmh-final-6">
+                                                    <span class="menu-title">LaFerrari</span></a>
                                             </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#menu-item-bugatti-contemporary" class="menu-item-link sub">Contemporary
-                                    <i class="fa-solid fa-angle-right"></i>
-                                </a>
-                                <ul id="menu-item-bugatti-contemporary"
-                                    class='standar-dropdown standard autodrop_submenu sub-menu hide-scroll mb-0'>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="#menu-item-aston-martin-vantage-roadster"
+                                                class="menu-item-link level3"><span class="menu-title">Enzo
+                                                    Ferrari</span></a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
+                                                        src="uploads/2026/ferrari/enzo-ferrari/649c2d3c437d870023cf5191-ferrari-menu-past-models-2023-ferrari-enzo-land.avif"
+                                                        alt="valkyrie-lmh-final-6">
+                                                    <span class="menu-title">Enzo Ferrari</span></a>
+                                            </div>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="#menu-item-aston-martin-vantage-roadster"
+                                                class="menu-item-link level3"><span class="menu-title">F50</span></a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
+                                                        src="uploads/2026/ferrari/f50/649c2d63437d870023cf5192-ferrari-menu-past-models-2023-f50-land.avif"
+                                                        alt="valkyrie-lmh-final-6">
+                                                    <span class="menu-title">F50</span></a>
+                                            </div>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="#menu-item-aston-martin-vantage-roadster"
+                                                class="menu-item-link level3"><span class="menu-title">F40</span></a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
+                                                        src="uploads/2026/ferrari/f40/649c2d83cf423600232ad590-ferrari-menu-past-models-2023-f40-land.avif"
+                                                        alt="valkyrie-lmh-final-6">
+                                                    <span class="menu-title">F40</span></a>
+                                            </div>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
+                                            <a href="#menu-item-aston-martin-vantage-roadster"
+                                                class="menu-item-link level3"><span class="menu-title">288
+                                                    GTO</span></a>
+                                            <div class="mobile-nav-preview">
+                                                <a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
+                                                        src="uploads/2026/ferrari/288-gto/649c2da6cf423600232ad591-ferrari-menu-past-models-2023-gto-land.avif"
+                                                        alt="valkyrie-lmh-final-6">
+                                                    <span class="menu-title">288 GTO</span></a>
+                                            </div>
+                                        </li>
+                                    </ul>
 
-                                    <li id="menu-item-401"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401">
-                                        <a href="#"><img
-                                                src="uploads/2026/bugatti/chiron/01-BUGATTI_Chiron-Super-Sport_ext.avif"
-                                                alt="01-BUGATTI_Chiron-Super-Sport_ext.avif">
-                                            <span class="menu-title">Chiron</span></a>
-                                    </li>
-                                    <li id="menu-item-331"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
-                                        data-depth="1"><a href="#">
-                                            <img src="uploads/2026/bugatti/la-voiture-noire/lavoiturenoire-og.jpg"
-                                                alt="lavoiturenoire-og.jpg">
-                                            <span class="menu-title">La Voiture Noire</span></a></li>
-                                    <li id="menu-item-331"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
-                                        data-depth="1"><a href="#">
-                                            <img src="uploads/2026/bugatti/divo/bugatti-divo-card.jpg"
-                                                alt="bugatti-divo-card.jpg">
-                                            <span class="menu-title">Divo</span></a></li>
-                                    <li id="menu-item-331"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
-                                        data-depth="1"><a href="#">
-                                            <img src="uploads/2026/bugatti/centodieci/bugatti-centodieci-card.jpg"
-                                                alt="bugatti-centodieci-card.jpg">
-                                            <span class="menu-title">Centodieci</span></a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#menu-item-bugatti-classic" class="menu-item-link sub">Classic Icons
-                                    <i class="fa-solid fa-angle-right"></i>
-                                </a>
-                                <ul id="menu-item-bugatti-classic"
-                                    class='standar-dropdown standard autodrop_submenu sub-menu hide-scroll mb-0'>
-                                    <li id="menu-item-329"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"
-                                        data-depth="1"><a href="#"><img src="uploads/2026/bugatti/eb110/eb110-og.avif"
-                                                alt="eb110-og">
-                                            <span class="menu-title">EB110</span></a></li>
-                                    <li id="menu-item-329"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"
-                                        data-depth="1"><a href="#"><img
-                                                src="uploads/2026/bugatti/veyron/bugatti-veyron-grand-sport-vitesse-03.jpeg"
-                                                alt="bugatti-veyron-grand-sport-vitesse-03">
-                                            <span class="menu-title">Veyron</span></a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li id="menu-item-24">
-                        <a href="#menu-item-ferrari" class="menu-item-link"><span class="menu-title">FERRARI
-                                <i class="fa-solid fa-angle-right"></i>
-                            </span></a>
-                        <ul class="mobile-nav-sub">
-                            <li>
-                                <a href="#menu-item-ferrari-supercars" class="menu-item-link sub">Supercars
-                                    <i class="fa-solid fa-angle-right"></i>
-                                </a>
-                                <ul id="menu-item-ferrari-supercars"
-                                    class='standar-dropdown standard autodrop_submenu sub-menu hide-scroll mb-0'>
-                                    <li id="menu-item-331"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home/">
-                                            <img src="uploads/2026/ferrari/f80/670e5fe21eb0fa0055671923.avif"
-                                                alt="valkyrie-final-1">
-                                            <span class="menu-title">F80</span></a></li>
-                                    <li id="menu-item-401"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v2/"><img
-                                                src="uploads/2026/ferrari/laferrari-aperta/649c2cbecf423600232ad58e-menu-past-models-2023-la ferrari-aperta-land.avif"
-                                                alt="valkyrie-amr-pro-final-2">
-                                            <span class="menu-title">LaFerrari Aperta</span></a></li>
-                                    <li id="menu-item-329"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
-                                                src="uploads/2026/ferrari/laferrari/649c2d1f437d870023cf5190-menu-past-models-2023-la ferrari-land.avif"
-                                                alt="valkyrie-lmh-final-6">
-                                            <span class="menu-title">LaFerrari</span></a></li>
-                                    <li id="menu-item-329"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
-                                                src="uploads/2026/ferrari/enzo-ferrari/649c2d3c437d870023cf5191-ferrari-menu-past-models-2023-ferrari-enzo-land.avif"
-                                                alt="valkyrie-lmh-final-6">
-                                            <span class="menu-title">Enzo Ferrari</span></a></li>
-                                    <li id="menu-item-329"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
-                                                src="uploads/2026/ferrari/f50/649c2d63437d870023cf5192-ferrari-menu-past-models-2023-f50-land.avif"
-                                                alt="valkyrie-lmh-final-6">
-                                            <span class="menu-title">F50</span></a></li>
-                                    <li id="menu-item-329"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
-                                                src="uploads/2026/ferrari/f40/649c2d83cf423600232ad590-ferrari-menu-past-models-2023-f40-land.avif"
-                                                alt="valkyrie-lmh-final-6">
-                                            <span class="menu-title">F40</span></a></li>
-                                    <li id="menu-item-329"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
-                                                src="uploads/2026/ferrari/288-gto/649c2da6cf423600232ad591-ferrari-menu-past-models-2023-gto-land.avif"
-                                                alt="valkyrie-lmh-final-6">
-                                            <span class="menu-title">288 GTO</span></a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#menu-item-ferrari-range" class="menu-item-link sub">Range <i
-                                        class="fa-solid fa-angle-right"></i>
-                                </a>
-                                <ul id="menu-item-ferrari-range"
-                                    class='standar-dropdown standard autodrop_submenu sub-menu hide-scroll mb-0'>
-                                    <li id="menu-item-331"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home/">
-                                            <img src="uploads/2026/ferrari/849-testarossa/527e4cc2-8815-47a5-926b-28dc03f2b9eb.jpg"
-                                                alt="valkyrie-final-1">
-                                            <span class="menu-title">849 Testarossa</span></a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#menu-item-ferrari-special-series" class="menu-item-link sub">Special
-                                    Series <i class="fa-solid fa-angle-right"></i>
-                                </a>
-                                <ul id="menu-item-ferrari-special-series"
-                                    class='standar-dropdown standard autodrop_submenu sub-menu hide-scroll mb-0'>
-                                    <li id="menu-item-331"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home/">
-                                            <img src="uploads/2026/ferrari/296-speciale/f8be6035-4f6a-4063-9cfe-ebfa73cff1c8.jpg"
-                                                alt="valkyrie-final-1">
-                                            <span class="menu-title">296 Speciale</span></a></li>
-                                    <li id="menu-item-401"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v2/"><img
-                                                src="uploads/2026/ferrari/296-speciale-a/af6bb170-03f4-48a8-b347-87be06ee193f.jpg"
-                                                alt="valkyrie-amr-pro-final-2">
-                                            <span class="menu-title">296 Speciale A</span></a></li>
-                                    <li id="menu-item-329"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
-                                                src="uploads/2026/ferrari/sf90-xx-stradale/3c8217d3-267c-41e5-baf9-8fc6bfbd1239.jpg"
-                                                alt="valkyrie-lmh-final-6">
-                                            <span class="menu-title">SF90 XX Stradale</span></a></li>
-                                    <li id="menu-item-329"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
-                                                src="uploads/2026/ferrari/sf90-xx-spider/e5dac232-57b6-4479-8792-a4837df56bd0.jpg"
-                                                alt="valkyrie-lmh-final-6">
-                                            <span class="menu-title">SF90 XX Spider</span></a></li>
-                                    <li id="menu-item-329"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
-                                                src="uploads/2026/ferrari/812-competizione/ferrari-812-competizione-1-jpe-5381-6674-1620622760.webp"
-                                                alt="valkyrie-lmh-final-6">
-                                            <span class="menu-title">812 Competizione</span></a></li>
-                                    <li id="menu-item-329"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v3/"><img
-                                                src="uploads/2026/ferrari/812-competizione-a/2023-ferrari-812-competizione-a.jpg"
-                                                alt="valkyrie-lmh-final-6">
-                                            <span class="menu-title">812 Competizione A</span></a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#menu-item-ferrari-icona" class="menu-item-link sub">Icona <i
-                                        class="fa-solid fa-angle-right"></i>
-                                </a>
-                                <ul id="menu-item-ferrari-icona"
-                                    class='standar-dropdown standard autodrop_submenu sub-menu hide-scroll mb-0'>
-                                    <li id="menu-item-331"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home/">
-                                            <img src="uploads/2026/ferrari/daytona-sp3/b716cef5412c8a7bf8740be8ca941a031f3e20bc.webp"
-                                                alt="valkyrie-final-1">
-                                            <span class="menu-title">Daytona SP3</span></a></li>
-                                </ul>
+                                </li>
+                            </ul>
+                        </div>
 
-                            </li>
-                            <li>
-                                <a href="#menu-item-ferrari-gt-racing" class="menu-item-link sub">GT Racing
-                                    <i class="fa-solid fa-angle-right"></i>
-                                </a>
-                                <ul id="menu-item-ferrari-gt-racing"
-                                    class='standar-dropdown standard autodrop_submenu sub-menu hide-scroll mb-0'>
-                                    <li id="menu-item-331"
-                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
-                                        data-depth="1"><a href="https://autopro.jwsuperthemes.com/home/">
-                                            <img src="uploads/2026/ferrari/296-gt3/649c3062437d870023cf5198-ferrari-menu-sport-models-2023-296-gt3-land.avif"
-                                                alt="valkyrie-final-1">
-                                            <span class="menu-title">296 GT3</span></a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li id="menu-item-23"><a href="#menu-item-koenigsegg" class="menu-item-link"><span
-                                class="menu-title">KOENIGSEGG <i class="fa-solid fa-angle-right"></i></span>
-                        </a>
-                        <ul id="menu-item-koenigsegg"
-                            class='standar-dropdown standard autodrop_submenu sub-menu hide-scroll mb-0'>
-                            <li id="menu-item-331"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
-                                data-depth="1"><a href="https://autopro.jwsuperthemes.com/home/">
-                                    <img src="uploads/2026/koenigsegg/cc850/KenoZache_IMG_0926.jpg"
-                                        alt="valkyrie-final-1">
-                                    <span class="menu-title">CC850</span></a></li>
-                            <li id="menu-item-401"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-401"
-                                data-depth="1"><a href="https://autopro.jwsuperthemes.com/home-page-v2/"><img
-                                        src="uploads/2026/koenigsegg/gemera/_dsc4662.jpg"
-                                        alt="valkyrie-amr-pro-final-2">
-                                    <span class="menu-title">Gemera</span></a></li>
-                            <li id="menu-item-331"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
-                                data-depth="1"><a href="https://autopro.jwsuperthemes.com/home/">
-                                    <img src="uploads/2026/koenigsegg/jesko-absolut/Koenigsegg Jesko Absolut Header V3.png"
-                                        alt="valkyrie-final-1">
-                                    <span class="menu-title">Jesko Absolut</span></a></li>
-                            <li id="menu-item-331"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
-                                data-depth="1"><a href="https://autopro.jwsuperthemes.com/home/">
-                                    <img src="uploads/2026/koenigsegg/jesko-attack/koenigsegg-jesko-attack-does-360-speed-turn-on-snow-like-it-was-born-for-it-231243-7.jpg"
-                                        alt="valkyrie-final-1">
-                                    <span class="menu-title">Jesko Attack</span></a></li>
-                        </ul>
                     </li>
                 </ul>
-
-
-
             </div>
         </div> <!-- End Header Menu -->
 
