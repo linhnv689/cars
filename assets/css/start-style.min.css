@@ -71,7 +71,6 @@ body {
     filter: blur(0.8px);
     pointer-events: none;
 
-    /* Ẩn ban đầu, chờ JS thêm .show để fade-in */
     opacity: 0;
     transition: opacity 600ms var(--ease);
 }
@@ -279,6 +278,43 @@ body.menu-open .menu-btn .bar:nth-child(3) {
         opacity 0.3s ease;
 }
 
+.tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav-sub .mobile-nav-preview span {
+    position: absolute;
+    z-index: 1;
+    bottom: 30px;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 20px);
+    opacity: 0;
+    transition:
+        transform .35s cubic-bezier(.25, .46, .45, .94),
+        opacity .3s ease;
+    will-change: transform, opacity;
+}
+
+.tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav-sub .mobile-nav-preview:hover span {
+    opacity: 1;
+    transform: translate(-50%, 0px);
+}
+
+.tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav-sub .mobile-nav-preview span>a {
+    margin-right: 30px;
+    padding: 0 25px;
+    display: inline-block;
+    background-color: var(--primary-color);
+    font-size: 18px;
+
+}
+
+.tb-header-wrap.tb-header-v5 .mobile-nav-sub .mobile-nav-preview span>a i {
+    transition: .3s;
+}
+
+.tb-header-wrap.tb-header-v5 .mobile-nav-sub .mobile-nav-preview span>a:hover i {
+    transform: translateX(10px);
+    transition: .3s;
+}
+
 .hide-scroll {
     overflow-x: scroll;
     /* overflow-y */
@@ -294,7 +330,6 @@ body.menu-open .menu-btn .bar:nth-child(3) {
     /* Chrome, Edge, Safari */
 }
 
-/* Container làm gốc định vị */
 .hero-video {
     /* position: relative; */
     width: 100%;
@@ -360,16 +395,16 @@ body.menu-open .menu-btn .bar:nth-child(3) {
 @media (min-width: 768px) {
     .overlay-menu {
         padding: 0;
-        background: transparent;
+        background-color: unset;
         transition: .4s;
     }
 
     .overlay-menu.active {
         max-width: 100%;
+        background-color: #1b2026;
     }
 
     .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav {
-        margin-top: 0;
         padding: 100px 15px 15px 15px;
         position: relative;
         left: 0;
@@ -385,30 +420,26 @@ body.menu-open .menu-btn .bar:nth-child(3) {
         display: block;
         font-size: 16px;
         line-height: 60px;
+        letter-spacing: 1px;
     }
 
     .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav-sub {
-        padding: 120px 30px 0 30px;
+        padding: 100px 30px 0 30px;
         position: absolute;
         left: 250px;
         top: 0;
-        max-width: 0;
-        width: 100%;
+        width: 350px;
         height: 100%;
         max-height: 100%;
         background: #1a1a1a;
         overflow-x: hidden;
         scrollbar-width: none;
         overscroll-behavior: contain;
-        transition: max-width .4s ease;
-
     }
 
     .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav-sub.active {
         max-height: unset;
         z-index: 1;
-        max-width: 350px;
-        transition: max-width .4s ease;
     }
 
     .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav-sub.level2 {
@@ -493,6 +524,91 @@ body.menu-open .menu-btn .bar:nth-child(3) {
     overflow: hidden;
     display: block;
     position: relative
+}
+
+.car-top {
+    width: 70px;
+    position: fixed;
+    bottom: 5%;
+    right: 15px;
+    z-index: 100;
+    cursor: pointer;
+    transform: translateY(200%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 0.6s ease;
+}
+
+.car-top.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.car-top.not-show {
+    transform: translateY(200%);
+    opacity: 0;
+}
+
+/* ===== Back to top ===== */
+.car-top span {
+    position: relative;
+    display: inline-block;
+}
+
+.car-top img {
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.car-top.car-turn span,
+.car-top.car-run-back span {
+    transform: rotateY(180deg);
+}
+
+.car-top.car-run-up {
+    transform: translateY(-120vh);
+    opacity: 1;
+    transition: transform 1.5s ease-out, opacity 0.6s ease;
+}
+
+.car-top.car-turn {
+    transform: translateY(-120vh);
+    transition: transform 0.6s ease;
+}
+
+.car-top.car-run-back {
+    transform: translateY(200%);
+    opacity: 1;
+    transition: transform 1.4s ease-in-out;
+}
+
+/* ===== Car lights ===== */
+.car-top span:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 85px;
+    height: 89px;
+    background: url(../img/car-focus.png) no-repeat 0 0;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+}
+
+/* Hover → turn on */
+.car-top:hover span:before {
+    opacity: 1;
+}
+
+/* Run up → turn on */
+.car-top.car-run-up span:before {
+    opacity: 1;
+}
+
+/* Run back → turn on */
+.car-top.car-run-back span:before {
+    opacity: 1;
+    top: 90px;
 }
 
 @-webkit-keyframes fadeInLeft2 {
@@ -1145,95 +1261,6 @@ input::-webkit-outer-spin-button {
 .tb-blog-related>.tb-title {
     margin-bottom: 38px;
     position: relative
-}
-
-.car-top {
-    width: 70px;
-    position: fixed;
-    bottom: 5%;
-    right: 15px;
-    z-index: 100;
-    cursor: pointer;
-    transform: translateY(200%);
-    opacity: 0;
-    transition: transform 1s ease, opacity 0.6s ease;
-}
-
-.car-top.show {
-    transform: translateY(0);
-    opacity: 1;
-}
-
-.car-top.not-show {
-    transform: translateY(200%);
-    opacity: 0;
-}
-
-/* ===== XE ===== */
-.car-top span {
-    position: relative;
-    display: inline-block;
-}
-
-.car-top img {
-    display: block;
-    transition: transform 0.6s ease;
-}
-
-/* Quay đầu / chạy về → xoay CẢ span (xe + đèn) */
-.car-top.car-turn span,
-.car-top.car-run-back span {
-    transform: rotateY(180deg);
-}
-
-/* Xe chạy lên */
-.car-top.car-run-up {
-    transform: translateY(-120vh);
-    opacity: 1;
-    transition: transform 1.5s ease-out, opacity 0.6s ease;
-}
-
-/* Quay đầu */
-.car-top.car-turn {
-    transform: translateY(-120vh);
-    transition: transform 0.6s ease;
-}
-
-/* Chạy về */
-.car-top.car-run-back {
-    transform: translateY(200%);
-    opacity: 1;
-    transition: transform 1.4s ease-in-out;
-}
-
-/* ===== Car light ===== */
-.car-top span:before {
-    content: "";
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    width: 85px;
-    height: 89px;
-    background: url(../img/car-focus.png) no-repeat 0 0;
-    opacity: 0;
-    transition: opacity 0.2s ease;
-    pointer-events: none;
-}
-
-/* Hover → turn on */
-.car-top:hover span:before {
-    opacity: 1;
-}
-
-/* Run up → turn on */
-.car-top.car-run-up span:before {
-    opacity: 1;
-}
-
-/* Run back → turn on */
-.car-top.car-run-back span:before {
-    opacity: 1;
-    top: 90px;
 }
 
 
@@ -8195,15 +8222,6 @@ ul.ro-list-inline-block li {
 
 @media(max-width:767px) {
 
-    .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav>li {
-        width: 125px;
-    }
-
-    .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav>li a {
-        font-size: 12px;
-    }
-
-
     .tb-header-wrap .tb-header-top {
         overflow: hidden
     }
@@ -8297,26 +8315,8 @@ ul.ro-list-inline-block li {
     z-index: 998
 }
 
-@media(max-width:1369px) and (max-height:801px) {
+@media(max-width:1369px) and (max-height:801px) {}
 
-    .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav>li a,
-    .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav>li ul li {
-        line-height: 40px
-    }
-
-    .tb-header-wrap.tb-header-v5 .tb-menu-sidebar {
-        padding: 20px 0 30px
-    }
-}
-
-@media(max-width:1199px) {
-    .tb-header-wrap.tb-header-v5 .mobile-header .fa-bars {
-        top: 30px;
-        color: #fff;
-        position: fixed;
-        z-index: 1
-    }
-}
 
 @media(max-width:1200px) {
 
