@@ -26,6 +26,34 @@ body {
     }
 }
 
+ul {
+    list-style-type: none
+}
+
+a:focus,
+a:hover,
+a:target {
+    outline: 0
+}
+
+button,
+input[type=button] {
+    border: 1px solid
+}
+
+button:hover,
+input[type=button]:hover {
+    color: #fff
+}
+
+.btn:hover,
+btn:hover,
+button:not(.wpb_button):hover,
+input[type=button]:hover,
+input[type=submit]:hover {
+    background: 0 0
+}
+
 /* ===== Overlay background when load page ===== */
 .overlay-body {
     position: fixed;
@@ -196,7 +224,7 @@ body {
         transform: rotate(2160deg);
     }
 
-    /* 6 vòng trong 3s => 0.5s/vòng */
+    /* 6 round in 3s => 0.5s/round */
 }
 
 /* ===== End Overlay background ===== */
@@ -244,13 +272,6 @@ body.menu-open .mobile-header {
     opacity: 0;
     transform: scaleX(-1) translateY(0);
     pointer-events: none;
-}
-
-/* Hover: mượt chuyển qua img-2 */
-.mobile-header .tb-logo .img-1.active {
-    /* opacity: 0;
-    transform: scaleX(-1) translateY(0); */
-    /* thoát lên nhẹ */
 }
 
 .mobile-header .tb-logo .img-2.active {
@@ -411,7 +432,7 @@ body.menu-open .menu-btn .bar:nth-child(3) {
     cursor: pointer;
 }
 
-/* Ảnh cover mặc định hiển thị */
+/* show default cover image */
 .hero-video__image {
     position: absolute;
     inset: 0;
@@ -891,35 +912,6 @@ body.menu-open .menu-btn .bar:nth-child(3) {
 .fadeInDown {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown
-}
-
-
-ul {
-    list-style-type: none
-}
-
-a:focus,
-a:hover,
-a:target {
-    outline: 0
-}
-
-button,
-input[type=button] {
-    border: 1px solid
-}
-
-button:hover,
-input[type=button]:hover {
-    color: #fff
-}
-
-.btn:hover,
-btn:hover,
-button:not(.wpb_button):hover,
-input[type=button]:hover,
-input[type=submit]:hover {
-    background: 0 0
 }
 
 .title-bar {
