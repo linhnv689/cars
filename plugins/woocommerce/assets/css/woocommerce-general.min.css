@@ -1908,17 +1908,6 @@ p.demo_store a {
     color: #a00
 }
 
-.woocommerce-no-js form.woocommerce-form-coupon,
-.woocommerce-no-js form.woocommerce-form-login {
-    display: block !important
-}
-
-.woocommerce-no-js .showcoupon,
-.woocommerce-no-js .woocommerce-form-coupon-toggle,
-.woocommerce-no-js .woocommerce-form-login-toggle {
-    display: none !important
-}
-
 .woocommerce-error,
 .woocommerce-info,
 .woocommerce-message {
