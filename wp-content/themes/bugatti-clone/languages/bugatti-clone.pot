@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bugatti Clone 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-20 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco Classic\n"
+
+#: functions.php:26
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:27
+msgid "Footer Menu"
+msgstr ""
+
+#: header.php:23
+msgid "Menu"
+msgstr ""
+
+#: header.php:33
+msgid "Store"
+msgstr ""
+
+#: header.php:40
+msgid "Close Menu"
+msgstr ""
+
+#: front-page.php:20
+msgid "The New Era"
+msgstr ""
+
+#: front-page.php:21
+msgid "Witness the Legend"
+msgstr ""
+
+#: front-page.php:22
+msgid "Discover More"
+msgstr ""
+
+#: front-page.php:29
+msgid "Our Models"
+msgstr ""
+
+#: front-page.php:73
+msgid "Lifestyle"
+msgstr ""
+
+#: front-page.php:74
+msgid "The World of Bugatti"
+msgstr ""
+
+#: front-page.php:75
+msgid "Experience the brand beyond the automobile. Discover exclusive partnerships, events, and collections that define the Bugatti lifestyle."
+msgstr ""
+
+#: front-page.php:77
+msgid "Explore"
+msgstr ""
+
+#: footer.php:14
+msgid "Models"
+msgstr ""
+
+#: footer.php:23
+msgid "The Brand"
+msgstr ""
+
+#: footer.php:25
+msgid "Heritage"
+msgstr ""
+
+#: footer.php:26
+msgid "Craftsmanship"
+msgstr ""

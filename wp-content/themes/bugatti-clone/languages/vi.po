@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bugatti Clone 1.0.0\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions.php:26
+msgid "Primary Menu"
+msgstr "Menu Chính"
+
+#: functions.php:27
+msgid "Footer Menu"
+msgstr "Menu Chân Trang"
+
+#: header.php:23
+msgid "Menu"
+msgstr "Thực đơn"
+
+#: header.php:33
+msgid "Store"
+msgstr "Cửa hàng"
+
+#: header.php:40
+msgid "Close Menu"
+msgstr "Đóng"
+
+#: front-page.php:20
+msgid "The New Era"
+msgstr "Kỷ Nguyên Mới"
+
+#: front-page.php:21
+msgid "Witness the Legend"
+msgstr "Chứng Kiến Huyền Thoại"
+
+#: front-page.php:22
+msgid "Discover More"
+msgstr "Khám Phá Thêm"
