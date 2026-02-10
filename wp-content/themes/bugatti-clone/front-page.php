@@ -260,9 +260,9 @@ get_header();
                     <div class="vc_col-sm-12 wpb_column vc_column_container ">
                         <div class="wpb_wrapper">
                             <div class="autopro-title-separator-wrap title-three autopro-title text-center  ">
-                                <!-- <h6 style="font-size: 14px; color: #ffffff">TOP 10</h6>-->
+                                <h6 style="font-size: 14px; color: #ffffff">TOP 10</h6>
                                 <h3 class="autopro-title-separator">
-                                    <span>2026 FASTEST </span>CARS
+                                    <span>FASTEST </span>CARS
                                 </h3>
                                 <p style="font-size: 14px; color: #ffffff">Lorem ipsum dolor sit amet,
                                     consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
@@ -282,9 +282,8 @@ get_header();
                                                                 <div class="row">
                                                                     <div class="tb-image"> 
 																		<a href="https://autopro.jwsuperthemes.com/shop/cayenne-models/"
-                                                                            class="animsition-link tb-thumb-effect"
-                                                                            data-tb-thumb="true"> <img width="656"
-                                                                            height="360"
+                                                                            class="animsition-link tb-thumb-effect"> 
+                                                                            <img 
                                                                             src="<?php echo get_template_directory_uri(); ?>/uploads/2026/byd/yangwang-u9-xtreme/YW8-edited-final.png"
                                                                             class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                                             alt=""
@@ -339,11 +338,11 @@ get_header();
                                                             class="post-2147 product type-product status-publish has-post-thumbnail product_cat-39 product_cat-porsche  instock shipping-taxable purchasable product-type-simple">
                                                             <div class="tb-product-item-inner">
                                                                 <div class="row">
-                                                                    <div class="tb-image"> <a
+                                                                    <div class="tb-image"> 
+                                                                        <a
                                                                             href="#"
-                                                                            class="animsition-link tb-thumb-effect"
-                                                                            data-tb-thumb="true"> <img width="656"
-                                                                                height="360"
+                                                                            class="animsition-link tb-thumb-effect"> 
+                                                                            <img
                                                                                 src="<?php echo get_template_directory_uri(); ?>/uploads/2026/koenigsegg/jesko-absolut/Jesko-Absolut-2021.png"
                                                                                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                                                 alt=""
@@ -393,15 +392,12 @@ get_header();
                                                             <div class="tb-product-item-inner">
                                                                 <div class="row">
                                                                     <div class="tb-image"> 
-																		<a
-                                                                            href=""
-                                                                            class="animsition-link tb-thumb-effect"
-                                                                            data-tb-thumb="true"> <img width="656"
-                                                                            height="360"
-                                                                            src="<?php echo get_template_directory_uri(); ?>/uploads/2026/bugatti/chiron/chiron-super-sport-300-plus/2021-bugatti-chiron-super-sport-300.png"
+																		<a href="" class="animsition-link tb-thumb-effect"> 
+                                                                            <img
+                                                                            src="<?php echo get_template_directory_uri(); ?>/uploads/2026/bugatti/chiron/chiron-super-sport-300-plus/02-ss300p-3i4-front-01.png"
                                                                             class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                                             alt=""
-                                                                            srcset="<?php echo get_template_directory_uri(); ?>/uploads/2026/bugatti/chiron/chiron-super-sport-300-plus/2021-bugatti-chiron-super-sport-300.png 656w, <?php echo get_template_directory_uri(); ?>/uploads/2026/bugatti/chiron/chiron-super-sport-300-plus/2021-bugatti-chiron-super-sport-300.png 600w"
+                                                                            srcset="<?php echo get_template_directory_uri(); ?>/uploads/2026/bugatti/chiron/chiron-super-sport-300-plus/02-ss300p-3i4-front-01.png 656w, <?php echo get_template_directory_uri(); ?>/uploads/2026/bugatti/chiron/chiron-super-sport-300-plus/02-ss300p-3i4-front-01.png 600w"
                                                                             sizes="(max-width: 656px) 100vw, 656px" />
                                                                         </a>
 																	</div>
@@ -453,13 +449,14 @@ get_header();
                                                                     <div class="tb-image"> 
 																		<a href=""
                                                                             class="animsition-link tb-thumb-effect"
-                                                                            data-tb-thumb="true"> <img width="656"
-                                                                            height="360"
-                                                                            src="<?php echo get_template_directory_uri(); ?>/uploads/2026/sscnorthamerica/tuatara/ssc-tuatara-yellow-pose-1.png"
-                                                                            class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                                            alt=""
-                                                                            srcset="<?php echo get_template_directory_uri(); ?>/uploads/2026/sscnorthamerica/tuatara/ssc-tuatara-yellow-pose-1.png 656w, <?php echo get_template_directory_uri(); ?>/uploads/2026/sscnorthamerica/tuatara/ssc-tuatara-yellow-pose-1.png 600w"
-                                                                            sizes="(max-width: 656px) 100vw, 656px" />
+                                                                            data-tb-thumb="true"> 
+                                                                            <img
+                                                                                height="400"
+                                                                                src="<?php echo get_template_directory_uri(); ?>/uploads/2026/sscnorthamerica/tuatara/SSC_Tuatara_00.png"
+                                                                                class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                                                                alt=""
+                                                                                srcset="<?php echo get_template_directory_uri(); ?>/uploads/2026/sscnorthamerica/tuatara/SSC_Tuatara_00.png 656w, <?php echo get_template_directory_uri(); ?>/uploads/2026/sscnorthamerica/tuatara/SSC_Tuatara_00.png 600w"
+                                                                                sizes="(max-width: 656px) 100vw, 656px" />
                                                                         </a>
 																	</div>
                                                                     <div class="tb-content content-bottom">
@@ -514,14 +511,13 @@ get_header();
                                                                     <div class="tb-image">
                                                                         <a href="https://exclusivecarregistry.com/details/koenigsegg/jesko/117721"
                                                                             target="_blank"
-                                                                            class="animsition-link tb-thumb-effect"
-                                                                            data-tb-thumb="true">
-                                                                            <img width="656" height="360"
-                                                                                src="<?php echo get_template_directory_uri(); ?>/uploads/2026/koenigsegg/jesko-attack/jesko-attack-thumbnail.png"
-                                                                                srcset="<?php echo get_template_directory_uri(); ?>/uploads/2026/koenigsegg/jesko-attack/jesko-attack-thumbnail.png 656w, <?php echo get_template_directory_uri(); ?>/uploads/2026/koenigsegg/jesko-attack/jesko-attack-thumbnail.png 600w"
-                                                                                sizes="(max-width: 656px) 100vw, 656px"
-                                                                                class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
-                                                                                alt="" />
+                                                                            class="animsition-link tb-thumb-effect">
+                                                                            <img
+                                                                            src="<?php echo get_template_directory_uri(); ?>/uploads/2026/bugatti/w16-mistral/bugatti-mistral-01.png"
+                                                                            srcset="<?php echo get_template_directory_uri(); ?>/uploads/2026/bugatti/w16-mistral/bugatti-mistral-01.png 656w, <?php echo get_template_directory_uri(); ?>/uploads/2026/bugatti/w16-mistral/bugatti-mistral-01.png 600w"
+                                                                            sizes="(max-width: 656px) 100vw, 656px"
+                                                                            class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                                                            alt="" />
                                                                         </a>
                                                                     </div>
                                                                     <div class="tb-content content-bottom">
@@ -531,32 +527,30 @@ get_header();
                                                                                     <span>From</span>
                                                                                     <span class="tb-product-price"><del><span
                                                                                                 class="woocommerce-Price-amount amount"><span
-                                                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>2,649,132</span></del>
+                                                                                                    class="woocommerce-Price-currencySymbol">£</span>5,200,000</span></del>
                                                                                     </span>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="tb-title text-ellipsis">
                                                                                 <a class="animsition-link"
                                                                                     target="_blank"
-                                                                                    href="https://www.autoweek.com/news/sports-cars/a2139931/koenigsegg-jesko-cherry-red-edition-why-special-editions-exist/">Jesko
-                                                                                    Attack</a>
+                                                                                    href="https://www.autoweek.com/news/sports-cars/a2139931/koenigsegg-jesko-cherry-red-edition-why-special-editions-exist/">Mistral</a>
                                                                             </div>
                                                                         </div>
                                                                         <div class="tb-content-car"> <span
                                                                                 class="before-cus"></span>
                                                                             <ul class="car-vehicles">
                                                                                 <li class="tb-new">
-                                                                                    <p>Koenigsegg</p>
+                                                                                    <p>Bugatti</p>
                                                                                 </li>
                                                                                 <li class="tb-year">
                                                                                     <p>2019</p>
                                                                                 </li>
                                                                                 <li class="tb-color">
-                                                                                    <p>Red Cherry Edition
-                                                                                    </p>
+                                                                                    <p>Red Cherry Edition</p>
                                                                                 </li>
                                                                                 <li class="tb-mph">
-                                                                                    <p>+300 mph (482 km/h)
+                                                                                    <p>282.05mph
                                                                                     </p>
                                                                                 </li>
                                                                             </ul>
@@ -571,17 +565,18 @@ get_header();
                                                             class="post-2129 product type-product status-publish has-post-thumbnail product_cat-macan product_cat-porsche  instock sale shipping-taxable purchasable product-type-simple">
                                                             <div class="tb-product-item-inner">
                                                                 <div class="row">
-                                                                    <div class="tb-image"> <a
-                                                                            href="https://autopro.jwsuperthemes.com/shop/macan-models/"
-                                                                            class="animsition-link tb-thumb-effect"
-                                                                            data-tb-thumb="true">
-                                                                            <img width="656" height="360"
-                                                                                src="<?php echo get_template_directory_uri(); ?>/uploads/2026/lamborghini/sian-fkp-37/sian-fkp-37.png"
-                                                                                srcset="<?php echo get_template_directory_uri(); ?>/uploads/2026/lamborghini/sian-fkp-37/sian-fkp-37.png 656w, <?php echo get_template_directory_uri(); ?>/uploads/2026/lamborghini/sian-fkp-37/sian-fkp-37.png 600w"
+                                                                    <div class="tb-image"> 
+                                                                        <a
+                                                                            href=""
+                                                                            class="animsition-link tb-thumb-effect">
+                                                                            <img
+                                                                                src="<?php echo get_template_directory_uri(); ?>/uploads/2026/koenigsegg/agera-rs/Koenigsegg-Agera-RS-Phoenix-for-sale-2-1000x600.png"
+                                                                                srcset="<?php echo get_template_directory_uri(); ?>/uploads/2026/koenigsegg/agera-rs/Koenigsegg-Agera-RS-Phoenix-for-sale-2-1000x600.png 656w, <?php echo get_template_directory_uri(); ?>/uploads/2026/koenigsegg/agera-rs/Koenigsegg-Agera-RS-Phoenix-for-sale-2-1000x600.png 600w"
                                                                                 sizes="(max-width: 656px) 100vw, 656px"
                                                                                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                                                 alt="" />
-                                                                        </a></div>
+                                                                        </a>
+                                                                    </div>
                                                                     <div class="tb-content content-bottom">
                                                                         <div class="tb-footer-content ">
                                                                             <div class="tb-price">
@@ -589,25 +584,24 @@ get_header();
                                                                                     <span>From</span>
                                                                                     <span class="tb-product-price"><del><span
                                                                                                 class="woocommerce-Price-amount amount"><span
-                                                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>1,189,950</span></del>
+                                                                                                    class="woocommerce-Price-currencySymbol">£</span>3,500,000</span></del>
                                                                                     </span>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="tb-title text-ellipsis">
                                                                                 <a class="animsition-link"
                                                                                     href="https://www.youtube.com/watch?v=HGjNWxjQSK8"
-                                                                                    target="_blank">Sián
-                                                                                    FKP 37</a>
+                                                                                    target="_blank">Agera RS</a>
                                                                             </div>
                                                                         </div>
                                                                         <div class="tb-content-car"> <span
                                                                                 class="before-cus"></span>
                                                                             <ul class="car-vehicles">
                                                                                 <li class="tb-new">
-                                                                                    <p>Lamborghini</p>
+                                                                                    <p>Koenigsegg</p>
                                                                                 </li>
                                                                                 <li class="tb-year">
-                                                                                    <p>2019</p>
+                                                                                    <p>2015</p>
                                                                                 </li>
                                                                                 <li class="tb-vehicles">
                                                                                     <p>Automatic</p>
@@ -616,8 +610,7 @@ get_header();
                                                                                     <p>Red</p>
                                                                                 </li>
                                                                                 <li class="tb-mph">
-                                                                                    <p>217 mph (350 km/h)
-                                                                                    </p>
+                                                                                    <p>277.87mph (446,97 km/h)</p>
                                                                                 </li>
                                                                             </ul>
                                                                         </div>
@@ -631,54 +624,37 @@ get_header();
                                                             class="post-2105 product type-product status-publish has-post-thumbnail product_cat-39 product_cat-porsche product_cat-tooltip  instock sale shipping-taxable purchasable product-type-simple">
                                                             <div class="tb-product-item-inner">
                                                                 <div class="row">
-                                                                    <div class="tb-image"> <a
-                                                                            href="https://autopro.jwsuperthemes.com/shop/911-carrera-models-3/"
-                                                                            class="animsition-link tb-thumb-effect"
-                                                                            data-tb-thumb="true"> <img width="656"
-                                                                                height="360"
-                                                                                src="<?php echo get_template_directory_uri(); ?>/uploads/2017/01/vehicle-two.png"
+                                                                    <div class="tb-image"> 
+                                                                        <a
+                                                                            href=""
+                                                                            class="animsition-link tb-thumb-effect"> 
+                                                                            <img
+                                                                                src="<?php echo get_template_directory_uri(); ?>/uploads/2026/bugatti/tourbillon/embargo-bugatti-world-premiere-presskit-images-25-2.png.png"
                                                                                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                                                 alt=""
-                                                                                srcset="https://autopro.jwsuperthemes.com/wp-content/<?php echo get_template_directory_uri(); ?>/uploads/2017/01/vehicle-two.png 656w, https://autopro.jwsuperthemes.com/wp-content/<?php echo get_template_directory_uri(); ?>/uploads/2017/01/vehicle-two-600x329.png 600w"
+                                                                                srcset="<?php echo get_template_directory_uri(); ?>/uploads/2026/bugatti/tourbillon/embargo-bugatti-world-premiere-presskit-images-25-2.png 656w, <?php echo get_template_directory_uri(); ?>/uploads/2026/bugatti/tourbillon/embargo-bugatti-world-premiere-presskit-images-25-2.png 600w"
                                                                                 sizes="(max-width: 656px) 100vw, 656px" />
-                                                                        </a></div>
+                                                                        </a>
+                                                                    </div>
                                                                     <div class="tb-content content-bottom">
                                                                         <div class="tb-footer-content ">
                                                                             <div class="tb-price">
-                                                                                <div class="tb-price">
-                                                                                    <span>From</span><span
-                                                                                        class="tb-product-price"><del><span
-                                                                                                class="woocommerce-Price-amount amount"><span
-                                                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>89,400.00</span></del>
-                                                                                        <ins><span
-                                                                                                class="woocommerce-Price-amount amount"><span
-                                                                                                    class="woocommerce-Price-currencySymbol">&#36;</span>87,000.00</span></ins></span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="tb-rating">
-                                                                                <div
-                                                                                    class="tb-item-rating primary_color clearfix">
-                                                                                    <span>Buyer
-                                                                                        Rates:</span>
-                                                                                    <div class="star-rating">
-                                                                                        <span style="width:42100%">Rated
-                                                                                            <strong
-                                                                                                class="rating">2105</strong>
-                                                                                            out of 5</span>
-                                                                                    </div>
-                                                                                </div>
+                                                                                <span>From</span>
+                                                                                <span class="tb-product-price">
+                                                                                    <del><span class="woocommerce-Price-amount amount"><span
+                                                                                        class="woocommerce-Price-currencySymbol">£</span>+3,500,000</span></del>
+                                                                                </span>
                                                                             </div>
                                                                             <div class="tb-title text-ellipsis">
                                                                                 <a class="animsition-link"
-                                                                                    href="https://autopro.jwsuperthemes.com/shop/911-carrera-models-3/">911
-                                                                                    Carrera Models</a>
+                                                                                    href="">Tourbillon</a>
                                                                             </div>
                                                                         </div>
                                                                         <div class="tb-content-car"> <span
                                                                                 class="before-cus"></span>
                                                                             <ul class="car-vehicles">
                                                                                 <li class="tb-new">
-                                                                                    <p>New</p>
+                                                                                    <p>Bugatti</p>
                                                                                 </li>
                                                                                 <li class="tb-year">
                                                                                     <p>2017</p>
@@ -690,7 +666,7 @@ get_header();
                                                                                     <p>Yellow</p>
                                                                                 </li>
                                                                                 <li class="tb-mph">
-                                                                                    <p>183mph</p>
+                                                                                    <p>277mph (est)</p>
                                                                                 </li>
                                                                             </ul>
                                                                         </div>
@@ -704,63 +680,46 @@ get_header();
                                                             class="post-1997 product type-product status-publish has-post-thumbnail product_cat-panamera product_cat-paramera-two product_cat-porsche last instock shipping-taxable purchasable product-type-simple">
                                                             <div class="tb-product-item-inner">
                                                                 <div class="row">
-                                                                    <div class="tb-image"> <a
-                                                                            href="https://autopro.jwsuperthemes.com/shop/the-new-panamera-models/"
-                                                                            class="animsition-link tb-thumb-effect"
-                                                                            data-tb-thumb="true"> <img width="656"
-                                                                                height="360"
-                                                                                src="<?php echo get_template_directory_uri(); ?>/uploads/2017/01/PANAMERA1.png"
+                                                                    <div class="tb-image"> 
+                                                                        <a href="" class="animsition-link tb-thumb-effect"> 
+                                                                            <img src="<?php echo get_template_directory_uri(); ?>/uploads/2026/hennessey/venom-f5/venom_f5-final.png"
                                                                                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                                                 alt=""
-                                                                                srcset="https://autopro.jwsuperthemes.com/wp-content/<?php echo get_template_directory_uri(); ?>/uploads/2017/01/PANAMERA1.png 656w, https://autopro.jwsuperthemes.com/wp-content/<?php echo get_template_directory_uri(); ?>/uploads/2017/01/PANAMERA1-600x329.png 600w"
+                                                                                srcset="<?php echo get_template_directory_uri(); ?>/uploads/2026/hennessey/venom-f5/venom_f5-final.png 656w, <?php echo get_template_directory_uri(); ?>/uploads/2026/hennessey/venom-f5/venom_f5-final.png 600w"
                                                                                 sizes="(max-width: 656px) 100vw, 656px" />
-                                                                        </a></div>
+                                                                        </a>
+                                                                    </div>
                                                                     <div class="tb-content content-bottom">
                                                                         <div class="tb-footer-content ">
                                                                             <div class="tb-price">
-                                                                                <div class="tb-price">
-                                                                                    <span>From</span><span
-                                                                                        class="tb-product-price"><span
-                                                                                            class="woocommerce-Price-amount amount"><span
-                                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>85,000.00</span></span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="tb-rating">
-                                                                                <div
-                                                                                    class="tb-item-rating primary_color clearfix">
-                                                                                    <span>Buyer
-                                                                                        Rates:</span>
-                                                                                    <div class="star-rating">
-                                                                                        <span style="width:39940%">Rated
-                                                                                            <strong
-                                                                                                class="rating">1997</strong>
-                                                                                            out of 5</span>
-                                                                                    </div>
-                                                                                </div>
+                                                                                <span>From</span>
+                                                                                <span class="tb-product-price">
+                                                                                    <del><span class="woocommerce-Price-amount amount"><span
+                                                                                        class="woocommerce-Price-currencySymbol">£</span>1,700,000</span></del>
+                                                                                </span>
                                                                             </div>
                                                                             <div class="tb-title text-ellipsis">
                                                                                 <a class="animsition-link"
-                                                                                    href="https://autopro.jwsuperthemes.com/shop/the-new-panamera-models/">The
-                                                                                    new Panamera Models</a>
+                                                                                    href="">Venom F5</a>
                                                                             </div>
                                                                         </div>
                                                                         <div class="tb-content-car"> <span
                                                                                 class="before-cus"></span>
                                                                             <ul class="car-vehicles">
                                                                                 <li class="tb-new">
-                                                                                    <p>New</p>
+                                                                                    <p>Hennessey</p>
                                                                                 </li>
                                                                                 <li class="tb-year">
-                                                                                    <p>2017</p>
+                                                                                    <p>2020</p>
                                                                                 </li>
                                                                                 <li class="tb-vehicles">
                                                                                     <p>Automatic</p>
                                                                                 </li>
                                                                                 <li class="tb-color">
-                                                                                    <p>Black</p>
+                                                                                    <p>Mojave Gold</p>
                                                                                 </li>
                                                                                 <li class="tb-mph">
-                                                                                    <p>164mph</p>
+                                                                                    <p>271.6mph</p>
                                                                                 </li>
                                                                             </ul>
                                                                         </div>
@@ -774,17 +733,18 @@ get_header();
                                                             class="post-1885 product type-product status-publish has-post-thumbnail product_cat-macan product_cat-porsche first instock shipping-taxable purchasable product-type-simple">
                                                             <div class="tb-product-item-inner">
                                                                 <div class="row">
-                                                                    <div class="tb-image"> <a
-                                                                            href="https://autopro.jwsuperthemes.com/shop/911-carrera-models-2/"
-                                                                            class="animsition-link tb-thumb-effect"
-                                                                            data-tb-thumb="true"> <img width="656"
-                                                                                height="360"
-                                                                                src="<?php echo get_template_directory_uri(); ?>/uploads/2017/01/macan1.png"
+                                                                    <div class="tb-image"> 
+                                                                        <a
+                                                                            href=""
+                                                                            class="animsition-link tb-thumb-effect"> 
+                                                                            <img
+                                                                                src="<?php echo get_template_directory_uri(); ?>/uploads/2026/bugatti/veyron/veyron-super-sport/bugatti-veyron-super-sport_100332072.png"
                                                                                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                                                 alt=""
-                                                                                srcset="https://autopro.jwsuperthemes.com/wp-content/<?php echo get_template_directory_uri(); ?>/uploads/2017/01/macan1.png 656w, https://autopro.jwsuperthemes.com/wp-content/<?php echo get_template_directory_uri(); ?>/uploads/2017/01/macan1-600x329.png 600w"
+                                                                                srcset="<?php echo get_template_directory_uri(); ?>/uploads/2026/bugatti/veyron/veyron-super-sport/bugatti-veyron-super-sport_100332072.png 656w, <?php echo get_template_directory_uri(); ?>/uploads/2026/bugatti/veyron/veyron-super-sport/bugatti-veyron-super-sport_100332072.png 600w"
                                                                                 sizes="(max-width: 656px) 100vw, 656px" />
-                                                                        </a></div>
+                                                                        </a>
+                                                                    </div>
                                                                     <div class="tb-content content-bottom">
                                                                         <div class="tb-footer-content ">
                                                                             <div class="tb-price">
@@ -792,26 +752,12 @@ get_header();
                                                                                     <span>From</span><span
                                                                                         class="tb-product-price"><span
                                                                                             class="woocommerce-Price-amount amount"><span
-                                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>67,200.00</span></span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="tb-rating">
-                                                                                <div
-                                                                                    class="tb-item-rating primary_color clearfix">
-                                                                                    <span>Buyer
-                                                                                        Rates:</span>
-                                                                                    <div class="star-rating">
-                                                                                        <span style="width:37700%">Rated
-                                                                                            <strong
-                                                                                                class="rating">1885</strong>
-                                                                                            out of 5</span>
-                                                                                    </div>
+                                                                                                class="woocommerce-Price-currencySymbol">£</span>1,000,000</span></span>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="tb-title text-ellipsis">
                                                                                 <a class="animsition-link"
-                                                                                    href="https://autopro.jwsuperthemes.com/shop/911-carrera-models-2/">Macan
-                                                                                    GTS</a>
+                                                                                    href="https://autopro.jwsuperthemes.com/shop/911-carrera-models-2/">Veyron Super Sport</a>
                                                                             </div>
                                                                         </div>
                                                                         <div class="tb-content-car"> <span
@@ -830,7 +776,7 @@ get_header();
                                                                                     <p>Black</p>
                                                                                 </li>
                                                                                 <li class="tb-mph">
-                                                                                    <p>159 mph</p>
+                                                                                    <p>268mph</p>
                                                                                 </li>
                                                                             </ul>
                                                                         </div>
@@ -844,15 +790,12 @@ get_header();
                                                             class="post-1577 product type-product status-publish has-post-thumbnail product_cat-40 product_cat-porsche  instock shipping-taxable purchasable product-type-simple">
                                                             <div class="tb-product-item-inner">
                                                                 <div class="row">
-                                                                    <div class="tb-image"> <a
-                                                                            href="https://autopro.jwsuperthemes.com/shop/demo1/"
-                                                                            class="animsition-link tb-thumb-effect"
-                                                                            data-tb-thumb="true"> <img width="656"
-                                                                                height="360"
-                                                                                src="<?php echo get_template_directory_uri(); ?>/uploads/2017/01/xe1.png"
+                                                                    <div class="tb-image"> 
+                                                                        <a href="" class="animsition-link tb-thumb-effect"> 
+                                                                            <img src="<?php echo get_template_directory_uri(); ?>/uploads/2026/rimac/nevera-r/Rimac-Nevera-R-21.png"
                                                                                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                                                 alt=""
-                                                                                srcset="https://autopro.jwsuperthemes.com/wp-content/<?php echo get_template_directory_uri(); ?>/uploads/2017/01/xe1.png 656w, https://autopro.jwsuperthemes.com/wp-content/<?php echo get_template_directory_uri(); ?>/uploads/2017/01/xe1-600x329.png 600w"
+                                                                                srcset="<?php echo get_template_directory_uri(); ?>/uploads/2026/rimac/nevera-r/Rimac-Nevera-R-21.png 656w, <?php echo get_template_directory_uri(); ?>/uploads/2026/rimac/nevera-r/Rimac-Nevera-R-21.png 600w"
                                                                                 sizes="(max-width: 656px) 100vw, 656px" />
                                                                         </a></div>
                                                                     <div class="tb-content content-bottom">
@@ -862,36 +805,22 @@ get_header();
                                                                                     <span>From</span><span
                                                                                         class="tb-product-price"><span
                                                                                             class="woocommerce-Price-amount amount"><span
-                                                                                                class="woocommerce-Price-currencySymbol">&#36;</span>56,000.00</span></span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="tb-rating">
-                                                                                <div
-                                                                                    class="tb-item-rating primary_color clearfix">
-                                                                                    <span>Buyer
-                                                                                        Rates:</span>
-                                                                                    <div class="star-rating">
-                                                                                        <span style="width:31540%">Rated
-                                                                                            <strong
-                                                                                                class="rating">1577</strong>
-                                                                                            out of 5</span>
-                                                                                    </div>
+                                                                                                class="woocommerce-Price-currencySymbol">$</span>2,200,000/2,500,000</span></span>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="tb-title text-ellipsis">
                                                                                 <a class="animsition-link"
-                                                                                    href="https://autopro.jwsuperthemes.com/shop/demo1/">718
-                                                                                    Boxster Models</a>
+                                                                                    href="">Nevera/Nevera R</a>
                                                                             </div>
                                                                         </div>
                                                                         <div class="tb-content-car"> <span
                                                                                 class="before-cus"></span>
                                                                             <ul class="car-vehicles">
                                                                                 <li class="tb-new">
-                                                                                    <p>New</p>
+                                                                                    <p>Rimac</p>
                                                                                 </li>
                                                                                 <li class="tb-year">
-                                                                                    <p>2017</p>
+                                                                                    <p>2021/2024</p>
                                                                                 </li>
                                                                                 <li class="tb-vehicles">
                                                                                     <p>Automatic</p>
@@ -900,7 +829,7 @@ get_header();
                                                                                     <p>Black</p>
                                                                                 </li>
                                                                                 <li class="tb-mph">
-                                                                                    <p>170mph</p>
+                                                                                    <p>256mph(412 km/h)</p>
                                                                                 </li>
                                                                             </ul>
                                                                         </div>

@@ -115,7 +115,7 @@ add_action( 'wp_enqueue_scripts', 'child_theme_scripts' );
 function theme_enqueue_assets_footer() {
     // ====== STYLES (load ở HEAD như bình thường) ======
     wp_enqueue_style(
-        'flexslider2', get_template_directory_uri() . 'assets/vendors/flexslider/flexslider.css', [],'', 'all'
+        'flexslider2', get_template_directory_uri() . '/assets/vendors/flexslider/flexslider.css', [],'', 'all'
     );
 
     wp_enqueue_style(

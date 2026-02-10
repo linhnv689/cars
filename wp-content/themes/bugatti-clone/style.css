@@ -1,5 +1,5 @@
 /*
-Theme Name: Supercar Theme
+Theme Name: Supercars Theme
 Theme URI: https://example.com/bugatti-clone
 Author: Antigravity
 Author URI: https://example.com
@@ -2388,7 +2388,8 @@ body ins {
 
 .woocommerce .tb-product-item-inner .tb-image img {
     width: 100%;
-    height: auto
+    height: 340px;
+    object-fit: contain;
 }
 
 .woocommerce .tb-product-item-inner .tb-image .new {
