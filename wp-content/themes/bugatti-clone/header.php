@@ -67,17 +67,15 @@
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </button>
-                <div class="tb-logo mb-0">
-                    <img class="img img-1" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="logo">
-                    <img class="img img-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-open.png" alt="logo-open">
-                </div>
             </div>
 
             <div class="mobile-leftbar overlay-menu hide-scroll">
                 <ul id="menu-menu-1" class="mobile-nav m-md-0">
-                    <li>
+                    <li class="text-truncate">
                         <button class="menu-item-link level1">
-                            <span class="menu-title">ASTON MARTIN
+                            <span class="menu-title d-flex align-items-center">
+                                <img class="menu-title-logo me-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/aston-martin.png" alt="baston-martin">
+                                ASTON MARTIN
                                 <i class="fa-solid fa-angle-right"></i>
                             </span>
                         </button>
@@ -296,9 +294,11 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="text-truncate">
                         <button class="menu-item-link level1">
-                            <span class="menu-title">BUGATTI
+                            <span class="menu-title d-flex align-items-center">
+                                <img class="menu-title-logo me-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/bugatti.png" alt="bugatti">
+                                BUGATTI
                                 <i class="fa-solid fa-angle-right"></i>
                             </span>
                         </button>
@@ -443,9 +443,11 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="text-truncate">
                         <button class="menu-item-link level1">
-                            <span class="menu-title">FERRARI
+                            <span class="menu-title d-flex align-items-center">
+                                <img class="menu-title-logo me-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/ferrari.png" alt="ferrari">
+                                FERRARI
                                 <i class="fa-solid fa-angle-right"></i>
                             </span>
                         </button>
@@ -560,6 +562,78 @@
                                 </ul>
                             </li>
                         </ul>
+                    </li>
+                    <li class="text-truncate">
+                        <button class="menu-item-link level1">
+                            <span class="menu-title d-flex align-items-center">
+                                <img class="menu-title-logo me-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/hennessey.png" alt="hennessey">
+                                HENNESSEY 
+                                <i class="fa-solid fa-angle-right"></i>
+                            </span>
+                        </button>
+                    </li>
+                    <li class="text-truncate">
+                        <button class="menu-item-link level1">
+                            <span class="menu-title d-flex align-items-center">
+                                <img class="menu-title-logo me-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/koenigsegg.png" alt="koenigsegg">
+                                KOENIGSEGG
+                                <i class="fa-solid fa-angle-right"></i>
+                            </span>
+                        </button>
+                    </li>
+                    <li class="text-truncate">
+                        <button class="menu-item-link level1">
+                            <span class="menu-title d-flex align-items-center">
+                                <img class="menu-title-logo me-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/lamborghini.svg" alt="lamborghini">
+                                LAMBORGHINI
+                                <i class="fa-solid fa-angle-right"></i>
+                            </span>
+                        </button>
+                    </li>
+                    <li class="text-truncate">
+                        <button class="menu-item-link level1">
+                            <span class="menu-title d-flex align-items-center">
+                                <img class="menu-title-logo me-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/mclaren.png" alt="mclaren">
+                                MCLAREN
+                                <i class="fa-solid fa-angle-right"></i>
+                            </span>
+                        </button>
+                    </li>
+                    <li class="text-truncate">
+                        <button class="menu-item-link level1">
+                            <span class="menu-title d-flex align-items-center">
+                                <img class="menu-title-logo me-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/rimac.png" alt="rimac">
+                                RIMAC
+                                <i class="fa-solid fa-angle-right"></i>
+                            </span>
+                        </button>
+                    </li>
+                    <li class="text-truncate">
+                        <button class="menu-item-link level1">
+                            <span class="menu-title d-flex align-items-center">
+                                <img class="menu-title-logo me-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/ssc-north-america.png" alt="ssc-north-america">
+                                SSC NORTH AMERICA
+                                <i class="fa-solid fa-angle-right"></i>
+                            </span>
+                        </button>
+                    </li>
+                    <li class="text-truncate">
+                        <button class="menu-item-link level1">
+                            <span class="menu-title d-flex align-items-center">
+                                <img class="menu-title-logo me-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/w-motors.png" alt="mclaren">
+                                W MOTORS
+                                <i class="fa-solid fa-angle-right"></i>
+                            </span>
+                        </button>
+                    </li>
+                    <li class="text-truncate">
+                        <button class="menu-item-link level1">
+                            <span class="menu-title d-flex align-items-center">
+                                <img class="menu-title-logo me-2" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/yangwang.svg" alt="yangwang">
+                                YANGWANG
+                                <i class="fa-solid fa-angle-right"></i>
+                            </span>
+                        </button>
                     </li>
                 </ul>
             </div>

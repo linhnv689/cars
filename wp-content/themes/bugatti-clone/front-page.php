@@ -312,7 +312,7 @@ get_header();
                                                                                 class="before-cus"></span>
                                                                             <ul class="car-vehicles">
                                                                                 <li class="tb-new">
-                                                                                    <p><a href="#">BYD</a></p>
+                                                                                    <p><a href="#">YANGWANG</a></p>
                                                                                 </li>
                                                                                 <li class="tb-year">
                                                                                     <p>2023</p>
@@ -452,10 +452,10 @@ get_header();
                                                                             data-tb-thumb="true"> 
                                                                             <img
                                                                                 height="400"
-                                                                                src="<?php echo get_template_directory_uri(); ?>/uploads/2026/sscnorthamerica/tuatara/SSC_Tuatara_00.png"
+                                                                                src="<?php echo get_template_directory_uri(); ?>/uploads/2026/sscnorthamerica/tuatara/ssc-tuatara-yellow-pose-2.png"
                                                                                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
                                                                                 alt=""
-                                                                                srcset="<?php echo get_template_directory_uri(); ?>/uploads/2026/sscnorthamerica/tuatara/SSC_Tuatara_00.png 656w, <?php echo get_template_directory_uri(); ?>/uploads/2026/sscnorthamerica/tuatara/SSC_Tuatara_00.png 600w"
+                                                                                srcset="<?php echo get_template_directory_uri(); ?>/uploads/2026/sscnorthamerica/tuatara/ssc-tuatara-yellow-pose-2.png 656w, <?php echo get_template_directory_uri(); ?>/uploads/2026/sscnorthamerica/tuatara/Sssc-tuatara-yellow-pose-2.png 600w"
                                                                                 sizes="(max-width: 656px) 100vw, 656px" />
                                                                         </a>
 																	</div>
