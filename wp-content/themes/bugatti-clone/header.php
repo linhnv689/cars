@@ -61,12 +61,27 @@
 
 	<div class="tb-header-wrap ct-inc-megamenu tb-header-v5 d-flex align-items-center">
             <!-- Start Header Sidebar -->
-            <div class="mobile-header d-flex align-items-center">
-                <button id="mobile-bar-v4" class="menu-btn jws_theme_open_menu me-3 mt-1 mt-xl-4">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+            <div class="mobile-header d-flex align-items-center justify-content-between py-2">
+                <button class="border-0 d-flex align-items-center rounded-0" id="mobile-bar-v4">
+                    <div class="menu-btn jws_theme_open_menu me-2">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>                       
+                    </div>
+                    <span class="text-white">MENU</span>
                 </button>
+                
+                <div class="btn-group">
+                    <button class="dropdown-toggle border-0 text-white rounded-0" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                        LANGUAGE <i class="fa-solid fa-globe ms-2"></i>
+                    </button>
+                    <div class="dropdown-menu overlay-menu hide-scroll rounded-0 border-0" aria-labelledby="defaultDropdown">
+                        <ul class="mb-0 ps-0">
+                            <li><a class="dropdown-item" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/en.png" class="me-2" alt="en">English</a></li>
+                            <li><a class="dropdown-item" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/vi.png" class="me-2" alt="vi">Vietnam</a></li>
+                       </ul>
+                    </div>
+                </div>
             </div>
 
             <div class="mobile-leftbar overlay-menu hide-scroll">

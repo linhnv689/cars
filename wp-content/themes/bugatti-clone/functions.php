@@ -85,12 +85,6 @@ function child_theme_scripts() {
     // wp_register_script('jquery', get_template_directory_uri() . '/assets/js/jquery/jquery.js', [], '3.7.1', false);
     // wp_enqueue_script('jquery');
 
-    // 7) Bootstrap Bundle (CDN) — cần Popper, đã có trong bundle
-    // Để nó ở header giống bạn đang dùng => $in_footer = false
-    wp_enqueue_script(
-		'bootstrap-bundle', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js', [], '5.3.8', false // false => chèn ở HEAD
-    );
-
     // 8) Revolution Slider scripts (local) — phụ thuộc jQuery
     wp_enqueue_script(
         'rbtools', get_template_directory_uri() . '/plugins/revslider/js/rbtools.min.js', ['jquery'], '6.0.0', false // HEAD
@@ -146,15 +140,16 @@ function theme_enqueue_assets_footer() {
         'owl-carousel', get_template_directory_uri() . '/assets/vendors/owl-carousel/owl.carousel.min.js', ['jquery'], '2.3.4', true
     );
 
-    // Bootstrap (BẠN ĐANG GỌI THÊM BẢN MIN LẺ, KHÔNG PHẢI BUNDLE)
-    // Nếu ở nơi khác bạn đã enqueue bootstrap.bundle.min.js thì KHÔNG nên enqueue file này nữa để tránh trùng.
-    // Ở đây vẫn theo yêu cầu của bạn:
-    wp_enqueue_script(
-        'bootstrap-5-min', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js', [], '5.3.8', true
-    );
-    // (Tuỳ chọn) thêm integrity/crossorigin cho file trên bằng filter ở phần 2.
+    // Bootstrap (version min, don't BUNDLE version)
+    // If exiting bootstrap.bundle.min.js, don't import bootstrap.min.js file
+    // wp_enqueue_script(
+    //     'bootstrap-5-min', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js', [], '5.3.8', true
+    // );
 
-    // main.min.js (tối ưu bởi SiteGround Optimizer)
+    wp_enqueue_script(
+		'bootstrap-bundle', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js', [], '5.3.8', true // false => chèn ở heading
+    );
+
     wp_enqueue_script(
         'main-min', get_template_directory_uri() . '/uploads/siteground-optimizer-assets/main.min.js', ['jquery'], null, true
     );

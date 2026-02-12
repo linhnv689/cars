@@ -36,6 +36,7 @@ Domain Path: /languages
 
 :root {
     --primary-color: #da2c2d;
+    --sub-color: #1b2026;
     --font-family: Montserrat;
     /* Quãng chạy (responsive ở dưới) */
     --car-distance: 240px;
@@ -177,12 +178,16 @@ h6 {
     visibility: visible;
 }
 
+.dropdown-toggle::after {
+    content: unset;
+}
+
 /* ===== Overlay background when load page ===== */
 .overlay-body {
     position: fixed;
     inset: 0;
     z-index: 9999;
-    background: #1b2026;
+    background: var(--sub-color);
     display: grid;
     place-items: center;
     transition: opacity .45s ease, visibility .45s ease;
@@ -352,15 +357,44 @@ h6 {
 
 /* ===== End Overlay background ===== */
 .mobile-header {
-    margin-top: -5px;
     padding: 0 15px;
     width: 100%;
     z-index: 2;
 }
 
-body.menu-open .mobile-header {
-    background-color: #1b2026;
+body.menu-open .mobile-header,
+.mobile-header.active {
+    background-color: var(--sub-color);
     transition: .3s;
+}
+
+.mobile-header button {
+    padding: 5px 12px;
+    transition: .3s;
+}
+
+.mobile-header .dropdown-menu,
+.mobile-header button:hover {
+    background: var(--sub-color);
+}
+
+.mobile-header .dropdown-menu {
+    inset: 7px auto auto !important;
+}
+
+.mobile-header .dropdown-menu.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.mobile-header .dropdown-menu .dropdown-item {
+    color: #fff;
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.mobile-header .dropdown-menu .dropdown-item img {
+    width: 16px;
 }
 
 /* Menu */
@@ -370,7 +404,7 @@ body.menu-open .mobile-header {
     z-index: 1;
     inset: 0;
     width: 100%;
-    background: #1b2026;
+    background: var(--sub-color);
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.5s ease, transform 0.5s ease;
@@ -383,8 +417,8 @@ body.menu-open .overlay-menu {
 
 .menu-btn .bar {
     display: block;
-    width: 28px;
-    height: 3px;
+    width: 25px;
+    height: 1px;
     margin: 5px 0;
     background: #fff;
     transition: 0.4s;
@@ -399,7 +433,7 @@ body.menu-open .menu-btn .bar:nth-child(2) {
 }
 
 body.menu-open .menu-btn .bar:nth-child(3) {
-    transform: rotate(-45deg) translate(6px, -6px);
+    transform: rotate(-45deg) translate(3px, -3px);
 }
 
 .overlay-menu-1>li,
@@ -410,6 +444,7 @@ body.menu-open .menu-btn .bar:nth-child(3) {
     transition: opacity 0.4s ease, margin 0.4s ease;
 }
 
+.overlay-menu.active>ul>li,
 .overlay-menu-1.active>li,
 .overlay-menu-2.active>li,
 body.menu-open .overlay-menu>ul>li {
@@ -417,9 +452,11 @@ body.menu-open .overlay-menu>ul>li {
     margin-top: 0;
 }
 
+
 .overlay-menu ul li:nth-child(1) {
     transition-delay: 0.15s;
 }
+
 
 .overlay-menu ul li:nth-child(2) {
     transition-delay: 0.25s;
@@ -665,18 +702,18 @@ body.menu-open .overlay-menu>ul>li {
 
     .overlay-menu.active {
         max-width: 100%;
-        background-color: #1b2026;
+        background-color: var(--sub-color);
     }
 
     .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav {
-        padding: 100px 15px 15px 15px;
+        padding: 66px 15px 15px 15px;
         position: relative;
         left: 0;
         top: 0;
         width: 100%;
         max-width: 200px;
         height: 100%;
-        background-color: #1b2026;
+        background-color: var(--sub-color);
         z-index: 99;
     }
 
@@ -692,7 +729,7 @@ body.menu-open .overlay-menu>ul>li {
     }
 
     .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav-sub {
-        padding: 100px 0px 0 30px;
+        padding: 66px 0px 0 30px;
         position: absolute;
         left: 200px;
         top: 0;
@@ -733,11 +770,11 @@ body.menu-open .overlay-menu>ul>li {
         position: fixed;
         width: calc(100% - 450px);
         right: 0;
-        top: 78px;
+        top: 52px;
         opacity: 0;
         text-align: center;
-        height: calc(100vh - 78px);
-        height: calc(100dvh - 78px);
+        height: calc(100vh - 52px);
+        height: calc(100dvh - 52px);
         /* fix safari os */
         overflow-x: scroll;
         scrollbar-width: none;
@@ -765,7 +802,7 @@ body.menu-open .overlay-menu>ul>li {
 
     .tb-header-wrap.tb-header-v5 .mobile-leftbar .mobile-nav-sub .mobile-nav-preview img {
         width: 100%;
-        height: calc(100vh - 78px);
+        height: calc(100vh - 52px);
         object-fit: cover;
     }
 }
