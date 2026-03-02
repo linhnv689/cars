@@ -16737,7 +16737,7 @@ input {
 	background: rgba(0, 0, 0, 0.25);
 }
 
-.content {
+.slide-content {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -16751,56 +16751,56 @@ input {
 }
 
 @media (max-width: 480px) {
-	.content {
+	.slide-content {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
 }
 
 @media (max-width: 1440px) {
-	.content {
+	.slide-content {
 		max-width: 445px;
 	}
 }
 
-.slide.active .content {
+.slide.active .slide-content {
 	opacity: 1;
 	transform: translate(-50%, -50%);
 	transition-delay: 0.6s;
 }
 
-.content h1 {
+.slide-content h1 {
 	opacity: 0;
 	transform: translateY(30px);
 	transition: all 1s ease;
 }
 
-.content p {
+.slide-content p {
 	margin-bottom: calc(30px + 0.6em);
 	opacity: 0;
 	transform: translateY(30px);
 	transition: all 1s ease;
 }
 
-.content a {
+.slide-content a {
 	opacity: 0;
 	transform: translateY(30px);
 	transition: all 1s ease;
 }
 
-.slide.active .content h1 {
+.slide.active .slide-content h1 {
 	opacity: 1;
 	transform: translateY(0);
 	transition-delay: 0.6s;
 }
 
-.slide.active .content p {
+.slide.active .slide-content p {
 	opacity: 1;
 	transform: translateY(0);
 	transition-delay: 0.9s;
 }
 
-.slide.active .content a {
+.slide.active .slide-content a {
 	opacity: 1;
 	transform: translateY(0);
 	transition-delay: 1.2s;
