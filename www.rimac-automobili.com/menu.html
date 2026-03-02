@@ -18,17 +18,46 @@
             width: 100%;
             height: 100vh;
             overflow: hidden;
-            background: black;
+            /* background: black; */
         }
 
+        #bgCanvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+
+        /* ============ MENU LEFT ============ */
+
+        /* ============ MENU LEFT ============ */
         .side-menu-left {
             position: absolute;
             left: 60px;
             top: 50%;
-            transform: translateY(-50%);
+            /* Lúc đầu: lệch xuống 20px so với vị trí center để tạo hiệu ứng đi lên */
+            transform: translate(-0px, -50%);
             z-index: 20;
             color: white;
+            opacity: 0;
+            /* Ẩn lúc đầu */
+            transition:
+                opacity 1s ease,
+                transform 1s cubic-bezier(.77, 0, .175, 1);
+            pointer-events: none;
+            /* tránh click sớm khi chưa hiện xong */
         }
+
+        /* Khi menu sẵn sàng (được bật bằng JS bằng class .menu-visible) */
+        .hero-slider.menu-visible .side-menu-left {
+            opacity: 1;
+            /* Kết thúc: đúng vị trí center (đi từ dưới lên) */
+            transform: translate(0, -50%);
+            pointer-events: auto;
+        }
+
 
         .side-menu-left ul {
             list-style: none;
@@ -41,9 +70,46 @@
             margin: 0;
             padding: 5px 0;
             cursor: pointer;
-            opacity: 0.4;
+            opacity: 0;
+            transform: translateY(12px);
             transition: all 0.3s ease;
             overflow: hidden;
+        }
+
+        /* Khi menu bật: áp dụng animation cho từng li */
+        .hero-slider.menu-visible .side-menu-left li {
+            animation: liIn .5s cubic-bezier(.2, .8, .2, 1) forwards;
+        }
+
+        /* Stagger delay: lần lượt 0ms, 120ms, 240ms, 360ms (tùy số lượng li mà thêm) */
+        .hero-slider.menu-visible .side-menu-left li:nth-child(1) {
+            animation-delay: .12s;
+        }
+
+        .hero-slider.menu-visible .side-menu-left li:nth-child(2) {
+            animation-delay: .24s;
+        }
+
+        .hero-slider.menu-visible .side-menu-left li:nth-child(3) {
+            animation-delay: .36s;
+        }
+
+        .hero-slider.menu-visible .side-menu-left li:nth-child(4) {
+            animation-delay: .48s;
+        }
+
+        /* Nếu có thêm li, tiếp tục tăng 0.12s mỗi cái */
+
+        @keyframes liIn {
+            from {
+                opacity: 0;
+                transform: translateY(12px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .side-menu-left li.active {
@@ -60,6 +126,8 @@
             letter-spacing: 2px;
         }
 
+
+        /* --- Border trái (menu-line) & indicator: Ẩn lúc đầu --- */
         .menu-line {
             position: absolute;
             left: -25px;
@@ -67,18 +135,42 @@
             bottom: 0;
             width: 2px;
             background: rgba(255, 255, 255, 0.2);
+            opacity: 0;
+            /* Ẩn */
+            transform-origin: top;
+            /* Kéo từ trên xuống */
+            transform: scaleY(0);
+            /* Thu gọn chiều dọc */
+            transition:
+                transform .5s cubic-bezier(.77, 0, .175, 1),
+                opacity .3s ease;
         }
 
-        /* Thanh trắng chạy */
+        /* Chỉ hiện border sau khi tất cả li đã xong */
+        .hero-slider.menu-bordered .menu-line {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+
+        /* Indicator cũng ẩn trước, chỉ bật sau khi border lên */
         .menu-indicator {
             position: absolute;
             left: -25px;
             width: 2px;
             height: 24px;
             background: white;
-            transition: transform 0.6s cubic-bezier(.77, 0, .175, 1);
+            opacity: 0;
+            /* Ẩn */
+            transition: transform 0.6s cubic-bezier(.77, 0, .175, 1), opacity .3s ease;
         }
 
+        .hero-slider.menu-bordered .menu-indicator {
+            opacity: 1;
+            /* Hiện cùng lúc (hoặc sau) với border */
+        }
+
+
+        /* ============ SLIDER ============ */
         .slides {
             position: relative;
             width: 100%;
@@ -91,11 +183,21 @@
             overflow: hidden;
             opacity: 0;
             transition: opacity 1s ease;
+            pointer-events: none;
+            /* khóa tương tác khi ẩn */
         }
 
         .slide.active {
             opacity: 1;
             z-index: 2;
+            pointer-events: auto;
+        }
+
+        /* Gate: khi CHƯA sẵn sàng slider thì dù .active cũng không hiển thị */
+        .hero-slider:not(.slider-ready) .slide.active {
+            opacity: 0;
+            z-index: 1;
+            pointer-events: none;
         }
 
         .slide-media {
@@ -116,6 +218,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+            display: block;
         }
 
         /* Dark overlay */
@@ -142,9 +245,7 @@
             color: white;
             text-align: center;
             opacity: 0;
-            transition:
-                opacity 1s ease,
-                transform 1.2s cubic-bezier(.77, 0, .175, 1);
+            transition: opacity 1s ease, transform 1.2s cubic-bezier(.77, 0, .175, 1);
         }
 
         .slide.active .content {
@@ -193,34 +294,39 @@
             height: 3px;
             background: white;
             width: 0%;
+            opacity: 0;
+            transition: opacity .3s ease;
+        }
+
+        /* Chỉ hiển thị progress khi slider sẵn sàng */
+        .hero-slider.slider-ready .progress {
+            opacity: 1;
         }
     </style>
-
 </head>
 
 <body>
 
-    <div class="hero-slider">
+    <div class="hero-slider" id="hero">
+
+        <canvas id="bgCanvas"></canvas>
 
         <div class="side-menu-left">
             <div class="menu-line"></div>
             <div class="menu-indicator"></div>
             <ul>
-                <li data-index="0" class="active">
+                <li data-index="0">
                     <span class="number">01</span>
                     <span class="text">NEVERA AND NEVERA R</span>
                 </li>
-
                 <li data-index="1">
                     <span class="number">02</span>
                     <span class="text">TECHNOLOGY</span>
                 </li>
-
                 <li data-index="2">
                     <span class="number">03</span>
                     <span class="text">DEVELOPMENT</span>
                 </li>
-
                 <li data-index="3">
                     <span class="number">04</span>
                     <span class="text">ABOUT US</span>
@@ -229,8 +335,7 @@
         </div>
 
         <div class="slides">
-
-            <div class="slide active">
+            <div class="slide">
                 <div class="slide-media">
                     <video
                         src="https://web-cdn.rimac-automobili.com/wp-content/uploads/2021/05/30204415/RimacNevera8sSTORM-EDIT-1_16-9.mp4"
@@ -241,6 +346,11 @@
                     <p>Capable of exceptional speeds, swift and powerful beyond comprehension, Nevera is a force like no
                         other. Designed, engineered and handcrafted in Croatia, defined by function and forged from a
                         love for automotive.</p>
+                    <a class="c-home-slider-item__link c-button c-button--light"
+                        href="https://www.rimac-automobili.com/nevera/" target=""
+                        style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;"><span
+                            class="c-button__inner"><span class="c-button__label"><i class="c-button__label-inner"
+                                    title="Discover">Discover</i></span></span></a>
                 </div>
             </div>
 
@@ -278,40 +388,175 @@
                     <p>Next generation EV</p>
                 </div>
             </div>
-
         </div>
+
         <div class="progress"></div>
-
     </div>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
 
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+            const canvas = document.getElementById("bgCanvas");
+            const ctx = canvas.getContext("2d");
+
+            let w, h;
+            let time = 0;
+
+            function resize() {
+                w = canvas.width = window.innerWidth;
+                h = canvas.height = window.innerHeight;
+            }
+            window.addEventListener("resize", resize);
+            resize();
+
+            function drawFloating(offsetX, offsetY, size, opacity, speedX, speedY) {
+                const x =
+                    w * 0.5 +
+                    Math.sin(time * speedX + offsetX) * (w * 0.25);
+
+                const y =
+                    h * 0.5 +
+                    Math.cos(time * speedY + offsetY) * (h * 0.25);
+
+                const gradient = ctx.createRadialGradient(
+                    x,
+                    y,
+                    0,
+                    x,
+                    y,
+                    size
+                );
+
+                gradient.addColorStop(0, `rgba(0,180,255,${opacity})`);
+                gradient.addColorStop(1, "rgba(0,0,0,0)");
+
+                ctx.fillStyle = gradient;
+                ctx.beginPath();
+                ctx.arc(x, y, size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            function animate() {
+                ctx.clearRect(0, 0, w, h);
+
+                // nền tối sâu
+                ctx.fillStyle = "#04131a";
+                ctx.fillRect(0, 0, w, h);
+
+                drawFloating(0, 0, 700, 0.06, 0.0004, 0.0003);
+                drawFloating(2, 1, 800, 0.05, 0.0003, 0.0004);
+                drawFloating(4, 3, 750, 0.04, 0.00035, 0.00025);
+
+                time += 1;
+                requestAnimationFrame(animate);
+            }
+
+            animate();
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            const hero = document.getElementById("hero");
+            const sideMenu = document.querySelector(".side-menu-left");
             const slides = document.querySelectorAll(".slide");
+            const menuLine = document.querySelector(".menu-line");
             const progress = document.querySelector(".progress");
             const menuItems = document.querySelectorAll(".side-menu-left li");
             const indicator = document.querySelector(".menu-indicator");
+
             let current = 0;
             let isAnimating = false;
+            let allowInteraction = false; // KHÓA tương tác cho đến khi slider sẵn sàng
 
             /* ==============================
                INIT
             ============================== */
 
-            slides.forEach((slide, index) => {
-                slide.classList.remove("active");
-                if (index === 0) {
-                    slide.classList.add("active");
-                }
+            // Đợi 1 frame để layout ổn định rồi mới calc indicator
+            requestAnimationFrame(() => {
+                updateIndicator(0);
             });
 
-            menuItems[0]?.classList.add("active");
-            updateIndicator(0);
+            // Hiện menu trước (kích hoạt stagger từng li qua CSS)
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    hero.classList.add("menu-visible");
+                }, 1500);
+            });
+
+            // Slide & menu active
+            // menuItems[0]?.classList.add("active");
+            // Sau khi li CUỐI cùng animate xong -> hiện border trái (menu-line)
+            const lastLi = menuItems[menuItems.length - 1];
+
+            setTimeout(() => {
+                slides.forEach((slide, index) => {
+                    slide.classList.toggle("active", index === 0);
+                });
+            }, 3500);
+
+            function onAllLiDone() {
+                // 1) Hiện border trái (scaleY từ 0 -> 1)
+                hero.classList.add("menu-bordered");
+
+                // 2) Chờ border kéo xong -> mở slider + cho tương tác
+                function onBorderShown(e) {
+                    // ✅ Sửa lỗi dư dấu ')' ở điều kiện dưới
+                    if (e.target === menuLine && (e.propertyName === "transform" || e.propertyName === "opacity")) {
+                        hero.classList.add("slider-ready");
+                        allowInteraction = true;
+
+                        // Cập nhật indicator/progress lần nữa khi slider sẵn sàng
+                        updateIndicator(current);
+                        resetProgress();
+
+                        // Gỡ listener để tránh lặp
+                        menuLine.removeEventListener("transitionend", onBorderShown);
+                    }
+                }
+
+                // Fallback nếu không nhận được transitionend
+                const fallback = setTimeout(() => {
+                    hero.classList.add("slider-ready");
+                    allowInteraction = true;
+                    updateIndicator(current);
+                    resetProgress();
+                    menuLine?.removeEventListener?.("transitionend", onBorderShown);
+                }, 800); // > 0.5s transition của menu-line
+
+                if (menuLine) {
+                    const handler = (e) => {
+                        if (e.target === menuLine && (e.propertyName === "transform" || e.propertyName === "opacity")) {
+                            clearTimeout(fallback);
+                            onBorderShown(e);
+                        }
+                    };
+                    menuLine.addEventListener("transitionend", handler);
+                } else {
+                    // Không có menu-line -> mở slider luôn
+                    hero.classList.add("slider-ready");
+                    allowInteraction = true;
+                    updateIndicator(current);
+                    resetProgress();
+                }
+
+                // Gỡ listener của li cuối
+                lastLi?.removeEventListener("animationend", onAllLiDone);
+            }
+
+            if (lastLi) {
+                lastLi.addEventListener("animationend", onAllLiDone);
+            } else {
+                // Không có li -> border + slider sẵn sàng ngay
+                hero.classList.add("menu-bordered");
+                hero.classList.add("slider-ready");
+                allowInteraction = true;
+                updateIndicator(0);
+                resetProgress();
+            }
+
             /* ==============================
                MAIN SLIDE FUNCTION
             ============================== */
-
             function goToSlide(index) {
-
+                if (!allowInteraction) return;
                 if (isAnimating) return;
                 isAnimating = true;
 
@@ -331,6 +576,7 @@
                 currentSlide.classList.remove("active");
                 menuItems[current]?.classList.remove("active");
 
+                // force reflow để transition ổn định
                 void nextSlide.offsetWidth;
 
                 nextSlide.classList.add("active");
@@ -340,41 +586,42 @@
                 const newVideo = nextSlide.querySelector("video");
                 if (newVideo) {
                     newVideo.currentTime = 0;
-                    newVideo.play();
+                    const playPromise = newVideo.play();
+                    if (playPromise && typeof playPromise.catch === "function") {
+                        playPromise.catch(() => { /* ignore autoplay issue since muted */ });
+                    }
                 }
 
                 current = next;
-
                 updateIndicator(current);
+                resetProgress();
 
-                // Reset progress
-                if (progress) {
-                    progress.style.transition = "none";
-                    progress.style.width = "0%";
-                }
-
-                setTimeout(() => {
-                    isAnimating = false;
-                }, 1500);
-
+                setTimeout(() => { isAnimating = false; }, 1500);
             }
 
-            function nextSlide() {
-                goToSlide(current + 1);
-            }
+            function nextSlide() { goToSlide(current + 1); }
+            function prevSlide() { goToSlide(current - 1); }
 
-            function prevSlide() {
-                goToSlide(current - 1);
-            }
             function updateIndicator(index) {
                 const target = menuItems[index];
+                if (!target || !indicator) return;
                 const offset = target.offsetTop + (target.offsetHeight / 2) - 12;
                 indicator.style.transform = `translateY(${offset}px)`;
             }
+
+            function resetProgress() {
+                if (!progress) return;
+                progress.style.transition = "none";
+                progress.style.width = "0%";
+                requestAnimationFrame(() => {
+                    progress.style.transition = "width 4s linear";
+                    progress.style.width = "100%";
+                });
+            }
+
             /* ==============================
                MENU CLICK
             ============================== */
-
             menuItems.forEach(item => {
                 item.addEventListener("click", () => {
                     const index = parseInt(item.dataset.index);
@@ -385,29 +632,20 @@
             /* ==============================
                SCROLL CONTROL (ANTI SPAM)
             ============================== */
-
             let scrollLock = false;
-
             window.addEventListener("wheel", (e) => {
-
+                if (!allowInteraction) return;
                 if (scrollLock) return;
 
                 scrollLock = true;
+                if (e.deltaY > 0) nextSlide();
+                else prevSlide();
 
-                if (e.deltaY > 0) {
-                    nextSlide();
-                } else {
-                    prevSlide();
-                }
-
-                setTimeout(() => {
-                    scrollLock = false;
-                }, 1400);
-
-            });
-
+                setTimeout(() => { scrollLock = false; }, 1400);
+            }, { passive: true });
         });
     </script>
+
 </body>
 
 </html>
