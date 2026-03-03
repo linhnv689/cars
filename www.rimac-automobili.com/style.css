@@ -16537,22 +16537,18 @@ input {
 	position: absolute;
 	left: 60px;
 	top: 50%;
-	/* Lúc đầu: lệch xuống 20px so với vị trí center để tạo hiệu ứng đi lên */
 	transform: translate(-0px, -50%);
 	z-index: 3;
 	opacity: 0;
-	/* Ẩn lúc đầu */
 	transition:
 		opacity 1s ease,
 		transform 1s cubic-bezier(.77, 0, .175, 1);
 	pointer-events: none;
-	/* tránh click sớm khi chưa hiện xong */
 }
 
 /* Khi menu sẵn sàng (được bật bằng JS bằng class .menu-visible) */
 .hero-slider.menu-visible .side-menu-left {
 	opacity: 1;
-	/* Kết thúc: đúng vị trí center (đi từ dưới lên) */
 	transform: translate(0, -50%);
 	pointer-events: auto;
 }
@@ -16581,6 +16577,7 @@ input {
 	align-items: center;
 	margin: 0;
 	padding: 5px 0;
+	color: rgba(255, 255, 255, 0.5);
 	cursor: pointer;
 	opacity: 0;
 	transform: translateY(12px);
@@ -16611,6 +16608,30 @@ input {
 	animation-delay: .48s;
 }
 
+.hero-slider.menu-visible .side-menu-left li:nth-child(5) {
+	animation-delay: .6s;
+}
+
+.hero-slider.menu-visible .side-menu-left li:nth-child(6) {
+	animation-delay: .72s;
+}
+
+.hero-slider.menu-visible .side-menu-left li:nth-child(7) {
+	animation-delay: .84s;
+}
+
+.hero-slider.menu-visible .side-menu-left li:nth-child(8) {
+	animation-delay: .96s;
+}
+
+.hero-slider.menu-visible .side-menu-left li:nth-child(9) {
+	animation-delay: 1.08s;
+}
+
+.hero-slider.menu-visible .side-menu-left li:nth-child(10) {
+	animation-delay: 1.2s;
+}
+
 /* Nếu có thêm li, tiếp tục tăng 0.12s mỗi cái */
 
 @keyframes liIn {
@@ -16627,6 +16648,7 @@ input {
 
 .side-menu-left li.active {
 	opacity: 1;
+	color: rgba(255, 255, 255, 1);
 }
 
 
