@@ -4182,6 +4182,10 @@ body .is-layout-grid>* {
 	transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
+.c-navigation-menu__menu .c-menu.c-menu-tertiary {
+	margin-left: 30px;
+}
+
 .c-navigation-menu__menu .c-menu .c-link {
 	letter-spacing: 1.6px;
 	font-family: "TTSupermolotNeue", sans-serif;
@@ -4229,7 +4233,7 @@ body .is-layout-grid>* {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: calc(100% + 20px);
 }
 
 .c-menu-images__item {
@@ -4255,6 +4259,10 @@ body .is-layout-grid>* {
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 18, 23, 0.6);
+}
+
+.c-menu-images__item img {
+	width: 100%;
 }
 
 .c-page-title span {
@@ -4463,6 +4471,8 @@ body .is-layout-grid>* {
 }
 
 .c-button {
+	padding: 0;
+	margin: 0 10px;
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
 	display: inline-flex;
@@ -4474,7 +4484,6 @@ body .is-layout-grid>* {
 	justify-content: center;
 	background-color: transparent;
 	border: none;
-	padding: 0;
 	color: #ffffff;
 	cursor: pointer;
 	position: relative;
@@ -4484,7 +4493,6 @@ body .is-layout-grid>* {
 	line-height: 15px;
 	letter-spacing: 1.6px;
 	text-transform: uppercase;
-	-webkit-box-shadow: none;
 	box-shadow: none;
 	border-radius: 0;
 	-webkit-appearance: none;
@@ -4505,7 +4513,7 @@ body .is-layout-grid>* {
 	padding-left: 30px;
 	padding-right: 30px;
 	min-height: 50px;
-	min-width: 180px;
+	width: 180px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -4519,6 +4527,12 @@ body .is-layout-grid>* {
 	border-top: 1px solid rgba(255, 255, 255, 0.5);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 	z-index: 1;
+}
+
+@media (max-width: 484px) {
+	.c-button__inner {
+		width: 140px;
+	}
 }
 
 @media (max-width: 1440px) {
@@ -16556,9 +16570,8 @@ input {
 @media (max-width: 800px) {
 	.side-menu-left {
 		top: auto;
-		bottom: 30px;
+		bottom: 10px;
 		left: 20px;
-		-webkit-transform: none;
 		transform: none;
 	}
 
@@ -16789,6 +16802,12 @@ input {
 	opacity: 1;
 	transform: translate(-50%, -50%);
 	transition-delay: 0.6s;
+}
+
+@media (max-width: 800px) {
+	.slide.active .slide-content {
+		transform: translate(-50%, -90%);
+	}
 }
 
 .slide-content h1 {
