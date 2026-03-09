@@ -1,3 +1,41 @@
+document.querySelectorAll('.c-big-link').forEach(link => {
+
+    link.addEventListener('click', function (e) {
+
+        e.preventDefault();
+
+        const submenu = this.nextElementSibling;
+        if (!submenu) return;
+
+        if (submenu.classList.contains('active')) {
+
+            // đóng
+            submenu.style.height = submenu.scrollHeight + "px";
+
+            requestAnimationFrame(() => {
+                submenu.style.height = "0px";
+            });
+
+            submenu.classList.remove('active');
+
+        } else {
+
+            // mở
+            submenu.classList.add('active');
+
+            submenu.style.height = submenu.scrollHeight + "px";
+
+            submenu.addEventListener('transitionend', function handler() {
+                submenu.style.height = "auto";
+                submenu.removeEventListener('transitionend', handler);
+            });
+
+        }
+
+    });
+
+});
+
 window.addEventListener("DOMContentLoaded", () => {
     const canvas = document.getElementById("bgCanvas");
     const ctx = canvas.getContext("2d");
