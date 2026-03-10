@@ -2,648 +2,82 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GSAP Fullpage</title>
+    <meta charset="UTF-8">
+    <title>NEVERA Line Assemble</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
 
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .hero-slider {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            overflow: hidden;
-            /* background: black; */
-        }
-
-        #bgCanvas {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 0;
-        }
-
-        /* ============ MENU LEFT ============ */
-
-        /* ============ MENU LEFT ============ */
-        .side-menu-left {
-            position: absolute;
-            left: 60px;
-            top: 50%;
-            /* Lúc đầu: lệch xuống 20px so với vị trí center để tạo hiệu ứng đi lên */
-            transform: translate(-0px, -50%);
-            z-index: 20;
-            color: white;
-            opacity: 0;
-            /* Ẩn lúc đầu */
-            transition:
-                opacity 1s ease,
-                transform 1s cubic-bezier(.77, 0, .175, 1);
-            pointer-events: none;
-            /* tránh click sớm khi chưa hiện xong */
-        }
-
-        /* Khi menu sẵn sàng (được bật bằng JS bằng class .menu-visible) */
-        .hero-slider.menu-visible .side-menu-left {
-            opacity: 1;
-            /* Kết thúc: đúng vị trí center (đi từ dưới lên) */
-            transform: translate(0, -50%);
-            pointer-events: auto;
-        }
-
-
-        .side-menu-left ul {
-            list-style: none;
-        }
-
-        .side-menu-left li {
+        body {
+            background: #071c26;
             display: flex;
-            gap: 15px;
+            justify-content: center;
             align-items: center;
-            margin: 0;
-            padding: 5px 0;
-            cursor: pointer;
-            opacity: 0;
-            transform: translateY(12px);
-            transition: all 0.3s ease;
-            overflow: hidden;
+            height: 100vh;
         }
 
-        /* Khi menu bật: áp dụng animation cho từng li */
-        .hero-slider.menu-visible .side-menu-left li {
-            animation: liIn .5s cubic-bezier(.2, .8, .2, 1) forwards;
+        svg {
+            width: 700px;
         }
 
-        /* Stagger delay: lần lượt 0ms, 120ms, 240ms, 360ms (tùy số lượng li mà thêm) */
-        .hero-slider.menu-visible .side-menu-left li:nth-child(1) {
-            animation-delay: .12s;
-        }
-
-        .hero-slider.menu-visible .side-menu-left li:nth-child(2) {
-            animation-delay: .24s;
-        }
-
-        .hero-slider.menu-visible .side-menu-left li:nth-child(3) {
-            animation-delay: .36s;
-        }
-
-        .hero-slider.menu-visible .side-menu-left li:nth-child(4) {
-            animation-delay: .48s;
-        }
-
-        /* Nếu có thêm li, tiếp tục tăng 0.12s mỗi cái */
-
-        @keyframes liIn {
-            from {
-                opacity: 0;
-                transform: translateY(12px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .side-menu-left li.active {
-            opacity: 1;
-        }
-
-        .side-menu-left .number {
-            font-size: 14px;
-            letter-spacing: 2px;
-        }
-
-        .side-menu-left .text {
-            font-size: 14px;
-            letter-spacing: 2px;
-        }
-
-
-        /* --- Border trái (menu-line) & indicator: Ẩn lúc đầu --- */
-        .menu-line {
-            position: absolute;
-            left: -25px;
-            top: 0;
-            bottom: 0;
-            width: 2px;
-            background: rgba(255, 255, 255, 0.2);
-            opacity: 0;
-            /* Ẩn */
-            transform-origin: top;
-            /* Kéo từ trên xuống */
-            transform: scaleY(0);
-            /* Thu gọn chiều dọc */
-            transition:
-                transform .5s cubic-bezier(.77, 0, .175, 1),
-                opacity .3s ease;
-        }
-
-        /* Chỉ hiện border sau khi tất cả li đã xong */
-        .hero-slider.menu-bordered .menu-line {
-            opacity: 1;
-            transform: scaleY(1);
-        }
-
-        /* Indicator cũng ẩn trước, chỉ bật sau khi border lên */
-        .menu-indicator {
-            position: absolute;
-            left: -25px;
-            width: 2px;
-            height: 24px;
-            background: white;
-            opacity: 0;
-            /* Ẩn */
-            transition: transform 0.6s cubic-bezier(.77, 0, .175, 1), opacity .3s ease;
-        }
-
-        .hero-slider.menu-bordered .menu-indicator {
-            opacity: 1;
-            /* Hiện cùng lúc (hoặc sau) với border */
-        }
-
-
-        /* ============ SLIDER ============ */
-        .slides {
-            position: relative;
-            width: 100%;
-            height: 100%;
-        }
-
-        .slide {
-            position: absolute;
-            inset: 0;
-            overflow: hidden;
-            opacity: 0;
-            transition: opacity 1s ease;
-            pointer-events: none;
-            /* khóa tương tác khi ẩn */
-        }
-
-        .slide.active {
-            opacity: 1;
-            z-index: 2;
-            pointer-events: auto;
-        }
-
-        /* Gate: khi CHƯA sẵn sàng slider thì dù .active cũng không hiển thị */
-        .hero-slider:not(.slider-ready) .slide.active {
-            opacity: 0;
-            z-index: 1;
-            pointer-events: none;
-        }
-
-        .slide-media {
-            width: 100%;
-            height: 100%;
-            transform: scale(1.2);
-            transition: transform 1.6s cubic-bezier(.77, 0, .175, 1);
-            will-change: transform;
-        }
-
-        /* Slide cũ thu nhỏ nhẹ */
-        .slide:not(.active) .slide-media {
-            transform: scale(0.7);
-        }
-
-        .slide-media img,
-        .slide-media video {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-
-        /* Dark overlay */
-        .slide::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.35);
-            transition: background 1s ease;
-        }
-
-        .slide.active::after {
-            background: rgba(0, 0, 0, 0.25);
-        }
-
-        .content {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            z-index: 3;
-            transform: translate(-50%, -50%);
-            max-width: 33.33333%;
-            width: 100%;
-            color: white;
-            text-align: center;
-            opacity: 0;
-            transition: opacity 1s ease, transform 1.2s cubic-bezier(.77, 0, .175, 1);
-        }
-
-        .slide.active .content {
-            opacity: 1;
-            transform: translate(-50%, -50%);
-            transition-delay: 0.6s;
-        }
-
-        .content h1 {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 1s ease;
-        }
-
-        .u-a4 {
-            font-size: calc(2.8125vw + 0px);
-            margin-bottom: 0.4em;
-        }
-
-        .u-a4.u-uppercase {
-            letter-spacing: 0.18em;
-        }
-
-        .content p {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 1s ease;
-        }
-
-        .slide.active .content h1 {
-            opacity: 1;
-            transform: translateY(0);
-            transition-delay: 0.6s;
-        }
-
-        .slide.active .content p {
-            opacity: 1;
-            transform: translateY(0);
-            transition-delay: 0.9s;
-        }
-
-        .progress {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            height: 3px;
-            background: white;
-            width: 0%;
-            opacity: 0;
-            transition: opacity .3s ease;
-        }
-
-        /* Chỉ hiển thị progress khi slider sẵn sàng */
-        .hero-slider.slider-ready .progress {
-            opacity: 1;
+        line {
+            stroke: white;
+            stroke-width: 6;
+            stroke-linecap: round;
         }
     </style>
 </head>
 
 <body>
 
-    <div class="hero-slider" id="hero">
+    <svg viewBox="0 0 700 120">
 
-        <canvas id="bgCanvas"></canvas>
+        <!-- N -->
+        <line class="seg" x1="10" y1="100" x2="10" y2="20" />
+        <line class="seg" x1="10" y1="20" x2="60" y2="100" />
+        <line class="seg" x1="60" y1="100" x2="60" y2="20" />
 
-        <div class="side-menu-left">
-            <div class="menu-line"></div>
-            <div class="menu-indicator"></div>
-            <ul>
-                <li data-index="0">
-                    <span class="number">01</span>
-                    <span class="text">NEVERA AND NEVERA R</span>
-                </li>
-                <li data-index="1">
-                    <span class="number">02</span>
-                    <span class="text">TECHNOLOGY</span>
-                </li>
-                <li data-index="2">
-                    <span class="number">03</span>
-                    <span class="text">DEVELOPMENT</span>
-                </li>
-                <li data-index="3">
-                    <span class="number">04</span>
-                    <span class="text">ABOUT US</span>
-                </li>
-            </ul>
-        </div>
+        <!-- E -->
+        <line class="seg" x1="110" y1="20" x2="110" y2="100" />
+        <line class="seg" x1="110" y1="20" x2="160" y2="20" />
+        <line class="seg" x1="110" y1="60" x2="150" y2="60" />
+        <line class="seg" x1="110" y1="100" x2="160" y2="100" />
 
-        <div class="slides">
-            <div class="slide">
-                <div class="slide-media">
-                    <video
-                        src="https://web-cdn.rimac-automobili.com/wp-content/uploads/2021/05/30204415/RimacNevera8sSTORM-EDIT-1_16-9.mp4"
-                        autoplay muted loop></video>
-                </div>
-                <div class="content">
-                    <h1 class="u-a4 u-uppercase">Nevera and Nevera R</h1>
-                    <p>Capable of exceptional speeds, swift and powerful beyond comprehension, Nevera is a force like no
-                        other. Designed, engineered and handcrafted in Croatia, defined by function and forged from a
-                        love for automotive.</p>
-                    <a class="c-home-slider-item__link c-button c-button--light"
-                        href="https://www.rimac-automobili.com/nevera/" target=""
-                        style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;"><span
-                            class="c-button__inner"><span class="c-button__label"><i class="c-button__label-inner"
-                                    title="Discover">Discover</i></span></span></a>
-                </div>
-            </div>
+        <!-- V -->
+        <line class="seg" x1="210" y1="20" x2="235" y2="100" />
+        <line class="seg" x1="260" y1="20" x2="235" y2="100" />
 
-            <div class="slide">
-                <div class="slide-media">
-                    <img
-                        src="https://web-cdn.rimac-automobili.com/wp-content/uploads/2020/10/30151448/Tech_Loop_2_optimized.jpg" />
-                </div>
-                <div class="content">
-                    <h1 class="u-a4 u-uppercase">DESIGN</h1>
-                    <p>Engineered in Croatia</p>
-                </div>
-            </div>
+        <!-- E -->
+        <line class="seg" x1="310" y1="20" x2="310" y2="100" />
+        <line class="seg" x1="310" y1="20" x2="360" y2="20" />
+        <line class="seg" x1="310" y1="60" x2="350" y2="60" />
+        <line class="seg" x1="310" y1="100" x2="360" y2="100" />
 
-            <div class="slide">
-                <div class="slide-media">
-                    <video
-                        src="https://web-cdn.rimac-automobili.com/wp-content/uploads/2020/10/27140751/Development_cc.mp4"
-                        autoplay muted loop></video>
-                </div>
-                <div class="content">
-                    <h1 class="u-a4 u-uppercase">TECHNOLOGY</h1>
-                    <p>Next generation EV</p>
-                </div>
-            </div>
+        <!-- R -->
+        <line class="seg" x1="410" y1="20" x2="410" y2="100" />
+        <line class="seg" x1="410" y1="20" x2="460" y2="20" />
+        <line class="seg" x1="460" y1="20" x2="460" y2="60" />
+        <line class="seg" x1="460" y1="60" x2="410" y2="60" />
+        <line class="seg" x1="410" y1="60" x2="460" y2="100" />
 
-            <div class="slide">
-                <div class="slide-media">
-                    <video
-                        src="https://web-cdn.rimac-automobili.com/wp-content/uploads/2020/10/30151443/About_Us_optimized.mp4"
-                        autoplay muted loop></video>
-                </div>
-                <div class="content">
-                    <h1 class="u-a4 u-uppercase">ABOUT US</h1>
-                    <p>Next generation EV</p>
-                </div>
-            </div>
-        </div>
+        <!-- A -->
+        <line class="seg" x1="520" y1="100" x2="550" y2="20" />
+        <line class="seg" x1="580" y1="100" x2="550" y2="20" />
+        <line class="seg" x1="535" y1="60" x2="565" y2="60" />
 
-        <div class="progress"></div>
-    </div>
+    </svg>
 
     <script>
-        window.addEventListener("DOMContentLoaded", () => {
-            const canvas = document.getElementById("bgCanvas");
-            const ctx = canvas.getContext("2d");
 
-            let w, h;
-            let time = 0;
+        gsap.from(".seg", {
+            x: () => gsap.utils.random(-300, 300),
+            y: () => gsap.utils.random(-200, 200),
+            rotation: () => gsap.utils.random(-180, 180),
+            duration: 1.2,
+            stagger: 0.05,
+            ease: "power3.out"
+        })
 
-            function resize() {
-                w = canvas.width = window.innerWidth;
-                h = canvas.height = window.innerHeight;
-            }
-            window.addEventListener("resize", resize);
-            resize();
-
-            function drawFloating(offsetX, offsetY, size, opacity, speedX, speedY) {
-                const x =
-                    w * 0.5 +
-                    Math.sin(time * speedX + offsetX) * (w * 0.25);
-
-                const y =
-                    h * 0.5 +
-                    Math.cos(time * speedY + offsetY) * (h * 0.25);
-
-                const gradient = ctx.createRadialGradient(
-                    x,
-                    y,
-                    0,
-                    x,
-                    y,
-                    size
-                );
-
-                gradient.addColorStop(0, `rgba(0,180,255,${opacity})`);
-                gradient.addColorStop(1, "rgba(0,0,0,0)");
-
-                ctx.fillStyle = gradient;
-                ctx.beginPath();
-                ctx.arc(x, y, size, 0, Math.PI * 2);
-                ctx.fill();
-            }
-
-            function animate() {
-                ctx.clearRect(0, 0, w, h);
-
-                // nền tối sâu
-                ctx.fillStyle = "#04131a";
-                ctx.fillRect(0, 0, w, h);
-
-                drawFloating(0, 0, 700, 0.06, 0.0004, 0.0003);
-                drawFloating(2, 1, 800, 0.05, 0.0003, 0.0004);
-                drawFloating(4, 3, 750, 0.04, 0.00035, 0.00025);
-
-                time += 1;
-                requestAnimationFrame(animate);
-            }
-
-            animate();
-        });
-        document.addEventListener("DOMContentLoaded", function () {
-            const hero = document.getElementById("hero");
-            const sideMenu = document.querySelector(".side-menu-left");
-            const slides = document.querySelectorAll(".slide");
-            const menuLine = document.querySelector(".menu-line");
-            const progress = document.querySelector(".progress");
-            const menuItems = document.querySelectorAll(".side-menu-left li");
-            const indicator = document.querySelector(".menu-indicator");
-
-            let current = 0;
-            let isAnimating = false;
-            let allowInteraction = false; // KHÓA tương tác cho đến khi slider sẵn sàng
-
-            /* ==============================
-               INIT
-            ============================== */
-
-            // Đợi 1 frame để layout ổn định rồi mới calc indicator
-            requestAnimationFrame(() => {
-                updateIndicator(0);
-            });
-
-            // Hiện menu trước (kích hoạt stagger từng li qua CSS)
-            requestAnimationFrame(() => {
-                setTimeout(() => {
-                    hero.classList.add("menu-visible");
-                }, 1500);
-            });
-
-            // Slide & menu active
-            // menuItems[0]?.classList.add("active");
-            // Sau khi li CUỐI cùng animate xong -> hiện border trái (menu-line)
-            const lastLi = menuItems[menuItems.length - 1];
-
-            setTimeout(() => {
-                slides.forEach((slide, index) => {
-                    slide.classList.toggle("active", index === 0);
-                });
-            }, 3500);
-
-            function onAllLiDone() {
-                // 1) Hiện border trái (scaleY từ 0 -> 1)
-                hero.classList.add("menu-bordered");
-
-                // 2) Chờ border kéo xong -> mở slider + cho tương tác
-                function onBorderShown(e) {
-                    // ✅ Sửa lỗi dư dấu ')' ở điều kiện dưới
-                    if (e.target === menuLine && (e.propertyName === "transform" || e.propertyName === "opacity")) {
-                        hero.classList.add("slider-ready");
-                        allowInteraction = true;
-
-                        // Cập nhật indicator/progress lần nữa khi slider sẵn sàng
-                        updateIndicator(current);
-                        resetProgress();
-
-                        // Gỡ listener để tránh lặp
-                        menuLine.removeEventListener("transitionend", onBorderShown);
-                    }
-                }
-
-                // Fallback nếu không nhận được transitionend
-                const fallback = setTimeout(() => {
-                    hero.classList.add("slider-ready");
-                    allowInteraction = true;
-                    updateIndicator(current);
-                    resetProgress();
-                    menuLine?.removeEventListener?.("transitionend", onBorderShown);
-                }, 800); // > 0.5s transition của menu-line
-
-                if (menuLine) {
-                    const handler = (e) => {
-                        if (e.target === menuLine && (e.propertyName === "transform" || e.propertyName === "opacity")) {
-                            clearTimeout(fallback);
-                            onBorderShown(e);
-                        }
-                    };
-                    menuLine.addEventListener("transitionend", handler);
-                } else {
-                    // Không có menu-line -> mở slider luôn
-                    hero.classList.add("slider-ready");
-                    allowInteraction = true;
-                    updateIndicator(current);
-                    resetProgress();
-                }
-
-                // Gỡ listener của li cuối
-                lastLi?.removeEventListener("animationend", onAllLiDone);
-            }
-
-            if (lastLi) {
-                lastLi.addEventListener("animationend", onAllLiDone);
-            } else {
-                // Không có li -> border + slider sẵn sàng ngay
-                hero.classList.add("menu-bordered");
-                hero.classList.add("slider-ready");
-                allowInteraction = true;
-                updateIndicator(0);
-                resetProgress();
-            }
-
-            /* ==============================
-               MAIN SLIDE FUNCTION
-            ============================== */
-            function goToSlide(index) {
-                if (!allowInteraction) return;
-                if (isAnimating) return;
-                isAnimating = true;
-
-                const next = (index + slides.length) % slides.length;
-                if (next === current) {
-                    isAnimating = false;
-                    return;
-                }
-
-                const currentSlide = slides[current];
-                const nextSlide = slides[next];
-
-                // Stop video cũ nếu có
-                const oldVideo = currentSlide.querySelector("video");
-                if (oldVideo) oldVideo.pause();
-
-                currentSlide.classList.remove("active");
-                menuItems[current]?.classList.remove("active");
-
-                // force reflow để transition ổn định
-                void nextSlide.offsetWidth;
-
-                nextSlide.classList.add("active");
-                menuItems[next]?.classList.add("active");
-
-                // Play video mới nếu có
-                const newVideo = nextSlide.querySelector("video");
-                if (newVideo) {
-                    newVideo.currentTime = 0;
-                    const playPromise = newVideo.play();
-                    if (playPromise && typeof playPromise.catch === "function") {
-                        playPromise.catch(() => { /* ignore autoplay issue since muted */ });
-                    }
-                }
-
-                current = next;
-                updateIndicator(current);
-                resetProgress();
-
-                setTimeout(() => { isAnimating = false; }, 1500);
-            }
-
-            function nextSlide() { goToSlide(current + 1); }
-            function prevSlide() { goToSlide(current - 1); }
-
-            function updateIndicator(index) {
-                const target = menuItems[index];
-                if (!target || !indicator) return;
-                const offset = target.offsetTop + (target.offsetHeight / 2) - 12;
-                indicator.style.transform = `translateY(${offset}px)`;
-            }
-
-            function resetProgress() {
-                if (!progress) return;
-                progress.style.transition = "none";
-                progress.style.width = "0%";
-                requestAnimationFrame(() => {
-                    progress.style.transition = "width 4s linear";
-                    progress.style.width = "100%";
-                });
-            }
-
-            /* ==============================
-               MENU CLICK
-            ============================== */
-            menuItems.forEach(item => {
-                item.addEventListener("click", () => {
-                    const index = parseInt(item.dataset.index);
-                    goToSlide(index);
-                });
-            });
-
-            /* ==============================
-               SCROLL CONTROL (ANTI SPAM)
-            ============================== */
-            let scrollLock = false;
-            window.addEventListener("wheel", (e) => {
-                if (!allowInteraction) return;
-                if (scrollLock) return;
-
-                scrollLock = true;
-                if (e.deltaY > 0) nextSlide();
-                else prevSlide();
-
-                setTimeout(() => { scrollLock = false; }, 1400);
-            }, { passive: true });
-        });
     </script>
 
 </body>
