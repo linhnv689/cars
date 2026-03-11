@@ -3,6 +3,7 @@ document.querySelectorAll('.c-big-link').forEach(link => {
     link.addEventListener('click', function (e) {
 
         e.preventDefault();
+        this.classList.add('active');
 
         const submenu = this.nextElementSibling;
         if (!submenu) return;

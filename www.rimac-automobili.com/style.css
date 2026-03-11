@@ -7231,6 +7231,10 @@ span.wpcf7-not-valid-tip {
 	overflow: hidden;
 }
 
+.c-big-link.active .c-big-link__label {
+	color: #fff;
+}
+
 .c-big-link__label.u-a3 {
 	margin-bottom: 0;
 }
