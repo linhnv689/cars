@@ -4058,7 +4058,7 @@ body .is-layout-grid>* {
 	/* new */
 	overflow: hidden;
 	padding-top: 50px;
-	padding-bottom: 40px;
+	padding-bottom: 55px;
 }
 
 @media (max-width: 800px) {
@@ -4119,7 +4119,8 @@ body .is-layout-grid>* {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	width: 100%;
-	max-width: 480px;
+	/* max-width: 480px; */
+	max-width: 750px;
 	margin: 0 auto;
 	position: relative;
 	z-index: 2;
@@ -7202,12 +7203,13 @@ span.wpcf7-not-valid-tip {
 	-webkit-transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	opacity: 0.4;
-	padding-right: 10px;
+	/* padding-right: 10px; */
+	margin-right: 10px;
 }
 
 .c-big-link__prepend img {
-	width: 60px;
-	height: 40px;
+	width: 80px;
+	height: 50px;
 	object-fit: contain;
 	display: block;
 }
