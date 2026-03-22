@@ -4323,7 +4323,7 @@ body .is-layout-grid>* {
 
 @media (max-width: 800px) {
 	.c-menu-images__item img {
-		width: unset;
+		/* width: unset; */
 		height: 100%;
 		object-position: unset
 	}
