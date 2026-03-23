@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NEVERA Line Assemble</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+
+    <style>
+        body {
+            background: #071c26;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        svg {
+            width: 700px;
+        }
+
+        line {
+            stroke: white;
+            stroke-width: 6;
+            stroke-linecap: round;
+        }
+    </style>
+</head>
+
+<body>
+
+    <svg viewBox="0 0 700 120">
+
+        <!-- N -->
+        <line class="seg" x1="10" y1="100" x2="10" y2="20" />
+        <line class="seg" x1="10" y1="20" x2="60" y2="100" />
+        <line class="seg" x1="60" y1="100" x2="60" y2="20" />
+
+        <!-- E -->
+        <line class="seg" x1="110" y1="20" x2="110" y2="100" />
+        <line class="seg" x1="110" y1="20" x2="160" y2="20" />
+        <line class="seg" x1="110" y1="60" x2="150" y2="60" />
+        <line class="seg" x1="110" y1="100" x2="160" y2="100" />
+
+        <!-- V -->
+        <line class="seg" x1="210" y1="20" x2="235" y2="100" />
+        <line class="seg" x1="260" y1="20" x2="235" y2="100" />
+
+        <!-- E -->
+        <line class="seg" x1="310" y1="20" x2="310" y2="100" />
+        <line class="seg" x1="310" y1="20" x2="360" y2="20" />
+        <line class="seg" x1="310" y1="60" x2="350" y2="60" />
+        <line class="seg" x1="310" y1="100" x2="360" y2="100" />
+
+        <!-- R -->
+        <line class="seg" x1="410" y1="20" x2="410" y2="100" />
+        <line class="seg" x1="410" y1="20" x2="460" y2="20" />
+        <line class="seg" x1="460" y1="20" x2="460" y2="60" />
+        <line class="seg" x1="460" y1="60" x2="410" y2="60" />
+        <line class="seg" x1="410" y1="60" x2="460" y2="100" />
+
+        <!-- A -->
+        <line class="seg" x1="520" y1="100" x2="550" y2="20" />
+        <line class="seg" x1="580" y1="100" x2="550" y2="20" />
+        <line class="seg" x1="535" y1="60" x2="565" y2="60" />
+
+    </svg>
+
+    <script>
+
+        gsap.from(".seg", {
+            x: () => gsap.utils.random(-300, 300),
+            y: () => gsap.utils.random(-200, 200),
+            rotation: () => gsap.utils.random(-180, 180),
+            duration: 1.2,
+            stagger: 0.05,
+            ease: "power3.out"
+        })
+
+    </script>
+
+</body>
+
+</html>
