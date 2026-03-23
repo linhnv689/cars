@@ -145,6 +145,13 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Ethnocentric';
+	src: url('assets/fonts/Ethnocentric-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /**
  * Spacings
  */
@@ -9096,6 +9103,13 @@ span.wpcf7-not-valid-tip {
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+}
+
+.js-nevera-logo img {
+	max-width: 400px;
+	width: 100%;
 }
 
 .js-nevera-logo svg {
@@ -28533,6 +28547,13 @@ all and (-ms-high-contrast: none),
 	margin-bottom: 0.4em;
 }
 
+.u-a4-plus {
+	font-family: 'Ethnocentric', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	/* letter-spacing: -1px !important; */
+}
+
 @media (min-width: 480px) {
 	.u-a4 {
 		font-size: calc(2.1875vw + 18.5px);
@@ -28548,6 +28569,10 @@ all and (-ms-high-contrast: none),
 @media (min-width: 1920px) {
 	.u-a4 {
 		font-size: calc(2.8125vw + 0px);
+	}
+
+	.u-a4-plus {
+		font-size: calc(2.0125vw + 0px);
 	}
 }
 
