@@ -729,7 +729,7 @@ html,
 body {
 	width: 100%;
 	-webkit-font-smoothing: antialiased;
-	overscroll-behavior-y: none;
+	/* overscroll-behavior-y: none; */
 	overflow-x: hidden;
 }
 
@@ -747,6 +747,10 @@ body {
 	line-height: 1.29412em;
 	color: #ffffff;
 	background-color: #0d2936;
+}
+
+body.page-apollo-evo {
+	background-color: #000;
 }
 
 a {
@@ -15985,6 +15989,13 @@ input {
 
 .c-custom-video-player__cover-image-wrapper {
 	position: relative;
+}
+
+.c-custom-video-player__cover-image-wrapper img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
 }
 
 .c-custom-video-player__cover-image {
