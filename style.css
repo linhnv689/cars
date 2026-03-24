@@ -749,8 +749,8 @@ body {
 	background-color: #0d2936;
 }
 
-body.page-apollo-evo {
-	background-color: #000;
+.page-apollo-evo {
+	background-color: #000 !important;
 }
 
 a {
@@ -28558,8 +28558,9 @@ all and (-ms-high-contrast: none),
 	margin-bottom: 0.4em;
 }
 
-.u-a4-plus {
-	font-family: 'Ethnocentric', sans-serif;
+.u-a4-plus,
+.u-b3-plus {
+	font-family: 'Ethnocentric', sans-serif !important;
 	font-weight: bold;
 	font-style: italic;
 	/* letter-spacing: -1px !important; */
@@ -29068,6 +29069,10 @@ all and (-ms-high-contrast: none),
 	line-height: 15px;
 	letter-spacing: 1.6px;
 	font-variation-settings: "wght" 400, "slnt" 0;
+}
+
+.u-b3-plus {
+	font-size: 20px !important;
 }
 
 @media (max-width: 1440px) {

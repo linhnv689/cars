@@ -42,7 +42,7 @@
 </head>
 
 <body
-    class="page-template page-template-page-templates page-template-nevera page-apollo-evo page-template-page-templatesnevera-php page page-id-6841 page-parent">
+    class="page-template page-template-page-templates page-template-apollo-evo page-template-page-templatesnevera-php page page-id-6841 page-parent">
 
     <div class="c-page-bg  js-page-bg js-gradient-bg">
         <i class="c-page-bg__bg js-page-bg-bg"></i>
@@ -808,50 +808,26 @@
                                                     <div class="c-accordion-header c-accordion-header--tech-spec"
                                                         style="cursor: auto">
                                                         <div class="c-accordion-header__title-row">
-                                                            <div class="spec-logo">
-
-                                                                <svg class="u-nevera-logo-sign"
-                                                                    xmlns="http://www.w3.org/2000/svg"
-                                                                    viewBox="0 0 157 10">
-                                                                    <path class="nevera-logo-sign" d="M4.2,0C4,0,3.9,0.1,3.8,0.2L0,9.8C0,9.9,0,10,0.1,10h6.7C7,10,7.1,9.9,7.1,9.8l3.3-8.2c0-0.1,0.2-0.1,0.3,0
-	l7.5,8.2c0.2,0.2,0.3,0.2,0.6,0.2h29.3c0.3,0,0.5-0.1,0.6-0.2l1.4-1.3c0.1-0.2,0-0.3-0.1-0.3H32.9c-0.1,0-0.1-0.1-0.1-0.2l2.3-5.8
-	c0.1-0.2,0.2-0.2,0.4-0.2h15.3c0.2,0,0.3,0.1,0.3,0.3l3.4,7.6c0.1,0.2,0.2,0.2,0.3,0.2h11.6c0.4,0,0.5,0,0.8-0.3l9.4-8.2
-	c0.3-0.2,0.4-0.1,0.3,0.1l-3.2,8c-0.1,0.2,0,0.5,0.2,0.5h33.4c0.2,0,0.3-0.1,0.3-0.2l3.1-7.7c0.1-0.2,0.1-0.2,0.3-0.2h8.7
-	c0.1,0,0.2,0.1,0.3,0.2l0.4,0.9c0.1,0.2,0.1,0.2,0.3,0.2h8.1c0.2,0,0.3-0.1,0.2-0.2l-1.1-2.6C127.8,0,127.7,0,127.4,0h-23.3
-	c-0.2,0-0.3,0.2-0.4,0.3L100.7,8c0,0.1-0.1,0.2-0.3,0.2H81.6c-0.2,0-0.3-0.1-0.2-0.3l2.3-5.8c0-0.1,0.1-0.2,0.3-0.2h16.6
-	c0.1,0,0.2-0.1,0.1-0.3l-0.9-1.3C99.8,0.1,99.7,0,99.4,0H71.3c-0.3,0-0.4,0-0.6,0.2l-9.4,8.1c-0.2,0.2-0.4,0.2-0.4,0l-3.4-8
-	C57.4,0.1,57.2,0,57,0H28.8c-0.1,0-0.3,0.2-0.3,0.3l-3.3,8.2c-0.1,0.2-0.2,0.2-0.3,0l-7.5-8.3C17.2,0,17,0,16.8,0H4.2z M36.8,4.5
-	c0.1-0.3,0.2-0.4,0.5-0.4h10.1c0.3,0,0.4,0.1,0.2,0.4l-0.4,1.1c-0.1,0.2-0.2,0.4-0.4,0.4h-10c-0.3,0-0.4-0.2-0.2-0.5L36.8,4.5z
-	 M85.3,4.5c0.1-0.3,0.2-0.4,0.5-0.4h10.1c0.3,0,0.4,0.1,0.2,0.4l-0.4,1.1c-0.1,0.2-0.2,0.4-0.4,0.4h-10c-0.3,0-0.4-0.2-0.2-0.5
-	L85.3,4.5z M133.9,10h-14c-0.2,0-0.2-0.1-0.3-0.2c0,0,0,0,0,0l-1.7-2.5c-0.1-0.1-0.1-0.3,0-0.4l2.1-2c0.1-0.1,0.2-0.2,0.4-0.2h7.8
-	c0.1,0,0.2,0.2,0.1,0.3l-1.6,1.4c-0.1,0.1-0.1,0.2-0.1,0.4l1.1,1.8c0,0.1,0.1,0.1,0.2,0l9.7-8.2c0.1-0.1,0.3-0.2,0.6-0.2H150
-	c0.3,0,0.4,0.2,0.5,0.3l6.4,9.3c0.1,0.2,0,0.3-0.1,0.3H150c-0.3,0-0.4-0.1-0.5-0.3l-5.4-8c-0.1-0.1-0.2-0.1-0.3,0l-9.3,8.1
-	C134.3,10,134.1,10,133.9,10z" />
-                                                                </svg>
-                                                            </div>
+                                                            <div class="spec-logo u-uppercase u-b3 u-b3-plus">apollo evo</div>
                                                         </div>
-
                                                     </div>
                                                 </div>
 
                                                 <div class="c-stats-wrapper pad-y-sm js-data-toggler">
                                                     <ul class="c-stats-wrapper__list">
+
                                                         <!-- STATS ITEM -->
                                                         <li class="c-stats">
                                                             <div class="c-stats__inner">
                                                                 <div class="c-stats__header">
                                                                     <span class="u-b4 u-uppercase">Power</span>
                                                                     <i class="u-b4 u-uppercase">
-                                                                        (1.4 MW)
+                                                                        (0.6 MW)
                                                                     </i>
                                                                 </div>
                                                                 <div class="c-stats__content">
-                                                                    <span class="u-a4">
-                                                                        1.914
-                                                                    </span>
-                                                                    <span class="u-b4 u-uppercase">
-                                                                        hp
-                                                                    </span>
+                                                                    <span class="u-a4">800</span>
+                                                                    <span class="u-b4 u-uppercase">hp</span>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -864,12 +840,8 @@
                                                                     <span class="u-b4 u-uppercase">TORQUE</span>
                                                                 </div>
                                                                 <div class="c-stats__content">
-                                                                    <span class="u-a4">
-                                                                        2.340
-                                                                    </span>
-                                                                    <span class="u-b4 u-uppercase">
-                                                                        nm
-                                                                    </span>
+                                                                    <span class="u-a4">765</span>
+                                                                    <span class="u-b4 u-uppercase">nm</span>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -888,13 +860,11 @@
                                                                 </div>
                                                                 <div class="c-stats__content">
                                                                     <span class="u-a4 js-data-toggler-data"
-                                                                        data-toggler-default="1.81"
+                                                                        data-toggler-default="2.7"
                                                                         data-toggler-alt="1.74">
-                                                                        1.81
+                                                                        2.7
                                                                     </span>
-                                                                    <span class="u-b4 u-uppercase">
-                                                                        sec
-                                                                    </span>
+                                                                    <span class="u-b4 u-uppercase">sec</span>
                                                                 </div>
                                                             </div>
                                                             <div class="c-stats__inner">
@@ -944,9 +914,9 @@
                                                                 </div>
                                                                 <div class="c-stats__content">
                                                                     <span class="u-a4 js-data-toggler-data"
-                                                                        data-toggler-default="412"
+                                                                        data-toggler-default="335"
                                                                         data-toggler-alt="256">
-                                                                        412
+                                                                        335
                                                                     </span>
                                                                     <span class="u-b4 u-uppercase js-data-toggler-data"
                                                                         data-toggler-default="km/h"
@@ -962,16 +932,11 @@
                                                         <li class="c-stats">
                                                             <div class="c-stats__inner">
                                                                 <div class="c-stats__header">
-                                                                    <span class="u-b4 u-uppercase">Battery
-                                                                        Capacity</span>
+                                                                    <span class="u-b4 u-uppercase">price</span>
                                                                 </div>
                                                                 <div class="c-stats__content">
-                                                                    <span class="u-a4">
-                                                                        120
-                                                                    </span>
-                                                                    <span class="u-b4 u-uppercase">
-                                                                        kWh
-                                                                    </span>
+                                                                    <span class="u-a4">3M</span>
+                                                                    <span class="u-b4 u-uppercase">€</span>
                                                                 </div>
                                                             </div>
                                                         </li>
