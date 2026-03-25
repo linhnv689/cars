@@ -335,30 +335,23 @@
                                         <span class="c-inpage-navigation-link__number">
                                             02
                                         </span>
-                                        <span class="c-inpage-navigation-link__label">
-                                            Performance </span>
+                                        <span class="c-inpage-navigation-link__label">Performance </span>
                                     </a>
                                 </li>
                                 <li
                                     class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
                                     <a href="#driving-experience"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
-                                        <span class="c-inpage-navigation-link__number">
-                                            03
-                                        </span>
-                                        <span class="c-inpage-navigation-link__label">
-                                            Experience Electric </span>
+                                        <span class="c-inpage-navigation-link__number">03</span>
+                                        <span class="c-inpage-navigation-link__label">Experience</span>
                                     </a>
                                 </li>
                                 <li
                                     class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
                                     <a href="#design"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
-                                        <span class="c-inpage-navigation-link__number">
-                                            04
-                                        </span>
-                                        <span class="c-inpage-navigation-link__label">
-                                            Design </span>
+                                        <span class="c-inpage-navigation-link__number">04</span>
+                                        <span class="c-inpage-navigation-link__label">Design</span>
                                     </a>
                                 </li>
                                 <li
@@ -368,8 +361,7 @@
                                         <span class="c-inpage-navigation-link__number">
                                             05
                                         </span>
-                                        <span class="c-inpage-navigation-link__label">
-                                            Engineering </span>
+                                        <span class="c-inpage-navigation-link__label">Engineering</span>
                                     </a>
                                 </li>
                                 <li
@@ -517,7 +509,7 @@
                     <section id="welcome" class="o-section">
                         <div class="c-nevera-welcome">
                             <header class="c-nevera-welcome__header">
-                                <h4 class="c-nevera-welcome__footer-title u-capitalize u-a3 u-fw-400 mb-0">Next Leap in our Evolution</h4>
+                                <h4 class="c-nevera-welcome__footer-title u-uppercase u-a3 u-fw-400 mb-0">Next Leap in our Evolution</h4>
                                 <!-- <p class="c-nevera-welcome__eyebrow u-uppercase u-b3 u-fw-600">The Next Chapter Begins: Rewriting the Rules of Automotive Design</p>-->
                                 <p class="c-nevera-welcome__header-description u-a2 u-a2-400">
                                     This is our daring statement of intent.
@@ -759,10 +751,10 @@
                                 </div>
                             </div>
                             <div class="c-nevera-welcome__footer">
-                                <h4 class="c-nevera-welcome__footer-title u-a3 u-fw-400">Built Beyond Limits</h4>
+                                <h4 class="c-nevera-welcome__footer-title u-a3 u-uppercase u-fw-400">Radical by Design</h4>
                                 <div class="c-nevera-welcome__footer-description u-b0 u-fw-400">
-                                    <p>The Apollo EVO is raw emotion packaged into a bold display of engineering mastery.</p>
-                                    <p>Featuring an advanced full carbon monocoque and full suite of active aerodynamics, each intimidating facet is not just for show, but enables daunting power paired with unmatched driving dynamics. Surreal style meets peerless precision.</p>
+                                    <p>Inspired by our namesake. The Apollo EVO blazes a trail like a radiant arrow—one few can hope to match. </p>
+                                    <p>Every detail is pushed to the extreme. From the floating clamshell hood and star-shaped headlights to the 6-point radial taillights that leave a dramatic impression, this is automotive artistry as we see it.</p>
                                 </div>
                             </div>
                         </div>
@@ -773,10 +765,8 @@
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
 
                             <video class="c-scrolling-reveal-bg__video"
-                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/RimacNevera8sSUN-EDIT-1_16-9.mp4" preload="auto" muted
+                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2022-apollo-evo-performance-001.mp4" preload="auto" muted
                                 playsinline autoplay loop type="video/mp4"></video>
-
-                            <!--        <i class="c-scrolling-reveal-bg__video-overlay js-mask-reveal-video-overlay"></i>-->
                         </div>
 
                         <div class="c-scrolling-reveal-content">
@@ -785,17 +775,13 @@
                                     <div class="o-container">
                                         <div class="c-scrolling-reveal__header u-text-center">
                                             <div class="c-scrolling-reveal__heading">
-                                                <h2
-                                                    class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">
-                                                    UNPARALLELED PERFORMANCE </h2>
+                                                <h2 class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">UNPARALLELED PERFORMANCE</h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
-                                                    <p class="u-b2">
-                                                        Powered by electric. Driven by technology.
-                                                        This is Nevera in numbers.
+                                                    <p class="u-b0">The Apollo EVO serves as a "pure" driving experience in a segment increasingly shifting toward electrification, relying on a pure, high-revving V12 powertrain for performance.
                                                         <a href="https://rimac-automobili.com/bendingphysics"
                                                             class="c-link js-context-shifting-link"
-                                                            style="display: block; margin-top: 20px; text-transform:uppercase">Follow
-                                                            the Rimac Nevera World Records</a>
+                                                            style="display: block; margin-top: 20px; text-transform:uppercase">Follow the Apollo EVO World Records
+                                                        </a>
                                                     </p>
                                                 </div>
                                             </div>
@@ -861,7 +847,7 @@
                                                                 <div class="c-stats__content">
                                                                     <span class="u-a4 js-data-toggler-data"
                                                                         data-toggler-default="2.7"
-                                                                        data-toggler-alt="1.74">
+                                                                        data-toggler-alt="2.5">
                                                                         2.7
                                                                     </span>
                                                                     <span class="u-b4 u-uppercase">sec</span>
@@ -877,15 +863,13 @@
                                                                     </i>
                                                                 </div>
                                                                 <div class="c-stats__content">
-                                                                    <span class="u-a4">
-                                                                        9.22
-                                                                    </span>
+                                                                    <span class="u-a4"> -- </span>
                                                                     <span class="u-b4 u-uppercase">
                                                                         sec
                                                                     </span>
                                                                 </div>
                                                             </div>
-                                                            <div class="c-stats__inner">
+                                                            <!-- <div class="c-stats__inner">
                                                                 <div class="c-stats__header">
                                                                     <span class="u-b4 u-uppercase">&nbsp;</span>
                                                                     <i class="u-b4 u-uppercase js-data-toggler-data"
@@ -902,7 +886,7 @@
                                                                         sec
                                                                     </span>
                                                                 </div>
-                                                            </div>
+                                                            </div> -->
                                                         </li>
                                                         <!-- //STATS ITEM -->
 
@@ -910,12 +894,12 @@
                                                         <li class="c-stats">
                                                             <div class="c-stats__inner">
                                                                 <div class="c-stats__header">
-                                                                    <span class="u-b4 u-uppercase">Top speed</span>
+                                                                    <span class="u-b4 u-uppercase">top speed</span>
                                                                 </div>
                                                                 <div class="c-stats__content">
                                                                     <span class="u-a4 js-data-toggler-data"
                                                                         data-toggler-default="335"
-                                                                        data-toggler-alt="256">
+                                                                        data-toggler-alt="208">
                                                                         335
                                                                     </span>
                                                                     <span class="u-b4 u-uppercase js-data-toggler-data"
@@ -932,15 +916,37 @@
                                                         <li class="c-stats">
                                                             <div class="c-stats__inner">
                                                                 <div class="c-stats__header">
-                                                                    <span class="u-b4 u-uppercase">price</span>
+                                                                    <span class="u-b4 u-uppercase">production</span>
                                                                 </div>
                                                                 <div class="c-stats__content">
-                                                                    <span class="u-a4">3M</span>
-                                                                    <span class="u-b4 u-uppercase">€</span>
+                                                                    <span class="u-a4">10</span>
+                                                                    <span class="u-b4 u-uppercase">units</span>
                                                                 </div>
                                                             </div>
                                                         </li>
                                                         <!-- //STATS ITEM -->
+
+                                                        <!-- STATS ITEM -->
+                                                        <li class="c-stats">
+                                                            <div class="c-stats__inner">
+                                                                <div class="c-stats__header">
+                                                                    <span class="u-b4 u-uppercase">price</span>
+                                                                </div>
+                                                                <div class="c-stats__content">
+                                                                    <span class="u-a4 js-data-toggler-data"
+                                                                        data-toggler-default="3M"
+                                                                        data-toggler-alt="3.5M">
+                                                                        3M
+                                                                    </span>
+                                                                    <span class="u-b3 u-uppercase js-data-toggler-data"
+                                                                        data-toggler-default="€"
+                                                                        data-toggler-alt="$">
+                                                                        €
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <!-- //STATS ITEM -->                                                       
                                                     </ul>
                                                     <div class="c-stats-wrapper__header">
                                                         <div class="c-stats-toggler">
@@ -963,7 +969,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="c-accordion c-accordion--tech-spec js-accordion">
+                                                <div class="c-accordion c-accordion--tech-spec js-accordion" style="display:none;">
                                                     <div
                                                         class="c-accordion__item c-accordion__item--performance js-accordion-single">
                                                         <div
@@ -1196,11 +1202,21 @@
 
                     <i class="u-spacer u-spacer--25vh"></i>
                     <!--todo fix spacer on mobile-->
-                    <i class="u-spacer u-spacer--50vh u-spacer--desktop"></i>
+                    <section id="welcome" class="o-section">
+                        <div class="c-nevera-welcome third">
+                            <div class="c-nevera-welcome__footer">
+                                <h4 class="c-nevera-welcome__footer-title u-a3 u-uppercase u-fw-400">Built Beyond Limits</h4>
+                                <div class="c-nevera-welcome__footer-description u-b0 u-fw-400">
+                                    <p>The Apollo EVO is raw emotion packaged into a bold display of engineering mastery.</p>
+                                    <p>Featuring an advanced full carbon monocoque and full suite of active aerodynamics, each intimidating facet is not just for show, but enables daunting power paired with unmatched driving dynamics. Surreal style meets peerless precision.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     <section id="technology" class="o-section" style="z-index: 2; position: relative;">
                         <div class="c-extra-technology">
                             <picture class="c-extra-technology__bg js-nevera-technology">
-                                <img src="<?php echo $root_path; ?>/uploads/2021/05/30204415/extrodinary_tech_optimised.jpg" alt="">
+                                <img src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" alt="">
                             </picture>
                             <i class="js-nevera-technology-overlay c-extra-technology__overlay"></i>
                             <div class="c-extra-technology__header js-nevera-technology-header">
@@ -1251,13 +1267,9 @@
                                     <div class="c-layered-scroll-content__left">
                                         <div class="c-article-wrapper">
                                             <div class="c-article js-layered-scroll-simple-item-element">
-                                                <h3 class="u-a2">
-                                                    Four motors </h3>
+                                                <h3 class="u-a2">Active Aerodynamics</h3>
                                                 <p class="u-b2">
-                                                    Four motors. Four wheels. Each of Nevera's wheels are independently
-                                                    driven by one dedicated electric motor which channels torque
-                                                    accordingly to give unprecedented control and agility. </p>
-
+                                                    The Apollo EVO features an electronically adjustable aero paired with a deployable rear spoiler, providing the necessary adaptive downforce to optimize stability and speed under different driving conditions.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1265,13 +1277,9 @@
                                     <div class="c-layered-scroll-content__right">
                                         <div class="c-article-wrapper">
                                             <div class="c-article js-layered-scroll-simple-item-element">
-                                                <h3 class="u-a2">R-AWTV</h3>
+                                                <h3 class="u-a2">Butterfly Doors</h3>
                                                 <p class="u-b2">
-                                                    Power where you need it. Instantly. Nevera calculates the amount of
-                                                    torque deployed to each wheel over 100 times a second to achieve the
-                                                    desired driving dynamic through Rimac's intelligent All Wheel Torque
-                                                    Vectoring system (R-AWTV). Stability, safety, efficiency and
-                                                    ultimate agility when you need it most. </p>
+                                                    The dramatic butterfly doors enhance both style and practicality for seamless entry and augmenting the car’s futuristic, aggressive stance.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1319,7 +1327,7 @@
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
 
                             <video class="c-scrolling-reveal-bg__video"
-                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/RimacNevera10sHIGHLIGHTS-EDIT-3_16-9.mp4"
+                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2022-apollo-evo-experience-001.mp4"
                                 preload="auto" muted playsinline autoplay loop type="video/mp4"></video>
                         </div>
 
@@ -1330,9 +1338,7 @@
                                     <div class="o-container">
                                         <div class="c-scrolling-reveal__header u-text-center">
                                             <div class="c-scrolling-reveal__heading">
-                                                <h2
-                                                    class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">
-                                                    Experience Electric </h2>
+                                                <h2 class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">Experience</h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
                                                     <p class="u-b2">
                                                         Unparalleled performance meets real-time intelligence for an
@@ -2396,147 +2402,15 @@
             <!-- //PAGE CONTENT -->
             <!-- PREFOOTER -->
             <!-- FOOTER -->
-            <div class="o-container o-container--narrow"
+            <!-- <div class="o-container o-container--narrow"
                 style="position: relative; z-index: 6; background-color: #0a222e; padding-top: 10px; font-size: 13px; padding-bottom: 10px; text-align: center; color: rgba(255,255,255,0.7);">
-                Rimac Nevera, WLTP: electricity consumption, combined: 30.0 KWh/100km; CO2 emissions, combined: 0 g/km
-            </div>
+            </div> -->
             <footer class="o-footer-wrapper js-footer">
                 <div class="c-footer">
                     <div class="o-container o-container--narrow">
-                        <div class="c-footer__top">
-                            <a href="../index.html" class="c-logo c-logo--small">
-                                <i class="c-logo__full c-logo__full--light">
-                                    <span class="c-logo-sign">
-                                        <svg class="u-logo-sign" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 50">
-                                            <path
-                                                d="M39.8 4.04291C39.8 20.274 33.7148 40.3551 20.4462 49.2177C20.2841 49.326 20.0936 49.3838 19.8986 49.3838C19.7037 49.3838 19.5131 49.326 19.3511 49.2177C6.08534 40.3551 -0.0251953 20.274 7.80668e-05 4.04291C-0.000302816 3.8282 0.0698339 3.61931 0.199712 3.44834C0.329589 3.27737 0.51202 3.15378 0.718964 3.09656C13.2574 -0.471641 26.5427 -0.471641 39.0811 3.09656C39.2866 3.15403 39.4678 3.277 39.597 3.44679C39.7262 3.61658 39.7965 3.82391 39.7972 4.0373L39.8 4.04291ZM29.3312 37.1903L11.4377 19.3024C11.4112 19.2764 11.39 19.2454 11.3756 19.2112C11.3611 19.1769 11.3536 19.1402 11.3534 19.103C11.3534 19.0286 11.383 18.9571 11.4357 18.9045C11.4884 18.8518 11.5598 18.8222 11.6343 18.8222H16.5373C21.3111 18.8222 23.3976 17.654 23.3864 15.7557C23.3751 13.8574 21.6116 13.0402 16.6159 13.0402H2.60885C2.57297 13.0404 2.53812 13.0523 2.50954 13.074C2.48096 13.0957 2.4602 13.1261 2.45039 13.1606C2.44057 13.1951 2.44223 13.2319 2.4551 13.2654C2.46798 13.2989 2.49139 13.3273 2.5218 13.3463L4.68127 14.6914C4.70364 14.7058 4.72271 14.7247 4.73724 14.747C4.75176 14.7693 4.76139 14.7943 4.76551 14.8206C5.48986 19.3177 6.67844 23.7276 8.31221 27.9796C11.1204 35.1516 15.0518 40.9196 19.6965 44.6572C19.7562 44.7063 19.8312 44.7331 19.9085 44.7331C19.9858 44.7331 20.0607 44.7063 20.1205 44.6572C22.7034 42.5229 24.9433 40.0046 26.7618 37.1903C26.7815 37.161 26.809 37.1378 26.8413 37.1234C26.8736 37.109 26.9093 37.104 26.9443 37.1089L29.2049 37.4431C29.2358 37.4476 29.2674 37.4422 29.2951 37.4277C29.3229 37.4132 29.3453 37.3903 29.3593 37.3623C29.3733 37.3344 29.3781 37.3027 29.3731 37.2718C29.368 37.2409 29.3534 37.2124 29.3312 37.1903ZM35.877 6.53655C35.8794 6.45783 35.8548 6.38066 35.8073 6.31784C35.7598 6.25502 35.6923 6.21032 35.6159 6.19115C30.5103 4.95434 25.2781 4.31634 20.025 4.29003H19.7835C14.5257 4.3154 9.28873 4.95341 4.17861 6.19115C4.1017 6.20936 4.03355 6.25382 3.98588 6.31686C3.93822 6.3799 3.91402 6.45759 3.91745 6.53655C3.9708 7.9659 4.08032 9.40648 4.23196 10.8499C8.22796 10.8218 16.5878 10.7797 20.7411 10.833C27.9552 10.9229 30.6539 12.4196 30.6707 15.4974C30.6707 18.0247 28.7247 19.8444 23.0382 20.3499C22.4541 20.4032 21.9149 20.4509 21.5555 20.4734C21.5149 20.4772 21.4763 20.4926 21.4442 20.5176C21.4121 20.5426 21.3879 20.5763 21.3743 20.6147C21.3607 20.6531 21.3584 20.6945 21.3676 20.7342C21.3768 20.7738 21.3972 20.81 21.4263 20.8385L30.637 30.0492C30.9347 29.3753 31.2183 28.6873 31.4935 27.9824C34.1075 21.1177 35.588 13.8736 35.877 6.53374V6.53655Z" />
-                                        </svg>
-
-                                    </span>
-                                    <span class="c-logo-text">
-                                        <svg class="u-logo-text" viewBox="0 0 193 50" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M47.3596 16.7775C47.3596 16.7441 47.3662 16.711 47.3791 16.6801C47.392 16.6493 47.4108 16.6213 47.4346 16.5978C47.4584 16.5743 47.4866 16.5557 47.5175 16.5432C47.5485 16.5307 47.5817 16.5244 47.6151 16.5248H55.6127C55.6798 16.5248 55.7441 16.5514 55.7915 16.5988C55.8389 16.6462 55.8655 16.7105 55.8655 16.7775V32.1915C55.8655 32.2585 55.8389 32.3228 55.7915 32.3702C55.7441 32.4176 55.6798 32.4442 55.6127 32.4442H47.6151C47.5817 32.4446 47.5485 32.4383 47.5175 32.4258C47.4866 32.4132 47.4584 32.3947 47.4346 32.3712C47.4108 32.3477 47.392 32.3197 47.3791 32.2888C47.3662 32.258 47.3596 32.2249 47.3596 32.1915V16.7775ZM15.0097 23.7305C14.9462 23.7298 14.8841 23.7482 14.8312 23.7832C14.7783 23.8182 14.7371 23.8682 14.7129 23.9268C14.6887 23.9855 14.6827 24.05 14.6955 24.1121C14.7084 24.1742 14.7395 24.2311 14.785 24.2753L23.9677 32.228C24.1286 32.3689 24.3351 32.4467 24.549 32.447H33.3974C33.436 32.4465 33.4735 32.4342 33.505 32.412C33.5365 32.3897 33.5605 32.3585 33.5738 32.3223C33.5872 32.2861 33.5893 32.2468 33.5799 32.2094C33.5705 32.172 33.5499 32.1383 33.521 32.1128L26.3125 25.8675C26.2803 25.8357 26.2578 25.7954 26.2477 25.7514C26.2375 25.7073 26.2401 25.6612 26.2551 25.6186C26.2701 25.5759 26.2969 25.5384 26.3324 25.5103C26.368 25.4823 26.4107 25.465 26.4557 25.4603C27.5453 25.3957 29.2638 25.334 30.901 25.157C35.3379 24.6825 37.6855 23.4244 37.6855 20.9055C37.6855 17.9008 34.8605 16.5276 29.1656 16.5276H0.19385C0.154818 16.527 0.116545 16.5384 0.0841815 16.5602C0.051818 16.582 0.0269215 16.6133 0.0128467 16.6497C-0.00122818 16.6861 -0.00380966 16.7259 0.00545759 16.7639C0.0147248 16.8018 0.035395 16.8359 0.0646769 16.8618L1.89559 18.4877C2.0583 18.634 2.26932 18.715 2.48811 18.7151H23.7149C27.5509 18.7151 29.1796 19.3105 29.1796 21.1695C29.1796 22.8684 27.037 23.5564 22.6506 23.6322C17.4471 23.7108 15.0097 23.7305 15.0097 23.7305ZM115.96 24.573C115.93 24.5979 115.908 24.6316 115.898 24.6693C115.888 24.707 115.89 24.747 115.904 24.7836C115.917 24.8206 115.941 24.8526 115.974 24.8752C116.006 24.8978 116.044 24.9099 116.083 24.9099H119.726C119.931 24.9084 120.129 24.836 120.287 24.7049L127.44 18.7123C127.558 18.6125 127.71 18.5595 127.865 18.5631C128.02 18.5667 128.168 18.6268 128.282 18.732L142.884 32.2111C143.049 32.3631 143.264 32.4473 143.488 32.447H152.587C152.625 32.447 152.663 32.4353 152.694 32.4136C152.726 32.3919 152.75 32.3612 152.764 32.3254C152.778 32.2896 152.781 32.2505 152.772 32.213C152.764 32.1756 152.744 32.1417 152.716 32.1156L136.08 16.7635C135.916 16.6115 135.7 16.5273 135.477 16.5276H125.89C125.684 16.5295 125.485 16.6029 125.328 16.7354L115.96 24.573ZM87.4151 24.0506C87.313 24.1165 87.194 24.1516 87.0725 24.1516C86.9509 24.1516 86.832 24.1165 86.7299 24.0506L74.9356 16.668C74.7905 16.5727 74.6206 16.522 74.447 16.522H63.9249C63.8837 16.522 63.8437 16.5354 63.8107 16.56C63.7778 16.5846 63.7537 16.6193 63.742 16.6587C63.7303 16.6982 63.7317 16.7404 63.7459 16.779C63.7602 16.8176 63.7865 16.8506 63.821 16.873L83.3489 29.6529C83.4517 29.7209 83.5723 29.7571 83.6957 29.7571C83.819 29.7571 83.9396 29.7209 84.0425 29.6529L98.9257 19.9704C98.9611 19.9454 99.0023 19.93 99.0454 19.9255C99.0884 19.9211 99.132 19.9278 99.1717 19.945C99.2115 19.9621 99.2461 19.9893 99.2724 20.0237C99.2986 20.0582 99.3156 20.0988 99.3216 20.1417V32.1915C99.3216 32.2249 99.3282 32.258 99.3411 32.2888C99.354 32.3197 99.3729 32.3477 99.3967 32.3712C99.4204 32.3947 99.4486 32.4132 99.4796 32.4258C99.5106 32.4383 99.5438 32.4446 99.5772 32.4442H107.566C107.6 32.4446 107.633 32.4383 107.664 32.4258C107.695 32.4132 107.723 32.3947 107.747 32.3712C107.771 32.3477 107.79 32.3197 107.802 32.2888C107.815 32.258 107.822 32.2249 107.822 32.1915V16.7775C107.822 16.7441 107.815 16.711 107.802 16.6801C107.79 16.6493 107.771 16.6213 107.747 16.5978C107.723 16.5743 107.695 16.5557 107.664 16.5432C107.633 16.5307 107.6 16.5244 107.566 16.5248H99.2262C99.0539 16.5254 98.8854 16.5751 98.7403 16.668L87.4151 24.0506ZM192.241 16.5304H169.829C166.032 16.5304 162.859 16.9432 160.652 18.5186C158.565 20.0069 157.417 22.127 157.417 24.4915C157.417 26.856 159.177 32.4498 169.604 32.4498H181.199C181.237 32.4497 181.273 32.4385 181.305 32.4175C181.336 32.3965 181.36 32.3667 181.375 32.3319C181.389 32.297 181.393 32.2587 181.386 32.2217C181.378 32.1848 181.36 32.1508 181.334 32.1241L179.736 30.6245C179.654 30.5415 179.556 30.4756 179.448 30.4308C179.34 30.3859 179.224 30.363 179.107 30.3634H176.273C169.646 30.3634 165.92 28.3274 165.92 24.4915C165.92 20.5601 169.598 18.718 175.291 18.718H190.157C190.394 18.7171 190.621 18.6222 190.789 18.454L192.384 16.8561C192.412 16.8298 192.432 16.7953 192.441 16.7574C192.449 16.7194 192.446 16.6797 192.431 16.6437C192.417 16.6077 192.391 16.577 192.359 16.5557C192.326 16.5345 192.288 16.5237 192.249 16.5248L192.241 16.5304Z" />
-                                        </svg>
-                                    </span>
-                                </i>
-                            </a>
-
-
-                            <ul class="c-menu c-menu--inline js-context-shifting">
-                                <li class="c-menu__item">
-                                    <a href="https://www.rimac-group.com/careers" target="_blank"
-                                        class="c-link u-uppercase js-context-shifting-link">
-                                        <span class="c-link__label">
-                                            Careers </span>
-                                        <span class="c-link__append">
-                                            <svg class="u-icon u-icon--external-link" xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 16 16">
-                                                <path class="external-link" d="M8.6,3l1.8,1.8L6.5,8.7l0.8,0.8l3.9-3.9L13,7.4V3H8.6z M11.9,11.9H4.1V4.1H8L6.9,3H4.1C3.8,3,3.5,3.1,3.3,3.3
-	C3.1,3.5,3,3.8,3,4.1v7.8c0,0.3,0.1,0.6,0.3,0.8C3.5,12.9,3.8,13,4.1,13h7.8c0.3,0,0.6-0.1,0.8-0.3c0.2-0.2,0.3-0.5,0.3-0.8V9.1
-	L11.9,8V11.9z" />
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </li>
-
-                                <li class="c-menu__item">
-                                    <a href="../retailer-map/index.html" target=""
-                                        class="c-link u-uppercase js-context-shifting-link">
-                                        <span class="c-link__label">
-                                            Partners map </span>
-                                    </a>
-                                </li>
-                                <li class="c-menu__item">
-                                    <a href="https://www.rimac-newsroom.com/" target="_blank"
-                                        class="c-link u-uppercase js-context-shifting-link">
-                                        <span class="c-link__label">
-                                            Media </span>
-                                        <span class="c-link__append">
-                                            <svg class="u-icon u-icon--external-link" xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 16 16">
-                                                <path class="external-link" d="M8.6,3l1.8,1.8L6.5,8.7l0.8,0.8l3.9-3.9L13,7.4V3H8.6z M11.9,11.9H4.1V4.1H8L6.9,3H4.1C3.8,3,3.5,3.1,3.3,3.3
-	C3.1,3.5,3,3.8,3,4.1v7.8c0,0.3,0.1,0.6,0.3,0.8C3.5,12.9,3.8,13,4.1,13h7.8c0.3,0,0.6-0.1,0.8-0.3c0.2-0.2,0.3-0.5,0.3-0.8V9.1
-	L11.9,8V11.9z" />
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </li>
-
-                                <li class="c-menu__item">
-                                    <a href="../factory-tours/index.html" target=""
-                                        class="c-link u-uppercase js-context-shifting-link">
-                                        <span class="c-link__label">
-                                            Factory tours </span>
-                                    </a>
-                                </li>
-                                <li class="c-menu__item">
-                                    <a href="https://estore.rimac-automobili.com/" target="_blank"
-                                        class="c-link u-uppercase js-context-shifting-link">
-                                        <span class="c-link__label">
-                                            e_store </span>
-                                        <span class="c-link__append">
-                                            <svg class="u-icon u-icon--external-link" xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 16 16">
-                                                <path class="external-link" d="M8.6,3l1.8,1.8L6.5,8.7l0.8,0.8l3.9-3.9L13,7.4V3H8.6z M11.9,11.9H4.1V4.1H8L6.9,3H4.1C3.8,3,3.5,3.1,3.3,3.3
-	C3.1,3.5,3,3.8,3,4.1v7.8c0,0.3,0.1,0.6,0.3,0.8C3.5,12.9,3.8,13,4.1,13h7.8c0.3,0,0.6-0.1,0.8-0.3c0.2-0.2,0.3-0.5,0.3-0.8V9.1
-	L11.9,8V11.9z" />
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </li>
-
-                                <li class="c-menu__item">
-                                    <a href="../contact-us/index.html" target=""
-                                        class="c-link u-uppercase js-context-shifting-link">
-                                        <span class="c-link__label">
-                                            Contact </span>
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </div>
-
-                    </div>
-                    <div class="o-container">
-                        <div class="c-footer__bottom">
-                            <div class="c-footer__bottom-left">
-                                <h5 class="u-b1 u-uppercase">
-                                    Contact </h5>
-                                <div class="c-footer-contact-info u-b2">
-                                    <ul class="c-footer-contact-info__list">
-                                        <li class="c-footer-contact-info__list-item">
-                                            <a href="mailto:info@bugatti-rimac.com" class="c-link c-link--secondary">
-                                                <span class="c-link__label">
-                                                    info@bugatti-rimac.com </span>
-                                            </a>
-                                        </li>
-                                        <li class="c-footer-contact-info__list-item">
-                                            tel:
-                                            <a href="tel:+385 1 563 45 92" class="c-link c-link--secondary">
-                                                <span class="c-link__label">
-                                                    +385 1 563 45 92 </span>
-                                            </a>
-                                        </li>
-                                    </ul>
-
-                                    <ul class="c-footer-contact-info__list">
-                                        <li class="c-footer-contact-info__list-item">
-                                            <p class="u-b2">
-                                                <a href="https://web-cdn.rimac-automobili.com/wp-content/uploads/2023/06/14110846/Bugatti-Rimac-AboutUs.pdf"
-                                                    class="c-link c-link--secondary">© 2023 Bugatti Rimac
-                                                    d.o.o.</a><br />
-                                                Kerestinečka cesta 54, Kerestinec,<br />
-                                                10431 Sveta Nedelja, Croatia
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="c-footer__bottom-center">
-                                <h5 class="u-b1 u-uppercase">
-                                    Find us on </h5>
+                        <div class="c-footer__bottom">                          
+                            <div class="c-footer__bottom-unset">
+                                <h5 class="u-b1 u-uppercase">Find us on </h5>
                                 <div class="c-footer-contact-info c-footer-contact-info--socials u-b2">
                                     <ul class="c-footer-contact-info__list c-footer-contact-info__list--3-column">
                                         <li class="c-footer-contact-info__list-item">
@@ -2647,32 +2521,14 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="c-footer__bottom-center-right">
-                                <h5 class="u-b1 u-uppercase">
-                                    Customer Service </h5>
+                            <div class="c-footer__bottom-unset">
+                                <h5 class="u-b1 u-uppercase">Copyright </h5>
                                 <div class="c-footer-contact-info u-b2">
-                                    <ul class="c-footer-contact-info__list c-footer-contact-info__list--3-column">
-                                        <li class="c-footer-contact-info__list-item">
-                                            <a target="" href="../technical-service-documentation/index.html"
-                                                class="c-link c-link--secondary js-context-shifting-link">
-                                                <span class="c-link__label">
-                                                    Technical Service Documentation </span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="c-footer__bottom-right">
-                                <h5 class="u-b1 u-uppercase">
-                                    Policies </h5>
-                                <div class="c-footer-contact-info u-b2">
-                                    <ul class="c-footer-contact-info__list c-footer-contact-info__list--3-column">
-                                        <li class="c-footer-contact-info__list-item">
-                                            <a target="" href="../legal-and-compliance-documents/index.html"
-                                                class="c-link c-link--secondary">
-                                                <span class="c-link__label">
-                                                    Legal and Compliance Documents </span>
-                                            </a>
+                                    <ul class="c-footer-contact-info__list">
+                                        <li class="c-footer-contact-info__list-item no-padding-right">
+                                            <p class="u-b2">
+                                                <a href="https://web-cdn.rimac-automobili.com/wp-content/uploads/2023/06/14110846/Bugatti-Rimac-AboutUs.pdf" class="c-link c-link--secondary">© 2023 Gcar</a>
+                                            </p>
                                         </li>
                                     </ul>
                                 </div>
