@@ -778,11 +778,14 @@
                                                 <h2 class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">UNPARALLELED PERFORMANCE</h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
                                                     <p class="u-b0">The Apollo EVO serves as a "pure" driving experience in a segment increasingly shifting toward electrification, relying on a pure, high-revving V12 powertrain for performance.
-                                                        <a href="https://rimac-automobili.com/bendingphysics"
-                                                            class="c-link js-context-shifting-link"
-                                                            style="display: block; margin-top: 20px; text-transform:uppercase">Follow the Apollo EVO World Records
-                                                        </a>
                                                     </p>
+                                                    <a href="https://rimac-automobili.com/bendingphysics" class="c-button">
+                                                        <span class="c-button__inner">
+                                                            <span class="c-button__label">
+                                                                <i class="c-button__label-inner" title="World Records">World Records</i>
+                                                            </span>
+                                                        </span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1267,7 +1270,7 @@
                                     <div class="c-layered-scroll-content__left">
                                         <div class="c-article-wrapper">
                                             <div class="c-article js-layered-scroll-simple-item-element">
-                                                <h3 class="u-a2">Active Aerodynamics</h3>
+                                                <h3 class="u-a2 u-capitalize">Active Aerodynamics</h3>
                                                 <p class="u-b2">
                                                     The Apollo EVO features an electronically adjustable aero paired with a deployable rear spoiler, providing the necessary adaptive downforce to optimize stability and speed under different driving conditions.</p>
                                             </div>
@@ -1277,7 +1280,7 @@
                                     <div class="c-layered-scroll-content__right">
                                         <div class="c-article-wrapper">
                                             <div class="c-article js-layered-scroll-simple-item-element">
-                                                <h3 class="u-a2">Butterfly Doors</h3>
+                                                <h3 class="u-a2 u-capitalize">Butterfly Doors</h3>
                                                 <p class="u-b2">
                                                     The dramatic butterfly doors enhance both style and practicality for seamless entry and augmenting the car’s futuristic, aggressive stance.</p>
                                             </div>
@@ -1291,14 +1294,9 @@
                                     <div class="c-layered-scroll-content__left">
                                         <div class="c-article-wrapper">
                                             <div class="c-article js-layered-scroll-simple-item-element">
-                                                <h3 class="u-a2">
-                                                    Monocoque core </h3>
+                                                <h3 class="u-a2 u-capitalize">carbon monocoque</h3>
                                                 <p class="u-b2">
-                                                    Core strength. Solid structure. Beneath the skin lies a carbonfibre
-                                                    monocoque with bonded carbon roof, integrated structural battery
-                                                    pack and rear carbon subframe. Designed and developed entirely
-                                                    in-house, Nevera's structural core is lightweight, powerful and
-                                                    exceptionally strong. </p>
+                                                    The EVO wears a tweaked version of the company’s carbon monocoque, carbon subframes front and back, and carbon crash structures. It’s 15% stiffer and 10% lighter than the bones of the Intensa, and gets a similarly wild bodyshape.</p>
 
                                             </div>
                                         </div>
