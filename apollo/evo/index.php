@@ -484,18 +484,9 @@
                             </div>
                             <div class="spliter__one">
                                 <div class="pr">
-                                    <h2 class="u-a4 u-a4-plus u-uppercase js-nevera-logo js-nevera-logo--r">apollo evo</h2>
-                                    <span class="js-nevera-logo--holder u-a4 u-uppercase">The Apollo Evo</span>
-
-                                    <p class="u-b0"></p>
+                                    <h2 class="u-a4 u-a4-plus u-uppercase js-nevera-logo js-nevera-logo--r">apollo evo</h2>                       
                                     <div class="flex-line justify-content-center">
-                                        <a class="c-button" href="#welcome">
-                                            <span class="c-button__inner">
-                                                <span class="c-button__label">
-                                                    <i class="c-button__label-inner" title="Explore">Explore</i>
-                                                </span>
-                                            </span>
-                                        </a>
+                                        <span class="js-nevera-logo--holder u-a1 u-a4-plus u-uppercase">Next Leap in our Evolution</span>
                                     </div>
                                 </div>
                             </div>
@@ -509,7 +500,7 @@
                     <section id="welcome" class="o-section">
                         <div class="c-nevera-welcome">
                             <header class="c-nevera-welcome__header">
-                                <h4 class="c-nevera-welcome__footer-title u-uppercase u-a3 u-fw-400 mb-0">Next Leap in our Evolution</h4>
+                                <h4 class="c-nevera-welcome__footer-title u-uppercase u-a3 u-fw-400 mb-0">Rewriting the Rules of Automotive Design</h4>
                                 <!-- <p class="c-nevera-welcome__eyebrow u-uppercase u-b3 u-fw-600">The Next Chapter Begins: Rewriting the Rules of Automotive Design</p>-->
                                 <p class="c-nevera-welcome__header-description u-a2 u-a2-400">
                                     This is our daring statement of intent.
@@ -1247,15 +1238,16 @@
                             <!-- LAYER 1 -->
                             <div class="c-layered-scroll js-layered-scroll-simple-trigger">
                                 <div class="c-layered-scroll__item c-layered-scroll__item--2">
-                                    <i class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
-                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/teardown_01_optimised.png)"></i>
+                                    <span class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
+                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-chassis-001.png)">
+                                    </span>
                                 </div>
                                 <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
                             </div>
                             <div class="c-layered-scroll js-layered-scroll-simple-trigger">
                                 <div class="c-layered-scroll__item c-layered-scroll__item--3">
                                     <i class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
-                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/teardown_02_optimised.png)"></i>
+                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-chassis-001.png)"></i>
                                 </div>
                                 <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
                             </div>
@@ -1320,8 +1312,7 @@
                     </section>
 
                     <section id="driving-experience"
-                        class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item"
-                        data-scrollspy-title="Experience Electric">
+                        class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item" data-scrollspy-title="Experience">
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
 
                             <video class="c-scrolling-reveal-bg__video"
@@ -1339,8 +1330,7 @@
                                                 <h2 class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">Experience</h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
                                                     <p class="u-b2">
-                                                        Unparalleled performance meets real-time intelligence for an
-                                                        exceptional driving experience. </p>
+                                                        It offers an intense, unfiltered driving experience with active aerodynamics, carbon fiber monocoque construction, and radical spaceship-like styling</p>
                                                     <a href="https://www.rimac-automobili.com:443/nevera/driving-experience"
                                                         class="c-button">
                                                         <span class="c-button__inner">
@@ -1369,28 +1359,13 @@
                     </section>
 
                     <section id="design"
-                        class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item"
-                        data-scrollspy-title="Design">
+                        class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item" data-scrollspy-title="Design">
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
 
                             <video class="c-scrolling-reveal-bg__video"
-                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/RimacNevera8sDESIGN-EDIT-1_16-9.mp4" preload="auto"
+                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2022-apollo-evo-design.mp4" preload="auto"
                                 muted playsinline autoplay loop type="video/mp4"></video>
 
-                            <!--        <i class="c-scrolling-reveal-bg__video-overlay js-mask-reveal-video-overlay"></i>-->
-
-                            <!--        <div class="c-reveal-mask-wrapper js-mask-reveal-mask-wrapper">-->
-                            <!--            <div class="c-reveal-mask">-->
-                            <!--                <div class="o-container">-->
-                            <!--                    <span class="c-reveal-mask__mask js-mask-reveal-mask u-a4--big u-fw-bold u-uppercase u-text-center">-->
-                            <!--                        <span>-->
-                            <!--                            -->
-                            <?//= NeveraPageACFDataProvider::get_reveal_design_title( $page_id ); ?>
-                            <!--                        </span>-->
-                            <!--                    </span>-->
-                            <!--                </div>-->
-                            <!--            </div>-->
-                            <!--        </div>-->
                         </div>
 
                         <div class="c-scrolling-reveal-content">
@@ -1404,9 +1379,7 @@
                                                     class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">
                                                     Design </h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
-                                                    <p class="u-b2">
-                                                        Defined by purpose and performance, Nevera's bold but functional
-                                                        form is entirely original yet unmistakably Rimac. </p>
+                                                    <p class="u-b2">The design, as we have come to expect from Apollo, looks like a Decepticon from the Transformers Action films in the middle of a transformation. </p>
                                                     <a href="design/index.html" class="c-button">
                                                         <span class="c-button__inner">
                                                             <span class="c-button__label">

@@ -9129,7 +9129,8 @@ span.wpcf7-not-valid-tip {
 }
 
 .js-nevera-logo--holder {
-	visibility: hidden;
+	margin-top: 60px;
+	/* visibility: hidden; */
 	display: block;
 }
 
