@@ -1222,12 +1222,9 @@
                             </div>
                             <div class="c-extra-technology__content js-nevera-technology-content">
                                 <h4 class="u-a3">
-                                    Why electric? </h4>
+                                    Why Choose the Apollo EVO? </h4>
                                 <p class="u-b0">
-                                    Electric is genesis. Pioneered by Croatian engineer and futurist Nikola Tesla,
-                                    electric is one of the earliest and most effective forms of power. By specialising
-                                    exclusively in electric performance, we’re able to engineer and extract the most
-                                    extreme performance from our hypercars. </p>
+                                    The Apollo EVO is a track-focused hypercar designed for collectors seeking extreme, raw performance. Just 10 Apollo EVOs are being built, and each will be fully bespoke, finished and detailed to each owner’s exact specifications. </p>
                             </div>
                         </div>
                     </section>
@@ -1414,7 +1411,7 @@
 
 
                             <video class="c-scrolling-reveal-bg__video"
-                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/nevera_engineering_bgloop_1.mp4" preload="auto" muted
+                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Beyond-Extreme-Apollo-Project-Evo-Reinvents-The-Hypercar-Experience.mp4" preload="auto" muted
                                 playsinline autoplay loop type="video/mp4"></video>
 
                             <!--        <i class="c-scrolling-reveal-bg__video-overlay js-mask-reveal-video-overlay"></i>-->
@@ -1441,8 +1438,7 @@
                                         <div class="c-scrolling-reveal__header u-text-center">
                                             <div class="c-scrolling-reveal__heading">
                                                 <h2
-                                                    class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">
-                                                    Technology </h2>
+                                                    class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">Technology</h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
                                                     <p class="u-b2">
                                                         Precision engineering that pushes performance to the edge of
@@ -1528,7 +1524,7 @@
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
                                                     <figure class="c-image-with-caption">
-                                                        <picture>
+                                                        <!-- <picture>
                                                             <source
                                                                 data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_01_optimised.jpg"
                                                                 media="(min-width: 2600px)">
@@ -1540,20 +1536,24 @@
                                                                 media="(min-width: 800px)">
                                                             <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_01_optimised-960x640.jpg"
                                                                 class="swiper-lazy" alt="">
-                                                        </picture>
+                                                        </picture> -->
+                                                        <iframe 
+                                                            src="https://www.instagram.com/reel/DWUEvBWjDa9/embed/"
+                                                            width="100%" 
+                                                            height="700" 
+                                                            frameborder="0" 
+                                                            scrolling="no"
+                                                            allowtransparency="true"
+                                                            allowfullscreen="true">
+                                                        </iframe>
                                                     </figure>
                                                     <div class="c-image-with-caption__caption">
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             01 </span>
                                                         <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">
-                                                                Machining </h5>
+                                                            <h5 class="u-a1">Machining</h5>
                                                             <p class="u-b2">
-                                                                Machining the moulds, tools and parts needed to create
-                                                                the finished product is carried out by Rimac
-                                                                professionals, who craft raw materials into working
-                                                                components ready to be rolled out to the production
-                                                                line. </p>
+                                                                Engineered to exacting standards. Milled to absolute precision. Lightweight design through topology optimisation.3D printing through aluminium laser sintering delivers bionic forms, with final precision achieved through CNC milling. Total control over fit, finish and function at every stage.</p>
                                                         </div>
 
                                                     </div>
