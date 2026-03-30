@@ -366,22 +366,17 @@
                                 </li>
                                 <li
                                     class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
-                                    <a href="#in-house-production"
+                                    <a href="#instagram"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
-                                        <span class="c-inpage-navigation-link__number">
-                                            06
-                                        </span>
-                                        <span class="c-inpage-navigation-link__label">
-                                            In-house Production </span>
+                                        <span class="c-inpage-navigation-link__number">06</span>
+                                        <span class="c-inpage-navigation-link__label">Instagram</span>
                                     </a>
                                 </li>
                                 <li
                                     class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
                                     <a href="#tech-spec"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
-                                        <span class="c-inpage-navigation-link__number">
-                                            07
-                                        </span>
+                                        <span class="c-inpage-navigation-link__number">07</span>
                                         <span class="c-inpage-navigation-link__label">Technical Specs</span>
                                     </a>
                                 </li>
@@ -729,9 +724,104 @@
                                                             </picture>
                                                         </figure>
                                                         <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text">
-                                                            </div>
+                                                            <div class="c-image-with-caption__caption-text"></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
 
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.webp"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.webp"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.webp"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.webp"
+                                                                    class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text u-uppercase"></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp"
+                                                                    class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text u-uppercase"></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp"
+                                                                    class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text u-uppercase"></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-011.jpg"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-011.jpg"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-011.jpg"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-011.jpg"
+                                                                    class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text u-uppercase"></div>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -1222,7 +1312,7 @@
                             </div>
                             <div class="c-extra-technology__content js-nevera-technology-content">
                                 <h4 class="u-a3">
-                                    Why Choose the Apollo EVO? </h4>
+                                    WHY CHOOSE THE APOLLO EVO? </h4>
                                 <p class="u-b0">
                                     The Apollo EVO is a track-focused hypercar designed for collectors seeking extreme, raw performance. Just 10 Apollo EVOs are being built, and each will be fully bespoke, finished and detailed to each owner’s exact specifications. </p>
                             </div>
@@ -1466,14 +1556,14 @@
                         </div>
                     </section>
                     <i class="u-spacer u-spacer--50vh"></i>
-                    <section id="in-house-production"
+                    <section id="instagram"
                         class="o-section o-section--dark o-section--in-house-production js-scrollspy-item"
-                        data-scrollspy-title="In-house Production">
+                        data-scrollspy-title="Instagram">
                         <div class="o-section__heading">
                             <div class="o-container o-container--narrow">
                                 <div class="c-heading c-heading--narrow u-text-center">
-                                    <h2 class="u-a4 u-uppercase">
-                                        In house production </h2>
+                                    <p class="u-a2 u-uppercase mb-0">Follow</p>
+                                    <h2 class="u-a4 u-uppercase">Apollo Automobil</h2>
                                     <p class="u-b2">
                                         From bytes to bolts. Our expert engineers find and develop the very best
                                         materials to craft everything from powertrain components to composites and
@@ -1502,15 +1592,11 @@
                                 <!-- CURSOR -->
                                 <div class="c-draggable-slider-cursor js-draggable-simple-slider-cursor">
                                     <div class="c-draggable-slider-cursor__circle">
-                                        <div class="c-draggable-slider-cursor__label u-b3 u-uppercase">
-                                            Drag </div>
+                                        <div class="c-draggable-slider-cursor__label u-b3 u-uppercase">Drag</div>
 
-                                        <div class="c-draggable-slider-cursor__label--click u-b3 u-uppercase">
-                                            Click </div>
-                                        <i
-                                            class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--prev"></i>
-                                        <i
-                                            class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--next"></i>
+                                        <div class="c-draggable-slider-cursor__label--click u-b3 u-uppercase">Click</div>
+                                        <i class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--prev"></i>
+                                        <i class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--next"></i>
                                     </div>
                                 </div>
                                 <!-- //CURSOR -->
@@ -1519,12 +1605,11 @@
                                         class="c-draggable-simple-slider__container swiper-container js-draggable-simple-slider">
                                         <ul class="c-draggable-simple-slider__wrapper swiper-wrapper">
 
-                                            <li
-                                                class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
-                                                        <!-- <picture>
+                                                    <!-- <figure class="c-image-with-caption">
+                                                        <picture>
                                                             <source
                                                                 data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_01_optimised.jpg"
                                                                 media="(min-width: 2600px)">
@@ -1536,35 +1621,30 @@
                                                                 media="(min-width: 800px)">
                                                             <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_01_optimised-960x640.jpg"
                                                                 class="swiper-lazy" alt="">
-                                                        </picture> -->
-                                                        <iframe 
-                                                            src="https://www.instagram.com/reel/DWUEvBWjDa9/embed/"
-                                                            width="100%" 
-                                                            height="700" 
-                                                            frameborder="0" 
-                                                            scrolling="no"
-                                                            allowtransparency="true"
-                                                            allowfullscreen="true">
-                                                        </iframe>
+                                                        </picture>                                                       
+                                                    </figure> -->
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DWUEvBWjDa9/">
+                                                        </blockquote>
                                                     </figure>
-                                                    <div class="c-image-with-caption__caption">
+                                                    <div class="c-image-with-caption__caption instagram">
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             01 </span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">Machining</h5>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">Engineered to exacting standards</h5>
                                                             <p class="u-b2">
-                                                                Engineered to exacting standards. Milled to absolute precision. Lightweight design through topology optimisation.3D printing through aluminium laser sintering delivers bionic forms, with final precision achieved through CNC milling. Total control over fit, finish and function at every stage.</p>
+                                                                Milled to absolute precision. Lightweight design through topology optimisation.3D printing through aluminium laser sintering delivers bionic forms, with final precision achieved through CNC milling. Total control over fit, finish and function at every stage.</p>
                                                         </div>
 
                                                     </div>
                                                 </div>
                                             </li>
 
-                                            <li
-                                                class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
+                                                    <!-- <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
                                                                 data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_02_optimised.jpg"
@@ -1578,29 +1658,29 @@
                                                             <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_02_optimised-960x640.jpg"
                                                                 class="swiper-lazy" alt="">
                                                         </picture>
+                                                    </figure> -->
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DWB99PyjGDM/">
+                                                        </blockquote>
                                                     </figure>
-                                                    <div class="c-image-with-caption__caption">
+                                                    <div class="c-image-with-caption__caption instagram">
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             02 </span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">
-                                                                Composites production </h5>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">Where craftsmanship meets performance.</h5>
                                                             <p class="u-b2">
-                                                                From carbonfibre and kevlar to copper and every element
-                                                                in between. Rimac's innate understanding of composites
-                                                                ensures every part, panel and component on Nevera is
-                                                                crafted to the highest possible standard. </p>
+                                                                The Apollo EVO carbon-fibre monocoque is meticulously sanded and polished — hand-finished by our experienced team to reveal its final form.</p>
                                                         </div>
 
                                                     </div>
                                                 </div>
                                             </li>
 
-                                            <li
-                                                class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
+                                                    <!-- <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
                                                                 data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_03_optimised.jpg"
@@ -1614,29 +1694,31 @@
                                                             <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_03_optimised-960x640.jpg"
                                                                 class="swiper-lazy" alt="">
                                                         </picture>
+                                                    </figure> -->
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DV1I0F5jF2E/">
+                                                        </blockquote>
                                                     </figure>
-                                                    <div class="c-image-with-caption__caption">
+                                                    <div class="c-image-with-caption__caption instagram">
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             03 </span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">
-                                                                Paintshop </h5>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">Material shapes expression</h5>
                                                             <p class="u-b2">
-                                                                Applying paint to get the perfect, personalised finish.
-                                                                The final stages of creating Nevera and crafting its
-                                                                surfaces for an exceptional appearance are performed in
-                                                                Rimac's specialist paint shop. </p>
+                                                                From engineered components to exposed carbon fibre, from Alcantara to premium leather interiors — every texture, colour and finish is chosen to define a unique Apollo EVO.
+                                                            <br>
+                                                            Material. Colour. Character.</p>
                                                         </div>
 
                                                     </div>
                                                 </div>
                                             </li>
 
-                                            <li
-                                                class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
+                                                    <!-- <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
                                                                 data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_04_optimised.jpg"
@@ -1650,19 +1732,21 @@
                                                             <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_04_optimised-960x640.jpg"
                                                                 class="swiper-lazy" alt="">
                                                         </picture>
+                                                    </figure> -->
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DVi3zvPjDto/">
+                                                        </blockquote>
                                                     </figure>
-                                                    <div class="c-image-with-caption__caption">
+                                                    <div class="c-image-with-caption__caption instagram">
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             04 </span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">
-                                                                Upholstery </h5>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">Interior</h5>
                                                             <p class="u-b2">
-                                                                Only the finest materials make up Nevera’s upholstery.
-                                                                From the same high-performance carbonfibre used to
-                                                                strengthen and clothe our hypercars to lightweight
-                                                                aluminium and the highest quality leather. Like
-                                                                everything we do, Nevera’s interior is built to perform.
+                                                                The Apollo EVO interior is designed as a driver focused cockpit, featuring an ergonomic layout that puts every essential control intuitively at hand.
+                                                            <br>
+                                                                From steering geometry to switch placement, every detail is calibrated to create a direct, unfiltered connection between driver and machine.
                                                             </p>
                                                         </div>
 
@@ -1670,11 +1754,10 @@
                                                 </div>
                                             </li>
 
-                                            <li
-                                                class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
+                                                    <!-- <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
                                                                 data-srcset="https://www.rimac-automobili.com/wp-content/uploads/2021/06/089A9784_Edit-2160x1440.jpg"
@@ -1688,31 +1771,30 @@
                                                             <img data-src="https://www.rimac-automobili.com/wp-content/uploads/2021/06/089A9784_Edit-960x640.jpg"
                                                                 class="swiper-lazy" alt="">
                                                         </picture>
+                                                    </figure> -->
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DVJYlxUDG5o/">
+                                                        </blockquote>
                                                     </figure>
-                                                    <div class="c-image-with-caption__caption">
+                                                    <div class="c-image-with-caption__caption instagram">
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             05 </span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">
-                                                                Components production </h5>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">shape</h5>
                                                             <p class="u-b2">
-                                                                Nevera’s key components, from its battery pack, motors,
-                                                                gearboxes, and inverters, to the aluminum buttons on the
-                                                                steering wheel are designed and developed entirely
-                                                                in-house, in Rimac’s own unique way. Innovative,
-                                                                efficient and accurate – tailor-made components for a
-                                                                truly bespoke car. </p>
+                                                                The Apollo EVO taking shape. Exterior pre-assembly — aligned and installed within a dedicated team, shaped by over two decades of hypercar heritage.
+                                                            <br> Pioneering German hypercar engineering in motion.</p>
                                                         </div>
 
                                                     </div>
                                                 </div>
                                             </li>
 
-                                            <li
-                                                class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
+                                                    <!-- <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
                                                                 data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_06_optimised.jpg"
@@ -1726,20 +1808,62 @@
                                                             <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_06_optimised-960x640.jpg"
                                                                 class="swiper-lazy" alt="">
                                                         </picture>
+                                                    </figure> -->
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DVJYlxUDG5o/">
+                                                        </blockquote>
                                                     </figure>
-                                                    <div class="c-image-with-caption__caption">
+                                                    <div class="c-image-with-caption__caption instagram">
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             06 </span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">
-                                                                Vehicle assembly </h5>
-                                                            <p class="u-b2">
-                                                                Assembly is the moment Nevera sparks into life. The
-                                                                coming together of carefully crafted components, bound
-                                                                by exceptional engineering and the most advanced
-                                                                technology. Completed by hand, in our in-house facility,
-                                                                our cars are then tested and perfected before the
-                                                                process is complete. </p>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">exterior</h5>
+                                                            <p class="u-b2">Precision-engineered carbon fibre, meticulously hand-laid to create beautiful, intentional surfaces that guide airflow, manage force and define form.<br>
+                                                                The Apollo EVO exterior - where micro-geometry creates herringbone surfaces that feel alive with intent.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
+                                                <div class="c-draggable-simple-slider__item-inner"
+                                                    data-swiper-parallax-opacity="0.2">
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DUpsaxUDBNH/">
+                                                        </blockquote>
+                                                    </figure>
+                                                    <div class="c-image-with-caption__caption instagram">
+                                                        <span class="c-image-with-caption__caption-number u-b3">07</span>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">Performance, made visible</h5>
+                                                            <p class="u-b2">The sculptural exterior of the Apollo EVO flows organically around the new carbon-fibre monocoque, weighing just 165 kg - over 15% stiffer and 10% lighter than that of its predecessor. <br>
+                                                            This advanced architecture does more than reduce mass. It unlocks design freedom. It enhances structural confidence at the limit. <br>
+                                                            The foundation is no longer theoretical. It is taking physical form.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
+                                                <div class="c-draggable-simple-slider__item-inner"
+                                                    data-swiper-parallax-opacity="0.2">
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DUbF6MDDGp0/">
+                                                        </blockquote>
+                                                        <script async src="//www.instagram.com/embed.js"></script>
+                                                    </figure>
+                                                    <div class="c-image-with-caption__caption instagram">
+                                                        <span class="c-image-with-caption__caption-number u-b3">08</span>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">Becoming Real</h5>
+                                                            <p class="u-b2">This is where the Apollo EVO becomes real.<br>
+                                                                Not a concept. Not a render. <br>
+                                                                A living architecture taking shape, layer by layer, exactly as engineered through the Apollo x Ideenion partnership.</p>
                                                         </div>
 
                                                     </div>
@@ -1758,11 +1882,8 @@
                         <div class="o-section__heading">
                             <div class="o-container o-container--narrow">
                                 <div class="c-heading c-heading--narrow c-heading--tech-spec u-text-center">
-                                    <h2 class="u-a3 u-uppercase">
-                                        Tech specification </h2>
-                                    <p class="u-b0">
-                                        Nevera's inner workings are made for the specific purpose of high performance.
-                                    </p>
+                                    <h2 class="u-a3 u-uppercase">Tech specification</h2>
+                                    <p class="u-b0">EVO's inner workings are made for the specific purpose of high performance.</p>
 
                                     <div class="c-heading__button u-full-width">
                                         <a href="https://web-cdn.rimac-automobili.com/wp-content/uploads/2023/11/20171226/Nevera_Technical-specifications.pdf"
