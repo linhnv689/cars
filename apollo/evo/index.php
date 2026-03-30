@@ -1556,9 +1556,7 @@
                         </div>
                     </section>
                     <i class="u-spacer u-spacer--50vh"></i>
-                    <section id="instagram"
-                        class="o-section o-section--dark o-section--in-house-production js-scrollspy-item"
-                        data-scrollspy-title="Instagram">
+                    <section id="instagram" class="o-section o-section--dark o-section--in-house-production js-scrollspy-item" data-scrollspy-title="Instagram">
                         <div class="o-section__heading">
                             <div class="o-container o-container--narrow">
                                 <div class="c-heading c-heading--narrow u-text-center">
@@ -1912,21 +1910,15 @@
                             <div class="o-container o-container--narrow">
                                 <div class="c-accordion c-accordion--tech-spec js-accordion is-mono">
                                     <div class="c-accordion__item js-accordion-single">
-                                        <div
-                                            class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
+                                        <div class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
                                             <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">
-                                                    01 </span>
-                                                <p class="u-b0">
-                                                    General </p>
+                                                <span class="c-accordion-header__numbering u-b3">01</span>
+                                                <p class="u-b0">General</p>
                                             </div>
-                                            <div
-                                                class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--closed">
+                                            <div class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
+                                                <div class="c-accordion-header__state-label c-accordion-header__state-label--closed">
                                                     Show details </div>
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--opened">
+                                                <div class="c-accordion-header__state-label c-accordion-header__state-label--opened">
                                                     Close details </div>
                                             </div>
                                         </div>
@@ -1934,19 +1926,32 @@
                                             <div class="c-accordion-content c-accordion-content--tech-spec">
                                                 <ul class="u-b0">
                                                     <li>
-                                                        <p>All electric two-seat hypercar </p>
-                                                        <p class="c-accordion-content__faded">
-                                                        </p>
+                                                        <p>brand </p>
+                                                        <p class="c-accordion-content__faded">Apollo Automobil</p>
                                                     </li>
                                                     <li>
-                                                        <p>Limited to 150 units </p>
-                                                        <p class="c-accordion-content__faded">
-                                                        </p>
+                                                        <p>vehicle type </p>
+                                                        <p class="c-accordion-content__faded">Hypercar Track-only</p>
                                                     </li>
                                                     <li>
-                                                        <p>Homologation </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            Global </p>
+                                                        <p>production</p>
+                                                        <p class="c-accordion-content__faded">10 Units</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>seats</p>
+                                                        <p class="c-accordion-content__faded">2</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>homologation</p>
+                                                        <p class="c-accordion-content__faded">Track-only</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>introduced</p>
+                                                        <p class="c-accordion-content__faded">2021</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>price</p>
+                                                        <p class="c-accordion-content__faded">€3,000,000 / $3,200,000</p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1956,10 +1961,8 @@
                                         <div
                                             class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
                                             <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">
-                                                    02 </span>
-                                                <p class="u-b0">
-                                                    Performance </p>
+                                                <span class="c-accordion-header__numbering u-b3">02</span>
+                                                <p class="u-b0 u-capitalize">engine and performance</p>
                                             </div>
                                             <div
                                                 class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
@@ -1975,53 +1978,52 @@
                                             <div class="c-accordion-content c-accordion-content--tech-spec">
                                                 <ul class="u-b0">
                                                     <li>
-                                                        <p>Acceleration* (0-60mph) </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            1.74 sec<br />
-                                                            *one foot roll-out </p>
+                                                        <p>engine</p>
+                                                        <p class="c-accordion-content__faded">V12 (Ferrari F140)</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>displacement</p>
+                                                        <p class="c-accordion-content__faded">6.3 L (382 ci / 6262 cc)</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Acceleration* 0-96 km/h / (0-60mph) </p>
+                                                        <p class="c-accordion-content__faded">2.5 sec</p>
                                                     </li>
                                                     <li>
                                                         <p>Acceleration* 0-100 km/h / (0-62mph) </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            1.81 sec<br />
-                                                            *one foot roll-out </p>
+                                                        <p class="c-accordion-content__faded">2.7 sec</p>
                                                     </li>
                                                     <li>
-                                                        <p>Acceleration* 0-300 km/h </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            9.22 sec<br />
-                                                            *one foot roll-out </p>
+                                                        <p>top speed</p>
+                                                        <p class="c-accordion-content__faded">335 km/h / 208 mph </p>
                                                     </li>
                                                     <li>
-                                                        <p>¼ mile time (0-402 m) </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            8.25 sec </p>
+                                                        <p>power</p>
+                                                        <p class="c-accordion-content__faded">588 kW (800 PS / 789 hp) @ 9,000 rpm</p>
                                                     </li>
                                                     <li>
-                                                        <p>Top speed </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            412 km/h / 258 mph </p>
+                                                        <p>power / liter</p>
+                                                        <p class="c-accordion-content__faded">128 PS (126 hp)</p>
                                                     </li>
                                                     <li>
-                                                        <p>Power outputs </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            1408 kW / 1914hp </p>
+                                                        <p>power / weight</p>
+                                                        <p class="c-accordion-content__faded">615 PS (607 bhp) / t</p>
                                                     </li>
                                                     <li>
-                                                        <p>Motor torque </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            2340 Nm </p>
+                                                        <p>torque </p>
+                                                        <p class="c-accordion-content__faded">765 Nm (564 lb-ft) @ 6,750 rpm</p>
                                                     </li>
                                                     <li>
-                                                        <p>Wheel torque </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            13430 Nm </p>
+                                                        <p>torque / weight</p>
+                                                        <p class="c-accordion-content__faded">588 Nm (434 lb-ft) / t</p>
                                                     </li>
                                                     <li>
-                                                        <p>Range** </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            489 km <br />
-                                                            **WLTP range based on final testing </p>
+                                                        <p>transmission</p>
+                                                        <p class="c-accordion-content__faded">6-speed sequential gearbox</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>drive</p>
+                                                        <p class="c-accordion-content__faded">Rear-wheel drive</p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -2031,10 +2033,8 @@
                                         <div
                                             class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
                                             <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">
-                                                    03 </span>
-                                                <p class="u-b0">
-                                                    Chassis and structure </p>
+                                                <span class="c-accordion-header__numbering u-b3">03</span>
+                                                <p class="u-b0">Chassis and Aerodynamics</p>
                                             </div>
                                             <div
                                                 class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
@@ -2050,12 +2050,12 @@
                                             <div class="c-accordion-content c-accordion-content--tech-spec">
                                                 <ul class="u-b0">
                                                     <li>
-                                                        <p>Structure </p>
+                                                        <p>construction </p>
                                                         <p class="c-accordion-content__faded">
-                                                            Carbon fibre monocoque with integrated structural battery
-                                                            pack and bonded carbon fibre roof.  <br />
-                                                            Carbon fibre rear subframe merged with the tub <br />
-                                                            Carbon fibre and aluminium crash structures </p>
+                                                            + Full carbon fiber monocoque.<br />
+                                                            + Carbon fibre front and rear subframes.<br />
+                                                            + Lightweight alloys (aluminum, with titanium components).
+                                                        </p>
                                                     </li>
                                                     <li>
                                                         <p>Suspension </p>

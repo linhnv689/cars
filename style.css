@@ -23449,7 +23449,8 @@ all and (-ms-high-contrast: none),
 
 @media (min-width: 1440px) {
 	.c-accordion-content {
-		padding-bottom: 80px;
+		/* padding-bottom: 80px; */
+		padding-bottom: 40px;
 	}
 }
 
@@ -23518,6 +23519,9 @@ all and (-ms-high-contrast: none),
 @media (min-width: 1440px) {
 	.c-accordion-content ul li {
 		padding-bottom: 20px;
+		display: flex;
+		/* align-items: center; */
+		justify-content: space-between;
 	}
 }
 
@@ -23554,12 +23558,23 @@ all and (-ms-high-contrast: none),
 
 @media (min-width: 1440px) {
 	.c-accordion-content--tech-spec ul {
-		max-width: 45.83333vw;
+		/* max-width: 45.83333vw; */
+		max-width: 100%;
 	}
 }
 
 .c-accordion-content--tech-spec li p {
 	width: 100%;
+}
+
+.c-accordion-content--tech-spec li>p:first-child {
+	text-transform: capitalize;
+}
+
+@media (min-width: 1440px) {
+	.c-accordion-content--tech-spec li p {
+		width: unset;
+	}
 }
 
 .c-tabs-navigation {
