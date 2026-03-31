@@ -19,6 +19,7 @@
     <link rel="mask-icon" href="<?php echo $root_path; ?>/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel='stylesheet' id='rimacWeb2020MainCSS-css' href='<?php echo $root_path; ?>/style.css' type='text/css' media='' />
     <link rel='stylesheet' id='wp-block-library-css' href='<?php echo $root_path; ?>/assets/css/block-library/style.min.css' type='text/css'
         media='all' />
@@ -478,10 +479,10 @@
 
                             </div>
                             <div class="spliter__one">
-                                <div class="pr">
-                                    <h2 class="u-a4 u-a4-plus u-uppercase js-nevera-logo js-nevera-logo--r">apollo evo</h2>                       
-                                    <div class="flex-line justify-content-center">
-                                        <span class="js-nevera-logo--holder u-a1 u-a4-plus u-uppercase">Next Leap in our Evolution</span>
+                                <div class="js-nevera-logo js-nevera-logo--text">
+                                    <h2 class="u-a4 u-a4-plus u-uppercase js-nevera-logo--r mb-2 mb-lg-0">apollo evo</h2>                       
+                                    <div class="mx-2 mx-lg-0">
+                                        <span class="js-nevera-logo--holder u-a1 u-a4-plus u-uppercase mt-0">Next Leap in our Evolution</span>
                                     </div>
                                 </div>
                             </div>
@@ -834,8 +835,8 @@
                             <div class="c-nevera-welcome__footer">
                                 <h4 class="c-nevera-welcome__footer-title u-a3 u-uppercase u-fw-400">Radical by Design</h4>
                                 <div class="c-nevera-welcome__footer-description u-b0 u-fw-400">
-                                    <p>Inspired by our namesake. The Apollo EVO blazes a trail like a radiant arrow—one few can hope to match. </p>
-                                    <p>Every detail is pushed to the extreme. From the floating clamshell hood and star-shaped headlights to the 6-point radial taillights that leave a dramatic impression, this is automotive artistry as we see it.</p>
+                                    <p class="u-a1">Inspired by our namesake. The Apollo EVO blazes a trail like a radiant arrow—one few can hope to match. </p>
+                                    <p class="u-a1">Every detail is pushed to the extreme. From the floating clamshell hood and star-shaped headlights to the 6-point radial taillights that leave a dramatic impression, this is automotive artistry as we see it.</p>
                                 </div>
                             </div>
                         </div>
@@ -858,8 +859,7 @@
                                             <div class="c-scrolling-reveal__heading">
                                                 <h2 class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">UNPARALLELED PERFORMANCE</h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
-                                                    <p class="u-b0">The Apollo EVO serves as a "pure" driving experience in a segment increasingly shifting toward electrification, relying on a pure, high-revving V12 powertrain for performance.
-                                                    </p>
+                                                    <p class="u-b0">The Apollo EVO serves as a "pure" driving experience in a segment increasingly shifting toward electrification, relying on a pure, high-revving V12 powertrain for performance.</p>
                                                     <a href="https://rimac-automobili.com/bendingphysics" class="c-button">
                                                         <span class="c-button__inner">
                                                             <span class="c-button__label">
@@ -1291,8 +1291,8 @@
                             <div class="c-nevera-welcome__footer">
                                 <h4 class="c-nevera-welcome__footer-title u-a3 u-uppercase u-fw-400">Built Beyond Limits</h4>
                                 <div class="c-nevera-welcome__footer-description u-b0 u-fw-400">
-                                    <p>The Apollo EVO is raw emotion packaged into a bold display of engineering mastery.</p>
-                                    <p>Featuring an advanced full carbon monocoque and full suite of active aerodynamics, each intimidating facet is not just for show, but enables daunting power paired with unmatched driving dynamics. Surreal style meets peerless precision.</p>
+                                    <p class="u-a1">The Apollo EVO is raw emotion packaged into a bold display of engineering mastery.</p>
+                                    <p class="u-a1">Featuring an advanced full carbon monocoque and full suite of active aerodynamics, each intimidating facet is not just for show, but enables daunting power paired with unmatched driving dynamics. Surreal style meets peerless precision.</p>
                                 </div>
                             </div>
                         </div>
@@ -1416,7 +1416,7 @@
                                             <div class="c-scrolling-reveal__heading">
                                                 <h2 class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">Experience</h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
-                                                    <p class="u-b2">
+                                                    <p class="u-b0">
                                                         It offers an intense, unfiltered driving experience with active aerodynamics, carbon fiber monocoque construction, and radical spaceship-like styling</p>
                                                     <a href="https://www.rimac-automobili.com:443/nevera/driving-experience"
                                                         class="c-button">
@@ -1466,7 +1466,7 @@
                                                     class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">
                                                     Design </h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
-                                                    <p class="u-b2">The design, as we have come to expect from Apollo, looks like a Decepticon from the Transformers Action films in the middle of a transformation. </p>
+                                                    <p class="u-b0">The design, as we have come to expect from Apollo, looks like a Decepticon from the Transformers Action films in the middle of a transformation. </p>
                                                     <a href="design/index.html" class="c-button">
                                                         <span class="c-button__inner">
                                                             <span class="c-button__label">
@@ -1499,25 +1499,10 @@
                         data-scrollspy-title="Engineering">
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
 
-
                             <video class="c-scrolling-reveal-bg__video"
                                 src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Beyond-Extreme-Apollo-Project-Evo-Reinvents-The-Hypercar-Experience.mp4" preload="auto" muted
                                 playsinline autoplay loop type="video/mp4"></video>
 
-                            <!--        <i class="c-scrolling-reveal-bg__video-overlay js-mask-reveal-video-overlay"></i>-->
-
-                            <!--        <div class="c-reveal-mask-wrapper js-mask-reveal-mask-wrapper">-->
-                            <!--            <div class="c-reveal-mask">-->
-                            <!--                <div class="o-container">-->
-                            <!--                    <span class="c-reveal-mask__mask js-mask-reveal-mask u-a4--big u-fw-bold u-uppercase u-text-center">-->
-                            <!--                        <span>-->
-                            <!--                            -->
-                            <?//= NeveraPageACFDataProvider::get_reveal_engineering_title( $page_id ); ?>
-                            <!--                        </span>-->
-                            <!--                    </span>-->
-                            <!--                </div>-->
-                            <!--            </div>-->
-                            <!--        </div>-->
                         </div>
 
                         <div class="c-scrolling-reveal-content">
@@ -1530,9 +1515,8 @@
                                                 <h2
                                                     class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">Technology</h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
-                                                    <p class="u-b2">
-                                                        Precision engineering that pushes performance to the edge of
-                                                        possibility and beyond. </p>
+                                                    <p class="u-b0">Precision engineering that pushes performance to the edge of
+                                                        possibility and beyond.</p>
 
                                                     <a href="https://www.rimac-automobili.com:443/nevera/engineering"
                                                         class="c-button">
@@ -1562,7 +1546,7 @@
                                 <div class="c-heading c-heading--narrow u-text-center">
                                     <p class="u-a2 u-uppercase mb-0">Follow</p>
                                     <h2 class="u-a4 u-uppercase">Apollo Automobil</h2>
-                                    <p class="u-b2">
+                                    <p class="u-b0">
                                         From bytes to bolts. Our expert engineers find and develop the very best
                                         materials to craft everything from powertrain components to composites and
                                         in-car controls. All designed and created in our headquarters in Croatia, our
@@ -1578,9 +1562,7 @@
                                     <div class="c-article c-article--narrow">
                                         <h3 class="u-a2">
                                             Down to the last detail </h3>
-                                        <p class="u-b2">
-                                            All designed and created in our headquarters in Croatia, our cars are
-                                            handcrafted to perform far beyond expectations </p>
+                                        <p class="u-b2">Rebellious German Engineering, made tangible by the Apollo x Ideenion partnership.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1603,186 +1585,159 @@
                                         class="c-draggable-simple-slider__container swiper-container js-draggable-simple-slider">
                                         <ul class="c-draggable-simple-slider__wrapper swiper-wrapper">
 
-                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <!-- <figure class="c-image-with-caption">
+                                                    <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_01_optimised.jpg"
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg"
                                                                 media="(min-width: 2600px)">
                                                             <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_01_optimised.jpg"
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg"
                                                                 media="(min-width: 1600px)">
                                                             <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_01_optimised.jpg"
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg"
                                                                 media="(min-width: 800px)">
-                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_01_optimised-960x640.jpg"
-                                                                class="swiper-lazy" alt="">
+                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg" class="swiper-lazy" alt="Apollo Evo Monocoque">
                                                         </picture>                                                       
-                                                    </figure> -->
-                                                    <figure class="c-instagram-with-caption">
+                                                    </figure>
+                                                    <!-- <figure class="c-instagram-with-caption">
                                                         <blockquote class="instagram-media"
                                                             data-instgrm-permalink="https://www.instagram.com/reel/DWUEvBWjDa9/">
                                                         </blockquote>
-                                                    </figure>
-                                                    <div class="c-image-with-caption__caption instagram">
+                                                    </figure> -->
+                                                    <div class="c-image-with-caption__caption">
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             01 </span>
-                                                        <div class="c-image-with-caption__caption-text instagram">
-                                                            <h5 class="u-a1 u-capitalize">Engineered to exacting standards</h5>
-                                                            <p class="u-b2">
-                                                                Milled to absolute precision. Lightweight design through topology optimisation.3D printing through aluminium laser sintering delivers bionic forms, with final precision achieved through CNC milling. Total control over fit, finish and function at every stage.</p>
+                                                        <div class="c-image-with-caption__caption-text">
+                                                            <h5 class="u-a1 u-capitalize">Meticulously reimagined</h5>
+                                                            <p class="u-b2">The subtle art of improvement realized in the new Apollo EVO exhaust. Every finished piece has its story; it’s in the first sketches, the countless iterations, and the moment when lines connect into a 3D world. Here’s a peek into that process, see the unfolding, not just the form.</p>
                                                         </div>
 
                                                     </div>
                                                 </div>
                                             </li>
 
-                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide"><!-- .instagram-slide -->
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <!-- <figure class="c-image-with-caption">
+                                                    <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_02_optimised.jpg"
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp"
                                                                 media="(min-width: 2600px)">
                                                             <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_02_optimised.jpg"
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp"
                                                                 media="(min-width: 1600px)">
                                                             <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_02_optimised.jpg"
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp"
                                                                 media="(min-width: 800px)">
-                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_02_optimised-960x640.jpg"
-                                                                class="swiper-lazy" alt="">
-                                                        </picture>
-                                                    </figure> -->
-                                                    <figure class="c-instagram-with-caption">
+                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp" class="swiper-lazy" alt="Apollo Evo Monocoque">
+                                                        </picture>                                                       
+                                                    </figure>
+                                                    <!-- <figure class="c-instagram-with-caption">
                                                         <blockquote class="instagram-media"
                                                             data-instgrm-permalink="https://www.instagram.com/reel/DWB99PyjGDM/">
                                                         </blockquote>
-                                                    </figure>
-                                                    <div class="c-image-with-caption__caption instagram">
+                                                    </figure> -->
+                                                    <div class="c-image-with-caption__caption"> <!-- .instagram -->
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             02 </span>
-                                                        <div class="c-image-with-caption__caption-text instagram">
-                                                            <h5 class="u-a1 u-capitalize">Where craftsmanship meets performance.</h5>
-                                                            <p class="u-b2">
-                                                                The Apollo EVO carbon-fibre monocoque is meticulously sanded and polished — hand-finished by our experienced team to reveal its final form.</p>
+                                                        <div class="c-image-with-caption__caption-text"> <!-- .instagram -->
+                                                            <h5 class="u-a1 u-capitalize">Where craftsmanship meets performance</h5>
+                                                            <p class="u-b2">Precision-cut carbon fibre, hand-laid with purpose. Every sheet is placed to shape strength, safety, and performance from the inside out.</p>
                                                         </div>
 
                                                     </div>
                                                 </div>
                                             </li>
 
-                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <!-- <figure class="c-image-with-caption">
+                                                    <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_03_optimised.jpg"
-                                                                media="(min-width: 2600px)">
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" media="(min-width: 2600px)">
                                                             <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_03_optimised.jpg"
-                                                                media="(min-width: 1600px)">
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" media="(min-width: 1600px)">
                                                             <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_03_optimised.jpg"
-                                                                media="(min-width: 800px)">
-                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_03_optimised-960x640.jpg"
-                                                                class="swiper-lazy" alt="">
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" media="(min-width: 800px)">
+                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
                                                         </picture>
-                                                    </figure> -->
-                                                    <figure class="c-instagram-with-caption">
+                                                    </figure>
+                                                    <!-- <figure class="c-instagram-with-caption">
                                                         <blockquote class="instagram-media"
                                                             data-instgrm-permalink="https://www.instagram.com/reel/DV1I0F5jF2E/">
                                                         </blockquote>
-                                                    </figure>
-                                                    <div class="c-image-with-caption__caption instagram">
-                                                        <span class="c-image-with-caption__caption-number u-b3">
-                                                            03 </span>
-                                                        <div class="c-image-with-caption__caption-text instagram">
-                                                            <h5 class="u-a1 u-capitalize">Material shapes expression</h5>
-                                                            <p class="u-b2">
-                                                                From engineered components to exposed carbon fibre, from Alcantara to premium leather interiors — every texture, colour and finish is chosen to define a unique Apollo EVO.
-                                                            <br>
-                                                            Material. Colour. Character.</p>
+                                                    </figure> -->
+                                                    <div class="c-image-with-caption__caption">
+                                                        <span class="c-image-with-caption__caption-number u-b3">03</span>
+                                                        <div class="c-image-with-caption__caption-text">
+                                                            <h5 class="u-a1 u-capitalize">monocoque</h5>
+                                                            <p class="u-b2">Where heat, pressure and vision converge. The Apollo EVO monocoque.</p>
                                                         </div>
 
                                                     </div>
                                                 </div>
                                             </li>
 
-                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <!-- <figure class="c-image-with-caption">
+                                                    <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_04_optimised.jpg"
-                                                                media="(min-width: 2600px)">
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" media="(min-width: 2600px)">
                                                             <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_04_optimised.jpg"
-                                                                media="(min-width: 1600px)">
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" media="(min-width: 1600px)">
                                                             <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_04_optimised.jpg"
-                                                                media="(min-width: 800px)">
-                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_04_optimised-960x640.jpg"
-                                                                class="swiper-lazy" alt="">
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" media="(min-width: 800px)">
+                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
                                                         </picture>
-                                                    </figure> -->
-                                                    <figure class="c-instagram-with-caption">
+                                                    </figure>
+                                                    <!-- <figure class="c-instagram-with-caption">
                                                         <blockquote class="instagram-media"
                                                             data-instgrm-permalink="https://www.instagram.com/reel/DVi3zvPjDto/">
                                                         </blockquote>
-                                                    </figure>
-                                                    <div class="c-image-with-caption__caption instagram">
+                                                    </figure> -->
+                                                    <div class="c-image-with-caption__caption">
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             04 </span>
-                                                        <div class="c-image-with-caption__caption-text instagram">
-                                                            <h5 class="u-a1 u-capitalize">Interior</h5>
-                                                            <p class="u-b2">
-                                                                The Apollo EVO interior is designed as a driver focused cockpit, featuring an ergonomic layout that puts every essential control intuitively at hand.
-                                                            <br>
-                                                                From steering geometry to switch placement, every detail is calibrated to create a direct, unfiltered connection between driver and machine.
-                                                            </p>
+                                                        <div class="c-image-with-caption__caption-text">
+                                                            <h5 class="u-a1 u-capitalize">Strength is engineered, not added</h5>
+                                                            <p class="u-b2">Advanced composite layups, optimized fiber orientation, and controlled curing cycles — all to maximize stiffness while cutting unnecessary weight.</p>
                                                         </div>
 
                                                     </div>
                                                 </div>
                                             </li>
 
-                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <!-- <figure class="c-image-with-caption">
+                                                    <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
-                                                                data-srcset="https://www.rimac-automobili.com/wp-content/uploads/2021/06/089A9784_Edit-2160x1440.jpg"
-                                                                media="(min-width: 2600px)">
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" media="(min-width: 2600px)">
                                                             <source
-                                                                data-srcset="https://www.rimac-automobili.com/wp-content/uploads/2021/06/089A9784_Edit-1600x1067.jpg"
-                                                                media="(min-width: 1600px)">
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" media="(min-width: 1600px)">
                                                             <source
-                                                                data-srcset="https://www.rimac-automobili.com/wp-content/uploads/2021/06/089A9784_Edit-1600x1067.jpg"
-                                                                media="(min-width: 800px)">
-                                                            <img data-src="https://www.rimac-automobili.com/wp-content/uploads/2021/06/089A9784_Edit-960x640.jpg"
-                                                                class="swiper-lazy" alt="">
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" media="(min-width: 800px)">
+                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
                                                         </picture>
-                                                    </figure> -->
-                                                    <figure class="c-instagram-with-caption">
+                                                    </figure>
+                                                    <!-- <figure class="c-instagram-with-caption">
                                                         <blockquote class="instagram-media"
                                                             data-instgrm-permalink="https://www.instagram.com/reel/DVJYlxUDG5o/">
                                                         </blockquote>
-                                                    </figure>
-                                                    <div class="c-image-with-caption__caption instagram">
-                                                        <span class="c-image-with-caption__caption-number u-b3">
-                                                            05 </span>
-                                                        <div class="c-image-with-caption__caption-text instagram">
-                                                            <h5 class="u-a1 u-capitalize">shape</h5>
-                                                            <p class="u-b2">
-                                                                The Apollo EVO taking shape. Exterior pre-assembly — aligned and installed within a dedicated team, shaped by over two decades of hypercar heritage.
-                                                            <br> Pioneering German hypercar engineering in motion.</p>
+                                                    </figure> -->
+                                                    <div class="c-image-with-caption__caption">
+                                                        <span class="c-image-with-caption__caption-number u-b3">05</span>
+                                                        <div class="c-image-with-caption__caption-text">
+                                                            <h5 class="u-a1">Carbon at the core</h5>
+                                                            <p class="u-b2">Precision in every bracket, every mount, every load path. The all new Apollo EVO monocoque — Rebellious German Engineering for precision, strength and control.</p>
                                                         </div>
 
                                                     </div>
@@ -1926,43 +1881,54 @@
                                             <div class="c-accordion-content c-accordion-content--tech-spec">
                                                 <ul class="u-b0">
                                                     <li>
-                                                        <p>brand </p>
-                                                        <p class="c-accordion-content__faded">Apollo Automobil</p>
+                                                        <p>manufacturer</p>
+                                                        <p class="c-accordion-content__faded">Apollo Automobil GmbH</p>
                                                     </li>
                                                     <li>
-                                                        <p>vehicle type </p>
-                                                        <p class="c-accordion-content__faded">Hypercar Track-only</p>
+                                                        <p>model</p>
+                                                        <p class="c-accordion-content__faded">Apollo Project EVO</p>
                                                     </li>
                                                     <li>
                                                         <p>production</p>
-                                                        <p class="c-accordion-content__faded">10 Units</p>
+                                                        <p class="c-accordion-content__faded">2022 - present</p>
                                                     </li>
                                                     <li>
-                                                        <p>seats</p>
-                                                        <p class="c-accordion-content__faded">2</p>
+                                                        <p>units</p>
+                                                        <p class="c-accordion-content__faded">~10 units (limited production)</p>
                                                     </li>
                                                     <li>
-                                                        <p>homologation</p>
-                                                        <p class="c-accordion-content__faded">Track-only</p>
+                                                        <p>assembly</p>
+                                                        <p class="c-accordion-content__faded">Germany</p>
                                                     </li>
                                                     <li>
-                                                        <p>introduced</p>
-                                                        <p class="c-accordion-content__faded">2021</p>
+                                                        <p>class</p>
+                                                        <p class="c-accordion-content__faded">Hypercar (track-focused)</p>
                                                     </li>
                                                     <li>
-                                                        <p>price</p>
-                                                        <p class="c-accordion-content__faded">€3,000,000 / $3,200,000</p>
+                                                        <p>body style</p>
+                                                        <p class="c-accordion-content__faded">2-door coupe</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>layout</p>
+                                                        <p class="c-accordion-content__faded">Mid-engine, RWD</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>build time</p>
+                                                        <p class="c-accordion-content__faded">~1,200 hours per unit</p>
+                                                    </li>                                      
+                                                    <li>
+                                                        <p>paint time</p>
+                                                        <p class="c-accordion-content__faded">~600 hours</p>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="c-accordion__item js-accordion-single">
-                                        <div
-                                            class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
+                                        <div class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
                                             <div class="c-accordion-header__title-row">
                                                 <span class="c-accordion-header__numbering u-b3">02</span>
-                                                <p class="u-b0 u-capitalize">engine and performance</p>
+                                                <p class="u-b0 u-capitalize">Powertrain</p>
                                             </div>
                                             <div
                                                 class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
@@ -1978,13 +1944,69 @@
                                             <div class="c-accordion-content c-accordion-content--tech-spec">
                                                 <ul class="u-b0">
                                                     <li>
-                                                        <p>engine</p>
-                                                        <p class="c-accordion-content__faded">V12 (Ferrari F140)</p>
+                                                        <p>engine type</p>
+                                                        <p class="c-accordion-content__faded">Naturally Aspirated V12</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>engine code</p>
+                                                        <p class="c-accordion-content__faded">Ferrari-derived F140</p>
                                                     </li>
                                                     <li>
                                                         <p>displacement</p>
                                                         <p class="c-accordion-content__faded">6.3 L (382 ci / 6262 cc)</p>
                                                     </li>
+                                                    <li>
+                                                        <p>power output</p>
+                                                        <p class="c-accordion-content__faded">~780-800 hp @ 9,000 rpm</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>power / liter</p>
+                                                        <p class="c-accordion-content__faded">~128 PS (126 hp)</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>power / weight</p>
+                                                        <p class="c-accordion-content__faded">~615 PS (607 bhp) / t</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>torque </p>
+                                                        <p class="c-accordion-content__faded">~765 Nm (564 lb-ft) @ 6,750 rpm</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>torque / weight</p>
+                                                        <p class="c-accordion-content__faded">~588 Nm (434 lb-ft) / t</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>redline</p>
+                                                        <p class="c-accordion-content__faded">~9,000 rpm</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>transmission</p>
+                                                        <p class="c-accordion-content__faded">6-speed sequential gearbox</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>drivetrain</p>
+                                                        <p class="c-accordion-content__faded">Rear-wheel drive</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="c-accordion__item js-accordion-single">
+                                        <div class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
+                                            <div class="c-accordion-header__title-row">
+                                                <span class="c-accordion-header__numbering u-b3">03</span>
+                                                <p class="u-b0 u-capitalize">Performance</p>
+                                            </div>
+                                            <div class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
+                                                <div class="c-accordion-header__state-label c-accordion-header__state-label--closed">
+                                                    Show details </div>
+                                                <div class="c-accordion-header__state-label c-accordion-header__state-label--opened">
+                                                    Close details </div>
+                                            </div>
+                                        </div>
+                                        <div class="c-accordion-panel js-accordion-panel">
+                                            <div class="c-accordion-content c-accordion-content--tech-spec">
+                                                <ul class="u-b0">
                                                     <li>
                                                         <p>Acceleration* 0-96 km/h / (0-60mph) </p>
                                                         <p class="c-accordion-content__faded">2.5 sec</p>
@@ -1995,35 +2017,7 @@
                                                     </li>
                                                     <li>
                                                         <p>top speed</p>
-                                                        <p class="c-accordion-content__faded">335 km/h / 208 mph </p>
-                                                    </li>
-                                                    <li>
-                                                        <p>power</p>
-                                                        <p class="c-accordion-content__faded">588 kW (800 PS / 789 hp) @ 9,000 rpm</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>power / liter</p>
-                                                        <p class="c-accordion-content__faded">128 PS (126 hp)</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>power / weight</p>
-                                                        <p class="c-accordion-content__faded">615 PS (607 bhp) / t</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>torque </p>
-                                                        <p class="c-accordion-content__faded">765 Nm (564 lb-ft) @ 6,750 rpm</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>torque / weight</p>
-                                                        <p class="c-accordion-content__faded">588 Nm (434 lb-ft) / t</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>transmission</p>
-                                                        <p class="c-accordion-content__faded">6-speed sequential gearbox</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>drive</p>
-                                                        <p class="c-accordion-content__faded">Rear-wheel drive</p>
+                                                        <p class="c-accordion-content__faded">335 km/h / 208 mph</p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -2033,8 +2027,8 @@
                                         <div
                                             class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
                                             <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">03</span>
-                                                <p class="u-b0">Chassis and Aerodynamics</p>
+                                                <span class="c-accordion-header__numbering u-b3">04</span>
+                                                <p class="u-b0">Chassis and Construction</p>
                                             </div>
                                             <div
                                                 class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
@@ -2050,7 +2044,7 @@
                                             <div class="c-accordion-content c-accordion-content--tech-spec">
                                                 <ul class="u-b0">
                                                     <li>
-                                                        <p>construction </p>
+                                                        <p>construction</p>
                                                         <p class="c-accordion-content__faded">
                                                             + Full carbon fiber monocoque.<br />
                                                             + Carbon fibre front and rear subframes.<br />
@@ -2058,28 +2052,36 @@
                                                         </p>
                                                     </li>
                                                     <li>
-                                                        <p>Suspension </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            Double wishbone suspension with electronically adjusted
-                                                            dampers and hydraulic lift system, front and rear anti-roll
-                                                            bars </p>
+                                                        <p>Suspension</p>
+                                                        <p class="c-accordion-content__faded">Motorsport-derived setup</p>
                                                     </li>
                                                     <li>
                                                         <p>Brakes </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            Electro-hydraulic brake system with brake-by-wire
-                                                            functionality and brake-blending and pedal feel simulator
-                                                        </p>
+                                                        <p class="c-accordion-content__faded">Carbon-ceramic</p>
                                                     </li>
                                                     <li>
                                                         <p>Front brakes </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            CCMR 390 mm 6- piston, with ducted cooling </p>
+                                                        <p class="c-accordion-content__faded"></p>
                                                     </li>
                                                     <li>
                                                         <p>Rear brakes </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            CCMR 390 mm 6- piston, with ducted cooling </p>
+                                                        <p class="c-accordion-content__faded"></p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Wheels</p>
+                                                        <p class="c-accordion-content__faded">20" front / 21" rear</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>tires</p>
+                                                        <p class="c-accordion-content__faded">Michelin Pilot Sport Cup 2 R</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>front tires</p>
+                                                        <p class="c-accordion-content__faded">--</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>rear tires</p>
+                                                        <p class="c-accordion-content__faded">--</p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -2089,10 +2091,8 @@
                                         <div
                                             class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
                                             <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">
-                                                    04 </span>
-                                                <p class="u-b0">
-                                                    Powertrain </p>
+                                                <span class="c-accordion-header__numbering u-b3">05</span>
+                                                <p class="u-b0">Aerodynamics</p>
                                             </div>
                                             <div
                                                 class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
@@ -2108,53 +2108,20 @@
                                             <div class="c-accordion-content c-accordion-content--tech-spec">
                                                 <ul class="u-b0">
                                                     <li>
-                                                        <p>Powertrain </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            Four independent surface-mounted, carbon-sleeve,
-                                                            permanent-magnet electric motors<br />
-                                                            Four independent inverters and gearboxes<br />
-                                                            Four-wheel drive with software-controlled torque vectoring
-                                                        </p>
+                                                        <p>Aero Type</p>
+                                                        <p class="c-accordion-content__faded">Active aerodynamics</p>
                                                     </li>
                                                     <li>
-                                                        <p>Front motors (2) </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            226 kW (307 hp) each <br />
-                                                             Max torque 270 Nm each </p>
+                                                        <p>Rear Wing</p>
+                                                        <p class="c-accordion-content__faded">Electronically adjustable</p>
                                                     </li>
                                                     <li>
-                                                        <p>Rear motors (2) </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            450 kW (612 hp) each  <br />
-                                                            Torque max 900 Nm each </p>
+                                                        <p>Aero Elements</p>
+                                                        <p class="c-accordion-content__faded">Fins, ducts, stabilizers</p>
                                                     </li>
                                                     <li>
-                                                        <p>Front gearbox </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            Two single speed gearboxes (two independent gearboxes - one
-                                                            at each outer end of the axle) </p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Rear gearbox </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            Double single speed gearbox (two gearboxes in one housing
-                                                            between the motors) </p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Front inverter </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            800 V, 450 Arms phase current (for each motor) </p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Rear inverter </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            800 V, 1000 Arms phase current (for each motor) </p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Cooling </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            5 cooling systems and 2 refrigerant circuits<br />
-                                                            Fans and pumps running on 48V </p>
+                                                        <p>Downforce</p>
+                                                        <p class="c-accordion-content__faded">Extreme (track-focused, high-load)</p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -2164,10 +2131,8 @@
                                         <div
                                             class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
                                             <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">
-                                                    05 </span>
-                                                <p class="u-b0">
-                                                    Battery Pack </p>
+                                                <span class="c-accordion-header__numbering u-b3">06</span>
+                                                <p class="u-b0">Interior, Exterior & Technology</p>
                                             </div>
                                             <div
                                                 class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
@@ -2183,46 +2148,24 @@
                                             <div class="c-accordion-content c-accordion-content--tech-spec">
                                                 <ul class="u-b0">
                                                     <li>
-                                                        <p>Capacity </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            120 kWh </p>
+                                                        <p>Interior</p>
+                                                        <p class="c-accordion-content__faded">Minimalist, "bionic" design with carbon fiber structures</p>
                                                     </li>
                                                     <li>
-                                                        <p>Chemistry </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            Lithium Manganese Nickel </p>
+                                                        <p>Displays</p>
+                                                        <p class="c-accordion-content__faded">3 digital screens</p>
                                                     </li>
                                                     <li>
-                                                        <p>Cell format </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            Cylindrical, 21700 form-factor </p>
+                                                        <p>Materials</p>
+                                                        <p class="c-accordion-content__faded">Carbon fiber + Alcantara</p>
                                                     </li>
                                                     <li>
-                                                        <p>Number of cells </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            6960 </p>
+                                                        <p>Features</p>
+                                                        <p class="c-accordion-content__faded">Air conditioning, telemetry</p>
                                                     </li>
                                                     <li>
-                                                        <p>Maximum voltage </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            730V </p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Cooling </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            Liquid </p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Fast charge </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            500 kW DC Combo (19 min 0-80% SOC)<br />
-                                                            350 kW DC Combo (25 min 0-80% SOC)<br />
-                                                            250 kW DC Combo (30 min 0-80% SOC) </p>
-                                                    </li>
-                                                    <li>
-                                                        <p>On-board charging </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            3-phase 22 kW </p>
+                                                        <p>Layout</p>
+                                                        <p class="c-accordion-content__faded">Track-oriented cockpit</p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -2232,10 +2175,8 @@
                                         <div
                                             class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
                                             <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">
-                                                    06 </span>
-                                                <p class="u-b0">
-                                                    Aerodynamics </p>
+                                                <span class="c-accordion-header__numbering u-b3">07</span>
+                                                <p class="u-b0">Safety Systems</p>
                                             </div>
                                             <div
                                                 class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
@@ -2250,62 +2191,25 @@
                                         <div class="c-accordion-panel js-accordion-panel">
                                             <div class="c-accordion-content c-accordion-content--tech-spec">
                                                 <ul class="u-b0">
-                                                    <li>
-                                                        <p>Active elements </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            front bonnet profile, front underbody flap, rear diffuser,
-                                                            rear wing </p>
+                                                    <li class="d-block">
+                                                        <p>Structural Integrity </p>
+                                                        <p class="c-accordion-content__faded">The car utilizes an evolved carbon fiber monocoque with a 15% increase in torsional stiffness compared to previous models, acting as a high-strength safety cell.</p>
                                                     </li>
-                                                    <li>
-                                                        <p>CD in low-drag mode </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            0.3 </p>
+                                                    <li class="d-block">
+                                                        <p>Active Aerodynamics</p>
+                                                        <p class="c-accordion-content__faded">An electronic, deployable rear spoiler and aero fins adjust in real-time to maximize downforce and stability.</p>
                                                     </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="c-accordion__item js-accordion-single">
-                                        <div
-                                            class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
-                                            <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">
-                                                    07 </span>
-                                                <p class="u-b0">
-                                                    Safety Systems </p>
-                                            </div>
-                                            <div
-                                                class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--closed">
-                                                    Show details </div>
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--opened">
-                                                    Close details </div>
-                                            </div>
-                                        </div>
-                                        <div class="c-accordion-panel js-accordion-panel">
-                                            <div class="c-accordion-content c-accordion-content--tech-spec">
-                                                <ul class="u-b0">
-                                                    <li>
-                                                        <p>Airbags </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            Driver airbag (steering wheel) <br />
-                                                            Passenger airbag <br />
-                                                            Side airbag (lamella bag installed in the door at belt line)
-                                                        </p>
+                                                    <li class="d-block">
+                                                        <p>Braking System</p>
+                                                        <p class="c-accordion-content__faded">Equipped with 15-inch carbon ceramic brakes front and rear as standard, providing high-performance stopping capability.</p>
                                                     </li>
-                                                    <li>
-                                                        <p>Dynamic safety </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            Torque Vectoring with traction control and stability
-                                                            control, integrated with hydraulic ESP and ABS system. </p>
+                                                    <li class="d-block">
+                                                        <p>Safety Standards</p>
+                                                        <p class="c-accordion-content__faded">The chassis design meets strict FIA LMP2 safety regulations without requiring a traditional roll cage.</p>
                                                     </li>
-                                                    <li>
-                                                        <p>Structural </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            Pre-preg monocoque passenger cell with aluminium and
-                                                            carbon-fibre crash structures and deformation zones. </p>
+                                                    <li class="d-block">
+                                                        <p>Handling & Control</p>
+                                                        <p class="c-accordion-content__faded">Advanced, test-proven traction control systems manage handling, especially in adverse conditions. </p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -2315,51 +2219,13 @@
                                         <div
                                             class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
                                             <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">
-                                                    08 </span>
-                                                <p class="u-b0">
-                                                    Advanced driver assistance system* </p>
+                                                <span class="c-accordion-header__numbering u-b3">08</span>
+                                                <p class="u-b0">Dimensions</p>
                                             </div>
-                                            <div
-                                                class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--closed">
+                                            <div class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
+                                                <div class="c-accordion-header__state-label c-accordion-header__state-label--closed">
                                                     Show details </div>
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--opened">
-                                                    Close details </div>
-                                            </div>
-                                        </div>
-                                        <div class="c-accordion-panel js-accordion-panel">
-                                            <div class="c-accordion-content c-accordion-content--tech-spec">
-                                                <ul class="u-b0">
-                                                    <li>
-                                                        <p>ADAS Hardware </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            13 cameras<br />
-                                                            6 radars <br />
-                                                             12 ultrasonic sensors </p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="c-accordion__item js-accordion-single">
-                                        <div
-                                            class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
-                                            <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">
-                                                    09 </span>
-                                                <p class="u-b0">
-                                                    Dimensions </p>
-                                            </div>
-                                            <div
-                                                class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--closed">
-                                                    Show details </div>
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--opened">
+                                                <div class="c-accordion-header__state-label c-accordion-header__state-label--opened">
                                                     Close details </div>
                                             </div>
                                         </div>
@@ -2368,113 +2234,23 @@
                                                 <ul class="u-b0">
                                                     <li>
                                                         <p>Length </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            4745 mm </p>
+                                                        <p class="c-accordion-content__faded">5.15 m (203 in)</p>
                                                     </li>
                                                     <li>
-                                                        <p>Width </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            2052 mm </p>
+                                                        <p>Width</p>
+                                                        <p class="c-accordion-content__faded">2.17 m (85 in)</p>
                                                     </li>
                                                     <li>
-                                                        <p>Height </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            1240 mm </p>
+                                                        <p>Height</p>
+                                                        <p class="c-accordion-content__faded">1.10 m (43 in)</p>
                                                     </li>
                                                     <li>
-                                                        <p>Wheelbase </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            2745 mm </p>
+                                                        <p>Wheelbase</p>
+                                                        <p class="c-accordion-content__faded">2.70 m (106 in)</p>
                                                     </li>
                                                     <li>
-                                                        <p>Weight </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            2300 kg </p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="c-accordion__item js-accordion-single">
-                                        <div
-                                            class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
-                                            <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">
-                                                    10 </span>
-                                                <p class="u-b0">
-                                                    Tires: Michelin Pilot Sport 4S </p>
-                                            </div>
-                                            <div
-                                                class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--closed">
-                                                    Show details </div>
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--opened">
-                                                    Close details </div>
-                                            </div>
-                                        </div>
-                                        <div class="c-accordion-panel js-accordion-panel">
-                                            <div class="c-accordion-content c-accordion-content--tech-spec">
-                                                <ul class="u-b0">
-                                                    <li>
-                                                        <p>Front </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            275/35 R20 </p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Rear </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            315/35 R20 </p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="c-accordion__item js-accordion-single">
-                                        <div
-                                            class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
-                                            <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">
-                                                    11 </span>
-                                                <p class="u-b0">
-                                                    Electricity consumption and CO2 emissions </p>
-                                            </div>
-                                            <div
-                                                class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--closed">
-                                                    Show details </div>
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--opened">
-                                                    Close details </div>
-                                            </div>
-                                        </div>
-                                        <div class="c-accordion-panel js-accordion-panel">
-                                            <div class="c-accordion-content c-accordion-content--tech-spec">
-                                                <ul class="u-b0">
-                                                    <li>
-                                                        <p>WLTP electricity consumption in: </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            Low: 29.1 kWh/100km<br />
-                                                            Medium: 26.7 kWh/100km<br />
-                                                            High: 27.5 kWh/100km<br />
-                                                            Extra High: 34.5 kWh/100km<br />
-                                                            City: 27.7 kWh/100km<br />
-                                                            Combined: 30.0 KWh/100km </p>
-                                                    </li>
-                                                    <li>
-                                                        <p>CO2 emissions: </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            Combined: 0 g/km<br />
-                                                            <br />
-                                                            A guide on fuel economy and CO2 emissions which contains
-                                                            data for all new passenger car models is available at any
-                                                            point of sale free of charge and on the <a
-                                                                href="https://mup.gov.hr/UserDocsImages/dokumenti/2022/Vodic o ekonomicnosti potrosnje goriva i emisijama CO2 za 2022. godinu.pdf"
-                                                                target="_blank" style="text-decoration: underline">web
-                                                                pages</a> of Croatian Ministry of Internal Affairs.
-                                                        </p>
+                                                        <p>Weight</p>
+                                                        <p class="c-accordion-content__faded">1,300 kg (2,866 lbs)</p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -2484,12 +2260,10 @@
                             </div>
                         </div>
                     </section>
-
                     <i class="c-scroll-indicator">
                         <i></i>
                     </i>
                 </div>
-
             </div>
             <!-- //PAGE CONTENT -->
             <!-- PREFOOTER -->

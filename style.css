@@ -9111,6 +9111,13 @@ span.wpcf7-not-valid-tip {
 	text-align: center;
 }
 
+.js-nevera-logo.js-nevera-logo--text {
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
 .js-nevera-logo img {
 	max-width: 400px;
 	width: 100%;
@@ -18520,13 +18527,14 @@ input {
 
 @media (max-width: 800px) {
 	.c-scrolling-reveal__header {
-		min-height: 80vh;
+		/* min-height: 80vh; */
 	}
 }
 
 @media (max-width: 480px) {
 	.c-scrolling-reveal__header {
-		min-height: 60vh;
+		/* min-height: 60vh; */
+		min-height: 80vh;
 	}
 }
 
@@ -18593,6 +18601,12 @@ input {
 	width: 100%;
 	/* max-width: 20em; */
 	max-width: 34.72222vw;
+}
+
+@media (max-width: 800px) {
+	.c-reveal-mask__text {
+		max-width: unset;
+	}
 }
 
 .c-reveal-mask__text .c-button {
@@ -23264,6 +23278,12 @@ input {
 	transition: 0.3s ease-out;
 }
 
+@media (max-width: 479.99px) {
+	.c-accordion-header--tech-spec .c-accordion-header__title-row p {
+		transform: translateX(10px);
+	}
+}
+
 @media (hover: hover),
 all and (-ms-high-contrast: none),
 (-ms-high-contrast: active) {
@@ -23528,7 +23548,7 @@ all and (-ms-high-contrast: none),
 .c-accordion-content ul li:before {
 	position: absolute;
 	left: -2.08333vw;
-	top: 0.6em;
+	top: 0.75em;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	content: "";
@@ -23547,13 +23567,17 @@ all and (-ms-high-contrast: none),
 }
 
 @media (max-width: 480px) {
+	.c-accordion-content ul li:before {
+		top: 0.6em;
+	}
+
 	.c-accordion-content__faded {
 		display: block;
 	}
 }
 
 .c-accordion-content--tech-spec ul {
-	max-width: 660px;
+	/* max-width: 660px; */
 }
 
 @media (min-width: 1440px) {
@@ -23564,7 +23588,9 @@ all and (-ms-high-contrast: none),
 }
 
 .c-accordion-content--tech-spec li p {
+	margin-bottom: 5px;
 	width: 100%;
+
 }
 
 .c-accordion-content--tech-spec li>p:first-child {
@@ -26838,7 +26864,9 @@ all and (-ms-high-contrast: none),
 }
 
 .c-nevera-welcome__header {
-	padding-left: 8.33333%;
+	/* padding-left: 8.33333%; */
+	padding-left: 4.166665%;
+	padding-right: 4.166665%;
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
@@ -26905,7 +26933,9 @@ all and (-ms-high-contrast: none),
 }
 
 .c-nevera-welcome__footer {
-	padding-left: 8.33333%;
+	/* padding-left: 8.33333%; */
+	padding-left: 4.166665%;
+	padding-right: 4.166665%;
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
@@ -26935,7 +26965,7 @@ all and (-ms-high-contrast: none),
 }
 
 .c-nevera-welcome__footer-description p {
-	max-width: 29.41176em;
+	/* max-width: 29.41176em; */
 	padding-bottom: 20px;
 	opacity: 0.6;
 }

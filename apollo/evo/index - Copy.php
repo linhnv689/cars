@@ -42,10 +42,9 @@
 </head>
 
 <body
-    class="page-template page-template-page-templates page-template-nevera page-template-page-templatesnevera-php page page-id-6841 page-parent">
+    class="page-template page-template-page-templates page-template-apollo-evo page-template-page-templatesnevera-php page page-id-6841 page-parent">
 
     <div class="c-page-bg  js-page-bg js-gradient-bg">
-
         <i class="c-page-bg__bg js-page-bg-bg"></i>
     </div>
 
@@ -58,18 +57,10 @@
                     <a href="../index.html" class="c-logo c-logo--navigation">
                         <i class="c-logo__full c-logo__full--light">
                             <span class="c-logo-sign">
-                                <svg class="u-logo-sign" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 50">
-                                    <path
-                                        d="M39.8 4.04291C39.8 20.274 33.7148 40.3551 20.4462 49.2177C20.2841 49.326 20.0936 49.3838 19.8986 49.3838C19.7037 49.3838 19.5131 49.326 19.3511 49.2177C6.08534 40.3551 -0.0251953 20.274 7.80668e-05 4.04291C-0.000302816 3.8282 0.0698339 3.61931 0.199712 3.44834C0.329589 3.27737 0.51202 3.15378 0.718964 3.09656C13.2574 -0.471641 26.5427 -0.471641 39.0811 3.09656C39.2866 3.15403 39.4678 3.277 39.597 3.44679C39.7262 3.61658 39.7965 3.82391 39.7972 4.0373L39.8 4.04291ZM29.3312 37.1903L11.4377 19.3024C11.4112 19.2764 11.39 19.2454 11.3756 19.2112C11.3611 19.1769 11.3536 19.1402 11.3534 19.103C11.3534 19.0286 11.383 18.9571 11.4357 18.9045C11.4884 18.8518 11.5598 18.8222 11.6343 18.8222H16.5373C21.3111 18.8222 23.3976 17.654 23.3864 15.7557C23.3751 13.8574 21.6116 13.0402 16.6159 13.0402H2.60885C2.57297 13.0404 2.53812 13.0523 2.50954 13.074C2.48096 13.0957 2.4602 13.1261 2.45039 13.1606C2.44057 13.1951 2.44223 13.2319 2.4551 13.2654C2.46798 13.2989 2.49139 13.3273 2.5218 13.3463L4.68127 14.6914C4.70364 14.7058 4.72271 14.7247 4.73724 14.747C4.75176 14.7693 4.76139 14.7943 4.76551 14.8206C5.48986 19.3177 6.67844 23.7276 8.31221 27.9796C11.1204 35.1516 15.0518 40.9196 19.6965 44.6572C19.7562 44.7063 19.8312 44.7331 19.9085 44.7331C19.9858 44.7331 20.0607 44.7063 20.1205 44.6572C22.7034 42.5229 24.9433 40.0046 26.7618 37.1903C26.7815 37.161 26.809 37.1378 26.8413 37.1234C26.8736 37.109 26.9093 37.104 26.9443 37.1089L29.2049 37.4431C29.2358 37.4476 29.2674 37.4422 29.2951 37.4277C29.3229 37.4132 29.3453 37.3903 29.3593 37.3623C29.3733 37.3344 29.3781 37.3027 29.3731 37.2718C29.368 37.2409 29.3534 37.2124 29.3312 37.1903ZM35.877 6.53655C35.8794 6.45783 35.8548 6.38066 35.8073 6.31784C35.7598 6.25502 35.6923 6.21032 35.6159 6.19115C30.5103 4.95434 25.2781 4.31634 20.025 4.29003H19.7835C14.5257 4.3154 9.28873 4.95341 4.17861 6.19115C4.1017 6.20936 4.03355 6.25382 3.98588 6.31686C3.93822 6.3799 3.91402 6.45759 3.91745 6.53655C3.9708 7.9659 4.08032 9.40648 4.23196 10.8499C8.22796 10.8218 16.5878 10.7797 20.7411 10.833C27.9552 10.9229 30.6539 12.4196 30.6707 15.4974C30.6707 18.0247 28.7247 19.8444 23.0382 20.3499C22.4541 20.4032 21.9149 20.4509 21.5555 20.4734C21.5149 20.4772 21.4763 20.4926 21.4442 20.5176C21.4121 20.5426 21.3879 20.5763 21.3743 20.6147C21.3607 20.6531 21.3584 20.6945 21.3676 20.7342C21.3768 20.7738 21.3972 20.81 21.4263 20.8385L30.637 30.0492C30.9347 29.3753 31.2183 28.6873 31.4935 27.9824C34.1075 21.1177 35.588 13.8736 35.877 6.53374V6.53655Z" />
-                                </svg>
-
+                                <img src="<?php echo $root_path; ?>/assets/img/logo-sign.png" alt="">
                             </span>
                             <span class="c-logo-text">
-                                <svg class="u-logo-text" viewBox="0 0 193 50" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M47.3596 16.7775C47.3596 16.7441 47.3662 16.711 47.3791 16.6801C47.392 16.6493 47.4108 16.6213 47.4346 16.5978C47.4584 16.5743 47.4866 16.5557 47.5175 16.5432C47.5485 16.5307 47.5817 16.5244 47.6151 16.5248H55.6127C55.6798 16.5248 55.7441 16.5514 55.7915 16.5988C55.8389 16.6462 55.8655 16.7105 55.8655 16.7775V32.1915C55.8655 32.2585 55.8389 32.3228 55.7915 32.3702C55.7441 32.4176 55.6798 32.4442 55.6127 32.4442H47.6151C47.5817 32.4446 47.5485 32.4383 47.5175 32.4258C47.4866 32.4132 47.4584 32.3947 47.4346 32.3712C47.4108 32.3477 47.392 32.3197 47.3791 32.2888C47.3662 32.258 47.3596 32.2249 47.3596 32.1915V16.7775ZM15.0097 23.7305C14.9462 23.7298 14.8841 23.7482 14.8312 23.7832C14.7783 23.8182 14.7371 23.8682 14.7129 23.9268C14.6887 23.9855 14.6827 24.05 14.6955 24.1121C14.7084 24.1742 14.7395 24.2311 14.785 24.2753L23.9677 32.228C24.1286 32.3689 24.3351 32.4467 24.549 32.447H33.3974C33.436 32.4465 33.4735 32.4342 33.505 32.412C33.5365 32.3897 33.5605 32.3585 33.5738 32.3223C33.5872 32.2861 33.5893 32.2468 33.5799 32.2094C33.5705 32.172 33.5499 32.1383 33.521 32.1128L26.3125 25.8675C26.2803 25.8357 26.2578 25.7954 26.2477 25.7514C26.2375 25.7073 26.2401 25.6612 26.2551 25.6186C26.2701 25.5759 26.2969 25.5384 26.3324 25.5103C26.368 25.4823 26.4107 25.465 26.4557 25.4603C27.5453 25.3957 29.2638 25.334 30.901 25.157C35.3379 24.6825 37.6855 23.4244 37.6855 20.9055C37.6855 17.9008 34.8605 16.5276 29.1656 16.5276H0.19385C0.154818 16.527 0.116545 16.5384 0.0841815 16.5602C0.051818 16.582 0.0269215 16.6133 0.0128467 16.6497C-0.00122818 16.6861 -0.00380966 16.7259 0.00545759 16.7639C0.0147248 16.8018 0.035395 16.8359 0.0646769 16.8618L1.89559 18.4877C2.0583 18.634 2.26932 18.715 2.48811 18.7151H23.7149C27.5509 18.7151 29.1796 19.3105 29.1796 21.1695C29.1796 22.8684 27.037 23.5564 22.6506 23.6322C17.4471 23.7108 15.0097 23.7305 15.0097 23.7305ZM115.96 24.573C115.93 24.5979 115.908 24.6316 115.898 24.6693C115.888 24.707 115.89 24.747 115.904 24.7836C115.917 24.8206 115.941 24.8526 115.974 24.8752C116.006 24.8978 116.044 24.9099 116.083 24.9099H119.726C119.931 24.9084 120.129 24.836 120.287 24.7049L127.44 18.7123C127.558 18.6125 127.71 18.5595 127.865 18.5631C128.02 18.5667 128.168 18.6268 128.282 18.732L142.884 32.2111C143.049 32.3631 143.264 32.4473 143.488 32.447H152.587C152.625 32.447 152.663 32.4353 152.694 32.4136C152.726 32.3919 152.75 32.3612 152.764 32.3254C152.778 32.2896 152.781 32.2505 152.772 32.213C152.764 32.1756 152.744 32.1417 152.716 32.1156L136.08 16.7635C135.916 16.6115 135.7 16.5273 135.477 16.5276H125.89C125.684 16.5295 125.485 16.6029 125.328 16.7354L115.96 24.573ZM87.4151 24.0506C87.313 24.1165 87.194 24.1516 87.0725 24.1516C86.9509 24.1516 86.832 24.1165 86.7299 24.0506L74.9356 16.668C74.7905 16.5727 74.6206 16.522 74.447 16.522H63.9249C63.8837 16.522 63.8437 16.5354 63.8107 16.56C63.7778 16.5846 63.7537 16.6193 63.742 16.6587C63.7303 16.6982 63.7317 16.7404 63.7459 16.779C63.7602 16.8176 63.7865 16.8506 63.821 16.873L83.3489 29.6529C83.4517 29.7209 83.5723 29.7571 83.6957 29.7571C83.819 29.7571 83.9396 29.7209 84.0425 29.6529L98.9257 19.9704C98.9611 19.9454 99.0023 19.93 99.0454 19.9255C99.0884 19.9211 99.132 19.9278 99.1717 19.945C99.2115 19.9621 99.2461 19.9893 99.2724 20.0237C99.2986 20.0582 99.3156 20.0988 99.3216 20.1417V32.1915C99.3216 32.2249 99.3282 32.258 99.3411 32.2888C99.354 32.3197 99.3729 32.3477 99.3967 32.3712C99.4204 32.3947 99.4486 32.4132 99.4796 32.4258C99.5106 32.4383 99.5438 32.4446 99.5772 32.4442H107.566C107.6 32.4446 107.633 32.4383 107.664 32.4258C107.695 32.4132 107.723 32.3947 107.747 32.3712C107.771 32.3477 107.79 32.3197 107.802 32.2888C107.815 32.258 107.822 32.2249 107.822 32.1915V16.7775C107.822 16.7441 107.815 16.711 107.802 16.6801C107.79 16.6493 107.771 16.6213 107.747 16.5978C107.723 16.5743 107.695 16.5557 107.664 16.5432C107.633 16.5307 107.6 16.5244 107.566 16.5248H99.2262C99.0539 16.5254 98.8854 16.5751 98.7403 16.668L87.4151 24.0506ZM192.241 16.5304H169.829C166.032 16.5304 162.859 16.9432 160.652 18.5186C158.565 20.0069 157.417 22.127 157.417 24.4915C157.417 26.856 159.177 32.4498 169.604 32.4498H181.199C181.237 32.4497 181.273 32.4385 181.305 32.4175C181.336 32.3965 181.36 32.3667 181.375 32.3319C181.389 32.297 181.393 32.2587 181.386 32.2217C181.378 32.1848 181.36 32.1508 181.334 32.1241L179.736 30.6245C179.654 30.5415 179.556 30.4756 179.448 30.4308C179.34 30.3859 179.224 30.363 179.107 30.3634H176.273C169.646 30.3634 165.92 28.3274 165.92 24.4915C165.92 20.5601 169.598 18.718 175.291 18.718H190.157C190.394 18.7171 190.621 18.6222 190.789 18.454L192.384 16.8561C192.412 16.8298 192.432 16.7953 192.441 16.7574C192.449 16.7194 192.446 16.6797 192.431 16.6437C192.417 16.6077 192.391 16.577 192.359 16.5557C192.326 16.5345 192.288 16.5237 192.249 16.5248L192.241 16.5304Z" />
-                                </svg>
+                                <img src="<?php echo $root_path; ?>/assets/img/logo-text.png" alt="">
                             </span>
                         </i>
                     </a>
@@ -269,8 +260,7 @@
 
     <!-- PAGE WRAPPER -->
     <div data-barba="wrapper">
-        <div id="nevera" class="o-page o-page--nevera" data-barba="container" data-barba-namespace="nevera"
-            data-title="">
+        <div id="nevera" class="o-page o-page--nevera" data-barba="container" data-barba-namespace="nevera" data-title="">
 
             <div id="nevera-reveal-images" class="o-page__inner o-page__inner--nevera js-scrollspy-container">
                 <span class="u-page-logo js-page-logo">
@@ -294,10 +284,10 @@
                 </span>
                 <div class="c-scrollspy-wrapper c-scrollspy-wrapper--nevera js-scrollspy js-inpage-navigation-trigger">
                     <div class="c-scrollspy u-b2--A u-fw-semi-bold u-uppercase">
-                        <!--        <div class="c-scrollspy__prepend">-->
-                        <!--            <i></i>-->
-                        <!--            <i></i>-->
-                        <!--        </div>-->
+                        <div class="c-scrollspy__prepend"> <!-- show dot -->
+                            <i></i>
+                            <i></i>
+                        </div>
                         <div class="c-scrollspy__progress js-scrollspy-progress">
                             <i class="c-scrollspy__progress-line js-scrollspy-progress-line"></i>
                         </div>
@@ -309,12 +299,11 @@
 
                             </p>
                         </div>
-                        <span class="c-scrollspy__count js-scrollspy-count">
-                        </span>
-                        <!--        <div class="c-scrollspy__append">-->
-                        <!--            <i></i>-->
-                        <!--            <i></i>-->
-                        <!--        </div>-->
+                        <span class="c-scrollspy__count js-scrollspy-count">open</span>
+                        <div class="c-scrollspy__append"> <!-- show dot -->
+                            <i></i>
+                            <i></i>
+                        </div>
                     </div>
                 </div>
                 <div class="c-inpage-navigation-wrapper js-inpage-navigation">
@@ -346,30 +335,23 @@
                                         <span class="c-inpage-navigation-link__number">
                                             02
                                         </span>
-                                        <span class="c-inpage-navigation-link__label">
-                                            Performance </span>
+                                        <span class="c-inpage-navigation-link__label">Performance </span>
                                     </a>
                                 </li>
                                 <li
                                     class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
                                     <a href="#driving-experience"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
-                                        <span class="c-inpage-navigation-link__number">
-                                            03
-                                        </span>
-                                        <span class="c-inpage-navigation-link__label">
-                                            Experience Electric </span>
+                                        <span class="c-inpage-navigation-link__number">03</span>
+                                        <span class="c-inpage-navigation-link__label">Experience</span>
                                     </a>
                                 </li>
                                 <li
                                     class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
                                     <a href="#design"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
-                                        <span class="c-inpage-navigation-link__number">
-                                            04
-                                        </span>
-                                        <span class="c-inpage-navigation-link__label">
-                                            Design </span>
+                                        <span class="c-inpage-navigation-link__number">04</span>
+                                        <span class="c-inpage-navigation-link__label">Design</span>
                                     </a>
                                 </li>
                                 <li
@@ -379,41 +361,23 @@
                                         <span class="c-inpage-navigation-link__number">
                                             05
                                         </span>
-                                        <span class="c-inpage-navigation-link__label">
-                                            Engineering </span>
+                                        <span class="c-inpage-navigation-link__label">Engineering</span>
                                     </a>
                                 </li>
                                 <li
                                     class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
-                                    <a href="#in-house-production"
+                                    <a href="#instagram"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
-                                        <span class="c-inpage-navigation-link__number">
-                                            06
-                                        </span>
-                                        <span class="c-inpage-navigation-link__label">
-                                            In-house Production </span>
+                                        <span class="c-inpage-navigation-link__number">06</span>
+                                        <span class="c-inpage-navigation-link__label">Instagram</span>
                                     </a>
                                 </li>
                                 <li
                                     class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
                                     <a href="#tech-spec"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
-                                        <span class="c-inpage-navigation-link__number">
-                                            07
-                                        </span>
-                                        <span class="c-inpage-navigation-link__label">
-                                            Technical Specs </span>
-                                    </a>
-                                </li>
-                                <li
-                                    class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
-                                    <a href="#enquire"
-                                        class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
-                                        <span class="c-inpage-navigation-link__number">
-                                            08
-                                        </span>
-                                        <span class="c-inpage-navigation-link__label">
-                                            ENQUIRE </span>
+                                        <span class="c-inpage-navigation-link__number">07</span>
+                                        <span class="c-inpage-navigation-link__label">Technical Specs</span>
                                     </a>
                                 </li>
                             </ul>
@@ -428,10 +392,8 @@
                         </div>
                     </div>
 
-                    <section id="intro" class="pr o-section o-section--full o-section--nevera-intro js-scrollspy-item"
-                        data-scrollspy-title="Intro">
+                    <section id="intro" class="pr o-section o-section--full o-section--nevera-intro js-scrollspy-item" data-scrollspy-title="Intro">
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video js-split-video">
-
 
                             <div class="c-custom-video-player js-custom-video-player no-poster">
 
@@ -478,10 +440,11 @@
                                         <span class="js-time-duration">00:00</span>
                                     </p>
 
-                                    <video class="c-custom-video-player__video js-video-element" preload="metadata"
+                                    <!-- <video class="c-custom-video-player__video js-video-element" preload="metadata"
                                         crossorigin="anonymous" playsinline data-autoplay="true">
                                         <source src="<?php echo $root_path; ?>/uploads/2021/05/30204415/NeveraR.mp4" type="video/mp4" />
-                                    </video>
+                                    </video> -->
+                                    <img src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-001.jpg" style="object-position:center" alt="">
                                     <!--end video source-->
                                 </div>
                             </div>
@@ -490,10 +453,10 @@
                         <div class="spliter">
                             <div class="spliter__one">
                                 <div class="pr">
-                                    <h2 class="u-a4 u-a4-plus u-uppercase js-nevera-logo">apollo evo</h2>
+                                    <!-- <h2 class="u-a4 u-a4-plus u-uppercase js-nevera-logo">apollo evo</h2>
                                     <span class="js-nevera-logo--holder u-a4 u-uppercase">The Apollo Evo</span>
 
-                                    <p class="u-b0"></p>
+                                    <p class="u-b0"></p> -->
                                     <div class="flex-line justify-content-center">
 
                                         <span class="c-button c-button--play js-video-popup-btn"
@@ -506,8 +469,7 @@
                                                     </svg>
                                                 </span>
                                                 <span class="c-button__label">
-                                                    <i class="c-button__label-inner" title="Play video">
-                                                        Play video </i>
+                                                    <i class="c-button__label-inner" title="Play video">Play video</i>
                                                 </span>
                                             </span>
                                         </span>
@@ -517,49 +479,13 @@
                             </div>
                             <div class="spliter__one">
                                 <div class="pr">
-                                    <h2 class="u-a4 u-uppercase js-nevera-logo js-nevera-logo--r">
-                                        <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 180 25.64">
-                                            <defs>
-                                                <style>
-                                                    .cls-1 {
-                                                        fill: #fff;
-                                                        stroke-width: 0
-                                                    }
-                                                </style>
-                                            </defs>
-                                            <g id="ARTWORK">
-                                                <path class="cls-1"
-                                                    d="M78.22 10.48c-.23 0-.33.1-.44.33l-.32.76c-.11.23-.08.43.21.43h9.08c.23 0 .33-.13.4-.3l.39-.89c.11-.23.01-.33-.22-.33h-9.11Zm-44.38 0c-.23 0-.33.1-.44.33l-.32.76c-.11.23-.08.43.21.43h9.08c.23 0 .33-.13.4-.3l.39-.89c.11-.23.01-.33-.22-.33h-9.11Z" />
-                                                <path class="cls-1"
-                                                    d="M3.79 6.98c-.16 0-.23.07-.3.2L.02 15.29c-.03.1-.03.2.1.2h6.15c.1 0 .16-.07.23-.2l2.98-6.94c.04-.1.18-.12.26-.03l6.86 6.97c.16.16.3.2.52.2h26.75c.3 0 .43-.07.56-.2l1.25-1.11c.13-.13.03-.26-.07-.26H29.97c-.1 0-.13-.1-.1-.2l2.14-4.96c.07-.16.16-.2.36-.2h13.92c.16 0 .23.1.3.23l3.09 6.5c.07.13.16.2.3.2h10.59c.33 0 .43-.03.72-.26l8.61-6.99c.23-.2.33-.1.26.07l-2.92 6.79c-.1.2 0 .39.2.39h30.48c.16 0 .25-.11.3-.2l2.79-6.54c.07-.13.13-.2.26-.2h7.93c.13 0 .2.07.23.13l.36.79c.07.13.13.16.3.16h7.34c.16 0 .23-.07.16-.2l-.98-2.23c-.1-.2-.2-.23-.39-.23H95c-.16 0-.3.13-.36.3l-2.8 6.5c-.03.1-.13.13-.23.13H74.46c-.16 0-.23-.1-.16-.26l2.11-4.9c.03-.1.13-.2.26-.2h15.16c.1 0 .2-.1.1-.26l-.82-1.15c-.07-.1-.16-.16-.43-.16H65.05c-.23 0-.36.03-.59.2l-8.6 6.9c-.2.16-.33.13-.39 0l-3.08-6.8c-.07-.2-.2-.3-.36-.3H26.27c-.13 0-.23.13-.3.3l-2.99 6.95c-.06.13-.15.14-.26.03l-6.87-7.09c-.16-.16-.3-.2-.49-.2H3.79Z" />
-                                                <path class="cls-1"
-                                                    d="M109.39 15.49h12.64c.23 0 .39-.03.59-.2l8.43-6.92c.1-.08.19-.08.26.01l4.88 6.84c.1.16.23.26.46.26h6.13c.13 0 .23-.13.13-.3l-5.8-7.91c-.1-.16-.23-.3-.46-.3H126c-.26 0-.43.1-.52.2l-8.82 7.04c-.1.07-.17.03-.21-.02l-1.03-1.54c-.07-.13-.03-.23.07-.33l1.44-1.19c.1-.1.07-.26-.07-.26h-7.05c-.16 0-.26.07-.33.13l-1.91 1.73c-.1.1-.12.25-.04.37l1.54 2.17c.05.06.14.2.3.2ZM171.46.48c.24-.33.17-.48-.24-.48H128c-.44 0-.52.19-.21.51l1.61 1.66c.14.14.33.22.53.22h32c.13 0 .15.08.03.14l-11.76 5.2c-.82.36-.84.7-.08 1.17l26.39 16.55c.2.12.42.19.66.19h2.41c.48 0 .56-.22.21-.54L159.96 6.58c-.4-.37-.36-.55.15-.73l9.6-3.34c.22-.08.42-.22.56-.41l1.19-1.62Z" />
-                                            </g>
-                                        </svg>
-                                    </h2>
-                                    <span class="js-nevera-logo--holder u-a4 u-uppercase">
-                                        The Nevera R </span>
-
-                                    <p class="u-b0">
-                                    </p>
+                                    <h2 class="u-a4 u-a4-plus u-uppercase js-nevera-logo js-nevera-logo--r">apollo evo</h2>                       
                                     <div class="flex-line justify-content-center">
-                                        <a class="c-button" target="_blank" href="../NeveraR/index.html">
-                                            <span class="c-button__inner">
-                                                <span class="c-button__label">
-                                                    <i class="c-button__label-inner" title="Explore">
-                                                        Explore </i>
-                                                </span>
-                                            </span>
-                                        </a>
+                                        <span class="js-nevera-logo--holder u-a1 u-a4-plus u-uppercase">Next Leap in our Evolution</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
-
-
                     </section>
                     <div class="o-container o-container--narrow"
                         style="position: relative; z-index: 6; background-color: #0d2936; padding-top: 10px; font-size: 13px; padding-bottom: 10px; text-align: center; color: rgba(255,255,255,0.7);">
@@ -569,13 +495,12 @@
                     <section id="welcome" class="o-section">
                         <div class="c-nevera-welcome">
                             <header class="c-nevera-welcome__header">
-                                <p class="c-nevera-welcome__eyebrow u-b3 u-fw-600">
-                                    Welcome to hypercar 2.0 </p>
+                                <h4 class="c-nevera-welcome__footer-title u-uppercase u-a3 u-fw-400 mb-0">Rewriting the Rules of Automotive Design</h4>
+                                <!-- <p class="c-nevera-welcome__eyebrow u-uppercase u-b3 u-fw-600">The Next Chapter Begins: Rewriting the Rules of Automotive Design</p>-->
                                 <p class="c-nevera-welcome__header-description u-a2 u-a2-400">
-                                    Capable of exceptional speeds, swift and powerful beyond comprehension. Like the
-                                    mighty storm system from which it takes its name, Nevera is a force like no other.
-                                    Designed, engineered and handcrafted in Croatia, defined by function and forged from
-                                    a love for automotive, Nevera was born to outperform </p>
+                                    This is our daring statement of intent.
+                                    With power and purpose in every unmistakable line, the Apollo EVO is the culmination of our achievements to date.
+                                    Relentless momentum embodied in bold, sweeping lines.</p>
                             </header>
                             <div class="c-nevera-welcome__slider">
                                 <!-- DRAGGABLE SLIDER -->
@@ -584,15 +509,11 @@
                                     <!-- CURSOR -->
                                     <div class="c-draggable-slider-cursor js-draggable-simple-slider-cursor">
                                         <div class="c-draggable-slider-cursor__circle">
-                                            <div class="c-draggable-slider-cursor__label u-b3 u-uppercase">
-                                                Drag </div>
+                                            <div class="c-draggable-slider-cursor__label u-b3 u-uppercase">Drag</div>
 
-                                            <div class="c-draggable-slider-cursor__label--click u-b3 u-uppercase">
-                                                Click </div>
-                                            <i
-                                                class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--prev"></i>
-                                            <i
-                                                class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--next"></i>
+                                            <div class="c-draggable-slider-cursor__label--click u-b3 u-uppercase">Click</div>
+                                            <i class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--prev"></i>
+                                            <i class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--next"></i>
                                         </div>
                                     </div>
                                     <!-- //CURSOR -->
@@ -608,15 +529,170 @@
                                                         <figure class="c-image-with-caption">
                                                             <picture>
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_08_optimised-2160x1215.jpg"
-                                                                    media="(min-width: 2600px)">
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-002.jpg" media="(min-width: 2600px)">
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_08_optimised-1600x900.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-002.jpg"
                                                                     media="(min-width: 1600px)">
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_08_optimised-1600x900.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-002.jpg"
                                                                     media="(min-width: 800px)">
-                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_08_optimised-960x540.jpg"
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-002.jpg" class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-003.jpg"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-003.jpg"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-003.jpg"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-003.jpg" class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-004.jpg"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-004.jpg"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-004.jpg"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-004.jpg" class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-005.jpg"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-005.jpg"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-005.jpg"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-005.jpg" class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-006.jpg"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-006.jpg"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-006.jpg"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-006.jpg" class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-007.jpg"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-007.jpg"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-007.jpg"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-007.jpg" class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-008.jpg"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-008.jpg"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-008.jpg"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-008.jpg"
                                                                     class="swiper-lazy" alt="">
                                                             </picture>
                                                         </figure>
@@ -635,22 +711,20 @@
                                                         <figure class="c-image-with-caption">
                                                             <picture>
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_07_optimised-2160x1215.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg"
                                                                     media="(min-width: 2600px)">
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_07_optimised-1600x900.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg"
                                                                     media="(min-width: 1600px)">
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_07_optimised-1600x900.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg"
                                                                     media="(min-width: 800px)">
-                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_07_optimised-960x540.jpg"
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg"
                                                                     class="swiper-lazy" alt="">
                                                             </picture>
                                                         </figure>
                                                         <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text">
-                                                            </div>
-
+                                                            <div class="c-image-with-caption__caption-text"></div>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -662,26 +736,23 @@
                                                         <figure class="c-image-with-caption">
                                                             <picture>
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_06_optimised-2160x1215.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.webp"
                                                                     media="(min-width: 2600px)">
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_06_optimised-1600x900.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.webp"
                                                                     media="(min-width: 1600px)">
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_06_optimised-1600x900.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.webp"
                                                                     media="(min-width: 800px)">
-                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_06_optimised-960x540.jpg"
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.webp"
                                                                     class="swiper-lazy" alt="">
                                                             </picture>
                                                         </figure>
                                                         <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text">
-                                                            </div>
-
+                                                            <div class="c-image-with-caption__caption-text u-uppercase"></div>
                                                         </div>
                                                     </div>
                                                 </li>
-
                                                 <li
                                                     class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
                                                     <div class="c-draggable-simple-slider__item-inner"
@@ -689,26 +760,23 @@
                                                         <figure class="c-image-with-caption">
                                                             <picture>
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_05_optimised-2160x1215.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp"
                                                                     media="(min-width: 2600px)">
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_05_optimised-1600x900.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp"
                                                                     media="(min-width: 1600px)">
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_05_optimised-1600x900.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp"
                                                                     media="(min-width: 800px)">
-                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_05_optimised-960x540.jpg"
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp"
                                                                     class="swiper-lazy" alt="">
                                                             </picture>
                                                         </figure>
                                                         <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text">
-                                                            </div>
-
+                                                            <div class="c-image-with-caption__caption-text u-uppercase"></div>
                                                         </div>
                                                     </div>
                                                 </li>
-
                                                 <li
                                                     class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
                                                     <div class="c-draggable-simple-slider__item-inner"
@@ -716,26 +784,23 @@
                                                         <figure class="c-image-with-caption">
                                                             <picture>
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_04_optimised-2160x1215.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp"
                                                                     media="(min-width: 2600px)">
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_04_optimised-1600x900.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp"
                                                                     media="(min-width: 1600px)">
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_04_optimised-1600x900.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp"
                                                                     media="(min-width: 800px)">
-                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_04_optimised-960x540.jpg"
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp"
                                                                     class="swiper-lazy" alt="">
                                                             </picture>
                                                         </figure>
                                                         <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text">
-                                                            </div>
-
+                                                            <div class="c-image-with-caption__caption-text u-uppercase"></div>
                                                         </div>
                                                     </div>
                                                 </li>
-
                                                 <li
                                                     class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
                                                     <div class="c-draggable-simple-slider__item-inner"
@@ -743,76 +808,20 @@
                                                         <figure class="c-image-with-caption">
                                                             <picture>
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_03_optimised-2160x1215.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-011.jpg"
                                                                     media="(min-width: 2600px)">
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_03_optimised-1600x900.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-011.jpg"
                                                                     media="(min-width: 1600px)">
                                                                 <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_03_optimised-1600x900.jpg"
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-011.jpg"
                                                                     media="(min-width: 800px)">
-                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_03_optimised-960x540.jpg"
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-011.jpg"
                                                                     class="swiper-lazy" alt="">
                                                             </picture>
                                                         </figure>
                                                         <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text">
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li
-                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner"
-                                                        data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_02_optimised-2160x1215.jpg"
-                                                                    media="(min-width: 2600px)">
-                                                                <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_02_optimised-1600x900.jpg"
-                                                                    media="(min-width: 1600px)">
-                                                                <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_02_optimised-1600x900.jpg"
-                                                                    media="(min-width: 800px)">
-                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_02_optimised-960x540.jpg"
-                                                                    class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text">
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li
-                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner"
-                                                        data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_01_optimised-2160x1215.jpg"
-                                                                    media="(min-width: 2600px)">
-                                                                <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_01_optimised-1600x900.jpg"
-                                                                    media="(min-width: 1600px)">
-                                                                <source
-                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_01_optimised-1600x900.jpg"
-                                                                    media="(min-width: 800px)">
-                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/intro_slider_01_optimised-960x540.jpg"
-                                                                    class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text">
-                                                            </div>
-
+                                                            <div class="c-image-with-caption__caption-text u-uppercase"></div>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -823,15 +832,10 @@
                                 </div>
                             </div>
                             <div class="c-nevera-welcome__footer">
-                                <h4 class="c-nevera-welcome__footer-title u-a3 u-fw-400">
-                                    Nevera: a name with provenance </h4>
+                                <h4 class="c-nevera-welcome__footer-title u-a3 u-uppercase u-fw-400">Radical by Design</h4>
                                 <div class="c-nevera-welcome__footer-description u-b0 u-fw-400">
-                                    <p>The name given to a quick, sudden and mighty Mediterranean storm, that races
-                                        across the open sea off Croatia, a Nevera is extremely powerful and charged by
-                                        lightning.</p>
-                                    <p>Striking with exceptional speed and severity, our new generation of hypercar
-                                        proudly carries the name but also the characteristics of this unique
-                                        meteorological force of nature. </p>
+                                    <p>Inspired by our namesake. The Apollo EVO blazes a trail like a radiant arrow—one few can hope to match. </p>
+                                    <p>Every detail is pushed to the extreme. From the floating clamshell hood and star-shaped headlights to the 6-point radial taillights that leave a dramatic impression, this is automotive artistry as we see it.</p>
                                 </div>
                             </div>
                         </div>
@@ -842,10 +846,8 @@
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
 
                             <video class="c-scrolling-reveal-bg__video"
-                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/RimacNevera8sSUN-EDIT-1_16-9.mp4" preload="auto" muted
+                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2022-apollo-evo-performance-001.mp4" preload="auto" muted
                                 playsinline autoplay loop type="video/mp4"></video>
-
-                            <!--        <i class="c-scrolling-reveal-bg__video-overlay js-mask-reveal-video-overlay"></i>-->
                         </div>
 
                         <div class="c-scrolling-reveal-content">
@@ -854,18 +856,17 @@
                                     <div class="o-container">
                                         <div class="c-scrolling-reveal__header u-text-center">
                                             <div class="c-scrolling-reveal__heading">
-                                                <h2
-                                                    class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">
-                                                    UNPARALLELED PERFORMANCE </h2>
+                                                <h2 class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">UNPARALLELED PERFORMANCE</h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
-                                                    <p class="u-b2">
-                                                        Powered by electric. Driven by technology.
-                                                        This is Nevera in numbers.
-                                                        <a href="https://rimac-automobili.com/bendingphysics"
-                                                            class="c-link js-context-shifting-link"
-                                                            style="display: block; margin-top: 20px; text-transform:uppercase">Follow
-                                                            the Rimac Nevera World Records</a>
+                                                    <p class="u-b0">The Apollo EVO serves as a "pure" driving experience in a segment increasingly shifting toward electrification, relying on a pure, high-revving V12 powertrain for performance.
                                                     </p>
+                                                    <a href="https://rimac-automobili.com/bendingphysics" class="c-button">
+                                                        <span class="c-button__inner">
+                                                            <span class="c-button__label">
+                                                                <i class="c-button__label-inner" title="World Records">World Records</i>
+                                                            </span>
+                                                        </span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -877,50 +878,26 @@
                                                     <div class="c-accordion-header c-accordion-header--tech-spec"
                                                         style="cursor: auto">
                                                         <div class="c-accordion-header__title-row">
-                                                            <div class="spec-logo">
-
-                                                                <svg class="u-nevera-logo-sign"
-                                                                    xmlns="http://www.w3.org/2000/svg"
-                                                                    viewBox="0 0 157 10">
-                                                                    <path class="nevera-logo-sign" d="M4.2,0C4,0,3.9,0.1,3.8,0.2L0,9.8C0,9.9,0,10,0.1,10h6.7C7,10,7.1,9.9,7.1,9.8l3.3-8.2c0-0.1,0.2-0.1,0.3,0
-	l7.5,8.2c0.2,0.2,0.3,0.2,0.6,0.2h29.3c0.3,0,0.5-0.1,0.6-0.2l1.4-1.3c0.1-0.2,0-0.3-0.1-0.3H32.9c-0.1,0-0.1-0.1-0.1-0.2l2.3-5.8
-	c0.1-0.2,0.2-0.2,0.4-0.2h15.3c0.2,0,0.3,0.1,0.3,0.3l3.4,7.6c0.1,0.2,0.2,0.2,0.3,0.2h11.6c0.4,0,0.5,0,0.8-0.3l9.4-8.2
-	c0.3-0.2,0.4-0.1,0.3,0.1l-3.2,8c-0.1,0.2,0,0.5,0.2,0.5h33.4c0.2,0,0.3-0.1,0.3-0.2l3.1-7.7c0.1-0.2,0.1-0.2,0.3-0.2h8.7
-	c0.1,0,0.2,0.1,0.3,0.2l0.4,0.9c0.1,0.2,0.1,0.2,0.3,0.2h8.1c0.2,0,0.3-0.1,0.2-0.2l-1.1-2.6C127.8,0,127.7,0,127.4,0h-23.3
-	c-0.2,0-0.3,0.2-0.4,0.3L100.7,8c0,0.1-0.1,0.2-0.3,0.2H81.6c-0.2,0-0.3-0.1-0.2-0.3l2.3-5.8c0-0.1,0.1-0.2,0.3-0.2h16.6
-	c0.1,0,0.2-0.1,0.1-0.3l-0.9-1.3C99.8,0.1,99.7,0,99.4,0H71.3c-0.3,0-0.4,0-0.6,0.2l-9.4,8.1c-0.2,0.2-0.4,0.2-0.4,0l-3.4-8
-	C57.4,0.1,57.2,0,57,0H28.8c-0.1,0-0.3,0.2-0.3,0.3l-3.3,8.2c-0.1,0.2-0.2,0.2-0.3,0l-7.5-8.3C17.2,0,17,0,16.8,0H4.2z M36.8,4.5
-	c0.1-0.3,0.2-0.4,0.5-0.4h10.1c0.3,0,0.4,0.1,0.2,0.4l-0.4,1.1c-0.1,0.2-0.2,0.4-0.4,0.4h-10c-0.3,0-0.4-0.2-0.2-0.5L36.8,4.5z
-	 M85.3,4.5c0.1-0.3,0.2-0.4,0.5-0.4h10.1c0.3,0,0.4,0.1,0.2,0.4l-0.4,1.1c-0.1,0.2-0.2,0.4-0.4,0.4h-10c-0.3,0-0.4-0.2-0.2-0.5
-	L85.3,4.5z M133.9,10h-14c-0.2,0-0.2-0.1-0.3-0.2c0,0,0,0,0,0l-1.7-2.5c-0.1-0.1-0.1-0.3,0-0.4l2.1-2c0.1-0.1,0.2-0.2,0.4-0.2h7.8
-	c0.1,0,0.2,0.2,0.1,0.3l-1.6,1.4c-0.1,0.1-0.1,0.2-0.1,0.4l1.1,1.8c0,0.1,0.1,0.1,0.2,0l9.7-8.2c0.1-0.1,0.3-0.2,0.6-0.2H150
-	c0.3,0,0.4,0.2,0.5,0.3l6.4,9.3c0.1,0.2,0,0.3-0.1,0.3H150c-0.3,0-0.4-0.1-0.5-0.3l-5.4-8c-0.1-0.1-0.2-0.1-0.3,0l-9.3,8.1
-	C134.3,10,134.1,10,133.9,10z" />
-                                                                </svg>
-                                                            </div>
+                                                            <div class="spec-logo u-uppercase u-b3 u-b3-plus">apollo evo</div>
                                                         </div>
-
                                                     </div>
                                                 </div>
 
                                                 <div class="c-stats-wrapper pad-y-sm js-data-toggler">
                                                     <ul class="c-stats-wrapper__list">
+
                                                         <!-- STATS ITEM -->
                                                         <li class="c-stats">
                                                             <div class="c-stats__inner">
                                                                 <div class="c-stats__header">
                                                                     <span class="u-b4 u-uppercase">Power</span>
                                                                     <i class="u-b4 u-uppercase">
-                                                                        (1.4 MW)
+                                                                        (0.6 MW)
                                                                     </i>
                                                                 </div>
                                                                 <div class="c-stats__content">
-                                                                    <span class="u-a4">
-                                                                        1.914
-                                                                    </span>
-                                                                    <span class="u-b4 u-uppercase">
-                                                                        hp
-                                                                    </span>
+                                                                    <span class="u-a4">800</span>
+                                                                    <span class="u-b4 u-uppercase">hp</span>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -933,12 +910,8 @@
                                                                     <span class="u-b4 u-uppercase">TORQUE</span>
                                                                 </div>
                                                                 <div class="c-stats__content">
-                                                                    <span class="u-a4">
-                                                                        2.340
-                                                                    </span>
-                                                                    <span class="u-b4 u-uppercase">
-                                                                        nm
-                                                                    </span>
+                                                                    <span class="u-a4">765</span>
+                                                                    <span class="u-b4 u-uppercase">nm</span>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -957,13 +930,11 @@
                                                                 </div>
                                                                 <div class="c-stats__content">
                                                                     <span class="u-a4 js-data-toggler-data"
-                                                                        data-toggler-default="1.81"
-                                                                        data-toggler-alt="1.74">
-                                                                        1.81
+                                                                        data-toggler-default="2.7"
+                                                                        data-toggler-alt="2.5">
+                                                                        2.7
                                                                     </span>
-                                                                    <span class="u-b4 u-uppercase">
-                                                                        sec
-                                                                    </span>
+                                                                    <span class="u-b4 u-uppercase">sec</span>
                                                                 </div>
                                                             </div>
                                                             <div class="c-stats__inner">
@@ -976,15 +947,13 @@
                                                                     </i>
                                                                 </div>
                                                                 <div class="c-stats__content">
-                                                                    <span class="u-a4">
-                                                                        9.22
-                                                                    </span>
+                                                                    <span class="u-a4"> -- </span>
                                                                     <span class="u-b4 u-uppercase">
                                                                         sec
                                                                     </span>
                                                                 </div>
                                                             </div>
-                                                            <div class="c-stats__inner">
+                                                            <!-- <div class="c-stats__inner">
                                                                 <div class="c-stats__header">
                                                                     <span class="u-b4 u-uppercase">&nbsp;</span>
                                                                     <i class="u-b4 u-uppercase js-data-toggler-data"
@@ -1001,7 +970,7 @@
                                                                         sec
                                                                     </span>
                                                                 </div>
-                                                            </div>
+                                                            </div> -->
                                                         </li>
                                                         <!-- //STATS ITEM -->
 
@@ -1009,13 +978,13 @@
                                                         <li class="c-stats">
                                                             <div class="c-stats__inner">
                                                                 <div class="c-stats__header">
-                                                                    <span class="u-b4 u-uppercase">Top speed</span>
+                                                                    <span class="u-b4 u-uppercase">top speed</span>
                                                                 </div>
                                                                 <div class="c-stats__content">
                                                                     <span class="u-a4 js-data-toggler-data"
-                                                                        data-toggler-default="412"
-                                                                        data-toggler-alt="256">
-                                                                        412
+                                                                        data-toggler-default="335"
+                                                                        data-toggler-alt="208">
+                                                                        335
                                                                     </span>
                                                                     <span class="u-b4 u-uppercase js-data-toggler-data"
                                                                         data-toggler-default="km/h"
@@ -1031,20 +1000,37 @@
                                                         <li class="c-stats">
                                                             <div class="c-stats__inner">
                                                                 <div class="c-stats__header">
-                                                                    <span class="u-b4 u-uppercase">Battery
-                                                                        Capacity</span>
+                                                                    <span class="u-b4 u-uppercase">production</span>
                                                                 </div>
                                                                 <div class="c-stats__content">
-                                                                    <span class="u-a4">
-                                                                        120
-                                                                    </span>
-                                                                    <span class="u-b4 u-uppercase">
-                                                                        kWh
-                                                                    </span>
+                                                                    <span class="u-a4">10</span>
+                                                                    <span class="u-b4 u-uppercase">units</span>
                                                                 </div>
                                                             </div>
                                                         </li>
                                                         <!-- //STATS ITEM -->
+
+                                                        <!-- STATS ITEM -->
+                                                        <li class="c-stats">
+                                                            <div class="c-stats__inner">
+                                                                <div class="c-stats__header">
+                                                                    <span class="u-b4 u-uppercase">price</span>
+                                                                </div>
+                                                                <div class="c-stats__content">
+                                                                    <span class="u-a4 js-data-toggler-data"
+                                                                        data-toggler-default="3M"
+                                                                        data-toggler-alt="3.5M">
+                                                                        3M
+                                                                    </span>
+                                                                    <span class="u-b3 u-uppercase js-data-toggler-data"
+                                                                        data-toggler-default="€"
+                                                                        data-toggler-alt="$">
+                                                                        €
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <!-- //STATS ITEM -->                                                       
                                                     </ul>
                                                     <div class="c-stats-wrapper__header">
                                                         <div class="c-stats-toggler">
@@ -1067,7 +1053,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="c-accordion c-accordion--tech-spec js-accordion">
+                                                <div class="c-accordion c-accordion--tech-spec js-accordion" style="display:none;">
                                                     <div
                                                         class="c-accordion__item c-accordion__item--performance js-accordion-single">
                                                         <div
@@ -1300,11 +1286,21 @@
 
                     <i class="u-spacer u-spacer--25vh"></i>
                     <!--todo fix spacer on mobile-->
-                    <i class="u-spacer u-spacer--50vh u-spacer--desktop"></i>
+                    <section id="welcome" class="o-section">
+                        <div class="c-nevera-welcome third">
+                            <div class="c-nevera-welcome__footer">
+                                <h4 class="c-nevera-welcome__footer-title u-a3 u-uppercase u-fw-400">Built Beyond Limits</h4>
+                                <div class="c-nevera-welcome__footer-description u-b0 u-fw-400">
+                                    <p>The Apollo EVO is raw emotion packaged into a bold display of engineering mastery.</p>
+                                    <p>Featuring an advanced full carbon monocoque and full suite of active aerodynamics, each intimidating facet is not just for show, but enables daunting power paired with unmatched driving dynamics. Surreal style meets peerless precision.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                     <section id="technology" class="o-section" style="z-index: 2; position: relative;">
                         <div class="c-extra-technology">
                             <picture class="c-extra-technology__bg js-nevera-technology">
-                                <img src="<?php echo $root_path; ?>/uploads/2021/05/30204415/extrodinary_tech_optimised.jpg" alt="">
+                                <img src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" alt="">
                             </picture>
                             <i class="js-nevera-technology-overlay c-extra-technology__overlay"></i>
                             <div class="c-extra-technology__header js-nevera-technology-header">
@@ -1316,12 +1312,9 @@
                             </div>
                             <div class="c-extra-technology__content js-nevera-technology-content">
                                 <h4 class="u-a3">
-                                    Why electric? </h4>
+                                    WHY CHOOSE THE APOLLO EVO? </h4>
                                 <p class="u-b0">
-                                    Electric is genesis. Pioneered by Croatian engineer and futurist Nikola Tesla,
-                                    electric is one of the earliest and most effective forms of power. By specialising
-                                    exclusively in electric performance, we’re able to engineer and extract the most
-                                    extreme performance from our hypercars. </p>
+                                    The Apollo EVO is a track-focused hypercar designed for collectors seeking extreme, raw performance. Just 10 Apollo EVOs are being built, and each will be fully bespoke, finished and detailed to each owner’s exact specifications. </p>
                             </div>
                         </div>
                     </section>
@@ -1332,15 +1325,16 @@
                             <!-- LAYER 1 -->
                             <div class="c-layered-scroll js-layered-scroll-simple-trigger">
                                 <div class="c-layered-scroll__item c-layered-scroll__item--2">
-                                    <i class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
-                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/teardown_01_optimised.png)"></i>
+                                    <span class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
+                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-chassis-001.png)">
+                                    </span>
                                 </div>
                                 <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
                             </div>
                             <div class="c-layered-scroll js-layered-scroll-simple-trigger">
                                 <div class="c-layered-scroll__item c-layered-scroll__item--3">
                                     <i class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
-                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/teardown_02_optimised.png)"></i>
+                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-chassis-001.png)"></i>
                                 </div>
                                 <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
                             </div>
@@ -1355,13 +1349,9 @@
                                     <div class="c-layered-scroll-content__left">
                                         <div class="c-article-wrapper">
                                             <div class="c-article js-layered-scroll-simple-item-element">
-                                                <h3 class="u-a2">
-                                                    Four motors </h3>
+                                                <h3 class="u-a2 u-capitalize">Active Aerodynamics</h3>
                                                 <p class="u-b2">
-                                                    Four motors. Four wheels. Each of Nevera's wheels are independently
-                                                    driven by one dedicated electric motor which channels torque
-                                                    accordingly to give unprecedented control and agility. </p>
-
+                                                    The Apollo EVO features an electronically adjustable aero paired with a deployable rear spoiler, providing the necessary adaptive downforce to optimize stability and speed under different driving conditions.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1369,13 +1359,9 @@
                                     <div class="c-layered-scroll-content__right">
                                         <div class="c-article-wrapper">
                                             <div class="c-article js-layered-scroll-simple-item-element">
-                                                <h3 class="u-a2">R-AWTV</h3>
+                                                <h3 class="u-a2 u-capitalize">Butterfly Doors</h3>
                                                 <p class="u-b2">
-                                                    Power where you need it. Instantly. Nevera calculates the amount of
-                                                    torque deployed to each wheel over 100 times a second to achieve the
-                                                    desired driving dynamic through Rimac's intelligent All Wheel Torque
-                                                    Vectoring system (R-AWTV). Stability, safety, efficiency and
-                                                    ultimate agility when you need it most. </p>
+                                                    The dramatic butterfly doors enhance both style and practicality for seamless entry and augmenting the car’s futuristic, aggressive stance.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1387,14 +1373,9 @@
                                     <div class="c-layered-scroll-content__left">
                                         <div class="c-article-wrapper">
                                             <div class="c-article js-layered-scroll-simple-item-element">
-                                                <h3 class="u-a2">
-                                                    Monocoque core </h3>
+                                                <h3 class="u-a2 u-capitalize">carbon monocoque</h3>
                                                 <p class="u-b2">
-                                                    Core strength. Solid structure. Beneath the skin lies a carbonfibre
-                                                    monocoque with bonded carbon roof, integrated structural battery
-                                                    pack and rear carbon subframe. Designed and developed entirely
-                                                    in-house, Nevera's structural core is lightweight, powerful and
-                                                    exceptionally strong. </p>
+                                                    The EVO wears a tweaked version of the company’s carbon monocoque, carbon subframes front and back, and carbon crash structures. It’s 15% stiffer and 10% lighter than the bones of the Intensa, and gets a similarly wild bodyshape.</p>
 
                                             </div>
                                         </div>
@@ -1418,12 +1399,11 @@
                     </section>
 
                     <section id="driving-experience"
-                        class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item"
-                        data-scrollspy-title="Experience Electric">
+                        class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item" data-scrollspy-title="Experience">
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
 
                             <video class="c-scrolling-reveal-bg__video"
-                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/RimacNevera10sHIGHLIGHTS-EDIT-3_16-9.mp4"
+                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2022-apollo-evo-experience-001.mp4"
                                 preload="auto" muted playsinline autoplay loop type="video/mp4"></video>
                         </div>
 
@@ -1434,13 +1414,10 @@
                                     <div class="o-container">
                                         <div class="c-scrolling-reveal__header u-text-center">
                                             <div class="c-scrolling-reveal__heading">
-                                                <h2
-                                                    class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">
-                                                    Experience Electric </h2>
+                                                <h2 class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">Experience</h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
                                                     <p class="u-b2">
-                                                        Unparalleled performance meets real-time intelligence for an
-                                                        exceptional driving experience. </p>
+                                                        It offers an intense, unfiltered driving experience with active aerodynamics, carbon fiber monocoque construction, and radical spaceship-like styling</p>
                                                     <a href="https://www.rimac-automobili.com:443/nevera/driving-experience"
                                                         class="c-button">
                                                         <span class="c-button__inner">
@@ -1469,28 +1446,13 @@
                     </section>
 
                     <section id="design"
-                        class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item"
-                        data-scrollspy-title="Design">
+                        class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item" data-scrollspy-title="Design">
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
 
                             <video class="c-scrolling-reveal-bg__video"
-                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/RimacNevera8sDESIGN-EDIT-1_16-9.mp4" preload="auto"
+                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2022-apollo-evo-design.mp4" preload="auto"
                                 muted playsinline autoplay loop type="video/mp4"></video>
 
-                            <!--        <i class="c-scrolling-reveal-bg__video-overlay js-mask-reveal-video-overlay"></i>-->
-
-                            <!--        <div class="c-reveal-mask-wrapper js-mask-reveal-mask-wrapper">-->
-                            <!--            <div class="c-reveal-mask">-->
-                            <!--                <div class="o-container">-->
-                            <!--                    <span class="c-reveal-mask__mask js-mask-reveal-mask u-a4--big u-fw-bold u-uppercase u-text-center">-->
-                            <!--                        <span>-->
-                            <!--                            -->
-                            <?//= NeveraPageACFDataProvider::get_reveal_design_title( $page_id ); ?>
-                            <!--                        </span>-->
-                            <!--                    </span>-->
-                            <!--                </div>-->
-                            <!--            </div>-->
-                            <!--        </div>-->
                         </div>
 
                         <div class="c-scrolling-reveal-content">
@@ -1504,9 +1466,7 @@
                                                     class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">
                                                     Design </h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
-                                                    <p class="u-b2">
-                                                        Defined by purpose and performance, Nevera's bold but functional
-                                                        form is entirely original yet unmistakably Rimac. </p>
+                                                    <p class="u-b2">The design, as we have come to expect from Apollo, looks like a Decepticon from the Transformers Action films in the middle of a transformation. </p>
                                                     <a href="design/index.html" class="c-button">
                                                         <span class="c-button__inner">
                                                             <span class="c-button__label">
@@ -1541,7 +1501,7 @@
 
 
                             <video class="c-scrolling-reveal-bg__video"
-                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/nevera_engineering_bgloop_1.mp4" preload="auto" muted
+                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Beyond-Extreme-Apollo-Project-Evo-Reinvents-The-Hypercar-Experience.mp4" preload="auto" muted
                                 playsinline autoplay loop type="video/mp4"></video>
 
                             <!--        <i class="c-scrolling-reveal-bg__video-overlay js-mask-reveal-video-overlay"></i>-->
@@ -1568,8 +1528,7 @@
                                         <div class="c-scrolling-reveal__header u-text-center">
                                             <div class="c-scrolling-reveal__heading">
                                                 <h2
-                                                    class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">
-                                                    Technology </h2>
+                                                    class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">Technology</h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
                                                     <p class="u-b2">
                                                         Precision engineering that pushes performance to the edge of
@@ -1597,14 +1556,12 @@
                         </div>
                     </section>
                     <i class="u-spacer u-spacer--50vh"></i>
-                    <section id="in-house-production"
-                        class="o-section o-section--dark o-section--in-house-production js-scrollspy-item"
-                        data-scrollspy-title="In-house Production">
+                    <section id="instagram" class="o-section o-section--dark o-section--in-house-production js-scrollspy-item" data-scrollspy-title="Instagram">
                         <div class="o-section__heading">
                             <div class="o-container o-container--narrow">
                                 <div class="c-heading c-heading--narrow u-text-center">
-                                    <h2 class="u-a4 u-uppercase">
-                                        In house production </h2>
+                                    <p class="u-a2 u-uppercase mb-0">Follow</p>
+                                    <h2 class="u-a4 u-uppercase">Apollo Automobil</h2>
                                     <p class="u-b2">
                                         From bytes to bolts. Our expert engineers find and develop the very best
                                         materials to craft everything from powertrain components to composites and
@@ -1633,15 +1590,11 @@
                                 <!-- CURSOR -->
                                 <div class="c-draggable-slider-cursor js-draggable-simple-slider-cursor">
                                     <div class="c-draggable-slider-cursor__circle">
-                                        <div class="c-draggable-slider-cursor__label u-b3 u-uppercase">
-                                            Drag </div>
+                                        <div class="c-draggable-slider-cursor__label u-b3 u-uppercase">Drag</div>
 
-                                        <div class="c-draggable-slider-cursor__label--click u-b3 u-uppercase">
-                                            Click </div>
-                                        <i
-                                            class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--prev"></i>
-                                        <i
-                                            class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--next"></i>
+                                        <div class="c-draggable-slider-cursor__label--click u-b3 u-uppercase">Click</div>
+                                        <i class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--prev"></i>
+                                        <i class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--next"></i>
                                     </div>
                                 </div>
                                 <!-- //CURSOR -->
@@ -1650,11 +1603,10 @@
                                         class="c-draggable-simple-slider__container swiper-container js-draggable-simple-slider">
                                         <ul class="c-draggable-simple-slider__wrapper swiper-wrapper">
 
-                                            <li
-                                                class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
+                                                    <!-- <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
                                                                 data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_01_optimised.jpg"
@@ -1667,31 +1619,30 @@
                                                                 media="(min-width: 800px)">
                                                             <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_01_optimised-960x640.jpg"
                                                                 class="swiper-lazy" alt="">
-                                                        </picture>
+                                                        </picture>                                                       
+                                                    </figure> -->
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DWUEvBWjDa9/">
+                                                        </blockquote>
                                                     </figure>
-                                                    <div class="c-image-with-caption__caption">
+                                                    <div class="c-image-with-caption__caption instagram">
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             01 </span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">
-                                                                Machining </h5>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">Engineered to exacting standards</h5>
                                                             <p class="u-b2">
-                                                                Machining the moulds, tools and parts needed to create
-                                                                the finished product is carried out by Rimac
-                                                                professionals, who craft raw materials into working
-                                                                components ready to be rolled out to the production
-                                                                line. </p>
+                                                                Milled to absolute precision. Lightweight design through topology optimisation.3D printing through aluminium laser sintering delivers bionic forms, with final precision achieved through CNC milling. Total control over fit, finish and function at every stage.</p>
                                                         </div>
 
                                                     </div>
                                                 </div>
                                             </li>
 
-                                            <li
-                                                class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
+                                                    <!-- <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
                                                                 data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_02_optimised.jpg"
@@ -1705,29 +1656,29 @@
                                                             <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_02_optimised-960x640.jpg"
                                                                 class="swiper-lazy" alt="">
                                                         </picture>
+                                                    </figure> -->
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DWB99PyjGDM/">
+                                                        </blockquote>
                                                     </figure>
-                                                    <div class="c-image-with-caption__caption">
+                                                    <div class="c-image-with-caption__caption instagram">
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             02 </span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">
-                                                                Composites production </h5>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">Where craftsmanship meets performance.</h5>
                                                             <p class="u-b2">
-                                                                From carbonfibre and kevlar to copper and every element
-                                                                in between. Rimac's innate understanding of composites
-                                                                ensures every part, panel and component on Nevera is
-                                                                crafted to the highest possible standard. </p>
+                                                                The Apollo EVO carbon-fibre monocoque is meticulously sanded and polished — hand-finished by our experienced team to reveal its final form.</p>
                                                         </div>
 
                                                     </div>
                                                 </div>
                                             </li>
 
-                                            <li
-                                                class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
+                                                    <!-- <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
                                                                 data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_03_optimised.jpg"
@@ -1741,29 +1692,31 @@
                                                             <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_03_optimised-960x640.jpg"
                                                                 class="swiper-lazy" alt="">
                                                         </picture>
+                                                    </figure> -->
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DV1I0F5jF2E/">
+                                                        </blockquote>
                                                     </figure>
-                                                    <div class="c-image-with-caption__caption">
+                                                    <div class="c-image-with-caption__caption instagram">
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             03 </span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">
-                                                                Paintshop </h5>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">Material shapes expression</h5>
                                                             <p class="u-b2">
-                                                                Applying paint to get the perfect, personalised finish.
-                                                                The final stages of creating Nevera and crafting its
-                                                                surfaces for an exceptional appearance are performed in
-                                                                Rimac's specialist paint shop. </p>
+                                                                From engineered components to exposed carbon fibre, from Alcantara to premium leather interiors — every texture, colour and finish is chosen to define a unique Apollo EVO.
+                                                            <br>
+                                                            Material. Colour. Character.</p>
                                                         </div>
 
                                                     </div>
                                                 </div>
                                             </li>
 
-                                            <li
-                                                class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
+                                                    <!-- <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
                                                                 data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_04_optimised.jpg"
@@ -1777,19 +1730,21 @@
                                                             <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_04_optimised-960x640.jpg"
                                                                 class="swiper-lazy" alt="">
                                                         </picture>
+                                                    </figure> -->
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DVi3zvPjDto/">
+                                                        </blockquote>
                                                     </figure>
-                                                    <div class="c-image-with-caption__caption">
+                                                    <div class="c-image-with-caption__caption instagram">
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             04 </span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">
-                                                                Upholstery </h5>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">Interior</h5>
                                                             <p class="u-b2">
-                                                                Only the finest materials make up Nevera’s upholstery.
-                                                                From the same high-performance carbonfibre used to
-                                                                strengthen and clothe our hypercars to lightweight
-                                                                aluminium and the highest quality leather. Like
-                                                                everything we do, Nevera’s interior is built to perform.
+                                                                The Apollo EVO interior is designed as a driver focused cockpit, featuring an ergonomic layout that puts every essential control intuitively at hand.
+                                                            <br>
+                                                                From steering geometry to switch placement, every detail is calibrated to create a direct, unfiltered connection between driver and machine.
                                                             </p>
                                                         </div>
 
@@ -1797,11 +1752,10 @@
                                                 </div>
                                             </li>
 
-                                            <li
-                                                class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
+                                                    <!-- <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
                                                                 data-srcset="https://www.rimac-automobili.com/wp-content/uploads/2021/06/089A9784_Edit-2160x1440.jpg"
@@ -1815,31 +1769,30 @@
                                                             <img data-src="https://www.rimac-automobili.com/wp-content/uploads/2021/06/089A9784_Edit-960x640.jpg"
                                                                 class="swiper-lazy" alt="">
                                                         </picture>
+                                                    </figure> -->
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DVJYlxUDG5o/">
+                                                        </blockquote>
                                                     </figure>
-                                                    <div class="c-image-with-caption__caption">
+                                                    <div class="c-image-with-caption__caption instagram">
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             05 </span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">
-                                                                Components production </h5>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">shape</h5>
                                                             <p class="u-b2">
-                                                                Nevera’s key components, from its battery pack, motors,
-                                                                gearboxes, and inverters, to the aluminum buttons on the
-                                                                steering wheel are designed and developed entirely
-                                                                in-house, in Rimac’s own unique way. Innovative,
-                                                                efficient and accurate – tailor-made components for a
-                                                                truly bespoke car. </p>
+                                                                The Apollo EVO taking shape. Exterior pre-assembly — aligned and installed within a dedicated team, shaped by over two decades of hypercar heritage.
+                                                            <br> Pioneering German hypercar engineering in motion.</p>
                                                         </div>
 
                                                     </div>
                                                 </div>
                                             </li>
 
-                                            <li
-                                                class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
                                                 <div class="c-draggable-simple-slider__item-inner"
                                                     data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
+                                                    <!-- <figure class="c-image-with-caption">
                                                         <picture>
                                                             <source
                                                                 data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_06_optimised.jpg"
@@ -1853,20 +1806,62 @@
                                                             <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/in_house_slider_06_optimised-960x640.jpg"
                                                                 class="swiper-lazy" alt="">
                                                         </picture>
+                                                    </figure> -->
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DVJYlxUDG5o/">
+                                                        </blockquote>
                                                     </figure>
-                                                    <div class="c-image-with-caption__caption">
+                                                    <div class="c-image-with-caption__caption instagram">
                                                         <span class="c-image-with-caption__caption-number u-b3">
                                                             06 </span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">
-                                                                Vehicle assembly </h5>
-                                                            <p class="u-b2">
-                                                                Assembly is the moment Nevera sparks into life. The
-                                                                coming together of carefully crafted components, bound
-                                                                by exceptional engineering and the most advanced
-                                                                technology. Completed by hand, in our in-house facility,
-                                                                our cars are then tested and perfected before the
-                                                                process is complete. </p>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">exterior</h5>
+                                                            <p class="u-b2">Precision-engineered carbon fibre, meticulously hand-laid to create beautiful, intentional surfaces that guide airflow, manage force and define form.<br>
+                                                                The Apollo EVO exterior - where micro-geometry creates herringbone surfaces that feel alive with intent.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
+                                                <div class="c-draggable-simple-slider__item-inner"
+                                                    data-swiper-parallax-opacity="0.2">
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DUpsaxUDBNH/">
+                                                        </blockquote>
+                                                    </figure>
+                                                    <div class="c-image-with-caption__caption instagram">
+                                                        <span class="c-image-with-caption__caption-number u-b3">07</span>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">Performance, made visible</h5>
+                                                            <p class="u-b2">The sculptural exterior of the Apollo EVO flows organically around the new carbon-fibre monocoque, weighing just 165 kg - over 15% stiffer and 10% lighter than that of its predecessor. <br>
+                                                            This advanced architecture does more than reduce mass. It unlocks design freedom. It enhances structural confidence at the limit. <br>
+                                                            The foundation is no longer theoretical. It is taking physical form.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide instagram-slide">
+                                                <div class="c-draggable-simple-slider__item-inner"
+                                                    data-swiper-parallax-opacity="0.2">
+                                                    <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DUbF6MDDGp0/">
+                                                        </blockquote>
+                                                        <script async src="//www.instagram.com/embed.js"></script>
+                                                    </figure>
+                                                    <div class="c-image-with-caption__caption instagram">
+                                                        <span class="c-image-with-caption__caption-number u-b3">08</span>
+                                                        <div class="c-image-with-caption__caption-text instagram">
+                                                            <h5 class="u-a1 u-capitalize">Becoming Real</h5>
+                                                            <p class="u-b2">This is where the Apollo EVO becomes real.<br>
+                                                                Not a concept. Not a render. <br>
+                                                                A living architecture taking shape, layer by layer, exactly as engineered through the Apollo x Ideenion partnership.</p>
                                                         </div>
 
                                                     </div>
@@ -1885,13 +1880,10 @@
                         <div class="o-section__heading">
                             <div class="o-container o-container--narrow">
                                 <div class="c-heading c-heading--narrow c-heading--tech-spec u-text-center">
-                                    <h2 class="u-a3 u-uppercase">
-                                        Tech specification </h2>
-                                    <p class="u-b0">
-                                        Nevera's inner workings are made for the specific purpose of high performance.
-                                    </p>
+                                    <h2 class="u-a3 u-uppercase">Tech specification</h2>
+                                    <p class="u-b0">EVO's inner workings are made for the specific purpose of high performance.</p>
 
-                                    <div class="c-heading__button">
+                                    <div class="c-heading__button u-full-width">
                                         <a href="https://web-cdn.rimac-automobili.com/wp-content/uploads/2023/11/20171226/Nevera_Technical-specifications.pdf"
                                             download class="c-button c-button--play"
                                             data-popup="#technology-header-video">
@@ -1906,8 +1898,7 @@
                                                     </svg>
                                                 </span>
                                                 <span class="c-button__label">
-                                                    <i class="c-button__label-inner" title="Download tech specs">
-                                                        Download tech specs </i>
+                                                    <i class="c-button__label-inner" title="Download tech specs">Download tech specs</i>
                                                 </span>
                                             </span>
                                         </a>
@@ -1919,21 +1910,15 @@
                             <div class="o-container o-container--narrow">
                                 <div class="c-accordion c-accordion--tech-spec js-accordion is-mono">
                                     <div class="c-accordion__item js-accordion-single">
-                                        <div
-                                            class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
+                                        <div class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
                                             <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">
-                                                    01 </span>
-                                                <p class="u-b0">
-                                                    General </p>
+                                                <span class="c-accordion-header__numbering u-b3">01</span>
+                                                <p class="u-b0">General</p>
                                             </div>
-                                            <div
-                                                class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--closed">
+                                            <div class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
+                                                <div class="c-accordion-header__state-label c-accordion-header__state-label--closed">
                                                     Show details </div>
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--opened">
+                                                <div class="c-accordion-header__state-label c-accordion-header__state-label--opened">
                                                     Close details </div>
                                             </div>
                                         </div>
@@ -1941,19 +1926,32 @@
                                             <div class="c-accordion-content c-accordion-content--tech-spec">
                                                 <ul class="u-b0">
                                                     <li>
-                                                        <p>All electric two-seat hypercar </p>
-                                                        <p class="c-accordion-content__faded">
-                                                        </p>
+                                                        <p>brand </p>
+                                                        <p class="c-accordion-content__faded">Apollo Automobil</p>
                                                     </li>
                                                     <li>
-                                                        <p>Limited to 150 units </p>
-                                                        <p class="c-accordion-content__faded">
-                                                        </p>
+                                                        <p>vehicle type </p>
+                                                        <p class="c-accordion-content__faded">Hypercar Track-only</p>
                                                     </li>
                                                     <li>
-                                                        <p>Homologation </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            Global </p>
+                                                        <p>production</p>
+                                                        <p class="c-accordion-content__faded">10 Units</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>seats</p>
+                                                        <p class="c-accordion-content__faded">2</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>homologation</p>
+                                                        <p class="c-accordion-content__faded">Track-only</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>introduced</p>
+                                                        <p class="c-accordion-content__faded">2021</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>price</p>
+                                                        <p class="c-accordion-content__faded">€3,000,000 / $3,200,000</p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1963,10 +1961,8 @@
                                         <div
                                             class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
                                             <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">
-                                                    02 </span>
-                                                <p class="u-b0">
-                                                    Performance </p>
+                                                <span class="c-accordion-header__numbering u-b3">02</span>
+                                                <p class="u-b0 u-capitalize">engine and performance</p>
                                             </div>
                                             <div
                                                 class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
@@ -1982,53 +1978,52 @@
                                             <div class="c-accordion-content c-accordion-content--tech-spec">
                                                 <ul class="u-b0">
                                                     <li>
-                                                        <p>Acceleration* (0-60mph) </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            1.74 sec<br />
-                                                            *one foot roll-out </p>
+                                                        <p>engine</p>
+                                                        <p class="c-accordion-content__faded">V12 (Ferrari F140)</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>displacement</p>
+                                                        <p class="c-accordion-content__faded">6.3 L (382 ci / 6262 cc)</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>Acceleration* 0-96 km/h / (0-60mph) </p>
+                                                        <p class="c-accordion-content__faded">2.5 sec</p>
                                                     </li>
                                                     <li>
                                                         <p>Acceleration* 0-100 km/h / (0-62mph) </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            1.81 sec<br />
-                                                            *one foot roll-out </p>
+                                                        <p class="c-accordion-content__faded">2.7 sec</p>
                                                     </li>
                                                     <li>
-                                                        <p>Acceleration* 0-300 km/h </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            9.22 sec<br />
-                                                            *one foot roll-out </p>
+                                                        <p>top speed</p>
+                                                        <p class="c-accordion-content__faded">335 km/h / 208 mph </p>
                                                     </li>
                                                     <li>
-                                                        <p>¼ mile time (0-402 m) </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            8.25 sec </p>
+                                                        <p>power</p>
+                                                        <p class="c-accordion-content__faded">588 kW (800 PS / 789 hp) @ 9,000 rpm</p>
                                                     </li>
                                                     <li>
-                                                        <p>Top speed </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            412 km/h / 258 mph </p>
+                                                        <p>power / liter</p>
+                                                        <p class="c-accordion-content__faded">128 PS (126 hp)</p>
                                                     </li>
                                                     <li>
-                                                        <p>Power outputs </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            1408 kW / 1914hp </p>
+                                                        <p>power / weight</p>
+                                                        <p class="c-accordion-content__faded">615 PS (607 bhp) / t</p>
                                                     </li>
                                                     <li>
-                                                        <p>Motor torque </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            2340 Nm </p>
+                                                        <p>torque </p>
+                                                        <p class="c-accordion-content__faded">765 Nm (564 lb-ft) @ 6,750 rpm</p>
                                                     </li>
                                                     <li>
-                                                        <p>Wheel torque </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            13430 Nm </p>
+                                                        <p>torque / weight</p>
+                                                        <p class="c-accordion-content__faded">588 Nm (434 lb-ft) / t</p>
                                                     </li>
                                                     <li>
-                                                        <p>Range** </p>
-                                                        <p class="c-accordion-content__faded">
-                                                            489 km <br />
-                                                            **WLTP range based on final testing </p>
+                                                        <p>transmission</p>
+                                                        <p class="c-accordion-content__faded">6-speed sequential gearbox</p>
+                                                    </li>
+                                                    <li>
+                                                        <p>drive</p>
+                                                        <p class="c-accordion-content__faded">Rear-wheel drive</p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -2038,10 +2033,8 @@
                                         <div
                                             class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
                                             <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">
-                                                    03 </span>
-                                                <p class="u-b0">
-                                                    Chassis and structure </p>
+                                                <span class="c-accordion-header__numbering u-b3">03</span>
+                                                <p class="u-b0">Chassis and Aerodynamics</p>
                                             </div>
                                             <div
                                                 class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
@@ -2057,12 +2050,12 @@
                                             <div class="c-accordion-content c-accordion-content--tech-spec">
                                                 <ul class="u-b0">
                                                     <li>
-                                                        <p>Structure </p>
+                                                        <p>construction </p>
                                                         <p class="c-accordion-content__faded">
-                                                            Carbon fibre monocoque with integrated structural battery
-                                                            pack and bonded carbon fibre roof.  <br />
-                                                            Carbon fibre rear subframe merged with the tub <br />
-                                                            Carbon fibre and aluminium crash structures </p>
+                                                            + Full carbon fiber monocoque.<br />
+                                                            + Carbon fibre front and rear subframes.<br />
+                                                            + Lightweight alloys (aluminum, with titanium components).
+                                                        </p>
                                                     </li>
                                                     <li>
                                                         <p>Suspension </p>
@@ -2491,207 +2484,25 @@
                             </div>
                         </div>
                     </section>
-                    <section id="enquire"
-                        class="o-section o-section--parallax o-section--bg-image-text js-color-switch-trigger js-scrollspy-item"
-                        data-scrollspy-title="ENQUIRE">
-                        <i class="o-section__bg js-mask-parallax"
-                            style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/nearest-partner-slider_optimised.jpg);"></i>
-
-                        <div class="o-section__heading">
-                            <div class="c-heading-wrapper u-text-center">
-                                <div class="o-container o-container--narrow">
-                                    <div class="c-heading c-heading--wide">
-                                        <h2 class="u-a4 u-uppercase">
-                                            Join the Nevera Owners Family </h2>
-
-                                        <a href="../retailer-map/index.html" class="c-button">
-                                            <span class="c-button__inner">
-                                                <span class="c-button__label">
-                                                    <i class="c-button__label-inner" title="View Dealers Map">
-                                                        View Dealers Map </i>
-                                                </span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </section>
 
                     <i class="c-scroll-indicator">
                         <i></i>
                     </i>
                 </div>
 
-                <script>
-                    const appHeight = () => {
-                        const doc = document.documentElement;
-                        doc.style.setProperty("--app-height", `${window.innerHeight}px`);
-                    };
-                    window.addEventListener("resize", appHeight);
-                    appHeight();
-                </script>
-
-                <!-- STICKY CTA -->
-                <div class="c-nevera-sticky">
-                    <div class="c-nevera-sticky__inner">
-                        <a href="sales-enquiry/index.html" class="u-b3 c-nevera-sticky__button js-nevera-sticky-button">
-                            <span>SALES ENQUIRY</span> <svg class="u-icon u-icon--arrow-right" viewBox="0 0 14 11"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M9.28 11l4.64-4.939V4.714L9.76 0H8.48v.561L12.136 4.5H0V6h12.359l-4.36 4.439V11h1.28z">
-                                </path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-                <!-- end STICKY CTA -->
             </div>
             <!-- //PAGE CONTENT -->
             <!-- PREFOOTER -->
             <!-- FOOTER -->
-            <div class="o-container o-container--narrow"
+            <!-- <div class="o-container o-container--narrow"
                 style="position: relative; z-index: 6; background-color: #0a222e; padding-top: 10px; font-size: 13px; padding-bottom: 10px; text-align: center; color: rgba(255,255,255,0.7);">
-                Rimac Nevera, WLTP: electricity consumption, combined: 30.0 KWh/100km; CO2 emissions, combined: 0 g/km
-            </div>
+            </div> -->
             <footer class="o-footer-wrapper js-footer">
                 <div class="c-footer">
                     <div class="o-container o-container--narrow">
-                        <div class="c-footer__top">
-                            <a href="../index.html" class="c-logo c-logo--small">
-                                <i class="c-logo__full c-logo__full--light">
-                                    <span class="c-logo-sign">
-                                        <svg class="u-logo-sign" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 50">
-                                            <path
-                                                d="M39.8 4.04291C39.8 20.274 33.7148 40.3551 20.4462 49.2177C20.2841 49.326 20.0936 49.3838 19.8986 49.3838C19.7037 49.3838 19.5131 49.326 19.3511 49.2177C6.08534 40.3551 -0.0251953 20.274 7.80668e-05 4.04291C-0.000302816 3.8282 0.0698339 3.61931 0.199712 3.44834C0.329589 3.27737 0.51202 3.15378 0.718964 3.09656C13.2574 -0.471641 26.5427 -0.471641 39.0811 3.09656C39.2866 3.15403 39.4678 3.277 39.597 3.44679C39.7262 3.61658 39.7965 3.82391 39.7972 4.0373L39.8 4.04291ZM29.3312 37.1903L11.4377 19.3024C11.4112 19.2764 11.39 19.2454 11.3756 19.2112C11.3611 19.1769 11.3536 19.1402 11.3534 19.103C11.3534 19.0286 11.383 18.9571 11.4357 18.9045C11.4884 18.8518 11.5598 18.8222 11.6343 18.8222H16.5373C21.3111 18.8222 23.3976 17.654 23.3864 15.7557C23.3751 13.8574 21.6116 13.0402 16.6159 13.0402H2.60885C2.57297 13.0404 2.53812 13.0523 2.50954 13.074C2.48096 13.0957 2.4602 13.1261 2.45039 13.1606C2.44057 13.1951 2.44223 13.2319 2.4551 13.2654C2.46798 13.2989 2.49139 13.3273 2.5218 13.3463L4.68127 14.6914C4.70364 14.7058 4.72271 14.7247 4.73724 14.747C4.75176 14.7693 4.76139 14.7943 4.76551 14.8206C5.48986 19.3177 6.67844 23.7276 8.31221 27.9796C11.1204 35.1516 15.0518 40.9196 19.6965 44.6572C19.7562 44.7063 19.8312 44.7331 19.9085 44.7331C19.9858 44.7331 20.0607 44.7063 20.1205 44.6572C22.7034 42.5229 24.9433 40.0046 26.7618 37.1903C26.7815 37.161 26.809 37.1378 26.8413 37.1234C26.8736 37.109 26.9093 37.104 26.9443 37.1089L29.2049 37.4431C29.2358 37.4476 29.2674 37.4422 29.2951 37.4277C29.3229 37.4132 29.3453 37.3903 29.3593 37.3623C29.3733 37.3344 29.3781 37.3027 29.3731 37.2718C29.368 37.2409 29.3534 37.2124 29.3312 37.1903ZM35.877 6.53655C35.8794 6.45783 35.8548 6.38066 35.8073 6.31784C35.7598 6.25502 35.6923 6.21032 35.6159 6.19115C30.5103 4.95434 25.2781 4.31634 20.025 4.29003H19.7835C14.5257 4.3154 9.28873 4.95341 4.17861 6.19115C4.1017 6.20936 4.03355 6.25382 3.98588 6.31686C3.93822 6.3799 3.91402 6.45759 3.91745 6.53655C3.9708 7.9659 4.08032 9.40648 4.23196 10.8499C8.22796 10.8218 16.5878 10.7797 20.7411 10.833C27.9552 10.9229 30.6539 12.4196 30.6707 15.4974C30.6707 18.0247 28.7247 19.8444 23.0382 20.3499C22.4541 20.4032 21.9149 20.4509 21.5555 20.4734C21.5149 20.4772 21.4763 20.4926 21.4442 20.5176C21.4121 20.5426 21.3879 20.5763 21.3743 20.6147C21.3607 20.6531 21.3584 20.6945 21.3676 20.7342C21.3768 20.7738 21.3972 20.81 21.4263 20.8385L30.637 30.0492C30.9347 29.3753 31.2183 28.6873 31.4935 27.9824C34.1075 21.1177 35.588 13.8736 35.877 6.53374V6.53655Z" />
-                                        </svg>
-
-                                    </span>
-                                    <span class="c-logo-text">
-                                        <svg class="u-logo-text" viewBox="0 0 193 50" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M47.3596 16.7775C47.3596 16.7441 47.3662 16.711 47.3791 16.6801C47.392 16.6493 47.4108 16.6213 47.4346 16.5978C47.4584 16.5743 47.4866 16.5557 47.5175 16.5432C47.5485 16.5307 47.5817 16.5244 47.6151 16.5248H55.6127C55.6798 16.5248 55.7441 16.5514 55.7915 16.5988C55.8389 16.6462 55.8655 16.7105 55.8655 16.7775V32.1915C55.8655 32.2585 55.8389 32.3228 55.7915 32.3702C55.7441 32.4176 55.6798 32.4442 55.6127 32.4442H47.6151C47.5817 32.4446 47.5485 32.4383 47.5175 32.4258C47.4866 32.4132 47.4584 32.3947 47.4346 32.3712C47.4108 32.3477 47.392 32.3197 47.3791 32.2888C47.3662 32.258 47.3596 32.2249 47.3596 32.1915V16.7775ZM15.0097 23.7305C14.9462 23.7298 14.8841 23.7482 14.8312 23.7832C14.7783 23.8182 14.7371 23.8682 14.7129 23.9268C14.6887 23.9855 14.6827 24.05 14.6955 24.1121C14.7084 24.1742 14.7395 24.2311 14.785 24.2753L23.9677 32.228C24.1286 32.3689 24.3351 32.4467 24.549 32.447H33.3974C33.436 32.4465 33.4735 32.4342 33.505 32.412C33.5365 32.3897 33.5605 32.3585 33.5738 32.3223C33.5872 32.2861 33.5893 32.2468 33.5799 32.2094C33.5705 32.172 33.5499 32.1383 33.521 32.1128L26.3125 25.8675C26.2803 25.8357 26.2578 25.7954 26.2477 25.7514C26.2375 25.7073 26.2401 25.6612 26.2551 25.6186C26.2701 25.5759 26.2969 25.5384 26.3324 25.5103C26.368 25.4823 26.4107 25.465 26.4557 25.4603C27.5453 25.3957 29.2638 25.334 30.901 25.157C35.3379 24.6825 37.6855 23.4244 37.6855 20.9055C37.6855 17.9008 34.8605 16.5276 29.1656 16.5276H0.19385C0.154818 16.527 0.116545 16.5384 0.0841815 16.5602C0.051818 16.582 0.0269215 16.6133 0.0128467 16.6497C-0.00122818 16.6861 -0.00380966 16.7259 0.00545759 16.7639C0.0147248 16.8018 0.035395 16.8359 0.0646769 16.8618L1.89559 18.4877C2.0583 18.634 2.26932 18.715 2.48811 18.7151H23.7149C27.5509 18.7151 29.1796 19.3105 29.1796 21.1695C29.1796 22.8684 27.037 23.5564 22.6506 23.6322C17.4471 23.7108 15.0097 23.7305 15.0097 23.7305ZM115.96 24.573C115.93 24.5979 115.908 24.6316 115.898 24.6693C115.888 24.707 115.89 24.747 115.904 24.7836C115.917 24.8206 115.941 24.8526 115.974 24.8752C116.006 24.8978 116.044 24.9099 116.083 24.9099H119.726C119.931 24.9084 120.129 24.836 120.287 24.7049L127.44 18.7123C127.558 18.6125 127.71 18.5595 127.865 18.5631C128.02 18.5667 128.168 18.6268 128.282 18.732L142.884 32.2111C143.049 32.3631 143.264 32.4473 143.488 32.447H152.587C152.625 32.447 152.663 32.4353 152.694 32.4136C152.726 32.3919 152.75 32.3612 152.764 32.3254C152.778 32.2896 152.781 32.2505 152.772 32.213C152.764 32.1756 152.744 32.1417 152.716 32.1156L136.08 16.7635C135.916 16.6115 135.7 16.5273 135.477 16.5276H125.89C125.684 16.5295 125.485 16.6029 125.328 16.7354L115.96 24.573ZM87.4151 24.0506C87.313 24.1165 87.194 24.1516 87.0725 24.1516C86.9509 24.1516 86.832 24.1165 86.7299 24.0506L74.9356 16.668C74.7905 16.5727 74.6206 16.522 74.447 16.522H63.9249C63.8837 16.522 63.8437 16.5354 63.8107 16.56C63.7778 16.5846 63.7537 16.6193 63.742 16.6587C63.7303 16.6982 63.7317 16.7404 63.7459 16.779C63.7602 16.8176 63.7865 16.8506 63.821 16.873L83.3489 29.6529C83.4517 29.7209 83.5723 29.7571 83.6957 29.7571C83.819 29.7571 83.9396 29.7209 84.0425 29.6529L98.9257 19.9704C98.9611 19.9454 99.0023 19.93 99.0454 19.9255C99.0884 19.9211 99.132 19.9278 99.1717 19.945C99.2115 19.9621 99.2461 19.9893 99.2724 20.0237C99.2986 20.0582 99.3156 20.0988 99.3216 20.1417V32.1915C99.3216 32.2249 99.3282 32.258 99.3411 32.2888C99.354 32.3197 99.3729 32.3477 99.3967 32.3712C99.4204 32.3947 99.4486 32.4132 99.4796 32.4258C99.5106 32.4383 99.5438 32.4446 99.5772 32.4442H107.566C107.6 32.4446 107.633 32.4383 107.664 32.4258C107.695 32.4132 107.723 32.3947 107.747 32.3712C107.771 32.3477 107.79 32.3197 107.802 32.2888C107.815 32.258 107.822 32.2249 107.822 32.1915V16.7775C107.822 16.7441 107.815 16.711 107.802 16.6801C107.79 16.6493 107.771 16.6213 107.747 16.5978C107.723 16.5743 107.695 16.5557 107.664 16.5432C107.633 16.5307 107.6 16.5244 107.566 16.5248H99.2262C99.0539 16.5254 98.8854 16.5751 98.7403 16.668L87.4151 24.0506ZM192.241 16.5304H169.829C166.032 16.5304 162.859 16.9432 160.652 18.5186C158.565 20.0069 157.417 22.127 157.417 24.4915C157.417 26.856 159.177 32.4498 169.604 32.4498H181.199C181.237 32.4497 181.273 32.4385 181.305 32.4175C181.336 32.3965 181.36 32.3667 181.375 32.3319C181.389 32.297 181.393 32.2587 181.386 32.2217C181.378 32.1848 181.36 32.1508 181.334 32.1241L179.736 30.6245C179.654 30.5415 179.556 30.4756 179.448 30.4308C179.34 30.3859 179.224 30.363 179.107 30.3634H176.273C169.646 30.3634 165.92 28.3274 165.92 24.4915C165.92 20.5601 169.598 18.718 175.291 18.718H190.157C190.394 18.7171 190.621 18.6222 190.789 18.454L192.384 16.8561C192.412 16.8298 192.432 16.7953 192.441 16.7574C192.449 16.7194 192.446 16.6797 192.431 16.6437C192.417 16.6077 192.391 16.577 192.359 16.5557C192.326 16.5345 192.288 16.5237 192.249 16.5248L192.241 16.5304Z" />
-                                        </svg>
-                                    </span>
-                                </i>
-                            </a>
-
-
-                            <ul class="c-menu c-menu--inline js-context-shifting">
-                                <li class="c-menu__item">
-                                    <a href="https://www.rimac-group.com/careers" target="_blank"
-                                        class="c-link u-uppercase js-context-shifting-link">
-                                        <span class="c-link__label">
-                                            Careers </span>
-                                        <span class="c-link__append">
-                                            <svg class="u-icon u-icon--external-link" xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 16 16">
-                                                <path class="external-link" d="M8.6,3l1.8,1.8L6.5,8.7l0.8,0.8l3.9-3.9L13,7.4V3H8.6z M11.9,11.9H4.1V4.1H8L6.9,3H4.1C3.8,3,3.5,3.1,3.3,3.3
-	C3.1,3.5,3,3.8,3,4.1v7.8c0,0.3,0.1,0.6,0.3,0.8C3.5,12.9,3.8,13,4.1,13h7.8c0.3,0,0.6-0.1,0.8-0.3c0.2-0.2,0.3-0.5,0.3-0.8V9.1
-	L11.9,8V11.9z" />
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </li>
-
-                                <li class="c-menu__item">
-                                    <a href="../retailer-map/index.html" target=""
-                                        class="c-link u-uppercase js-context-shifting-link">
-                                        <span class="c-link__label">
-                                            Partners map </span>
-                                    </a>
-                                </li>
-                                <li class="c-menu__item">
-                                    <a href="https://www.rimac-newsroom.com/" target="_blank"
-                                        class="c-link u-uppercase js-context-shifting-link">
-                                        <span class="c-link__label">
-                                            Media </span>
-                                        <span class="c-link__append">
-                                            <svg class="u-icon u-icon--external-link" xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 16 16">
-                                                <path class="external-link" d="M8.6,3l1.8,1.8L6.5,8.7l0.8,0.8l3.9-3.9L13,7.4V3H8.6z M11.9,11.9H4.1V4.1H8L6.9,3H4.1C3.8,3,3.5,3.1,3.3,3.3
-	C3.1,3.5,3,3.8,3,4.1v7.8c0,0.3,0.1,0.6,0.3,0.8C3.5,12.9,3.8,13,4.1,13h7.8c0.3,0,0.6-0.1,0.8-0.3c0.2-0.2,0.3-0.5,0.3-0.8V9.1
-	L11.9,8V11.9z" />
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </li>
-
-                                <li class="c-menu__item">
-                                    <a href="../factory-tours/index.html" target=""
-                                        class="c-link u-uppercase js-context-shifting-link">
-                                        <span class="c-link__label">
-                                            Factory tours </span>
-                                    </a>
-                                </li>
-                                <li class="c-menu__item">
-                                    <a href="https://estore.rimac-automobili.com/" target="_blank"
-                                        class="c-link u-uppercase js-context-shifting-link">
-                                        <span class="c-link__label">
-                                            e_store </span>
-                                        <span class="c-link__append">
-                                            <svg class="u-icon u-icon--external-link" xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 16 16">
-                                                <path class="external-link" d="M8.6,3l1.8,1.8L6.5,8.7l0.8,0.8l3.9-3.9L13,7.4V3H8.6z M11.9,11.9H4.1V4.1H8L6.9,3H4.1C3.8,3,3.5,3.1,3.3,3.3
-	C3.1,3.5,3,3.8,3,4.1v7.8c0,0.3,0.1,0.6,0.3,0.8C3.5,12.9,3.8,13,4.1,13h7.8c0.3,0,0.6-0.1,0.8-0.3c0.2-0.2,0.3-0.5,0.3-0.8V9.1
-	L11.9,8V11.9z" />
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </li>
-
-                                <li class="c-menu__item">
-                                    <a href="../contact-us/index.html" target=""
-                                        class="c-link u-uppercase js-context-shifting-link">
-                                        <span class="c-link__label">
-                                            Contact </span>
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </div>
-
-                    </div>
-                    <div class="o-container">
-                        <div class="c-footer__bottom">
-                            <div class="c-footer__bottom-left">
-                                <h5 class="u-b1 u-uppercase">
-                                    Contact </h5>
-                                <div class="c-footer-contact-info u-b2">
-                                    <ul class="c-footer-contact-info__list">
-                                        <li class="c-footer-contact-info__list-item">
-                                            <a href="mailto:info@bugatti-rimac.com" class="c-link c-link--secondary">
-                                                <span class="c-link__label">
-                                                    info@bugatti-rimac.com </span>
-                                            </a>
-                                        </li>
-                                        <li class="c-footer-contact-info__list-item">
-                                            tel:
-                                            <a href="tel:+385 1 563 45 92" class="c-link c-link--secondary">
-                                                <span class="c-link__label">
-                                                    +385 1 563 45 92 </span>
-                                            </a>
-                                        </li>
-                                    </ul>
-
-                                    <ul class="c-footer-contact-info__list">
-                                        <li class="c-footer-contact-info__list-item">
-                                            <p class="u-b2">
-                                                <a href="https://web-cdn.rimac-automobili.com/wp-content/uploads/2023/06/14110846/Bugatti-Rimac-AboutUs.pdf"
-                                                    class="c-link c-link--secondary">© 2023 Bugatti Rimac
-                                                    d.o.o.</a><br />
-                                                Kerestinečka cesta 54, Kerestinec,<br />
-                                                10431 Sveta Nedelja, Croatia
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="c-footer__bottom-center">
-                                <h5 class="u-b1 u-uppercase">
-                                    Find us on </h5>
+                        <div class="c-footer__bottom">                          
+                            <div class="c-footer__bottom-unset">
+                                <h5 class="u-b1 u-uppercase">Find us on </h5>
                                 <div class="c-footer-contact-info c-footer-contact-info--socials u-b2">
                                     <ul class="c-footer-contact-info__list c-footer-contact-info__list--3-column">
                                         <li class="c-footer-contact-info__list-item">
@@ -2802,32 +2613,14 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="c-footer__bottom-center-right">
-                                <h5 class="u-b1 u-uppercase">
-                                    Customer Service </h5>
+                            <div class="c-footer__bottom-unset">
+                                <h5 class="u-b1 u-uppercase">Copyright </h5>
                                 <div class="c-footer-contact-info u-b2">
-                                    <ul class="c-footer-contact-info__list c-footer-contact-info__list--3-column">
-                                        <li class="c-footer-contact-info__list-item">
-                                            <a target="" href="../technical-service-documentation/index.html"
-                                                class="c-link c-link--secondary js-context-shifting-link">
-                                                <span class="c-link__label">
-                                                    Technical Service Documentation </span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="c-footer__bottom-right">
-                                <h5 class="u-b1 u-uppercase">
-                                    Policies </h5>
-                                <div class="c-footer-contact-info u-b2">
-                                    <ul class="c-footer-contact-info__list c-footer-contact-info__list--3-column">
-                                        <li class="c-footer-contact-info__list-item">
-                                            <a target="" href="../legal-and-compliance-documents/index.html"
-                                                class="c-link c-link--secondary">
-                                                <span class="c-link__label">
-                                                    Legal and Compliance Documents </span>
-                                            </a>
+                                    <ul class="c-footer-contact-info__list">
+                                        <li class="c-footer-contact-info__list-item no-padding-right">
+                                            <p class="u-b2">
+                                                <a href="https://web-cdn.rimac-automobili.com/wp-content/uploads/2023/06/14110846/Bugatti-Rimac-AboutUs.pdf" class="c-link c-link--secondary">© 2023 Gcar</a>
+                                            </p>
                                         </li>
                                     </ul>
                                 </div>
@@ -2895,7 +2688,7 @@
 
     <!-- <script type='text/javascript' src='../assets/js/main.js' id='rimacWeb2020Main-js'></script> -->
     <script type='text/javascript' src='<?php echo $root_path; ?>/assets/js/vendor.js' id='rimacWeb2020Vendor-js'></script>
-    <script type='text/javascript' src='<?php echo $root_path; ?>/assets/js/bundle.js' id='rimacWeb2020Bundle-js'></script>
+    <script type='text/javascript' src='<?php echo $root_path; ?>/assets/js/bundle-clean.js' id='rimacWeb2020Bundle-js'></script>
 
 </body>
 
