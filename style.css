@@ -4449,6 +4449,7 @@ body .is-layout-grid>* {
 	display: -ms-flexbox;
 	display: flex;
 	align-items: center;
+	cursor: pointer;
 }
 
 .c-big-menu__item:last-child .c-big-link {
@@ -23432,9 +23433,10 @@ all and (-ms-high-contrast: none),
 }
 
 .c-accordion-header__title-row {
-	/* display: -webkit-box;
+	width: 90%;
+	display: -webkit-box;
 	display: -ms-flexbox;
-	display: flex; */
+	display: flex;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;

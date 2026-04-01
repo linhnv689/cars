@@ -1,54 +1,17 @@
 <?php   
     $root_path = "../..";
+    $title = "EVO - Apollo";
 ?>
-<!DOCTYPE html>
-<html lang="en-US">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <link rel="profile" href="http://gmpg.org/xfn/11">
-    <link rel="pingback" href="../xmlrpc.php">
-    <title>Nevera - Rimac Automobili</title>
+<!-- HEADER -->
+<?php require_once "$root_path/header.php"; ?>
+<!-- //HEADER -->
 
-
-    <link rel="shortcut icon" href="<?php echo $root_path; ?>/assets/img/favicon/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $root_path; ?>/assets/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo $root_path; ?>/assets/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo $root_path; ?>/assets/img/favicon/favicon-16x16.png">
-    <link rel="mask-icon" href="<?php echo $root_path; ?>/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="theme-color" content="#ffffff">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel='stylesheet' id='rimacWeb2020MainCSS-css' href='<?php echo $root_path; ?>/style.css' type='text/css' media='' />
-    <link rel='stylesheet' id='wp-block-library-css' href='<?php echo $root_path; ?>/assets/css/block-library/style.min.css' type='text/css'
-        media='all' />
-    <script type='text/javascript' src='<?php echo $root_path; ?>/assets/js/jquery/jquery.min.js' id='jquery-core-js'></script>
-
-    <style type="text/css">
-        .c-loader {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 100vh;
-            width: 100vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #07232e;
-            z-index: 21;
-        }
-    </style>
-
-</head>
-
-<body
-    class="page-template page-template-page-templates page-template-apollo-evo page-template-page-templatesnevera-php page page-id-6841 page-parent">
+<body class="page-template page-template-page-templates page-template-apollo-evo page-template-page-templatesnevera-php page page-id-6841 page-parent">
 
     <div class="c-page-bg  js-page-bg js-gradient-bg">
         <i class="c-page-bg__bg js-page-bg-bg"></i>
     </div>
-
 
     <!-- NAVIGATION -->
     <div class="o-navigation-wrapper js-navigation-wrapper ">
@@ -108,154 +71,9 @@
         </div>
 
     </div>
-    <nav id="navigation" class="c-navigation-menu-wrapper">
-        <div class="c-navigation-menu js-navigation-menu">
-            <i class="c-navigation-menu__bg js-navigation-bg-gradient"></i>
-            <div class="c-navigation-menu__images">
-                <ul class="c-menu-images js-menu-images">
-                    <li class="c-menu-images__item">
-                        <img src="<?php echo $root_path; ?>/uploads/2021/05/30204415/rimac/menu-nevera_opt.jpg" alt="Rimac">
-                    </li>
-                    <li class="c-menu-images__item">
-                        <img src="<?php echo $root_path; ?>/uploads/2021/05/30204415/menu-development_opt.jpg" alt="Rimac">
-                    </li>
-                    <li class="c-menu-images__item">
-                        <img src="<?php echo $root_path; ?>/uploads/2021/05/30204415/Technology-min.jpg" alt="Rimac">
-                    </li>
-                    <li class="c-menu-images__item">
-                        <img src="<?php echo $root_path; ?>/uploads/2021/05/30204415/menu-about-us_opt.jpg" alt="Rimac">
-                    </li>
-                </ul>
-            </div>
-            <div class="o-container o-container--wide">
-                <div class="c-navigation-menu__menu js-context-shifting-menu">
-                    <ul class="c-big-menu js-menu-primary">
-                        <li class="c-big-menu__item">
-                            <a href="index.html" target="" class="c-big-link u-uppercase js-context-shifting-menu-link">
-                                <span class="c-big-link__prepend u-b3">01</span>
-                                <span class="c-big-link__label u-a3 u-uppercase" title="Nevera & Nevera R">
-                                    Nevera & Nevera R </span>
-                            </a>
-                        </li>
-                        <li class="c-big-menu__item">
-                            <a href="../development/index.html" target=""
-                                class="c-big-link u-uppercase js-context-shifting-menu-link">
-                                <span class="c-big-link__prepend u-b3">02</span>
-                                <span class="c-big-link__label u-a3 u-uppercase" title="Development">
-                                    Development </span>
-                            </a>
-                        </li>
-                        <li class="c-big-menu__item">
-                            <a href="https://www.rimac-technology.com/" target="_blank"
-                                class="c-big-link u-uppercase js-context-shifting-menu-link">
-                                <span class="c-big-link__prepend u-b3">03</span>
-                                <span class="c-big-link__label u-a3 u-uppercase" title="Technology">
-                                    Technology </span>
-                            </a>
-                        </li>
-                        <li class="c-big-menu__item">
-                            <a href="../about-us/index.html" target=""
-                                class="c-big-link u-uppercase js-context-shifting-menu-link">
-                                <span class="c-big-link__prepend u-b3">04</span>
-                                <span class="c-big-link__label u-a3 u-uppercase" title="About us">
-                                    About us </span>
-                            </a>
-                        </li>
 
-                    </ul>
-
-
-                    <ul class="c-menu js-menu-secondary">
-                        <li class="c-menu__item">
-                            <a href="https://www.rimac-group.com/careers" target="_blank"
-                                class="c-link u-uppercase js-context-shifting-menu-link">
-                                <span class="c-link__label">
-                                    Careers </span>
-                                <span class="c-link__append">
-                                    <svg class="u-icon u-icon--external-link" xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 16 16">
-                                        <path class="external-link" d="M8.6,3l1.8,1.8L6.5,8.7l0.8,0.8l3.9-3.9L13,7.4V3H8.6z M11.9,11.9H4.1V4.1H8L6.9,3H4.1C3.8,3,3.5,3.1,3.3,3.3
-	C3.1,3.5,3,3.8,3,4.1v7.8c0,0.3,0.1,0.6,0.3,0.8C3.5,12.9,3.8,13,4.1,13h7.8c0.3,0,0.6-0.1,0.8-0.3c0.2-0.2,0.3-0.5,0.3-0.8V9.1
-	L11.9,8V11.9z" />
-                                    </svg>
-                                </span>
-                            </a>
-                        </li>
-
-                        <li class="c-menu__item">
-                            <a href="../factory-tours/index.html" target=""
-                                class="c-link u-uppercase js-context-shifting-menu-link">
-                                <span class="c-link__label">
-                                    Factory tours </span>
-                            </a>
-                        </li>
-                        <li class="c-menu__item">
-                            <a href="https://campus.rimac-automobili.com/" target="_blank"
-                                class="c-link u-uppercase js-context-shifting-menu-link">
-                                <span class="c-link__label">
-                                    Campus </span>
-                                <span class="c-link__append">
-                                    <svg class="u-icon u-icon--external-link" xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 16 16">
-                                        <path class="external-link" d="M8.6,3l1.8,1.8L6.5,8.7l0.8,0.8l3.9-3.9L13,7.4V3H8.6z M11.9,11.9H4.1V4.1H8L6.9,3H4.1C3.8,3,3.5,3.1,3.3,3.3
-	C3.1,3.5,3,3.8,3,4.1v7.8c0,0.3,0.1,0.6,0.3,0.8C3.5,12.9,3.8,13,4.1,13h7.8c0.3,0,0.6-0.1,0.8-0.3c0.2-0.2,0.3-0.5,0.3-0.8V9.1
-	L11.9,8V11.9z" />
-                                    </svg>
-                                </span>
-                            </a>
-                        </li>
-
-                        <li class="c-menu__item">
-                            <a href="https://estore.rimac-automobili.com/" target="_blank"
-                                class="c-link u-uppercase js-context-shifting-menu-link">
-                                <span class="c-link__label">
-                                    e_Store </span>
-                                <span class="c-link__append">
-                                    <svg class="u-icon u-icon--external-link" xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 16 16">
-                                        <path class="external-link" d="M8.6,3l1.8,1.8L6.5,8.7l0.8,0.8l3.9-3.9L13,7.4V3H8.6z M11.9,11.9H4.1V4.1H8L6.9,3H4.1C3.8,3,3.5,3.1,3.3,3.3
-	C3.1,3.5,3,3.8,3,4.1v7.8c0,0.3,0.1,0.6,0.3,0.8C3.5,12.9,3.8,13,4.1,13h7.8c0.3,0,0.6-0.1,0.8-0.3c0.2-0.2,0.3-0.5,0.3-0.8V9.1
-	L11.9,8V11.9z" />
-                                    </svg>
-                                </span>
-                            </a>
-                        </li>
-
-                        <li class="c-menu__item">
-                            <a href="https://www.rimac-newsroom.com/" target="_blank"
-                                class="c-link u-uppercase js-context-shifting-menu-link">
-                                <span class="c-link__label">
-                                    Media center </span>
-                                <span class="c-link__append">
-                                    <svg class="u-icon u-icon--external-link" xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 16 16">
-                                        <path class="external-link" d="M8.6,3l1.8,1.8L6.5,8.7l0.8,0.8l3.9-3.9L13,7.4V3H8.6z M11.9,11.9H4.1V4.1H8L6.9,3H4.1C3.8,3,3.5,3.1,3.3,3.3
-	C3.1,3.5,3,3.8,3,4.1v7.8c0,0.3,0.1,0.6,0.3,0.8C3.5,12.9,3.8,13,4.1,13h7.8c0.3,0,0.6-0.1,0.8-0.3c0.2-0.2,0.3-0.5,0.3-0.8V9.1
-	L11.9,8V11.9z" />
-                                    </svg>
-                                </span>
-                            </a>
-                        </li>
-
-                        <li class="c-menu__item">
-                            <a href="../retailer-map/index.html" target=""
-                                class="c-link u-uppercase js-context-shifting-menu-link">
-                                <span class="c-link__label">
-                                    Partners map </span>
-                            </a>
-                        </li>
-                        <li class="c-menu__item">
-                            <a href="../contact-us/index.html" target=""
-                                class="c-link u-uppercase js-context-shifting-menu-link">
-                                <span class="c-link__label">
-                                    Contact </span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <!-- NAVIGATION -->
+    <?php require_once "$root_path/navigation.php"; ?>
     <!-- //NAVIGATION -->
 
 
@@ -2306,157 +2124,20 @@
             <!-- //PAGE CONTENT -->
             <!-- PREFOOTER -->
             <!-- FOOTER -->
-            <!-- <div class="o-container o-container--narrow"
-                style="position: relative; z-index: 6; background-color: #0a222e; padding-top: 10px; font-size: 13px; padding-bottom: 10px; text-align: center; color: rgba(255,255,255,0.7);">
-            </div> -->
-            <footer class="o-footer-wrapper js-footer">
-                <div class="c-footer">
-                    <div class="o-container o-container--narrow">
-                        <div class="c-footer__bottom">                          
-                            <div class="c-footer__bottom-unset">
-                                <h5 class="u-b1 u-uppercase">Find us on </h5>
-                                <div class="c-footer-contact-info c-footer-contact-info--socials u-b2">
-                                    <ul class="c-footer-contact-info__list c-footer-contact-info__list--3-column">
-                                        <li class="c-footer-contact-info__list-item">
-                                            <a href="https://www.facebook.com/RimacAutomobili/"
-                                                class="c-link c-link--secondary">
-                                                <span class="c-link__label">
-                                                    Facebook
-                                                </span>
-                                                <span class="c-link__icon">
-                                                    <svg class="u-icon u-icon--facebook"
-                                                        xmlns="http://www.w3.org/2000/svg" width="8.1" height="16"
-                                                        version="1.1" viewBox="0 0 8.1 16">
-                                                        <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
-                                                        <path
-                                                            d="M5.5,0c-1,0-2.1.2-2.9.8-1.3,1-1.1,3.6-1.1,4.8H0v2.5h1.6v7.9h3.3V7.9h2.4l.3-2.4h-2.7v-2.1c0-.8.8-1,1.1-1s1.6.2,1.6.2l.5-2.5c-.2.2-1.3-.2-2.5-.2h0Z" />
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li class="c-footer-contact-info__list-item">
-                                            <a href="https://www.instagram.com/rimac_automobili/"
-                                                class="c-link c-link--secondary c-link--instagram">
-                                                <span class="c-link__label">
-                                                    Instagram
-                                                </span>
-                                                <span class="c-link__icon">
-                                                    <svg class="u-icon u-icon--instagram"
-                                                        xmlns="http://www.w3.org/2000/svg" width="15" height="15"
-                                                        version="1.1" viewBox="0 0 15 15">
-                                                        <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
-                                                        <path
-                                                            d="M15,4.4c0-.3,0-.6-.1-.9,0-.3-.1-.6-.2-.9-.2-.5-.5-1-.9-1.3-.4-.4-.8-.7-1.3-.9-.3-.1-.6-.2-.9-.2-.3,0-.6,0-.9,0-.4,0-.8,0-1.1,0-.3,0-1,0-2,0s-1.7,0-2,0c-.3,0-.7,0-1.1,0-.3,0-.6,0-.9,0-.3,0-.6.1-.9.2-.5.2-.9.5-1.3.9-.4.4-.7.8-.9,1.3-.1.3-.2.6-.2.9,0,.3,0,.6-.1.9,0,.4,0,.8,0,1.1,0,.3,0,1,0,2v2c0,.3,0,.7,0,1.1,0,.3,0,.6.1.9,0,.3.1.6.2.9.2.5.5.9.9,1.3.4.4.8.7,1.3.9.3.1.6.2.9.3.3,0,.6,0,.9,0,.4,0,.8,0,1.1,0,.3,0,1,0,2,0s1.7,0,2,0c.3,0,.7,0,1.1,0,.3,0,.6,0,.9,0,.3,0,.6-.1.9-.2.5-.2.9-.5,1.3-.9.4-.4.7-.8.9-1.3.1-.3.2-.6.2-.9,0-.3,0-.6.1-.9,0-.4,0-.8,0-1.1,0-.3,0-1,0-2v-2c0-.3,0-.7,0-1.1ZM7.5,11.3c-.5,0-1,0-1.5-.3-.5-.2-.9-.5-1.2-.8-.4-.3-.6-.7-.8-1.2-.2-.5-.3-1-.3-1.5s.1-1,.3-1.5c.2-.5.5-.9.8-1.2.4-.3.8-.6,1.2-.8.5-.2,1-.3,1.5-.3s1,0,1.5.3c.5.2.9.5,1.2.8.4.3.6.7.8,1.2.2.5.3,1,.3,1.5s-.1,1-.3,1.5c-.2.5-.5.9-.8,1.2-.4.3-.8.6-1.2.8-.5.2-.9.3-1.5.3ZM11.5,4.4c-.2,0-.5,0-.6-.3-.2-.2-.3-.4-.3-.6s0-.5.3-.6c.2-.2.4-.3.6-.3s.5,0,.6.3c.2.2.3.4.3.6s0,.5-.3.6c-.2.2-.4.3-.6.3ZM10,7.5c0-.7-.2-1.3-.7-1.8-.5-.5-1.1-.7-1.8-.7s-1.3.2-1.8.7c-.5.5-.7,1.1-.7,1.8s.2,1.3.7,1.8c.5.5,1.1.7,1.8.7s1.3-.2,1.8-.7c.5-.5.7-1.1.7-1.8Z" />
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li class="c-footer-contact-info__list-item">
-                                            <a href="https://tiktok.com/@rimac_automobili/"
-                                                class="c-link c-link--secondary">
-                                                <span class="c-link__label">
-                                                    TikTok
-                                                </span>
-                                                <span class="c-link__icon">
-                                                    <svg class="u-icon u-icon--instagram"
-                                                        xmlns="http://www.w3.org/2000/svg" width="12.9" height="15"
-                                                        version="1.1" viewBox="0 0 12.9 15">
-                                                        <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
-                                                        <path
-                                                            d="M6.7,0h2.4c0,1,.4,1.9,1.1,2.6h0c.7.6,1.6,1,2.6,1.1h0v2.5c-.9,0-1.8-.2-2.6-.6h0c-.4-.2-.7-.4-1-.6h0v5.5c0,.9-.4,1.7-.8,2.4h0c-.8,1.1-2.1,1.9-3.6,2h-.2c-.9,0-1.6-.2-2.3-.6h0c-1.2-.7-2.1-2-2.2-3.5h0v-.9c.2-2.3,2.2-4.3,4.7-4.3s.5,0,.8,0h0v2.7c-.2,0-.4-.1-.7-.1-.9,0-1.7.6-2,1.4h0c0,.2-.1.5-.1.7v.3h0c.2,1,1,1.8,2.1,1.8s0,0,0,0h0c.7,0,1.3-.4,1.7-1h0c.1-.2.2-.4.3-.7h0V0h-.1Z" />
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li class="c-footer-contact-info__list-item">
-                                            <a href="https://www.youtube.com/user/RimacAutomobili"
-                                                class="c-link c-link--secondary">
-                                                <span class="c-link__label">
-                                                    Youtube
-                                                </span>
-                                                <span class="c-link__icon">
-                                                    <svg class="u-icon u-icon--youtube"
-                                                        xmlns="http://www.w3.org/2000/svg" width="18" height="13"
-                                                        version="1.1" viewBox="0 0 18 13">
-                                                        <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
-                                                        <path
-                                                            d="M15.6.2C10.7,0,6.3,0,2.4.2c-.6,0-1.1.4-1.5,1C.4,1.9.2,2.5.1,3.2,0,5.4,0,7.6.1,9.8c0,.7.3,1.3.7,1.9.4.6.9,1,1.5,1.1,4.7.3,9.1.3,13.2,0,.6-.1,1.1-.5,1.5-1.1.4-.6.7-1.2.7-1.9.2-2.2.2-4.5,0-6.7,0-.7-.3-1.3-.7-1.9-.4-.6-.9-.9-1.6-.9ZM6.7,9.7V3.2l5.6,3.3-5.6,3.3Z" />
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li class="c-footer-contact-info__list-item">
-                                            <a href="https://twitter.com/automobilirimac"
-                                                class="c-link c-link--secondary">
-                                                <span class="c-link__label">
-                                                    Twitter
-                                                </span>
-                                                <span class="c-link__icon">
-                                                    <svg class="u-icon u-icon--x" xmlns="http://www.w3.org/2000/svg"
-                                                        width="9.8" height="10" version="1.1" viewBox="0 0 9.8 10">
-                                                        <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
-                                                        <path
-                                                            d="M9.1,9l-3.3-4.7-.4-.5L3.1.4l-.2-.3H0l.7,1,3.1,4.5.4.5,2.5,3.6.2.3h2.9s-.7-1-.7-1ZM7.2,9.3l-2.6-3.8-.4-.5L1.2.6h1.3l2.4,3.5.4.5,3.2,4.6h-1.3Z" />
-                                                        <polygon
-                                                            points="4.1 5.5 4.6 5.6 4.2 6.1 .8 10 0 10 3.8 5.5 4.1 5.5" />
-                                                        <polygon
-                                                            points="9.4 0 5.8 4.2 5.4 4.7 5 4.2 5.4 3.7 7.9 .8 8.6 0 9.4 0" />
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li class="c-footer-contact-info__list-item">
-                                            <a href="https://www.linkedin.com/company/rimacautomobili/"
-                                                class="c-link c-link--secondary">
-                                                <span class="c-link__label">
-                                                    LinkedIn
-                                                </span>
-                                                <span class="c-link__icon">
-                                                    <svg class="u-icon u-icon--linkedin"
-                                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                        version="1.1" viewBox="0 0 16 16">
-                                                        <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
-                                                        <path
-                                                            d="M3.8,1.9c0,.5-.2,1-.6,1.3-.3.5-.8.6-1.3.6s-1-.2-1.4-.6-.5-.8-.5-1.3S.2,1,.6.5s.8-.5,1.3-.5,1,.2,1.3.6c.5.3.6.8.6,1.3ZM8.8,5.3v1.4h0c.3-.3.6-.8,1.3-1.1.5-.3,1.1-.5,2.1-.5,1.6,0,2.7.5,3.2,1.4s.6,2.1.6,3.5v5.9h-3.4v-5.1c0-.6,0-1.3-.2-1.9-.2-.6-.6-1-1.6-1s-1.3.3-1.6.8c-.2.6-.3,1.3-.3,1.9v5.3h-3.4V5.3h3.2ZM.3,5.3h3.4v10.7H.3V5.3Z" />
-                                                    </svg>
-                                                </span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="c-footer__bottom-unset">
-                                <h5 class="u-b1 u-uppercase">Copyright </h5>
-                                <div class="c-footer-contact-info u-b2">
-                                    <ul class="c-footer-contact-info__list">
-                                        <li class="c-footer-contact-info__list-item no-padding-right">
-                                            <p class="u-b2">
-                                                <a href="https://web-cdn.rimac-automobili.com/wp-content/uploads/2023/06/14110846/Bugatti-Rimac-AboutUs.pdf" class="c-link c-link--secondary">© 2023 Gcar</a>
-                                            </p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+            <?php require_once "$root_path/footer.php"; ?>
             <!-- //FOOTER -->
 
             <!-- COOKIE MESSAGE -->
             <div class="o-cookie-message-wrapper js-cookie-message-wrapper">
                 <div class="o-container o-container--wide">
-                    <div class="c-cookie-message">
-                    </div>
+                    <div class="c-cookie-message"></div>
                 </div>
             </div>
             <!-- //COOKIE MESSAGE -->
             <div class="c-video-popup js-video-popup" id="intro-video">
                 <span class="c-hamburger is-opened c-video-popup__close js-video-popup-btn" aria-label="Modal close"
                     aria-controls="modal">
-                    <span class="c-hamburger__label u-b3 u-uppercase">
-                        Close
-                    </span>
+                    <span class="c-hamburger__label u-b3 u-uppercase">Close</span>
                     <i class="c-hamburger__line c-hamburger__line--top"></i>
                     <i class="c-hamburger__line c-hamburger__line--center"></i>
                     <i class="c-hamburger__line c-hamburger__line--bottom"></i>
@@ -2468,10 +2149,8 @@
 
                     <figure class="c-custom-video-player__cover">
                         <figcaption class="c-custom-video-player__cover-text">
-                            <h4 class="u-a1">
-                            </h4>
-                            <p class="u-b2">
-                            </p>
+                            <h4 class="u-a1"></h4>
+                            <p class="u-b2"></p>
                         </figcaption>
                     </figure>
 
@@ -2498,9 +2177,7 @@
     <div class="c-page-overlay__before js-page-overlay-before"></div>
     <div class="c-page-overlay js-page-overlay"></div>
 
-    <!-- <script type='text/javascript' src='../assets/js/main.js' id='rimacWeb2020Main-js'></script> -->
-    <script type='text/javascript' src='<?php echo $root_path; ?>/assets/js/vendor.js' id='rimacWeb2020Vendor-js'></script>
-    <script type='text/javascript' src='<?php echo $root_path; ?>/assets/js/bundle-clean.js' id='rimacWeb2020Bundle-js'></script>
+    <?php require_once "$root_path/footer-link.php"; ?>
 
 </body>
 
