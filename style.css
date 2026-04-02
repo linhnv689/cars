@@ -4605,6 +4605,10 @@ body .is-layout-grid>* {
 	z-index: 1;
 }
 
+.c-button__inner.large {
+	width: 230px;
+}
+
 @media (max-width: 484px) {
 	.c-button__inner {
 		width: 140px;
@@ -28335,6 +28339,10 @@ all and (-ms-high-contrast: none),
 	stroke-width: 0;
 	stroke: currentColor;
 	fill: currentColor;
+}
+
+.u-icon.short {
+	width: 1em;
 }
 
 .u-arrow-datepicker {

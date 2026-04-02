@@ -1,7 +1,7 @@
 <?php
     $root_path = "";
     $page = "homepage";
-    $title = "Homepage | Gcar";
+    $title = "Home | Gcar";
 ?>
 
 <!-- HEADER -->
@@ -37,56 +37,6 @@
         <div id="home" class="o-page o-page--home" data-barba="container" data-barba-namespace="homepage" data-title="">
             <!-- PAGE CONTENT -->
             <div class="o-page__inner o-page__inner--home">
-
-                <section id="homepage-slider" data-id="2" data-url="get-home-slider" style="display: none;"
-                    class="o-section js-video-slider c-homepage-slider ">
-                    <!-- PAGE -->
-                    <div class="c-homepage-slider__inner js-onboarding-bg">
-                        <div class="o-container">
-                            <div class="js-slider swiper-container">
-                                <div class="swiper-wrapper js-slider-wrapper">
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="c-homepage-slider__canvas js-canvas-wrapper">
-
-                    </div>
-
-                    <div class="c-homepage-slider__pagination js-pagination-list-hover-area">
-                        <i class="c-homepage-slider__pagination-progress js-pagination-progress-wrapper">
-                            <span class="c-homepage-slider__pagination-progress-line js-pagination-progress"></span>
-                        </i>
-                        <div class="c-homepage-slider__pagination-current u-b3 u-fw-semi-bold u-uppercase">
-                            <div class="c-homepage-slider__pagination-list">
-                                <ul>
-                                    <li class="js-pagination-list-item">
-                                        <span class="js-onboarding-menu-item">
-                                            01 Nevera and Nevera R </span>
-                                    </li>
-                                    <li class="js-pagination-list-item">
-                                        <span class="js-onboarding-menu-item">
-                                            02 Technology </span>
-                                    </li>
-                                    <li class="js-pagination-list-item">
-                                        <span class="js-onboarding-menu-item">
-                                            03 Development </span>
-                                    </li>
-                                    <li class="js-pagination-list-item">
-                                        <span class="js-onboarding-menu-item">
-                                            04 About Us </span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <i class="c-scroll-indicator">
-                        <i></i>
-                    </i>
-                </section>
                 <div class="hero-slider" id="hero">
 
                     <canvas id="bgCanvas"></canvas>
@@ -133,7 +83,7 @@
                     <div class="slides">
                         <div class="slide">
                             <div class="slide-media">
-                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/Chevrolet-Corvette-ZR1.mp4" autoplay muted
+                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/Chevrolet-Corvette-ZR1.mp4" autoplay muted
                                     loop></video>
                             </div>
                             <div class="slide-content">
@@ -154,7 +104,7 @@
                                 <a class="c-button c-button--light" href="https://www.rimac-automobili.com/nevera/">
                                     <span class="c-button__inner">
                                         <span class="c-button__label">
-                                            <i class="c-button__label-inner" title="Specifications">Specifications</i>
+                                            <i class="c-button__label-inner" title="Explore">Explore</i>
                                         </span>
                                     </span>
                                 </a>
@@ -162,7 +112,7 @@
                         </div>
                         <div class="slide">
                             <div class="slide-media">
-                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/Bugatti-La-Voiture-Noire.mp4" muted loop></video>
+                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/bugatti/la-voiture-noire/Bugatti-La-Voiture-Noire.mp4" muted loop></video>
                             </div>
                             <div class="slide-content">
                                 <h1 class="u-a4 u-uppercase">Bugatti La Voiture Noire</h1>
@@ -180,7 +130,7 @@
                                 <a class="c-button c-button--light" href="https://www.rimac-automobili.com/nevera/">
                                     <span class="c-button__inner">
                                         <span class="c-button__label">
-                                            <i class="c-button__label-inner" title="Specifications">Specifications</i>
+                                            <i class="c-button__label-inner" title="Explore">Explore</i>
                                         </span>
                                     </span>
                                 </a>
@@ -189,7 +139,7 @@
 
                         <div class="slide">
                             <div class="slide-media">
-                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/YANGWANG-U9-Xtreme.mp4" muted loop></video>
+                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/yangwang/u9-xtreme/YANGWANG-U9-Xtreme.mp4" muted loop></video>
                             </div>
                             <div class="slide-content">
                                 <h1 class="u-a4 u-uppercase">YANGWANG U9 Xtreme</h1>
@@ -209,7 +159,7 @@
                                     href="https://www.topgear.com/car-news/electric/yangwang-u9-xtreme-hits-308mph-becomes-worlds-fastest-ever-production-car">
                                     <span class="c-button__inner">
                                         <span class="c-button__label">
-                                            <i class="c-button__label-inner" title="Specifications">Specifications</i>
+                                            <i class="c-button__label-inner" title="Explore">Explore</i>
                                         </span>
                                     </span>
                                 </a>
@@ -218,7 +168,7 @@
 
                         <div class="slide">
                             <div class="slide-media">
-                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/Rimac-Nevera.mp4" muted loop></video>
+                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/rimac/nevera-r/Rimac-Nevera.mp4" muted loop></video>
                             </div>
                             <div class="slide-content">
                                 <h1 class="u-a4 u-uppercase">Rimac Nevera R</h1>
@@ -237,7 +187,7 @@
                                 <a class="c-button c-button--light" href="https://www.rimac-automobili.com/nevera/">
                                     <span class="c-button__inner">
                                         <span class="c-button__label">
-                                            <i class="c-button__label-inner" title="Specifications">Specifications</i>
+                                            <i class="c-button__label-inner" title="Explore">Explore</i>
                                         </span>
                                     </span>
                                 </a>
@@ -245,7 +195,7 @@
                         </div>
                         <div class="slide">
                             <div class="slide-media">
-                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/Mercedes-amg-one.mp4" muted loop></video>
+                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/mercedes-benz/amg-one/Mercedes-amg-one.mp4" muted loop></video>
                             </div>
                             <div class="slide-content">
                                 <h1 class="u-a4 u-uppercase">Mercedes-AMG One</h1>
@@ -265,7 +215,7 @@
                                 <a class="c-button c-button--light" href="https://www.rimac-automobili.com/nevera/">
                                     <span class="c-button__inner">
                                         <span class="c-button__label">
-                                            <i class="c-button__label-inner" title="Specifications">Specifications</i>
+                                            <i class="c-button__label-inner" title="Explore">Explore</i>
                                         </span>
                                     </span>
                                 </a>
@@ -273,7 +223,7 @@
                         </div>
                         <div class="slide">
                             <div class="slide-media">
-                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/Koenigsegg-GEMERA.mp4" muted loop></video>
+                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/koenigsegg/gemera/Koenigsegg-GEMERA.mp4" muted loop></video>
                             </div>
                             <div class="slide-content">
                                 <h1 class="u-a4 u-uppercase">Koenigsegg Gemera</h1>
@@ -292,7 +242,7 @@
                                 <a class="c-button c-button--light" href="https://www.rimac-automobili.com/nevera/">
                                     <span class="c-button__inner">
                                         <span class="c-button__label">
-                                            <i class="c-button__label-inner" title="Specifications">Specifications</i>
+                                            <i class="c-button__label-inner" title="Explore">Explore</i>
                                         </span>
                                     </span>
                                 </a>
@@ -300,7 +250,7 @@
                         </div>
                         <div class="slide">
                             <div class="slide-media">
-                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/Bugatti-La-Voiture-Noire.mp4" muted loop></video>
+                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/bugatti/la-voiture-noire/Bugatti-La-Voiture-Noire.mp4" muted loop></video>
                             </div>
                             <div class="slide-content">
                                 <h1 class="u-a4 u-uppercase">Bugatti La Voiture Noire</h1>
@@ -318,7 +268,7 @@
                                 <a class="c-button c-button--light" href="https://www.rimac-automobili.com/nevera/">
                                     <span class="c-button__inner">
                                         <span class="c-button__label">
-                                            <i class="c-button__label-inner" title="Specifications">Specifications</i>
+                                            <i class="c-button__label-inner" title="Explore">Explore</i>
                                         </span>
                                     </span>
                                 </a>
@@ -326,7 +276,7 @@
                         </div>
                         <div class="slide">
                             <div class="slide-media">
-                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/Ferrari-Daytona-SP3.mp4" muted loop></video>
+                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/ferrari/daytona-sp3/Ferrari-Daytona-SP3.mp4" muted loop></video>
                             </div>
                             <div class="slide-content">
                                 <h1 class="u-a4 u-uppercase">FERRARI DAYTONA SP3</h1>
@@ -345,7 +295,7 @@
                                 <a class="c-button c-button--light" href="https://www.rimac-automobili.com/nevera/">
                                     <span class="c-button__inner">
                                         <span class="c-button__label">
-                                            <i class="c-button__label-inner" title="Specifications">Specifications</i>
+                                            <i class="c-button__label-inner" title="Explore">Explore</i>
                                         </span>
                                     </span>
                                 </a>
