@@ -188,8 +188,10 @@ document.addEventListener("DOMContentLoaded", function () {
         lastLi.addEventListener("animationend", onAllLiDone);
     } else {
         // Không có li -> border + slider sẵn sàng ngay
-        hero.classList.add("menu-bordered");
-        hero.classList.add("slider-ready");
+        if (hero) {
+            hero.classList.add("menu-bordered");
+            hero.classList.add("slider-ready");
+        }
         allowInteraction = true;
         updateIndicator(0);
         resetProgress();

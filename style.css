@@ -15201,6 +15201,15 @@ span.wpcf7-not-valid-tip {
 	display: block;
 }
 
+.c-footer-contact-info--socials .c-link__icon .u-icon-unset {
+	width: unset;
+	height: unset;
+}
+
+.c-footer-contact-info--socials .c-link__icon .u-icon--thread {
+	margin-left: -4px;
+}
+
 .c-newsletter-form__form {
 	display: -webkit-box;
 	display: -ms-flexbox;

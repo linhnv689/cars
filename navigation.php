@@ -1,3 +1,59 @@
+<div class="o-navigation-wrapper js-navigation-wrapper is-light">
+    <div class="o-container o-container--wide">
+        <div class="c-navigation">
+            <div class="c-navigation__left">
+                <a href="../index.html" class="c-logo c-logo--navigation">
+                    <i class="c-logo__full c-logo__full--light">
+                        <span class="c-logo-sign">
+                            <img src="<?php echo $root_path; ?>/assets/img/logo-sign.png" alt="">
+                        </span>
+                        <span class="c-logo-text">
+                            <img src="<?php echo $root_path; ?>/assets/img/logo-text.png" alt="">
+                        </span>
+                    </i>
+                </a>
+            </div>
+            <div class="c-navigation__center">
+                <div class="c-navigation__logo-wrapper">
+                    <span class="c-logo c-logo--navigation js-page-logo-wrapper">
+                    </span>
+                    <span class="u-b3 u-uppercase c-page-title">
+                        <span class="js-page-title"></span>
+                    </span>
+                </div>
+            </div>
+            <div class="c-navigation__right">
+                <span class="c-hamburger js-navigation-trigger js-timeline-popup-close" aria-label="Menu"
+                    aria-controls="navigation">
+                    <span class="c-hamburger__label u-b3 u-uppercase">
+                        Close
+                    </span>
+                    <i class="c-hamburger__line c-hamburger__line--top"></i>
+                    <i class="c-hamburger__line c-hamburger__line--center"></i>
+                    <i class="c-hamburger__line c-hamburger__line--bottom"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="c-parent-navigation js-parent-navigation">
+        <div class="c-parent-navigation__link u-b3 u-uppercase ">
+            <a href="#" class="c-link js-parent-link">
+                <span class="c-link__prepend">
+                    <svg class="u-icon u-icon--arrow-left" viewBox="0 0 14 11" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.64 11L0 6.061V4.714L4.16 0h1.28v.561L1.784 4.5H13.92V6H1.56l4.359 4.439V11H4.64z">
+                        </path>
+                    </svg>
+                </span>
+                <span class="c-link__label">
+                    Back to <span class="js-parent-link-label">parent page</span>
+                </span>
+            </a>
+        </div>
+    </div>
+
+</div>
 <nav id="navigation" class="c-navigation-menu-wrapper">
     <div class="c-navigation-menu js-navigation-menu">
         <i class="c-navigation-menu__bg js-navigation-bg-gradient"></i>

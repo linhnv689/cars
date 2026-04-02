@@ -1,3 +1,21 @@
+<?php
+
+    $facebook_link = "https://web.facebook.com/gcar";
+    $instagram_link = "https://www.instagram.com/gcar/";
+    $x_link = "https://x.com/gcar";
+    $youtube_link = "https://www.youtube.com/@gcar";
+    $linkedin_link = "https://www.linkedin.com/company/gcar/";
+    $thread_link = "https://www.threads.com/@gcar";
+
+    if($page == "apollo") {
+        $facebook_link = "https://web.facebook.com/apolloautomobile";
+        $instagram_link = "https://www.instagram.com/apollo_automobil/";
+        $x_link = "https://x.com/ApolloAutomobil";
+        $youtube_link = "https://www.youtube.com/@ApolloAutomobil";
+        $linkedin_link = "https://www.linkedin.com/company/apollofmg/";
+        $thread_link = "https://www.threads.com/@apollo_automobil";
+    }
+?>
 <!-- <div class="o-container o-container--narrow"
     style="position: relative; z-index: 6; background-color: #0a222e; padding-top: 10px; font-size: 13px; padding-bottom: 10px; text-align: center; color: rgba(255,255,255,0.7);">
 </div> -->
@@ -6,15 +24,14 @@
         <div class="o-container o-container--narrow">
             <div class="c-footer__bottom">                          
                 <div class="c-footer__bottom-unset">
-                    <h5 class="u-b1 u-uppercase">Find us on </h5>
+                    <h5 class="u-b1 u-uppercase">Find <?php echo isset($manufacturer) ? $manufacturer : 'us'; ?> on </h5>
                     <div class="c-footer-contact-info c-footer-contact-info--socials u-b2">
                         <ul class="c-footer-contact-info__list c-footer-contact-info__list--3-column">
+
+                            <?php if (isset($facebook_link)): ?>
                             <li class="c-footer-contact-info__list-item">
-                                <a href="https://www.facebook.com/RimacAutomobili/"
-                                    class="c-link c-link--secondary">
-                                    <span class="c-link__label">
-                                        Facebook
-                                    </span>
+                                <a href="<?php echo $facebook_link; ?>" class="c-link c-link--secondary" target="_blank" rel="noopener noreferrer">
+                                    <span class="c-link__label">Facebook</span>
                                     <span class="c-link__icon">
                                         <svg class="u-icon u-icon--facebook"
                                             xmlns="http://www.w3.org/2000/svg" width="8.1" height="16"
@@ -26,12 +43,12 @@
                                     </span>
                                 </a>
                             </li>
+                            <?php endif; ?>
+
+                            <?php if (isset($instagram_link)): ?>
                             <li class="c-footer-contact-info__list-item">
-                                <a href="https://www.instagram.com/rimac_automobili/"
-                                    class="c-link c-link--secondary c-link--instagram">
-                                    <span class="c-link__label">
-                                        Instagram
-                                    </span>
+                                <a href="<?php echo $instagram_link; ?>" class="c-link c-link--secondary c-link--instagram" target="_blank" rel="noopener noreferrer">
+                                    <span class="c-link__label">Instagram</span>
                                     <span class="c-link__icon">
                                         <svg class="u-icon u-icon--instagram"
                                             xmlns="http://www.w3.org/2000/svg" width="15" height="15"
@@ -43,12 +60,12 @@
                                     </span>
                                 </a>
                             </li>
+                            <?php endif; ?>
+
+                            <?php if (isset($tiktok_link)): ?>
                             <li class="c-footer-contact-info__list-item">
-                                <a href="https://tiktok.com/@rimac_automobili/"
-                                    class="c-link c-link--secondary">
-                                    <span class="c-link__label">
-                                        TikTok
-                                    </span>
+                                <a href="<?php echo $tiktok_link; ?>" class="c-link c-link--secondary" target="_blank" rel="noopener noreferrer">
+                                    <span class="c-link__label">TikTok</span>
                                     <span class="c-link__icon">
                                         <svg class="u-icon u-icon--instagram"
                                             xmlns="http://www.w3.org/2000/svg" width="12.9" height="15"
@@ -60,12 +77,12 @@
                                     </span>
                                 </a>
                             </li>
+                            <?php endif; ?>
+
+                            <?php if (isset($youtube_link)): ?>
                             <li class="c-footer-contact-info__list-item">
-                                <a href="https://www.youtube.com/user/RimacAutomobili"
-                                    class="c-link c-link--secondary">
-                                    <span class="c-link__label">
-                                        Youtube
-                                    </span>
+                                <a href="<?php echo $youtube_link; ?>" class="c-link c-link--secondary" target="_blank" rel="noopener noreferrer">
+                                    <span class="c-link__label">Youtube</span>
                                     <span class="c-link__icon">
                                         <svg class="u-icon u-icon--youtube"
                                             xmlns="http://www.w3.org/2000/svg" width="18" height="13"
@@ -77,12 +94,12 @@
                                     </span>
                                 </a>
                             </li>
+                            <?php endif; ?>
+                            
+                            <?php if (isset($x_link)): ?>
                             <li class="c-footer-contact-info__list-item">
-                                <a href="https://twitter.com/automobilirimac"
-                                    class="c-link c-link--secondary">
-                                    <span class="c-link__label">
-                                        Twitter
-                                    </span>
+                                <a href="<?php echo $x_link; ?>" class="c-link c-link--secondary" target="_blank" rel="noopener noreferrer">
+                                    <span class="c-link__label">X</span>
                                     <span class="c-link__icon">
                                         <svg class="u-icon u-icon--x" xmlns="http://www.w3.org/2000/svg"
                                             width="9.8" height="10" version="1.1" viewBox="0 0 9.8 10">
@@ -97,12 +114,28 @@
                                     </span>
                                 </a>
                             </li>
+                            <?php endif; ?>
+
+                            <?php if (isset($thread_link)): ?>
                             <li class="c-footer-contact-info__list-item">
-                                <a href="https://www.linkedin.com/company/rimacautomobili/"
-                                    class="c-link c-link--secondary">
-                                    <span class="c-link__label">
-                                        LinkedIn
+                                <a href="<?php echo $thread_link; ?>" class="c-link c-link--secondary" target="_blank" rel="noopener noreferrer">
+                                    <span class="c-link__label">Thread</span>
+                                    <span class="c-link__icon">
+                                        <svg class="u-icon u-icon-unset u-icon--thread" 
+                                            xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 20 14"
+                                            viewBox="0 0 20 14" fill="currentColor">
+                                            <path 
+                                                d="M12.186 0C6.65 0 3.63 2.84 3.63 7.89c0 3.82 2.26 6.07 5.61 6.07 2.77 0 4.62-1.55 4.62-3.96 0-1.84-1.15-2.98-2.97-2.98-1.54 0-2.6.83-2.6 2.06 0 1.05.73 1.7 1.72 1.7.66 0 1.18-.3 1.4-.74.1.18.15.38.15.6 0 1.24-.94 2.03-2.33 2.03-2.18 0-3.61-1.66-3.61-4.22 0-3.46 2.14-5.45 5.79-5.45 3.63 0 5.62 1.93 5.62 5.23 0 2.95-1.54 4.7-4.2 4.7-1.2 0-2.1-.42-2.73-1.18l-.9 1.06c.86.96 2.12 1.5 3.63 1.5 3.7 0 6.03-2.48 6.03-6.08C19.92 2.6 16.93 0 12.186 0z"/>
+                                        </svg>
                                     </span>
+                                </a>
+                            </li>
+                            <?php endif; ?>
+
+                            <?php if (isset($linkedin_link)): ?>
+                            <li class="c-footer-contact-info__list-item">
+                                <a href="<?php echo $linkedin_link; ?>" class="c-link c-link--secondary" target="_blank" rel="noopener noreferrer">
+                                    <span class="c-link__label">LinkedIn</span>
                                     <span class="c-link__icon">
                                         <svg class="u-icon u-icon--linkedin"
                                             xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -114,6 +147,7 @@
                                     </span>
                                 </a>
                             </li>
+                            <?php endif; ?>
                         </ul>
                     </div>
                 </div>
