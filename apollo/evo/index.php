@@ -1,6 +1,7 @@
 <?php
     $root_path = "../..";
     $page = "apollo";
+    $model = "EVO";
     $manufacturer = "Apollo Automobil";
     $title = "EVO - Apollo | Gcar";
 ?>
@@ -241,9 +242,16 @@
                             </div>
                             <div class="spliter__one">
                                 <div class="js-nevera-logo js-nevera-logo--text">
-                                    <h2 class="u-a4 u-a4-plus u-uppercase js-nevera-logo--r mb-2 mb-lg-0">apollo evo</h2>                       
+                                    <!-- <h2 class="u-a4 u-a4-plus u-uppercase js-nevera-logo--r mb-2 mb-lg-0">apollo evo</h2>                       
                                     <div class="mx-2 mx-lg-0">
                                         <span class="js-nevera-logo--holder u-a1 u-a4-plus u-uppercase mt-0">Next Leap in our Evolution</span>
+                                    </div> -->
+                                    <div class="mx-2 mx-lg-0">
+                                        <span class="js-nevera-logo--holder t-2 u-uppercase mt-0"><?php echo $page; ?></span>
+                                    </div>
+                                    <h2 class="t-1 u-uppercase js-nevera-logo--r mb-2 mb-lg-0"><?php echo $model; ?></h2>                       
+                                    <div class="mx-2 mx-lg-0">
+                                        <span class="js-nevera-logo--holder t-3c u-uppercase mt-0">Next Leap in our Evolution</span>
                                     </div>
                                 </div>
                             </div>

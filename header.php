@@ -20,8 +20,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     
     <link rel='stylesheet' id='rimacWeb2020MainCSS-css' href='<?php echo $root_path; ?>/style.css' type='text/css' media='' />
-    <link rel='stylesheet' id='wp-block-library-css' href='<?php echo $root_path; ?>/assets/css/block-library/style.min.css' type='text/css'
-        media='all' />
+
+    <link rel="stylesheet" type="text/css" href="<?php echo $root_path; ?>/assets/css/main3b3c.css?v=213">
+
+    <link rel='stylesheet' id='wp-block-library-css' href='<?php echo $root_path; ?>/assets/css/block-library/style.min.css' type='text/css' media='all' />
+    
     <script type='text/javascript' src='<?php echo $root_path; ?>/assets/js/jquery/jquery.min.js' id='jquery-core-js'></script>
 
     <style type="text/css">

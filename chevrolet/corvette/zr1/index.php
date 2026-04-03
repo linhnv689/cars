@@ -2,6 +2,7 @@
     $root_path = "../../..";
     $page = "Chevrolet";
     $manufacturer = "Chevrolet";
+    $model = "Corvette ZR1";
     $title = "Chevrolet Corvette ZR1 | Gcar";
 ?>
 
@@ -10,7 +11,15 @@
 <!-- //HEADER -->
 
 <body class="page-template page-template-page-templates page-template-chevrolet-corvette-zr1 page-template-page-templatesnevera-php page page-parent">
-
+    
+    <div class="c-draggable-slider-cursor js-draggable-simple-slider-cursor" style="transform: translate(335px, 443px);">
+		<div class="c-draggable-slider-cursor__circle">
+			<div class="c-draggable-slider-cursor__label">
+				Drag
+			</div>
+		</div>
+	</div>
+    
     <div class="c-page-bg  js-page-bg js-gradient-bg">
         <i class="c-page-bg__bg js-page-bg-bg"></i>
     </div>
@@ -25,7 +34,7 @@
         <div id="nevera" class="o-page o-page--nevera" data-barba="container" data-barba-namespace="nevera" data-title="">
 
             <div id="nevera-reveal-images" class="o-page__inner o-page__inner--nevera js-scrollspy-container">
-                <span class="u-page-logo js-page-logo">
+                <!-- <span class="u-page-logo js-page-logo">
 
                     <svg class="u-nevera-logo-sign" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 157 10">
                         <path class="nevera-logo-sign" d="M4.2,0C4,0,3.9,0.1,3.8,0.2L0,9.8C0,9.9,0,10,0.1,10h6.7C7,10,7.1,9.9,7.1,9.8l3.3-8.2c0-0.1,0.2-0.1,0.3,0
@@ -43,7 +52,7 @@
 	c0.3,0,0.4,0.2,0.5,0.3l6.4,9.3c0.1,0.2,0,0.3-0.1,0.3H150c-0.3,0-0.4-0.1-0.5-0.3l-5.4-8c-0.1-0.1-0.2-0.1-0.3,0l-9.3,8.1
 	C134.3,10,134.1,10,133.9,10z" />
                     </svg>
-                </span>
+                </span> -->
                 <div class="c-scrollspy-wrapper c-scrollspy-wrapper--nevera js-scrollspy js-inpage-navigation-trigger">
                     <div class="c-scrollspy u-b2--A u-fw-semi-bold u-uppercase">
                         <div class="c-scrollspy__prepend"> <!-- show dot -->
@@ -181,10 +190,8 @@
 
                                 <figure class="c-custom-video-player__cover">
                                     <figcaption class="c-custom-video-player__cover-text">
-                                        <h4 class="u-a1">
-                                        </h4>
-                                        <p class="u-b2">
-                                        </p>
+                                        <h4 class="u-a1"></h4>
+                                        <p class="u-b2"></p>
                                     </figcaption>
                                 </figure>
 
@@ -214,7 +221,6 @@
 
                                     <p class="u-b0"></p> -->
                                     <div class="flex-line justify-content-center">
-
                                         <span class="c-button c-button--play js-video-popup-btn"
                                             data-popup="#intro-video">
                                             <span class="c-button__inner">
@@ -235,16 +241,16 @@
                             </div>
                             <div class="spliter__one">
                                 <div class="js-nevera-logo js-nevera-logo--text">
-                                    <!-- <div class="mx-2 mx-lg-0">
-                                        <span class="js-nevera-logo--holder u-a1 u-a4-plus u-uppercase mt-0">2026</span>
-                                    </div> -->
-                                    <h2 class="u-a4 u-a4-plus u-uppercase js-nevera-logo--r mb-2 mb-lg-0">Corvette ZR1</h2>                       
                                     <div class="mx-2 mx-lg-0">
-                                        <span class="js-nevera-logo--holder u-a1 u-a4-plus u-uppercase mt-0">The fastest, most powerful Corvette ever</span>
+                                        <span class="js-nevera-logo--holder t-2 u-uppercase mt-0"><?php echo $page; ?></span>
+                                    </div>
+                                    <h2 class="t-1 u-uppercase js-nevera-logo--r mb-2 mb-lg-0"><?php echo $model; ?></h2>                       
+                                    <div class="mx-2 mx-lg-0">
+                                        <span class="js-nevera-logo--holder t-3c u-uppercase mt-0">The fastest, most powerful Corvette ever</span>
                                     </div>
                                     <div class="flex-line justify-content-center mt-5">
                                         <a class="c-button" target="_blank" href="../NeveraR/index.html">
-                                            <span class="c-button__inner large">
+                                            <span class="c-button__inner w-auto">
                                                 <span class="c-button__prepend width">
                                                     <svg class="u-icon u-icon--play short" xmlns="http://www.w3.org/2000/svg"
                                                         viewBox="0 0 16 16">
@@ -252,7 +258,7 @@
                                                     </svg>
                                                 </span>
                                                 <span class="c-button__label">
-                                                    <i class="c-button__label-inner" title="2025 Corvette ZR1">2025 Corvette ZR1</i>
+                                                    <i class="c-button__label-inner" title="Explore 2025 Corvette ZR1">Explore 2025 Corvette ZR1</i>
                                                 </span>
                                             </span>
                                         </a>
@@ -261,11 +267,190 @@
                             </div>
                         </div>
                     </section>
-                    <div class="o-container o-container--narrow"
-                        style="position: relative; z-index: 6; background-color: #0d2936; padding-top: 10px; font-size: 13px; padding-bottom: 10px; text-align: center; color: rgba(255,255,255,0.7);">
-                        <!-- Rimac Nevera, WLTP: electricity consumption, combined: 30.0 KWh/100km; CO2 emissions, combined:
-                        0 g/km -->
+                    
+                    <div class="section section--are-you py-md-8 py-4">
+                        <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">
+                            <div class="swiper slider-1 swiper-container-initialized swiper-container-horizontal">
+
+                                <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-1905px, 0px, 0px);"><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="2" style="width: 1905px;">
+
+                                        <div>
+                                            <div class="container-fluid">
+                                                <img loading="lazy" class="slider-1__bg" alt="Nevera R at night - long exposure" 
+                                                    src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/09-rimac.jpg.jpg"                                  
+                                                    srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/09-rimac.jpg 400w, 
+                                                    <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/09-rimac.jpg 600w, 
+                                                    <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/09-rimac.jpg 800w, 
+                                                    <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/09-rimac.jpg 1160w, 
+                                                    <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/09-rimac.jpg 1920w, 
+                                                    <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/09-rimac.jpg 3840w"
+                                                    size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px"
+                                                >
+
+                                                <div class="row pr zi-10">
+                                                    <div class="col-12 col-md-8 offset-md-2">
+
+                                                        <span class="t-4">Are you</span>
+                                                        <h3 class="t-1 text-gray mb-3 r-margin">
+                                                            Rimac?
+                                                        </h3>
+                                                    </div>
+                                                    <div class="col-1 offset-1 offset-md-5 line-col">
+
+                                                    </div>
+                                                    <div class="col-7 col-md-4">
+                                                        <p class="small">
+                                                            To be Rimac means to be relentless in pursuit of perfection. Our hypercars embody this spirit, delivering unmatched performance, cutting-edge technology, and a driving
+                                                            experience
+                                                            like no other. Join the movement and be part of a revolutionary journey.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 1905px;">
+
+                                        <div class=""> <!-- wrapper -->
+                                            <div class="container-fluid pr">
+                                                <img loading="lazy" class="slider-1__bg" alt="Nevera R burning tires"
+                                                    src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/07-REBELLIOUS.jpg" 
+                                                    srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/07-REBELLIOUS.jpg 400w, 
+                                                    <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/07-REBELLIOUS.jpg 600w, 
+                                                    <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/07-REBELLIOUS.jpg 800w, 
+                                                    <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/07-REBELLIOUS.jpg 1160w, 
+                                                    <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/07-REBELLIOUS.jpg 1920w, 
+                                                    <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/07-REBELLIOUS.jpg 3840w" 
+                                                    size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px"
+                                                >
+
+                                                <div class="row pr zi-10">
+                                                    <div class="col-12 col-md-8 offset-md-2">
+
+                                                        <!-- <span class="t-4">Are you</span> -->
+                                                        <h3 class="t-1 text-gray mb-3 ms-4">The pinnacle of power and performance</h3>
+                                                    </div>
+                                                    <div class="col-1 offset-md-4 line-col">
+
+                                                    </div>
+                                                    <div class="col-7 col-md-5">
+                                                        <p class="c-nevera-welcome__header-description u-b0 u-a2-400">
+                                                            ZR1 redefines Corvette performance with a twin-turbocharged 5.5L flat-plane crank V8 — the most powerful engine ever offered in a production Corvette. Engineered to push the limits of performance and innovation, it fuses advanced aerodynamics, cutting-edge technology and precision handling to rival the world’s most elite supercars.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 1905px;">
+
+                                        <div>
+                                            <div class="container-fluid">
+                                                <img loading="lazy" class="slider-1__bg" src="assets/static/img/08%20RADICAL.jpg" alt="Nevera R chase" srcset="assets/static/img/400/08%20RADICAL.jpg 400w, assets/static/img/600/08%20RADICAL.jpg 600w, assets/static/img/800/08%20RADICAL.jpg 800w, assets/static/img/1160/08%20RADICAL.jpg 1160w, assets/static/img/08%20RADICAL.jpg 1920w, assets/static/img/3840/08%20RADICAL.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+
+                                                <div class="row pr zi-10">
+                                                    <div class="col-12 col-md-8 offset-md-2">
+
+                                                        <span class="t-4">Are you</span>
+                                                        <h3 class="t-1 text-gray mb-3 r-margin">
+                                                            Radical?
+                                                        </h3>
+                                                    </div>
+                                                    <div class="col-1 offset-1 offset-md-5 line-col"></div>
+                                                    <div class="col-7 col-md-4">
+                                                        <p class="small">
+                                                            The Rimac Nevera R is for those who dare to be different. Radical in design and performance, it is a hypercar that pushes boundaries and redefines what is possible. Stand
+                                                            out,
+                                                            drive fast, and live on the edge.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="2" style="width: 1905px;">
+
+                                        <div class="wrapper">
+                                            <div class="container-fluid">
+                                                <img loading="lazy" class="slider-1__bg" src="assets/static/img/09%20RIMAC.jpg" alt="Nevera R at night - long exposure" srcset="assets/static/img/400/09%20RIMAC.jpg 400w, assets/static/img/600/09%20RIMAC.jpg 600w, assets/static/img/800/09%20RIMAC.jpg 800w, assets/static/img/1160/09%20RIMAC.jpg 1160w, assets/static/img/09%20RIMAC.jpg 1920w, assets/static/img/3840/09%20RIMAC.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+
+                                                <div class="row pr zi-10">
+                                                    <div class="col-12 col-md-8 offset-md-2">
+
+                                                        <span class="t-4">Are you</span>
+                                                        <h3 class="t-1 text-gray mb-3 r-margin">
+                                                            Rimac?
+                                                        </h3>
+                                                    </div>
+                                                    <div class="col-1 offset-1 offset-md-5 line-col">
+
+                                                    </div>
+                                                    <div class="col-7 col-md-4">
+                                                        <p class="small">
+                                                            To be Rimac means to be relentless in pursuit of perfection. Our hypercars embody this spirit, delivering unmatched performance, cutting-edge technology, and a driving
+                                                            experience
+                                                            like no other. Join the movement and be part of a revolutionary journey.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 1905px;">
+
+                                        <div class="wrapper">
+                                            <div class="container-fluid pr">
+                                                <img loading="lazy" class="slider-1__bg" src="assets/static/img/07%20REBELLIOUS.jpg" alt="Nevera R burning tires" srcset="assets/static/img/400/07%20REBELLIOUS.jpg 400w, assets/static/img/600/07%20REBELLIOUS.jpg 600w, assets/static/img/800/07%20REBELLIOUS.jpg 800w, assets/static/img/1160/07%20REBELLIOUS.jpg 1160w, assets/static/img/07%20REBELLIOUS.jpg 1920w, assets/static/img/3840/07%20REBELLIOUS.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+
+                                                <div class="row pr zi-10">
+                                                    <div class="col-12 col-md-8 offset-md-2">
+
+                                                        <span class="t-4">Are you</span>
+                                                        <h3 class="t-1 text-gray mb-3 r-margin">
+                                                            Rebellious?
+                                                        </h3>
+                                                    </div>
+                                                    <div class="col-1 offset-1 offset-md-5 line-col">
+
+                                                    </div>
+                                                    <div class="col-7 col-md-4">
+                                                        <p class="small">
+                                                            Embrace your rebellious spirit with the Rimac Nevera R. It is not just a car; it is a statement. Defy the norm, challenge the status quo, and experience a hypercar that
+                                                            breaks
+                                                            all conventions.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div></div>
+
+
+                                <div class="swiper-button-next arrow arrow--right arrow--no-text" tabindex="0" role="button" aria-label="Next slide">
+                                    <div class="arrow__line">
+                                        <div style="background: white;"></div>
+                                        <div style="background: white;"></div>
+                                        <div style="background: rgba(215, 215, 215, 0.843);"></div>
+                                    </div>
+                                    <div class="arrow__circle">
+                                        <div class="arrow__cap"></div>
+                                    </div>
+                                </div>
+
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                        </div>
                     </div>
+
                     <section id="welcome" class="o-section">
                         <div class="c-nevera-welcome">
                             <header class="c-nevera-welcome__header">
@@ -2071,6 +2256,472 @@
                             </div>
                         </div>
                     </section>
+                    
+                    <div class="section section--explore pt-2 pb-5 pb-md-10">
+                        <div class="wrapper">
+                            <div class="container-fluid">
+                                <div class="row scrub" style="transform: translate(0px, 0px);">
+                                    <div class="col-12 col-md-10 offset-md-1">
+                                        <h2 class="t-1 text-gray mb-3 mb-md-5">
+                                            Explore
+                                        </h2>
+                                    </div>
+                                    <div class="col-12 col-sm-10 offset-sm-1 mb-4 mb-md-8">
+                                        <img loading="lazy" class="" src="assets/static/img/11%20EXPLORE.jpg" alt="Nevera R doors open" srcset="assets/static/img/400/11%20EXPLORE.jpg 400w, assets/static/img/600/11%20EXPLORE.jpg 600w, assets/static/img/800/11%20EXPLORE.jpg 800w, assets/static/img/1160/11%20EXPLORE.jpg 1160w, assets/static/img/11%20EXPLORE.jpg 1920w, assets/static/img/3840/11%20EXPLORE.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                    </div>
+                                    <div class="col-12 col-md-10 offset-md-1">
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="01">
+
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line">
+                                                    </div>
+                                                    <div class="arrow-invert__circle">
+                                                    </div>
+                                                </div>
+                                                <h3 class="t-2b text-aqua pl-2">
+                                                    More power
+                                                </h3>
+                                            </div>
+                                            <div class="accord__content" style="display: none;">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <img loading="lazy" class="mb-3" src="assets/static/img/11.1%20MORE%20POWER.jpg" alt="Nevera R inside a concrete hall" srcset="assets/static/img/400/11.1%20MORE%20POWER.jpg 400w, assets/static/img/600/11.1%20MORE%20POWER.jpg 600w, assets/static/img/800/11.1%20MORE%20POWER.jpg 800w, assets/static/img/1160/11.1%20MORE%20POWER.jpg 1160w, assets/static/img/11.1%20MORE%20POWER.jpg 1920w, assets/static/img/3840/11.1%20MORE%20POWER.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+
+                                                    <p class="small mw-md-60p mb-4">
+                                                        The Rimac Nevera R's electric drivetrain delivers breathtaking acceleration and top speeds, redefining what an electric hypercar can achieve. Built around the next-generation
+                                                        108kWh Rimac battery pack, the Nevera R leverages cutting-edge technology to deliver more power, more efficiently, but in a new, lighter package. With 2,107hp, it hits 300km/h
+                                                        (186mph) in 7.89s.
+                                                    </p>
+                                                    <div class="stats">
+                                                        <div class="pinned-wrap">
+                                                            <div class="stats__stat is-pinned" style="transform: translate(0px, 0px); opacity: 1;">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">
+                                                                        Power
+                                                                    </span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split"> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">2</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">.</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">1</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">0</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">7</div></div> </span>
+                                                                        <span class="metric">hp</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat" style="transform: translate(0px, 0px); opacity: 1;">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    top speed
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split"> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">4</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">3</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">0</div></div> </span>
+                                                                    <span class="metric">km/h</span></span>
+                                                                <span class="stats__note d-block smaller">with manufacturer oversight</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat" style="transform: translate(0px, 0px); opacity: 1;">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    0-60
+                                                                    <span class="ss">mph</span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split"> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">1</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">.</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">6</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">6</div></div> </span>
+                                                                    <span class="metric">s</span></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat" style="transform: translate(0px, 0px); opacity: 1;">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    0-100
+                                                                    <span class="ss">km/h</span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split"> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">1</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">.</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">7</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">2</div></div> </span>
+                                                                    <span class="metric">s</span></span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="stats__stat" style="transform: translate(0px, 0px); opacity: 1;">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    0-200
+                                                                    <span class="ss">km/h</span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split"> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">3</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">.</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">9</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">5</div></div> </span>
+                                                                    <span class="metric">s</span></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat" style="transform: translate(0px, 0px); opacity: 1;">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    100-200
+                                                                    <span class="ss">km/h</span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split"> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">2</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">.</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">2</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">2</div></div> </span>
+                                                                    <span class="metric">s</span></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat" style="transform: translate(0px, 0px); opacity: 1;">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    0-300
+                                                                    <span class="ss">km/h</span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split"> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">7</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">.</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">8</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">9</div></div> </span>
+                                                                    <span class="metric">s</span></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat" style="transform: translate(0px, 0px); opacity: 1;">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    1/4
+                                                                    <span class="ss">mile</span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split"> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">7</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">.</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">9</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">0</div></div> </span>
+                                                                    <span class="metric">s</span></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat" style="transform: translate(0px, 0px); opacity: 1;">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    Torque
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split"> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">2</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">3</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">4</div><div style="position: relative; display: inline-block; transform: translate(0px, 0px); opacity: 1;">0</div></div> </span>
+                                                                    <span class="metric">Nm</span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="02">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line">
+                                                    </div>
+                                                    <div class="arrow-invert__circle">
+                                                    </div>
+                                                </div>
+
+                                                <h3 class="t-2b text-aqua pl-2">
+                                                    Body Architecture
+                                                </h3>
+                                            </div>
+                                            <div class="accord__content" style="display: none;">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper mb-3">
+                                                        <div class="swiper slider-2 swiper-container-initialized swiper-container-horizontal swiper-container-autoheight">
+                                                            <div class="swiper-wrapper" style="transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.2%20BODY%20ARCHITECTURE%204.jpg" alt="Nevera R side view" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.2%20BODY%20ARCHITECTURE%204.jpg 400w, assets/static/img/600/11.2%20BODY%20ARCHITECTURE%204.jpg 600w, assets/static/img/800/11.2%20BODY%20ARCHITECTURE%204.jpg 800w, assets/static/img/1160/11.2%20BODY%20ARCHITECTURE%204.jpg 1160w, assets/static/img/11.2%20BODY%20ARCHITECTURE%204.jpg 1920w, assets/static/img/3840/11.2%20BODY%20ARCHITECTURE%204.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px" style="transition-duration: 0ms;">
+                                                                </div>
+                                                                <div class="swiper-slide" data-swiper-slide-index="0">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.2%20BODY%20ARCHITECTURE%201.jpg" alt="Nevera R inside a concrete hall - front view" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.2%20BODY%20ARCHITECTURE%201.jpg 400w, assets/static/img/600/11.2%20BODY%20ARCHITECTURE%201.jpg 600w, assets/static/img/800/11.2%20BODY%20ARCHITECTURE%201.jpg 800w, assets/static/img/1160/11.2%20BODY%20ARCHITECTURE%201.jpg 1160w, assets/static/img/11.2%20BODY%20ARCHITECTURE%201.jpg 1920w, assets/static/img/3840/11.2%20BODY%20ARCHITECTURE%201.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px" style="transition-duration: 0ms;">
+                                                                </div>
+
+                                                                <div class="swiper-slide" data-swiper-slide-index="1">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.2%20BODY%20ARCHITECTURE%202.jpg" alt="Nevera R front view detail" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.2%20BODY%20ARCHITECTURE%202.jpg 400w, assets/static/img/600/11.2%20BODY%20ARCHITECTURE%202.jpg 600w, assets/static/img/800/11.2%20BODY%20ARCHITECTURE%202.jpg 800w, assets/static/img/1160/11.2%20BODY%20ARCHITECTURE%202.jpg 1160w, assets/static/img/11.2%20BODY%20ARCHITECTURE%202.jpg 1920w, assets/static/img/3840/11.2%20BODY%20ARCHITECTURE%202.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px" style="transition-duration: 0ms;">
+                                                                </div>
+
+                                                                <div class="swiper-slide" data-swiper-slide-index="2">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.2%20BODY%20ARCHITECTURE%203.jpg" alt="Nevera R top view" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.2%20BODY%20ARCHITECTURE%203.jpg 400w, assets/static/img/600/11.2%20BODY%20ARCHITECTURE%203.jpg 600w, assets/static/img/800/11.2%20BODY%20ARCHITECTURE%203.jpg 800w, assets/static/img/1160/11.2%20BODY%20ARCHITECTURE%203.jpg 1160w, assets/static/img/11.2%20BODY%20ARCHITECTURE%203.jpg 1920w, assets/static/img/3840/11.2%20BODY%20ARCHITECTURE%203.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px" style="transition-duration: 0ms;">
+                                                                </div>
+
+                                                                <div class="swiper-slide" data-swiper-slide-index="3">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.2%20BODY%20ARCHITECTURE%204.jpg" alt="Nevera R side view" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.2%20BODY%20ARCHITECTURE%204.jpg 400w, assets/static/img/600/11.2%20BODY%20ARCHITECTURE%204.jpg 600w, assets/static/img/800/11.2%20BODY%20ARCHITECTURE%204.jpg 800w, assets/static/img/1160/11.2%20BODY%20ARCHITECTURE%204.jpg 1160w, assets/static/img/11.2%20BODY%20ARCHITECTURE%204.jpg 1920w, assets/static/img/3840/11.2%20BODY%20ARCHITECTURE%204.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px" style="transition-duration: 0ms;">
+                                                                </div>
+
+                                                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.2%20BODY%20ARCHITECTURE%201.jpg" alt="Nevera R inside a concrete hall - front view" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.2%20BODY%20ARCHITECTURE%201.jpg 400w, assets/static/img/600/11.2%20BODY%20ARCHITECTURE%201.jpg 600w, assets/static/img/800/11.2%20BODY%20ARCHITECTURE%201.jpg 800w, assets/static/img/1160/11.2%20BODY%20ARCHITECTURE%201.jpg 1160w, assets/static/img/11.2%20BODY%20ARCHITECTURE%201.jpg 1920w, assets/static/img/3840/11.2%20BODY%20ARCHITECTURE%201.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px" style="transition-duration: 0ms;">
+                                                                </div></div>
+                                                            <div class="swiper-button-next is-v2 arrow arrow--right arrow--no-text" tabindex="0" role="button" aria-label="Next slide">
+                                                                <div class="arrow__line">
+                                                                    <div style="background: white;"></div>
+                                                                    <div style="background: white;"></div>
+                                                                    <div style="background: rgba(215, 215, 215, 0.843);"></div>
+                                                                </div>
+                                                                <div class="arrow__circle">
+                                                                    <div class="arrow__cap"></div>
+                                                                </div>
+                                                            </div>
+                                                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                                                    </div>
+                                                    <p class="mw-md-60p small">
+                                                        Bold and daring, the Rimac Nevera R's exterior design turns heads and defies convention. Every line, every curve is crafted to reflect the hypercar's rebellious spirit and
+                                                        relentless performance. The front of the car is designed to be both striking and technical, with horizontal lines that emphasize aerodynamic efficiency, stance, and width.
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="03">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line">
+                                                    </div>
+                                                    <div class="arrow-invert__circle">
+                                                    </div>
+                                                </div>
+
+                                                <h3 class="t-2b text-aqua pl-2">
+                                                    New Wheels
+                                                </h3>
+                                            </div>
+                                            <div class="accord__content" style="display:none">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <img loading="lazy" class="mb-3" src="assets/static/img/11.3%20NEW%20WHEELS.jpg" alt="Nevera R wheels" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.3%20NEW%20WHEELS.jpg 400w, assets/static/img/600/11.3%20NEW%20WHEELS.jpg 600w, assets/static/img/800/11.3%20NEW%20WHEELS.jpg 800w, assets/static/img/1160/11.3%20NEW%20WHEELS.jpg 1160w, assets/static/img/11.3%20NEW%20WHEELS.jpg 1920w, assets/static/img/3840/11.3%20NEW%20WHEELS.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+
+
+                                                    <p class="mw-md-60p small">
+                                                        Equipped with the new, bolder 21-inch rear wheels and 20-inch front wheels, the Rimac Nevera R offers enhanced grip and a forward-thrusting stance. These wheels are designed to
+                                                        complement the hypercar's performance and aesthetic, ensuring you stand out on every drive.
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="04">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line">
+                                                    </div>
+                                                    <div class="arrow-invert__circle">
+                                                    </div>
+                                                </div>
+
+                                                <h3 class="t-2b text-aqua pl-2">
+                                                    Aerodynamics
+                                                </h3>
+                                            </div>
+                                            <div class="accord__content" style="display:none">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper mb-3">
+                                                        <div class="swiper slider-2 swiper-container-initialized swiper-container-horizontal swiper-container-autoheight">
+                                                            <div class="swiper-wrapper" style="transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.4%20AERODYNAMICS%202.jpg" alt="Nevera R aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" style="transition-duration: 0ms;">
+                                                                </div>
+                                                                <div class="swiper-slide" data-swiper-slide-index="0">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.4%20AERODYNAMICS%201.jpg" alt="Nevera R aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.4%20AERODYNAMICS%201.jpg 400w, assets/static/img/600/11.4%20AERODYNAMICS%201.jpg 600w, assets/static/img/800/11.4%20AERODYNAMICS%201.jpg 800w, assets/static/img/1160/11.4%20AERODYNAMICS%201.jpg 1160w, assets/static/img/11.4%20AERODYNAMICS%201.jpg 1920w, assets/static/img/3840/11.4%20AERODYNAMICS%201.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px" style="transition-duration: 0ms;">
+
+                                                                </div>
+                                                                <div class="swiper-slide" data-swiper-slide-index="1">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.4%20AERODYNAMICS%202.jpg" alt="Nevera R aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" style="transition-duration: 0ms;">
+                                                                </div>
+
+
+                                                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.4%20AERODYNAMICS%201.jpg" alt="Nevera R aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.4%20AERODYNAMICS%201.jpg 400w, assets/static/img/600/11.4%20AERODYNAMICS%201.jpg 600w, assets/static/img/800/11.4%20AERODYNAMICS%201.jpg 800w, assets/static/img/1160/11.4%20AERODYNAMICS%201.jpg 1160w, assets/static/img/11.4%20AERODYNAMICS%201.jpg 1920w, assets/static/img/3840/11.4%20AERODYNAMICS%201.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px" style="transition-duration: 0ms;">
+
+                                                                </div></div>
+                                                            <div class="swiper-button-next is-v2 arrow arrow--right arrow--no-text" tabindex="0" role="button" aria-label="Next slide">
+                                                                <div class="arrow__line">
+                                                                    <div style="background: white;"></div>
+                                                                    <div style="background: white;"></div>
+                                                                    <div style="background: rgba(215, 215, 215, 0.843);"></div>
+                                                                </div>
+                                                                <div class="arrow__circle">
+                                                                    <div class="arrow__cap"></div>
+                                                                </div>
+                                                            </div>
+                                                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                                                    </div>
+                                                    <p class="mw-md-60p small">
+                                                        Cut through the air with the Rimac Nevera R's aerodynamic prowess. Our design philosophy prioritizes efficiency and speed, allowing the hypercar to glide effortlessly, maximizing
+                                                        performance and range.
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="05">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line">
+                                                    </div>
+                                                    <div class="arrow-invert__circle">
+                                                    </div>
+                                                </div>
+
+                                                <h3 class="t-2b text-aqua pl-2">
+                                                    More Grip
+                                                </h3>
+                                            </div>
+                                            <div class="accord__content" style="display:none">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <img loading="lazy" class="mb-3" src="assets/static/img/11.5%20MORE%20GRIP.jpg" alt="Nevera R gripping road" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.5%20MORE%20GRIP.jpg 400w, assets/static/img/600/11.5%20MORE%20GRIP.jpg 600w, assets/static/img/800/11.5%20MORE%20GRIP.jpg 800w, assets/static/img/1160/11.5%20MORE%20GRIP.jpg 1160w, assets/static/img/11.5%20MORE%20GRIP.jpg 1920w, assets/static/img/3840/11.5%20MORE%20GRIP.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+
+                                                    <p class="mw-md-60p small">
+                                                        The large, fixed rear wing, combined with an aggressive aero package of intakes and a large diffuser, boosts downforce by 15% and aerodynamic efficiency by 10%. With the new
+                                                        Michelin Cup 2 tires, total understeer is reduced by 10%, lateral grip is up by 5%, and the lap time around the Nardo Handling Track is reduced by 3.8 seconds.
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="06">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line">
+                                                    </div>
+                                                    <div class="arrow-invert__circle">
+                                                    </div>
+                                                </div>
+
+                                                <h3 class="t-2b text-aqua pl-2">
+                                                    Improved Brakes
+                                                </h3>
+                                            </div>
+                                            <div class="accord__content" style="display:none">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <img loading="lazy" class="mb-3" src="assets/static/img/11.6%20IMPROVED%20BRAKES.jpg" alt="Nevera R brakes" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.6%20IMPROVED%20BRAKES.jpg 400w, assets/static/img/600/11.6%20IMPROVED%20BRAKES.jpg 600w, assets/static/img/800/11.6%20IMPROVED%20BRAKES.jpg 800w, assets/static/img/1160/11.6%20IMPROVED%20BRAKES.jpg 1160w, assets/static/img/11.6%20IMPROVED%20BRAKES.jpg 1920w, assets/static/img/3840/11.6%20IMPROVED%20BRAKES.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+
+                                                    <p class="mw-md-60p small">
+                                                        The Rimac Nevera R features cutting-edge braking technology, providing unprecedented stopping power. The new EVO2 brakes are carbon ceramic with a silicone matrix layer to ensure
+                                                        improved stopping performance, cooling performance, and durability during hard usage.
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="07">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line">
+                                                    </div>
+                                                    <div class="arrow-invert__circle">
+                                                    </div>
+                                                </div>
+
+                                                <h3 class="t-2b text-aqua pl-2">
+                                                    Cornering and Lateral Performance
+                                                </h3>
+                                            </div>
+                                            <div class="accord__content" style="display:none">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <img loading="lazy" class="mb-3" src="assets/static/img/11.7%20CORNERING.jpg" alt="Nevera R cornering" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.7%20CORNERING.jpg 400w, assets/static/img/600/11.7%20CORNERING.jpg 600w, assets/static/img/800/11.7%20CORNERING.jpg 800w, assets/static/img/1160/11.7%20CORNERING.jpg 1160w, assets/static/img/11.7%20CORNERING.jpg 1920w, assets/static/img/3840/11.7%20CORNERING.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+
+                                                    <p class="mw-md-60p small">
+                                                        Designed with cornering in mind, the Rimac Nevera R excels in lateral performance. Our advanced suspension system and dynamic chassis tuning provide exceptional agility, allowing
+                                                        you to navigate corners with precision.
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="08">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line">
+                                                    </div>
+                                                    <div class="arrow-invert__circle">
+                                                    </div>
+                                                </div>
+
+                                                <h3 class="t-2b text-aqua pl-2">
+                                                    Optimized Weight
+                                                </h3>
+                                            </div>
+                                            <div class="accord__content" style="display:none">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <img loading="lazy" class="mb-3" src="assets/static/img/11.8%20WEIGHT.jpg" alt="Nevera R top view in concrete hall" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.8%20WEIGHT.jpg 400w, assets/static/img/600/11.8%20WEIGHT.jpg 600w, assets/static/img/800/11.8%20WEIGHT.jpg 800w, assets/static/img/1160/11.8%20WEIGHT.jpg 1160w, assets/static/img/11.8%20WEIGHT.jpg 1920w, assets/static/img/3840/11.8%20WEIGHT.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+
+                                                    <p class="mw-md-60p small">
+                                                        The Rimac Nevera R boasts an optimized weight for peak performance. Owing to advanced materials and innovative design techniques, we have created a hypercar that balances power
+                                                        and
+                                                        agility, delivering an unmatched driving experience.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="09">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line">
+                                                    </div>
+                                                    <div class="arrow-invert__circle">
+                                                    </div>
+                                                </div>
+
+                                                <h3 class="t-2b text-aqua pl-2">
+                                                    Interior
+                                                </h3>
+                                            </div>
+                                            <div class="accord__content" style="display:none">
+                                                <div class="pt-1 pb-0">
+                                                    <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper mb-3">
+                                                        <div class="swiper slider-2 swiper-container-initialized swiper-container-horizontal swiper-container-autoheight">
+                                                            <div class="swiper-wrapper" style="transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.9%20INTERIOR%204.jpg" alt="Nevera R interior - cockpit top view from outside" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.9%20INTERIOR%204.jpg 400w, assets/static/img/600/11.9%20INTERIOR%204.jpg 600w, assets/static/img/800/11.9%20INTERIOR%204.jpg 800w, assets/static/img/1160/11.9%20INTERIOR%204.jpg 1160w, assets/static/img/11.9%20INTERIOR%204.jpg 1920w, assets/static/img/3840/11.9%20INTERIOR%204.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px" style="transition-duration: 0ms;">
+
+                                                                </div>
+                                                                <div class="swiper-slide" data-swiper-slide-index="0">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.9%20INTERIOR%201.jpg" alt="Nevera R interior - seats" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.9%20INTERIOR%201.jpg 400w, assets/static/img/600/11.9%20INTERIOR%201.jpg 600w, assets/static/img/800/11.9%20INTERIOR%201.jpg 800w, assets/static/img/1160/11.9%20INTERIOR%201.jpg 1160w, assets/static/img/11.9%20INTERIOR%201.jpg 1920w, assets/static/img/3840/11.9%20INTERIOR%201.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px" style="transition-duration: 0ms;">
+
+                                                                </div>
+                                                                <div class="swiper-slide" data-swiper-slide-index="1">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.9%20INTERIOR%202.jpg" alt="Nevera R interior - cockpit side view" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.9%20INTERIOR%202.jpg 400w, assets/static/img/600/11.9%20INTERIOR%202.jpg 600w, assets/static/img/800/11.9%20INTERIOR%202.jpg 800w, assets/static/img/1160/11.9%20INTERIOR%202.jpg 1160w, assets/static/img/11.9%20INTERIOR%202.jpg 1920w, assets/static/img/3840/11.9%20INTERIOR%202.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px" style="transition-duration: 0ms;">
+
+                                                                </div>
+                                                                <div class="swiper-slide" data-swiper-slide-index="2">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.9%20INTERIOR%203.jpg" alt="Nevera R interior - cockpit front view" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.9%20INTERIOR%203.jpg 400w, assets/static/img/600/11.9%20INTERIOR%203.jpg 600w, assets/static/img/800/11.9%20INTERIOR%203.jpg 800w, assets/static/img/1160/11.9%20INTERIOR%203.jpg 1160w, assets/static/img/11.9%20INTERIOR%203.jpg 1920w, assets/static/img/3840/11.9%20INTERIOR%203.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px" style="transition-duration: 0ms;">
+
+                                                                </div>
+                                                                <div class="swiper-slide" data-swiper-slide-index="3">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.9%20INTERIOR%204.jpg" alt="Nevera R interior - cockpit top view from outside" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.9%20INTERIOR%204.jpg 400w, assets/static/img/600/11.9%20INTERIOR%204.jpg 600w, assets/static/img/800/11.9%20INTERIOR%204.jpg 800w, assets/static/img/1160/11.9%20INTERIOR%204.jpg 1160w, assets/static/img/11.9%20INTERIOR%204.jpg 1920w, assets/static/img/3840/11.9%20INTERIOR%204.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px" style="transition-duration: 0ms;">
+
+                                                                </div>
+
+
+
+                                                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0">
+                                                                    <img loading="lazy" class="" src="assets/static/img/11.9%20INTERIOR%201.jpg" alt="Nevera R interior - seats" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.9%20INTERIOR%201.jpg 400w, assets/static/img/600/11.9%20INTERIOR%201.jpg 600w, assets/static/img/800/11.9%20INTERIOR%201.jpg 800w, assets/static/img/1160/11.9%20INTERIOR%201.jpg 1160w, assets/static/img/11.9%20INTERIOR%201.jpg 1920w, assets/static/img/3840/11.9%20INTERIOR%201.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px" style="transition-duration: 0ms;">
+
+                                                                </div></div>
+                                                            <div class="swiper-button-next is-v2 arrow arrow--right arrow--no-text" tabindex="0" role="button" aria-label="Next slide">
+                                                                <div class="arrow__line">
+                                                                    <div style="background: white;"></div>
+                                                                    <div style="background: white;"></div>
+                                                                    <div style="background: rgba(215, 215, 215, 0.843);"></div>
+                                                                </div>
+                                                                <div class="arrow__circle">
+                                                                    <div class="arrow__cap"></div>
+                                                                </div>
+                                                            </div>
+                                                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                                                    </div>
+                                                    <p class="mw-md-60p small">
+                                                        Step into the future with the Rimac Nevera R's personalized interior. By combining the cutting-edge technology with luxurious comfort, the cabin offers an immersive experience
+                                                        adapted to your style and taste. </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <i class="c-scroll-indicator">
                         <i></i>
                     </i>

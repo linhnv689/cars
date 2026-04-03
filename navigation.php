@@ -1,4 +1,4 @@
-<div class="o-navigation-wrapper js-navigation-wrapper is-light">
+<div class="o-navigation-wrapper js-navigation-wrapper">
     <div class="o-container o-container--wide">
         <div class="c-navigation">
             <div class="c-navigation__left">

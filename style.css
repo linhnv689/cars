@@ -152,6 +152,21 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('assets/fonts/roboto-v32-latin-regular.html') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+	font-family: RA-XCondensed;
+	src: url("assets/fonts/RA-XCondensed.html") format("woff");
+	font-weight: 400;
+}
+
 /**
  * Spacings
  */
@@ -4603,10 +4618,6 @@ body .is-layout-grid>* {
 	border-top: 1px solid rgba(255, 255, 255, 0.5);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 	z-index: 1;
-}
-
-.c-button__inner.large {
-	width: 230px;
 }
 
 @media (max-width: 484px) {

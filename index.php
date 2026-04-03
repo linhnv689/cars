@@ -101,7 +101,7 @@
                                         </span>
                                     </span>
                                 </a>
-                                <a class="c-button c-button--light" href="https://www.rimac-automobili.com/nevera/">
+                                <a class="c-button c-button--light" href="chevrolet/corvette/zr1/">
                                     <span class="c-button__inner">
                                         <span class="c-button__label">
                                             <i class="c-button__label-inner" title="Explore">Explore</i>
