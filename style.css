@@ -3702,6 +3702,7 @@ body .is-layout-grid>* {
 	margin-left: -36px;
 	height: 90px;
 	width: 115px;
+	max-width: unset;
 }
 
 .c-logo-text {
@@ -3721,6 +3722,7 @@ body .is-layout-grid>* {
 	margin-left: -67px;
 	height: 140px;
 	width: auto;
+	max-width: unset;
 }
 
 .c-page-bg {
@@ -23549,6 +23551,10 @@ all and (-ms-high-contrast: none),
 .c-accordion-content ul {
 	padding-left: 4.16667vw;
 	margin-bottom: 0;
+}
+
+.section--explore .c-accordion-content ul {
+	padding-left: 2.16667vw;
 }
 
 .c-accordion-content ul li {

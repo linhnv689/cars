@@ -494,7 +494,7 @@ audio,
 img,
 video {
     height: auto;
-    /* max-width: 100% */
+    max-width: 100%
 }
 
 table {
@@ -2119,9 +2119,10 @@ hr {
 }
 
 .stats__label {
+    padding-bottom: 3px;
+    margin-bottom: 3px;
     border-bottom: 1px solid #dbdbdb;
     color: #93c7a8;
-    padding-bottom: 3px
 }
 
 .stats__label>span {
@@ -2136,8 +2137,12 @@ hr {
     padding-top: 4px
 }
 
+.stats__value>span {
+    text-transform: unset;
+}
+
 .is-pinned .stats__value>span {
-    font-size: 30px !important
+    /* font-size: 30px !important; */
 }
 
 .stats__note {
@@ -2146,7 +2151,8 @@ hr {
 
 .pinned-wrap {
     display: flex;
-    flex-basis: 100%
+    flex-basis: 100%;
+    gap: 3.2rem;
 }
 
 .accord__tab {
@@ -2175,7 +2181,8 @@ hr {
 }
 
 .accord__tab:after {
-    color: #353535;
+    /* color: #353535; */
+    color: #93c7a8 !important;
     content: attr(no);
     display: block;
     font-family: TTSupermolotNeue, sans-serif;
@@ -2210,6 +2217,10 @@ hr {
 
 .accord__tab:hover h3 {
     translate: -8px 0
+}
+
+.accord__content img {
+    max-width: 100%;
 }
 
 .logo {
@@ -2936,6 +2947,10 @@ hr {
 
 .bg-dark {
     background-color: #020202 !important
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .d-none {

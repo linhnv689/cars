@@ -5,10 +5,10 @@
                 <a href="../index.html" class="c-logo c-logo--navigation">
                     <i class="c-logo__full c-logo__full--light">
                         <span class="c-logo-sign">
-                            <img src="<?php echo $root_path; ?>/assets/img/logo-sign.png" alt="">
+                            <img src="<?php echo $root_path; ?>/assets/img/logo-sign.png" alt="Logo-Sign">
                         </span>
                         <span class="c-logo-text">
-                            <img src="<?php echo $root_path; ?>/assets/img/logo-text.png" alt="">
+                            <img src="<?php echo $root_path; ?>/assets/img/logo-text.png" alt="Logo-Text">
                         </span>
                     </i>
                 </a>

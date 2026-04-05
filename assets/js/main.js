@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Hiện menu trước (kích hoạt stagger từng li qua CSS)
     requestAnimationFrame(() => {
         setTimeout(() => {
-            hero.classList.add("menu-visible");
+            if (hero) hero.classList.add("menu-visible");
         }, 3000);
     });
 
