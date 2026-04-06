@@ -1,9 +1,10 @@
 <?php
     $root_path = "../../..";
+    $site_title = "Gcar";
     $page = "Chevrolet";
     $manufacturer = "Chevrolet";
     $model = "Corvette ZR1";
-    $title = "Chevrolet Corvette ZR1 | Gcar";
+    $title = "2026 Chevrolet Corvette ZR1: High-Performance Vehicle | $site_title";
 ?>
 
 <!-- HEADER -->
@@ -11,14 +12,6 @@
 <!-- //HEADER -->
 
 <body class="page-template page-template-page-templates page-template-chevrolet-corvette-zr1 page-template-page-templatesnevera-php page page-parent">
-    
-    <!-- <div class="c-draggable-slider-cursor js-draggable-simple-slider-cursor" style="transform: translate(335px, 443px);">
-		<div class="c-draggable-slider-cursor__circle">
-			<div class="c-draggable-slider-cursor__label">
-				Drag
-			</div>
-		</div>
-	</div> -->
     
     <div class="c-page-bg  js-page-bg js-gradient-bg">
         <i class="c-page-bg__bg js-page-bg-bg"></i>
@@ -1053,7 +1046,7 @@
                         </div>
                     </section>
                     <i class="u-spacer u-spacer--50vh"></i>
-                    <section id="in-house-production" class="o-section o-section--dark o-section--in-house-production js-scrollspy-item" data-scrollspy-title="Instagram">
+                    <section id="in-house-production" class="o-section o-section--dark o-section--in-house-production js-scrollspy-item" data-scrollspy-title="in-house production">
                         <div class="o-section__heading">
                             <div class="o-container o-container--narrow">
                                 <div class="c-heading c-heading--narrow u-text-center">
@@ -1874,14 +1867,16 @@
                                                                     <span class="t-6">
                                                                         price
                                                                     </span>
+                                                                    <span class="ss">2026</span>
                                                                 </div>
                                                                 <div class="stats__value">
                                                                     <span class="t-3b">
                                                                         <span class="stats__split">
-                                                                            178,195 - 238,695
+                                                                            185,000
                                                                         </span>
                                                                         <span class="metric small">$</span>
                                                                     </span>
+                                                                    <span class="stats__note d-block small">Starting at</span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2277,13 +2272,13 @@
                                             <div class="accord__content" style="display: none;">
                                                 <div class="pt-1 pb-5 pb-md-10">
                                                     <img loading="lazy" class="mb-3" alt="Corvette ZR1 performance"
-                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2025-Chevrolet-Corvette-ZR1-002-1000.avif" 
-                                                        srcset="<?php echo $root_path; ?>/uploads/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2025-Chevrolet-Corvette-ZR1-002-1000.avif 400w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2025-Chevrolet-Corvette-ZR1-002-1000.avif 600w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2025-Chevrolet-Corvette-ZR1-002-1000.avif 800w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2025-Chevrolet-Corvette-ZR1-002-1000.avif 1160w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2025-Chevrolet-Corvette-ZR1-002-1000.avif 1920w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2025-Chevrolet-Corvette-ZR1-002-1000.avif 3840w" 
+                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif" 
+                                                        srcset="<?php echo $root_path; ?>/uploads/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif 400w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif 600w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif 800w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif 1160w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif 1920w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif 3840w" 
                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
 
                                                     <p class="small mw-md-60p mb-4">
@@ -2357,7 +2352,7 @@
                                                                 </span>
                                                             </div>
                                                         </div>
-                                                        <<div class="stats__stat">
+                                                        <div class="stats__stat">
                                                             <div class="stats__label">
                                                                 <span class="t-6">
                                                                     0-300
@@ -2376,152 +2371,19 @@
                                                         <div class="stats__stat">
                                                             <div class="stats__label">
                                                                 <span class="t-6">
-                                                                    power / liter
+                                                                    1/4
+                                                                    <span class="ss">mile</span>
                                                                 </span>
                                                             </div>
                                                             <div class="stats__value">
                                                                 <span class="t-3b">
                                                                     <span class="stats__split">
-                                                                        193
+                                                                        9.5
                                                                     </span>
-                                                                    <span class="metric">hp</span>                                                                 
+                                                                    <span class="metric">s</span>
                                                                 </span>
                                                             </div>
-                                                        </div>
-
-                                                        <div class="stats__stat">
-                                                            <div class="stats__label">
-                                                                <span class="t-6">
-                                                                    power / weight
-                                                                </span>
-                                                            </div>
-                                                            <div class="stats__value">
-                                                                <span class="t-3b">
-                                                                    <span class="stats__split">
-                                                                        608
-                                                                    </span>
-                                                                    <span class="metric">hp / t</span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="stats__stat">
-                                                            <div class="stats__label">
-                                                                <span class="t-6">
-                                                                    torque
-                                                                </span>
-                                                            </div>
-                                                            <div class="stats__value">
-                                                                <span class="t-3b">
-                                                                    <span class="stats__split">
-                                                                        1112 / 820
-                                                                    </span>
-                                                                    <span class="metric">(Nm / lb-ft)</span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="stats__stat">
-                                                            <div class="stats__label">
-                                                                <span class="t-6">
-                                                                    tested torque
-                                                                </span>
-                                                            </div>
-                                                            <div class="stats__value">
-                                                                <span class="t-3b">
-                                                                    <span class="stats__split">
-                                                                        1220 / 900
-                                                                    </span>
-                                                                    <span class="metric">(Nm / lb-ft)</span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="stats__stat">
-                                                            <div class="stats__label">
-                                                                <span class="t-6">
-                                                                    wheel torque
-                                                                </span>
-                                                            </div>
-                                                            <div class="stats__value">
-                                                                <span class="t-3b">
-                                                                    <span class="stats__split">
-                                                                        1138 / 839
-                                                                    </span>
-                                                                    <span class="metric">(Nm / lb-ft)</span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="stats__stat">
-                                                            <div class="stats__label">
-                                                                <span class="t-6">
-                                                                    torque / weight
-                                                                </span>
-                                                            </div>
-                                                            <div class="stats__value">
-                                                                <span class="t-3b">
-                                                                    <span class="stats__split">
-                                                                        645
-                                                                    </span>
-                                                                    <span class="metric">Nm / t</span>
-																</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="stats__stat">
-                                                            <div class="stats__label">
-                                                                <span class="t-6">
-                                                                    redline
-                                                                </span>
-                                                            </div>
-                                                            <div class="stats__value">
-                                                                <span class="t-3b">
-                                                                    <span class="stats__split">
-                                                                        8,000
-                                                                    </span>
-                                                                    <span class="metric">rpm</span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="stats__stat">
-                                                            <div class="stats__label">
-                                                                <span class="t-6">
-                                                                    efficiency
-                                                                </span>
-                                                            </div>
-                                                            <div class="stats__value">
-                                                                <span class="t-3b">
-                                                                    <span class="stats__split">
-                                                                        35
-                                                                    </span>
-                                                                    <span class="metric">PS / (l/100 km)</span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="stats__stat">
-                                                            <div class="stats__label">
-                                                                <span class="t-6">
-                                                                    transmission
-                                                                </span>
-                                                            </div>
-                                                            <div class="stats__value">
-                                                                <span class="t-3b">
-                                                                    <span class="stats__split">
-                                                                        8-Speed Dual-clutch 
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="stats__stat">
-                                                            <div class="stats__label">
-                                                                <span class="t-6">
-                                                                    drivetrain
-                                                                </span>
-                                                            </div>
-                                                            <div class="stats__value">
-                                                                <span class="t-3b">
-                                                                    <span class="stats__split">
-                                                                        Rear-wheel drive
-                                                                    </span>
-                                                                </span>
-                                                            </div>
-                                                        </div>
+                                                        </div>                                                   
                                                     </div><!-- //.stats -->
                                                 </div>
                                             </div>
@@ -2537,9 +2399,7 @@
                                                     </div>
                                                 </div>
 
-                                                <h3 class="t-2b text-aqua pl-2">
-                                                    Body Architecture
-                                                </h3>
+                                                <h3 class="t-2b text-aqua pl-2">Body Architecture</h3>
                                             </div>
                                             <div class="accord__content" style="display: none;">
                                                 <div class="pt-1 pb-5 pb-md-10">
@@ -2547,8 +2407,16 @@
                                                         <div class="swiper slider-2">
                                                             <div class="swiper-wrapper">
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" class="" src="assets/static/img/11.2%20BODY%20ARCHITECTURE%201.jpg" alt="Nevera R inside a concrete hall - front view" data-swiper-parallax-scale="0.8"
-                                                                        data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.2%20BODY%20ARCHITECTURE%201.jpg 400w, assets/static/img/600/11.2%20BODY%20ARCHITECTURE%201.jpg 600w, assets/static/img/800/11.2%20BODY%20ARCHITECTURE%201.jpg 800w, assets/static/img/1160/11.2%20BODY%20ARCHITECTURE%201.jpg 1160w, assets/static/img/11.2%20BODY%20ARCHITECTURE%201.jpg 1920w, assets/static/img/3840/11.2%20BODY%20ARCHITECTURE%201.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                    <img loading="lazy" class="" alt="Corvette ZR1 inside a concrete hall - front view" data-swiper-parallax-scale="0.8"
+                                                                        data-swiper-parallax-opacity="0.2" 
+                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.jpg"
+                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.jpg 400w, 
+                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.jpg 600w, 
+                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.jpg 800w, 
+                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.jpg 1160w, 
+                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.jpg 1920w, 
+                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.jpg 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                 </div>
 
                                                                 <div class="swiper-slide">

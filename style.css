@@ -4824,11 +4824,17 @@ body .is-layout-grid>* {
 	transition: transform 0.25s 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.25s 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
+.c-button:hover .c-button__prepend i,
 .c-button:hover .c-button__prepend svg g,
 .c-button:hover .c-button__prepend svg path {
 	fill: #001217;
-	-webkit-transition: fill 0.25s 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-	transition: fill 0.25s 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	color: #001217;
+
+	-webkit-transition: fill 0.25s 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+		color 0.25s 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+	transition: fill 0.25s 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+		color 0.25s 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .c-button:hover:before,
