@@ -2156,7 +2156,7 @@ hr {
 }
 
 .accord__tab {
-    background-image: url(../img/frame.svg);
+    background-image: url(../dist/theme/img/frame.svg);
     background-position: 100% 0;
     background-repeat: no-repeat;
     background-size: 30px;
@@ -2169,7 +2169,7 @@ hr {
 }
 
 .local .accord__tab {
-    background-image: url(../../../../../assets/dist/theme/img/frame.html)
+    background-image: url(../dist/theme/img/frame.html)
 }
 
 @media (min-width:768px) {
@@ -2182,7 +2182,7 @@ hr {
 
 .accord__tab:after {
     /* color: #353535; */
-    color: #93c7a8 !important;
+    /* color: #93c7a8 !important; */
     content: attr(no);
     display: block;
     font-family: TTSupermolotNeue, sans-serif;
