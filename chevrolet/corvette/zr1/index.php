@@ -209,10 +209,6 @@
                         <div class="spliter">
                             <div class="spliter__one">
                                 <div class="pr">
-                                    <!-- <h2 class="u-a4 u-a4-plus u-uppercase js-nevera-logo">apollo evo</h2>
-                                    <span class="js-nevera-logo--holder u-a4 u-uppercase">The Apollo Evo</span>
-
-                                    <p class="u-b0"></p> -->
                                     <div class="flex-line justify-content-center">
                                         <span class="c-button c-button--play js-video-popup-btn"
                                             data-popup="#intro-video">
@@ -383,7 +379,7 @@
                                                     <div class="c-accordion-header c-accordion-header--tech-spec"
                                                         style="cursor: auto">
                                                         <div class="c-accordion-header__title-row">
-                                                            <div class="spec-logo u-uppercase u-b3 u-b3-plus">apollo evo</div>
+                                                            <div class="spec-logo u-uppercase t-2"><?php echo $model; ?></div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -396,12 +392,10 @@
                                                             <div class="c-stats__inner">
                                                                 <div class="c-stats__header">
                                                                     <span class="u-b4 u-uppercase">Power</span>
-                                                                    <i class="u-b4 u-uppercase">
-                                                                        (0.6 MW)
-                                                                    </i>
+                                                                    <i class="u-b4 u-uppercase">(793 kW)</i>
                                                                 </div>
                                                                 <div class="c-stats__content">
-                                                                    <span class="u-a4">800</span>
+                                                                    <span class="u-a4">1,064</span>
                                                                     <span class="u-b4 u-uppercase">hp</span>
                                                                 </div>
                                                             </div>
@@ -412,11 +406,19 @@
                                                         <li class="c-stats">
                                                             <div class="c-stats__inner">
                                                                 <div class="c-stats__header">
-                                                                    <span class="u-b4 u-uppercase">TORQUE</span>
-                                                                </div>
+                                                                    <span class="u-b4 u-uppercase">torque</span>
+                                                                </div>                                                            
                                                                 <div class="c-stats__content">
-                                                                    <span class="u-a4">765</span>
-                                                                    <span class="u-b4 u-uppercase">nm</span>
+                                                                    <span class="u-a4 js-data-toggler-data"
+                                                                        data-toggler-default="1,112"
+                                                                        data-toggler-alt="820">
+                                                                        1,112
+                                                                    </span>
+                                                                    <span class="u-b4 u-uppercase js-data-toggler-data"
+                                                                        data-toggler-default="Nm"
+                                                                        data-toggler-alt="lb-ft">
+                                                                        Nm
+                                                                    </span>
                                                                 </div>
                                                             </div>
                                                         </li>
@@ -436,7 +438,7 @@
                                                                 <div class="c-stats__content">
                                                                     <span class="u-a4 js-data-toggler-data"
                                                                         data-toggler-default="2.7"
-                                                                        data-toggler-alt="2.5">
+                                                                        data-toggler-alt="2.3">
                                                                         2.7
                                                                     </span>
                                                                     <span class="u-b4 u-uppercase">sec</span>
@@ -452,10 +454,8 @@
                                                                     </i>
                                                                 </div>
                                                                 <div class="c-stats__content">
-                                                                    <span class="u-a4"> -- </span>
-                                                                    <span class="u-b4 u-uppercase">
-                                                                        sec
-                                                                    </span>
+                                                                    <span class="u-a4"> 17.3 </span>
+                                                                    <span class="u-b4 u-uppercase">sec</span>
                                                                 </div>
                                                             </div>
                                                             <!-- <div class="c-stats__inner">
@@ -487,9 +487,9 @@
                                                                 </div>
                                                                 <div class="c-stats__content">
                                                                     <span class="u-a4 js-data-toggler-data"
-                                                                        data-toggler-default="335"
-                                                                        data-toggler-alt="208">
-                                                                        335
+                                                                        data-toggler-default="375"
+                                                                        data-toggler-alt="233">
+                                                                        375
                                                                     </span>
                                                                     <span class="u-b4 u-uppercase js-data-toggler-data"
                                                                         data-toggler-default="km/h"
@@ -506,9 +506,12 @@
                                                             <div class="c-stats__inner">
                                                                 <div class="c-stats__header">
                                                                     <span class="u-b4 u-uppercase">production</span>
+                                                                    <i class="u-b4 u-uppercase">
+                                                                        (to date)
+                                                                    </i>
                                                                 </div>
                                                                 <div class="c-stats__content">
-                                                                    <span class="u-a4">10</span>
+                                                                    <span class="u-a4">~9,000</span>
                                                                     <span class="u-b4 u-uppercase">units</span>
                                                                 </div>
                                                             </div>
@@ -523,14 +526,14 @@
                                                                 </div>
                                                                 <div class="c-stats__content">
                                                                     <span class="u-a4 js-data-toggler-data"
-                                                                        data-toggler-default="3M"
-                                                                        data-toggler-alt="3.5M">
-                                                                        3M
+                                                                        data-toggler-default="185,000"
+                                                                        data-toggler-alt="~158,600">
+                                                                        185,000
                                                                     </span>
                                                                     <span class="u-b3 u-uppercase js-data-toggler-data"
-                                                                        data-toggler-default="€"
-                                                                        data-toggler-alt="$">
-                                                                        €
+                                                                        data-toggler-default="$"
+                                                                        data-toggler-alt="€">
+                                                                        $
                                                                     </span>
                                                                 </div>
                                                             </div>
@@ -539,19 +542,13 @@
                                                     </ul>
                                                     <div class="c-stats-wrapper__header">
                                                         <div class="c-stats-toggler">
-                                                            <button
-                                                                class="c-stats-toggler__button js-data-toggler-trigger-alt">
-                                                                <span
-                                                                    class="c-stats-toggler__button-label u-b4 u-uppercase"
-                                                                    data-label="mph">
+                                                            <button class="c-stats-toggler__button js-data-toggler-trigger-alt">
+                                                                <span class="c-stats-toggler__button-label u-b4 u-uppercase" data-label="mph">
                                                                     <span>mph</span>
                                                                 </span>
                                                             </button>
-                                                            <button
-                                                                class="c-stats-toggler__button is-active js-data-toggler-trigger-default">
-                                                                <span
-                                                                    class="c-stats-toggler__button-label u-b4 u-uppercase"
-                                                                    data-label="km/h">
+                                                            <button class="c-stats-toggler__button is-active js-data-toggler-trigger-default">
+                                                                <span class="c-stats-toggler__button-label u-b4 u-uppercase" data-label="km/h">
                                                                     <span>km/h</span>
                                                                 </span>
                                                             </button>
@@ -2089,15 +2086,11 @@
                                                         </div>
                                                         <div class="stats__stat">
                                                             <div class="stats__label">
-                                                                <span class="t-6">
-                                                                    tested power
-                                                                </span>
+                                                                <span class="t-6">tested power</span>
                                                             </div>
                                                             <div class="stats__value">
                                                                 <span class="t-3b">
-                                                                    <span class="stats__split">
-                                                                        ~1.100 - 1.200
-                                                                    </span>
+                                                                    <span class="stats__split">~1,100 - 1,200</span>
                                                                     <span class="metric">hp</span>
                                                                 </span>
                                                             </div>
@@ -2154,7 +2147,7 @@
                                                             </div>
                                                             <div class="stats__value">
                                                                 <span class="t-3b slash">
-                                                                    <span class="stats__split">1112</span>
+                                                                    <span class="stats__split">1,112</span>
                                                                     <span class="metric">Nm</span>
                                                                 </span>
                                                                 <span class="t-3b">
@@ -2169,7 +2162,7 @@
                                                             </div>
                                                             <div class="stats__value">
                                                                 <span class="t-3b slash">
-                                                                    <span class="stats__split">1220</span>
+                                                                    <span class="stats__split">1,220</span>
                                                                     <span class="metric">Nm</span>
                                                                 </span>
                                                                 <span class="t-3b">
@@ -2184,7 +2177,7 @@
                                                             </div>
                                                             <div class="stats__value">
                                                                 <span class="t-3b slash">
-                                                                    <span class="stats__split">1138</span>
+                                                                    <span class="stats__split">1,138</span>
                                                                     <span class="metric">Nm</span>
                                                                 </span>
                                                                 <span class="t-3b">
@@ -2307,11 +2300,13 @@
                                                                     </span>
                                                                 </div>
                                                                 <div class="stats__value">
-                                                                    <span class="t-3b">
-                                                                        <span class="stats__split">
-                                                                            374.9
-                                                                        </span>
+                                                                    <span class="t-3b slash">
+                                                                        <span class="stats__split">375</span>
                                                                         <span class="metric">km/h</span>
+                                                                    </span>
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">233</span>
+                                                                        <span class="metric">mph</span>
                                                                     </span>
                                                                     <span class="stats__note d-block small">with manufacturer oversight</span>
                                                                 </div>
@@ -2391,11 +2386,10 @@
                                                             </div>
                                                             <div class="stats__value">
                                                                 <span class="t-3b">
-                                                                    <span class="stats__split">
-                                                                        9.5
-                                                                    </span>
+                                                                    <span class="stats__split">9.6</span>
                                                                     <span class="metric">s</span>
                                                                 </span>
+                                                                <span class="stats__note d-block small">240 km/h (150 mph)</span>
                                                             </div>
                                                         </div>                                                   
                                                     </div><!-- //.stats -->
@@ -2721,44 +2715,282 @@
                                         <div class="accord">
                                             <div class="accord__tab mb-2" no="10">
                                                 <div class="arrow-invert">
-                                                    <div class="arrow-invert__line">
-                                                    </div>
-                                                    <div class="arrow-invert__circle">
-                                                    </div>
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
                                                 </div>
-
-                                                <h3 class="t-2b text-aqua pl-2">
-                                                    Interior
-                                                </h3>
+                                                <h3 class="t-2b text-aqua pl-2">Interior</h3>
                                             </div>
                                             <div class="accord__content" style="display:none">
                                                 <div class="pt-1 pb-0">
                                                     <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper mb-3">
                                                         <div class="swiper slider-2">
                                                             <div class="swiper-wrapper">
-                                                                <div class="swiper-slide">
-                                                                    <img loading="lazy" class="" src="assets/static/img/11.9%20INTERIOR%201.jpg" alt="Nevera R interior - seats" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                                        srcset="assets/static/img/400/11.9%20INTERIOR%201.jpg 400w, assets/static/img/600/11.9%20INTERIOR%201.jpg 600w, assets/static/img/800/11.9%20INTERIOR%201.jpg 800w, assets/static/img/1160/11.9%20INTERIOR%201.jpg 1160w, assets/static/img/11.9%20INTERIOR%201.jpg 1920w, assets/static/img/3840/11.9%20INTERIOR%201.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
-
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif"
+                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 400w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 600w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 800w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 1160w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 1920w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">01</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Ultimate Suede interior</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
-                                                                <div class="swiper-slide">
-                                                                    <img loading="lazy" class="" src="assets/static/img/11.9%20INTERIOR%202.jpg" alt="Nevera R interior - cockpit side view" data-swiper-parallax-scale="0.8"
-                                                                        data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.9%20INTERIOR%202.jpg 400w, assets/static/img/600/11.9%20INTERIOR%202.jpg 600w, assets/static/img/800/11.9%20INTERIOR%202.jpg 800w, assets/static/img/1160/11.9%20INTERIOR%202.jpg 1160w, assets/static/img/11.9%20INTERIOR%202.jpg 1920w, assets/static/img/3840/11.9%20INTERIOR%202.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
-
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif"
+                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 400w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 600w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 800w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 1160w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 1920w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">02</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Carbon fiber and sueded microfiber-wrapped steering wheel</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
-                                                                <div class="swiper-slide">
-                                                                    <img loading="lazy" class="" src="assets/static/img/11.9%20INTERIOR%203.jpg" alt="Nevera R interior - cockpit front view" data-swiper-parallax-scale="0.8"
-                                                                        data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.9%20INTERIOR%203.jpg 400w, assets/static/img/600/11.9%20INTERIOR%203.jpg 600w, assets/static/img/800/11.9%20INTERIOR%203.jpg 800w, assets/static/img/1160/11.9%20INTERIOR%203.jpg 1160w, assets/static/img/11.9%20INTERIOR%203.jpg 1920w, assets/static/img/3840/11.9%20INTERIOR%203.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
-
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif"
+                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 400w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 600w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 800w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 1160w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 1920w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">03</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Wireless charging pad</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
-                                                                <div class="swiper-slide">
-                                                                    <img loading="lazy" class="" src="assets/static/img/11.9%20INTERIOR%204.jpg" alt="Nevera R interior - cockpit top view from outside" data-swiper-parallax-scale="0.8"
-                                                                        data-swiper-parallax-opacity="0.2" srcset="assets/static/img/400/11.9%20INTERIOR%204.jpg 400w, assets/static/img/600/11.9%20INTERIOR%204.jpg 600w, assets/static/img/800/11.9%20INTERIOR%204.jpg 800w, assets/static/img/1160/11.9%20INTERIOR%204.jpg 1160w, assets/static/img/11.9%20INTERIOR%204.jpg 1920w, assets/static/img/3840/11.9%20INTERIOR%204.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
-
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif"
+                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 400w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 600w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 800w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 1160w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 1920w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">04</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Leather-wrapped passenger grab handle</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
-
-
-
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif"
+                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 400w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 600w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 800w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 1160w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 1920w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">05</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Ultimate Suede seats</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif"
+                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 400w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 600w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 800w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 1160w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 1920w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">06</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Ultimate Suede interior</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif"
+                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 400w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 600w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 800w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 1160w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 1920w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">07</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Driver Mode Selector</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif"
+                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 400w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 600w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 800w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 1160w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 1920w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">08</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Bose Performance Series 14-speaker audio system with Stealth Interior Trim Package and Carbon Fiber Interior Package Level 2</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif"
+                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 400w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 600w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 800w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 1160w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 1920w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">09</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">14" reconfigurable Driver Information Center</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif"
+                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 400w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 600w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 800w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 1160w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 1920w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">10</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">New interior colorways: Jet Black Ultimate Suede with standard Sky Cool Gray or optional Adrenaline Red, Competition Yellow or Santorini Blue stitching</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif"
+                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 400w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 600w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 800w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 1160w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 1920w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">11</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">New interior colorways: Very Dark Atmosphere with Natural Tan accents</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif"
+                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 400w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 600w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 800w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 1160w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 1920w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">12</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">New interior colorways: Asymmetrical Adrenaline Red with Jet Black</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif"
+                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 400w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 600w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 800w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 1160w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 1920w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">13</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">New interior colorways: Sky Cool Gray & Medium Ash Gray with Habanero accents</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif"
+                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 400w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 600w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 800w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 1160w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 1920w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">14</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">New interior colorways: Santorini Blue with Jet Black</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                             <div class="swiper-button-next is-v2 arrow arrow--right arrow--no-text">
                                                                 <div class="arrow__line">
@@ -2772,11 +3004,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <p class="mw-md-60p small">
-                                                        Step into the future with the Rimac Nevera R's personalized interior. By combining the cutting-edge technology with luxurious comfort, the cabin offers an immersive experience
-                                                        adapted to your style and taste. </p>
                                                 </div>
-
                                             </div>
                                         </div>
                                         <div class="accord">
