@@ -1,10 +1,10 @@
 <?php
     $root_path = "../../..";
     $site_title = "Gcar";
-    $page = "Chevrolet";
-    $manufacturer = "Chevrolet";
+    $page = $brand = $manufacturer = "Chevrolet";
+
     $model = "Corvette ZR1";
-    $title = "2026 Chevrolet Corvette ZR1: High-Performance Vehicle | $site_title";
+    $title = "2026 $brand $model: High-Performance Vehicle | $site_title";
 ?>
 
 <!-- HEADER -->
@@ -200,7 +200,7 @@
                                         <source src="<?php echo $root_path; ?>/uploads/2021/05/30204415/NeveraR.mp4" type="video/mp4" />
                                     </video> -->
                                     <img src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2025-Chevrolet-Corvette-ZR1-001-1080.jpg" 
-                                        style="object-position:center" alt="Corvette ZR1">
+                                        style="object-position:center" alt="<?php echo $model; ?>">
                                     <!--end video source-->
                                 </div>
                             </div>
@@ -231,7 +231,7 @@
                             <div class="spliter__one">
                                 <div class="js-nevera-logo js-nevera-logo--text">
                                     <div class="mx-2 mx-lg-0">
-                                        <span class="js-nevera-logo--holder t-2 u-uppercase mt-0"><?php echo $page; ?></span>
+                                        <span class="js-nevera-logo--holder t-2 u-uppercase mt-0"><?php echo $brand; ?></span>
                                     </div>
                                     <h2 class="t-1 u-uppercase js-nevera-logo--r mb-2 mb-lg-0"><?php echo $model; ?></h2>                       
                                     <div class="mx-2 mx-lg-0">
@@ -247,7 +247,7 @@
                                                     </svg>
                                                 </span>
                                                 <span class="c-button__label">
-                                                    <i class="c-button__label-inner" title="Explore 2025 Corvette ZR1">Explore 2025 Corvette ZR1</i>
+                                                    <i class="c-button__label-inner" title="Explore 2025 <?php echo $model; ?>">Explore 2025 <?php echo $model; ?></i>
                                                 </span>
                                             </span>
                                         </a>
@@ -260,7 +260,25 @@
                     <div class="section section--are-you py-md-8 py-4">
                         <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">
                             <div class="swiper slider-1">
-                                <div class="swiper-wrapper">
+                                <div class="swiper-wrapper">                                    
+                                    <div class="swiper-slide">
+                                        <div class="">
+                                            <div class="container-fluid">
+                                                <div class="row pr zi-10">
+                                                    <div class="col-12 col-md-8 offset-md-2">
+                                                        <h3 class="t-1 text-gray mb-3 r-margin">ZR1: The unthinkable has arrived</h3>
+                                                    </div>
+                                                    <div class="col-1 offset-1 offset-md-4 line-col"></div>                                      
+                                                    <div class="col-7 col-md-4">
+                                                        <p class="c-nevera-welcome__header-description u-b0 u-a2-400">
+                                                            If you seek a performance marvel — a vehicle crafted with luxury materials and top-of-the-line detailing — look no further than Corvette ZR1. With a twin turbocharged 5.5L V8 engine and edge-to-edge aerodynamics, it takes driving dynamics to a whole different level.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="swiper-slide">
                                         <div class=""> <!-- .wrapper -->
                                             <div class="container-fluid pr">
@@ -269,7 +287,7 @@
                                                         <!-- <span class="t-4">Are you</span> -->
                                                         <h3 class="t-1 text-gray mb-3 r-margin">The pinnacle of power and performance</h3>
                                                     </div>
-                                                    <div class="col-1 offset-1 offset-md-5 line-col"></div>
+                                                    <div class="col-1 offset-1 offset-md-4 line-col"></div>
                                                     <div class="col-7 col-md-4">
                                                         <p class="c-nevera-welcome__header-description u-b0 u-a2-400">
                                                             ZR1 redefines Corvette performance with a twin-turbocharged 5.5L flat-plane crank V8 — the most powerful engine ever offered in a production Corvette. Engineered to push the limits of performance and innovation, it fuses advanced aerodynamics, cutting-edge technology and precision handling to rival the world's most elite supercars.
@@ -281,29 +299,6 @@
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="container-fluid">
-
-                                                <div class="row pr zi-10">
-                                                    <div class="col-12 col-md-8 offset-md-2">
-                                                        <h3 class="t-1 text-gray mb-3 r-margin">Radical?</h3>
-                                                    </div>
-
-                                                    <div class="col-1 offset-1 offset-md-5 line-col"></div>
-                                                    
-                                                    <div class="col-7 col-md-4">
-                                                        <p class="c-nevera-welcome__header-description u-b0 u-a2-400">
-                                                            The Rimac Nevera R is for those who dare to be different. Radical in design and performance, it is a hypercar that pushes boundaries and redefines what is possible. Stand
-                                                            out, drive fast, and live on the edge.
-                                                        </p>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-
                                         <div class="">
                                             <div class="container-fluid">
 
@@ -358,9 +353,9 @@
                                     <div class="o-container">
                                         <div class="c-scrolling-reveal__header u-text-center">
                                             <div class="c-scrolling-reveal__heading">
-                                                <h2 class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">UNPARALLELED PERFORMANCE</h2>
+                                                <h2 class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">Performance</h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
-                                                    <p class="u-b0">The Apollo EVO serves as a "pure" driving experience in a segment increasingly shifting toward electrification, relying on a pure, high-revving V12 powertrain for performance.</p>
+                                                    <p class="u-b0">ZR1 transforms raw power into refined performance. With intuitive dynamics and razor-sharp control, it's engineered to thrill at every turn.</p>
                                                     <a href="https://rimac-automobili.com/bendingphysics" class="c-button">
                                                         <span class="c-button__inner">
                                                             <span class="c-button__label">
@@ -825,11 +820,11 @@
                         class="o-section o-section--dimmed o-section--layered-scroll js-layered-scroll-wrapper">
                         <div class="c-layered-scroll-wrapper c-layered-scroll-wrapper--simple js-layered-scroll-simple"
                             data-animation-type="crossfade">
-                            <!-- LAYER 1 -->
+                            <!-- LAYER 1 link youtube: https://www.youtube.com/watch?v=tmFuHO_bFqk-->
                             <div class="c-layered-scroll js-layered-scroll-simple-trigger">
                                 <div class="c-layered-scroll__item c-layered-scroll__item--2">
                                     <span class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
-                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-chassis-001.png)">
+                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-aerodynamics-001-375.png)">
                                     </span>
                                 </div>
                                 <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
@@ -837,7 +832,7 @@
                             <div class="c-layered-scroll js-layered-scroll-simple-trigger">
                                 <div class="c-layered-scroll__item c-layered-scroll__item--3">
                                     <i class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
-                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-chassis-001.png)"></i>
+                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-aerodynamics-001-375.png)"></i>
                                 </div>
                                 <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
                             </div>
@@ -853,8 +848,7 @@
                                         <div class="c-article-wrapper">
                                             <div class="c-article js-layered-scroll-simple-item-element">
                                                 <h3 class="u-a2 u-capitalize">Active Aerodynamics</h3>
-                                                <p class="u-b2">
-                                                    The Apollo EVO features an electronically adjustable aero paired with a deployable rear spoiler, providing the necessary adaptive downforce to optimize stability and speed under different driving conditions.</p>
+                                                <p class="u-b2">The reigning king of downforce. With a leading-edge design like wide side air inlets, carbon-fiber elements, and a multitude of airflow and cooling features, ZR1 dominates with the highest downforce of any production.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -862,9 +856,8 @@
                                     <div class="c-layered-scroll-content__right">
                                         <div class="c-article-wrapper">
                                             <div class="c-article js-layered-scroll-simple-item-element">
-                                                <h3 class="u-a2 u-capitalize">Butterfly Doors</h3>
-                                                <p class="u-b2">
-                                                    The dramatic butterfly doors enhance both style and practicality for seamless entry and augmenting the car’s futuristic, aggressive stance.</p>
+                                                <h3 class="u-a2 u-capitalize">Flow-Through Hood and ground effects</h3>
+                                                <p class="u-b2">The flow through hood and spoiler help to extract airflow through the intercooler and cool the turbocharged air. The front splitter, paired with an underwing and smooth underbody, helps generate suction under the vehicle to maximize downforce and reduce drag.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -876,20 +869,17 @@
                                     <div class="c-layered-scroll-content__left">
                                         <div class="c-article-wrapper">
                                             <div class="c-article js-layered-scroll-simple-item-element">
-                                                <h3 class="u-a2 u-capitalize">carbon monocoque</h3>
-                                                <p class="u-b2">
-                                                    The EVO wears a tweaked version of the company’s carbon monocoque, carbon subframes front and back, and carbon crash structures. It’s 15% stiffer and 10% lighter than the bones of the Intensa, and gets a similarly wild bodyshape.</p>
+                                                <h3 class="u-a2 u-capitalize">Side Inlets</h3>
+                                                <p class="u-b2">Large side air inlets feature signature carbon-fiber wishbone bezels. This, paired with the rear brake cooling ducts, allow for additional engine cooling while maximizing air intake.</p>
 
                                             </div>
                                         </div>
                                     </div>
-
                                     <div class="c-layered-scroll-content__right">
                                         <div class="c-article-wrapper">
                                             <div class="c-article js-layered-scroll-simple-item-element">
-                                                <h3 class="u-a2"></h3>
-                                                <p class="u-b2">
-                                                </p>
+                                                <h3 class="u-a2">ZR1 Carbon Fiber Aero Package</h3>
+                                                <p class="u-b2">Available on ZR1, the potent carbon-fiber wing, underbody strakes and carbon-fiber dive planes work together to produce over 1,200 lbs. of downforce.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1371,438 +1361,8 @@
 
                         </div>
                     </section>
-                    <section id="tech-spec" class="o-section o-section--dark o-section--tech-spec js-scrollspy-item"
-                        data-scrollspy-title="Technical Specs">
-                        <div class="o-section__heading">
-                            <div class="o-container o-container--narrow">
-                                <div class="c-heading c-heading--narrow c-heading--tech-spec u-text-center">
-                                    <h2 class="u-a3 u-uppercase">Tech specification</h2>
-                                    <p class="u-b0">EVO's inner workings are made for the specific purpose of high performance.</p>
-
-                                    <div class="c-heading__button u-full-width">
-                                        <a href="https://web-cdn.rimac-automobili.com/wp-content/uploads/2023/11/20171226/Nevera_Technical-specifications.pdf"
-                                            download class="c-button c-button--play"
-                                            data-popup="#technology-header-video">
-                                            <span class="c-button__inner">
-                                                <span class="c-button__prepend">
-                                                    <svg class="u-icon u-icon--download" viewBox="0 0 11 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                                            d="M5.889.967A.514.514 0 005.5.819a.54.54 0 00-.407.166.587.587 0 00-.159.424v8.385l-2.44-2.505c-.259-.294-.524-.3-.795-.018s-.265.558.018.828l3.394 3.536a.344.344 0 00.177.148.642.642 0 00.424 0 .344.344 0 00.177-.148L9.283 8.1c.283-.27.29-.546.018-.828-.271-.283-.536-.276-.796.018l-2.44 2.505V1.409A.616.616 0 005.89.967z">
-                                                        </path>
-                                                        <path d="M0 14.319h11v1H0z"></path>
-                                                    </svg>
-                                                </span>
-                                                <span class="c-button__label">
-                                                    <i class="c-button__label-inner" title="Download tech specs">Download tech specs</i>
-                                                </span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="o-section o-section__content">
-                            <div class="o-container o-container--narrow">
-                                <div class="c-accordion c-accordion--tech-spec js-accordion is-mono">
-                                    <div class="c-accordion__item js-accordion-single">
-                                        <div class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
-                                            <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">01</span>
-                                                <p class="u-b0">General</p>
-                                            </div>
-                                            <div class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                <div class="c-accordion-header__state-label c-accordion-header__state-label--closed">
-                                                    Show details </div>
-                                                <div class="c-accordion-header__state-label c-accordion-header__state-label--opened">
-                                                    Close details </div>
-                                            </div>
-                                        </div>
-                                        <div class="c-accordion-panel js-accordion-panel">
-                                            <div class="c-accordion-content c-accordion-content--tech-spec">
-                                                <ul class="u-b0">
-                                                    <li>
-                                                        <p>manufacturer</p>
-                                                        <p class="c-accordion-content__faded"><a href="https://www.apollofmg.com/" target="_blank" rel="noopener noreferrer">Apollo Automobil GmbH</a></p>
-                                                    </li>
-                                                    <li>
-                                                        <p>model</p>
-                                                        <p class="c-accordion-content__faded">Apollo Project EVO</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>production</p>
-                                                        <p class="c-accordion-content__faded">2022 - present</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>units</p>
-                                                        <p class="c-accordion-content__faded">~10 units (limited production)</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>assembly</p>
-                                                        <p class="c-accordion-content__faded">Germany</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>class</p>
-                                                        <p class="c-accordion-content__faded">Hypercar (track-focused)</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>body style</p>
-                                                        <p class="c-accordion-content__faded">2-door coupe</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>layout</p>
-                                                        <p class="c-accordion-content__faded">Mid-engine, RWD</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>build time</p>
-                                                        <p class="c-accordion-content__faded">~1,200 hours per unit</p>
-                                                    </li>                                      
-                                                    <li>
-                                                        <p>paint time</p>
-                                                        <p class="c-accordion-content__faded">~600 hours</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="c-accordion__item js-accordion-single">
-                                        <div class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
-                                            <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">02</span>
-                                                <p class="u-b0 u-capitalize">Powertrain</p>
-                                            </div>
-                                            <div
-                                                class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--closed">
-                                                    Show details </div>
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--opened">
-                                                    Close details </div>
-                                            </div>
-                                        </div>
-                                        <div class="c-accordion-panel js-accordion-panel">
-                                            <div class="c-accordion-content c-accordion-content--tech-spec">
-                                                <ul class="u-b0">
-                                                    <li>
-                                                        <p>engine type</p>
-                                                        <p class="c-accordion-content__faded">Naturally Aspirated V12</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>engine code</p>
-                                                        <p class="c-accordion-content__faded">Ferrari-derived F140</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>displacement</p>
-                                                        <p class="c-accordion-content__faded">6.3 L (382 ci / 6262 cc)</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>power output</p>
-                                                        <p class="c-accordion-content__faded">~780-800 hp @ 9,000 rpm</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>power / liter</p>
-                                                        <p class="c-accordion-content__faded">~128 PS (126 hp)</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>power / weight</p>
-                                                        <p class="c-accordion-content__faded">~615 PS (607 bhp) / t</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>torque </p>
-                                                        <p class="c-accordion-content__faded">~765 Nm (564 lb-ft) @ 6,750 rpm</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>torque / weight</p>
-                                                        <p class="c-accordion-content__faded">~588 Nm (434 lb-ft) / t</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>redline</p>
-                                                        <p class="c-accordion-content__faded">~9,000 rpm</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>transmission</p>
-                                                        <p class="c-accordion-content__faded">6-speed sequential gearbox</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>drivetrain</p>
-                                                        <p class="c-accordion-content__faded">Rear-wheel drive</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="c-accordion__item js-accordion-single">
-                                        <div class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
-                                            <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">03</span>
-                                                <p class="u-b0 u-capitalize">Performance</p>
-                                            </div>
-                                            <div class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                <div class="c-accordion-header__state-label c-accordion-header__state-label--closed">
-                                                    Show details </div>
-                                                <div class="c-accordion-header__state-label c-accordion-header__state-label--opened">
-                                                    Close details </div>
-                                            </div>
-                                        </div>
-                                        <div class="c-accordion-panel js-accordion-panel">
-                                            <div class="c-accordion-content c-accordion-content--tech-spec">
-                                                <ul class="u-b0">
-                                                    <li>
-                                                        <p>Acceleration* 0-96 km/h / (0-60mph) </p>
-                                                        <p class="c-accordion-content__faded">2.5 sec</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Acceleration* 0-100 km/h / (0-62mph) </p>
-                                                        <p class="c-accordion-content__faded">2.7 sec</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>top speed</p>
-                                                        <p class="c-accordion-content__faded">335 km/h / 208 mph</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="c-accordion__item js-accordion-single">
-                                        <div
-                                            class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
-                                            <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">04</span>
-                                                <p class="u-b0">Chassis and Construction</p>
-                                            </div>
-                                            <div
-                                                class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--closed">
-                                                    Show details </div>
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--opened">
-                                                    Close details </div>
-                                            </div>
-                                        </div>
-                                        <div class="c-accordion-panel js-accordion-panel">
-                                            <div class="c-accordion-content c-accordion-content--tech-spec">
-                                                <ul class="u-b0">
-                                                    <li>
-                                                        <p>construction</p>
-                                                        <p class="c-accordion-content__faded">
-                                                            + Full carbon fiber monocoque.<br />
-                                                            + Carbon fibre front and rear subframes.<br />
-                                                            + Lightweight alloys (aluminum, with titanium components).
-                                                        </p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Suspension</p>
-                                                        <p class="c-accordion-content__faded">Motorsport-derived setup</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Brakes </p>
-                                                        <p class="c-accordion-content__faded">Carbon-ceramic</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Front brakes </p>
-                                                        <p class="c-accordion-content__faded"></p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Rear brakes </p>
-                                                        <p class="c-accordion-content__faded"></p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Wheels</p>
-                                                        <p class="c-accordion-content__faded">20" front / 21" rear</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>tires</p>
-                                                        <p class="c-accordion-content__faded">Michelin Pilot Sport Cup 2 R</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>front tires</p>
-                                                        <p class="c-accordion-content__faded">--</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>rear tires</p>
-                                                        <p class="c-accordion-content__faded">--</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="c-accordion__item js-accordion-single">
-                                        <div
-                                            class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
-                                            <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">05</span>
-                                                <p class="u-b0">Aerodynamics</p>
-                                            </div>
-                                            <div
-                                                class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--closed">
-                                                    Show details </div>
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--opened">
-                                                    Close details </div>
-                                            </div>
-                                        </div>
-                                        <div class="c-accordion-panel js-accordion-panel">
-                                            <div class="c-accordion-content c-accordion-content--tech-spec">
-                                                <ul class="u-b0">
-                                                    <li>
-                                                        <p>Aero Type</p>
-                                                        <p class="c-accordion-content__faded">Active aerodynamics</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Rear Wing</p>
-                                                        <p class="c-accordion-content__faded">Electronically adjustable</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Aero Elements</p>
-                                                        <p class="c-accordion-content__faded">Fins, ducts, stabilizers</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Downforce</p>
-                                                        <p class="c-accordion-content__faded">Extreme (track-focused, high-load)</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="c-accordion__item js-accordion-single">
-                                        <div
-                                            class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
-                                            <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">06</span>
-                                                <p class="u-b0">Interior, Exterior & Technology</p>
-                                            </div>
-                                            <div
-                                                class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--closed">
-                                                    Show details </div>
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--opened">
-                                                    Close details </div>
-                                            </div>
-                                        </div>
-                                        <div class="c-accordion-panel js-accordion-panel">
-                                            <div class="c-accordion-content c-accordion-content--tech-spec">
-                                                <ul class="u-b0">
-                                                    <li>
-                                                        <p>Interior</p>
-                                                        <p class="c-accordion-content__faded">Minimalist, "bionic" design with carbon fiber structures</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Displays</p>
-                                                        <p class="c-accordion-content__faded">3 digital screens</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Materials</p>
-                                                        <p class="c-accordion-content__faded">Carbon fiber + Alcantara</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Features</p>
-                                                        <p class="c-accordion-content__faded">Air conditioning, telemetry</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Layout</p>
-                                                        <p class="c-accordion-content__faded">Track-oriented cockpit</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="c-accordion__item js-accordion-single">
-                                        <div
-                                            class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
-                                            <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">07</span>
-                                                <p class="u-b0">Safety Systems</p>
-                                            </div>
-                                            <div
-                                                class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--closed">
-                                                    Show details </div>
-                                                <div
-                                                    class="c-accordion-header__state-label c-accordion-header__state-label--opened">
-                                                    Close details </div>
-                                            </div>
-                                        </div>
-                                        <div class="c-accordion-panel js-accordion-panel">
-                                            <div class="c-accordion-content c-accordion-content--tech-spec">
-                                                <ul class="u-b0">
-                                                    <li class="d-block">
-                                                        <p>Structural Integrity </p>
-                                                        <p class="c-accordion-content__faded">The car utilizes an evolved carbon fiber monocoque with a 15% increase in torsional stiffness compared to previous models, acting as a high-strength safety cell.</p>
-                                                    </li>
-                                                    <li class="d-block">
-                                                        <p>Active Aerodynamics</p>
-                                                        <p class="c-accordion-content__faded">An electronic, deployable rear spoiler and aero fins adjust in real-time to maximize downforce and stability.</p>
-                                                    </li>
-                                                    <li class="d-block">
-                                                        <p>Braking System</p>
-                                                        <p class="c-accordion-content__faded">Equipped with 15-inch carbon ceramic brakes front and rear as standard, providing high-performance stopping capability.</p>
-                                                    </li>
-                                                    <li class="d-block">
-                                                        <p>Safety Standards</p>
-                                                        <p class="c-accordion-content__faded">The chassis design meets strict FIA LMP2 safety regulations without requiring a traditional roll cage.</p>
-                                                    </li>
-                                                    <li class="d-block">
-                                                        <p>Handling & Control</p>
-                                                        <p class="c-accordion-content__faded">Advanced, test-proven traction control systems manage handling, especially in adverse conditions. </p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="c-accordion__item js-accordion-single">
-                                        <div
-                                            class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
-                                            <div class="c-accordion-header__title-row">
-                                                <span class="c-accordion-header__numbering u-b3">08</span>
-                                                <p class="u-b0">Dimensions</p>
-                                            </div>
-                                            <div class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                <div class="c-accordion-header__state-label c-accordion-header__state-label--closed">
-                                                    Show details </div>
-                                                <div class="c-accordion-header__state-label c-accordion-header__state-label--opened">
-                                                    Close details </div>
-                                            </div>
-                                        </div>
-                                        <div class="c-accordion-panel js-accordion-panel">
-                                            <div class="c-accordion-content c-accordion-content--tech-spec">
-                                                <ul class="u-b0">
-                                                    <li>
-                                                        <p>Length </p>
-                                                        <p class="c-accordion-content__faded">5.15 m (203 in)</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Width</p>
-                                                        <p class="c-accordion-content__faded">2.17 m (85 in)</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Height</p>
-                                                        <p class="c-accordion-content__faded">1.10 m (43 in)</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Wheelbase</p>
-                                                        <p class="c-accordion-content__faded">2.70 m (106 in)</p>
-                                                    </li>
-                                                    <li>
-                                                        <p>Weight</p>
-                                                        <p class="c-accordion-content__faded">1,300 kg (2,866 lbs)</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
                     
-                    <div class="section section--explore o-section--dark pt-2 pb-5 pb-md-10">
+                    <section id="tech-spec" class="section section--explore o-section--dark js-scrollspy-item pt-2 pb-5 pb-md-10" data-scrollspy-title="Technical Specs">
                         <div class="wrapper">
                             <div class="container-fluid">
                                 <div class="row scrub">
@@ -1810,64 +1370,63 @@
                                         <h2 class="t-1 text-gray mb-3 mb-md-5">Tech specification</h2>
                                     </div>
                                     <div class="col-12 col-sm-10 offset-sm-1 mb-4 mb-md-8">
-                                        <img loading="lazy" alt="Corvette ZR1 front view"
-                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-010-1000.jpg"
-                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-010-1000.jpg 400w, 
-                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-010-1000.jpg 600w, 
-                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-010-1000.jpg 800w, 
-                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-010-1000.jpg 1160w, 
-                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-010-1000.jpg 1920w, 
-                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-010-1000.jpg 3840w"
-                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                        <div class="c-heading__button u-full-width text-center">
+                                            <a href="https://web-cdn.rimac-automobili.com/wp-content/uploads/2023/11/20171226/Nevera_Technical-specifications.pdf"
+                                                download class="c-button c-button--play" data-popup="#technology-header-video">
+                                                <span class="c-button__inner">
+                                                    <span class="c-button__prepend">
+                                                        <svg class="u-icon u-icon--download" viewBox="0 0 11 16" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M5.889.967A.514.514 0 005.5.819a.54.54 0 00-.407.166.587.587 0 00-.159.424v8.385l-2.44-2.505c-.259-.294-.524-.3-.795-.018s-.265.558.018.828l3.394 3.536a.344.344 0 00.177.148.642.642 0 00.424 0 .344.344 0 00.177-.148L9.283 8.1c.283-.27.29-.546.018-.828-.271-.283-.536-.276-.796.018l-2.44 2.505V1.409A.616.616 0 005.89.967z">
+                                                            </path>
+                                                            <path d="M0 14.319h11v1H0z"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="c-button__label">
+                                                        <i class="c-button__label-inner" title="Download tech specs">Download tech specs</i>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
                                     </div>
                                     <div class="col-12 col-md-10 offset-md-1">
                                         <div class="accord active">
                                             <div class="accord__tab mb-2" no="01">
                                                 <div class="arrow-invert active">
-                                                    <div class="arrow-invert__line">
-                                                    </div>
-                                                    <div class="arrow-invert__circle">
-                                                    </div>
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
                                                 </div>
-                                                <h3 class="t-2b text-aqua pl-2">
-                                                    General
-                                                </h3>
+                                                <h3 class="t-2b text-aqua pl-2">General</h3>
                                             </div>
                                             <div class="accord__content">
                                                 <div class="pt-1 pb-5 pb-md-10">
-
-                                                    <img loading="lazy" class="mb-3" alt="Corvette ZR1 side view on road"
-                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif"
-                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 400w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 600w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 800w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 1160w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 1920w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                    <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> side view on road"
+                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.avif"
+                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.avif 400w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.avif 600w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.avif 800w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.avif 1160w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.avif 1920w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.avif 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                     <p class="small mw-md-60p mb-4">
-                                                        The Corvette ZR1 is the pinnacle of performance within the Corvette lineup — a track-focused, street-legal supercar that represents the most powerful and technologically advanced variant of its generation.
+                                                        The <?php echo $model; ?> is the pinnacle of performance within the Corvette lineup — a track-focused, street-legal supercar that represents the most powerful and technologically advanced variant of its generation.
                                                     </p>                                                   
                                                     <div class="stats">
                                                         <div class="pinned-wrap">
                                                             <div class="stats__stat is-pinned">
                                                                 <div class="stats__label">
-                                                                    <span class="t-6">
-                                                                        manufacturer
-                                                                    </span>
+                                                                    <span class="t-6">manufacturer</span>
                                                                 </div>
                                                                 <div class="stats__value">
                                                                     <span class="t-3b">
-                                                                        <span class="stats__split">
-                                                                            Chevrolet
-                                                                        </span>
+                                                                        <span class="stats__split">Chevrolet</span>
                                                                     </span>
                                                                 </div>
                                                             </div>
                                                             <div class="stats__stat is-pinned">
                                                                 <div class="stats__label">
-                                                                    <span class="t-6">
-                                                                        price
-                                                                    </span>
+                                                                    <span class="t-6">price</span>
                                                                     <span class="ss">2026</span>
                                                                 </div>
                                                                 <div class="stats__value">
@@ -1883,46 +1442,35 @@
                                                         </div>
                                                         <div class="stats__stat">
                                                             <div class="stats__label">
-                                                                <span class="t-6">
-                                                                    production
-                                                                </span>
+                                                                <span class="t-6">production</span>
                                                             </div>
                                                             <div class="stats__value">
                                                                 <span class="t-3b">
-                                                                    <span class="stats__split">
-                                                                        1990
-                                                                    </span>
+                                                                    <span class="stats__split">1990</span>
                                                                     <span class="metric">year</span>
                                                                 </span>
                                                             </div>
                                                         </div>
                                                         <div class="stats__stat">
                                                             <div class="stats__label">
-                                                                <span class="t-6">
-                                                                    units
-                                                                    <span class="ss">2025</span>
+                                                                <span class="t-6">units
+                                                                    <span class="ss">to date</span>
                                                                 </span>
                                                             </div>
                                                             <div class="stats__value">
                                                                 <span class="t-3b">
-                                                                    <span class="stats__split">
-                                                                        180
-                                                                    </span>
+                                                                    <span class="stats__split">~9,000</span>
                                                                     <span class="metric">units</span>
                                                                 </span>
                                                             </div>
                                                         </div>
                                                         <div class="stats__stat">
                                                             <div class="stats__label">
-                                                                <span class="t-6">
-                                                                    origin country
-                                                                </span>
+                                                                <span class="t-6">origin country</span>
                                                             </div>
                                                             <div class="stats__value">
                                                                 <span class="t-3b">
-                                                                    <span class="stats__split">
-                                                                        US
-                                                                    </span>
+                                                                    <span class="stats__split">US</span>
                                                                 </span>
                                                             </div>
                                                         </div>
@@ -1992,9 +1540,7 @@
                                                             </div>
                                                             <div class="stats__value">
                                                                 <span class="t-3b">
-                                                                    <span class="stats__split">
-                                                                        ~2
-                                                                    </span>
+                                                                    <span class="stats__split">~2</span>
                                                                     <span class="metric">days</span>
                                                                 </span>
                                                             </div>
@@ -2008,19 +1554,22 @@
                                         <div class="accord">
                                             <div class="accord__tab mb-2" no="02">
                                                 <div class="arrow-invert">
-                                                    <div class="arrow-invert__line">
-                                                    </div>
-                                                    <div class="arrow-invert__circle">
-                                                    </div>
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
                                                 </div>
-                                                <h3 class="t-2b text-aqua pl-2">
-                                                    powertrain
-                                                </h3>
+                                                <h3 class="t-2b text-aqua pl-2">powertrain</h3>
                                             </div>
                                             <div class="accord__content" style="display: none;">
                                                 <div class="pt-1 pb-5 pb-md-10">
-                                                    <img loading="lazy" class="mb-3" src="assets/static/img/11.1%20MORE%20POWER.jpg" alt="Nevera R inside a concrete hall"
-                                                        srcset="assets/static/img/400/11.1%20MORE%20POWER.jpg 400w, assets/static/img/600/11.1%20MORE%20POWER.jpg 600w, assets/static/img/800/11.1%20MORE%20POWER.jpg 800w, assets/static/img/1160/11.1%20MORE%20POWER.jpg 1160w, assets/static/img/11.1%20MORE%20POWER.jpg 1920w, assets/static/img/3840/11.1%20MORE%20POWER.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                    <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> performance"
+                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif" 
+                                                        srcset="<?php echo $root_path; ?>/uploads/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 400w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 600w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 800w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 1160w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 1920w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 3840w" 
+                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
 
                                                     <div class="stats__label">
                                                         <span class="t-6">highlights</span>
@@ -2028,29 +1577,31 @@
 
                                                     <div class="c-accordion-content c-accordion-content--tech-spec">
                                                         <ul class="u-b0">
-                                                            <li>
-                                                                <p>8-speed dual clutch transmission</p>
-                                                            </li>
-                                                            <li>
-                                                                <p>5.5L V8 twin turbocharged, TPI, DI high-output flat plane crank 8000 rpm redline engine</p>
-                                                            </li>
+                                                            <li><p>8-speed dual clutch transmission</p></li>
+                                                            <li><p>5.5L V8 twin turbocharged, TPI, DI high-output flat plane crank 8000 rpm redline engine</p></li>
                                                         </ul>
                                                     </div>
                                                     <div class="stats">
                                                         <div class="pinned-wrap">
                                                             <div class="stats__stat is-pinned">
                                                                 <div class="stats__label">
-                                                                    <span class="t-6">
-                                                                        engine type
-                                                                    </span>
+                                                                    <span class="t-6">engine type</span>
                                                                 </div>
                                                                 <div class="stats__value">
                                                                     <span class="t-3b">
-                                                                        <span class="stats__split">
-                                                                            LT7 5.5L DOHC V8 engine
-                                                                        </span>
+                                                                        <span class="stats__split">5.5L DOHC V8 engine</span>
                                                                     </span>
                                                                     <span class="stats__note d-block small">Twin turbo with flat-plane crankshaft</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">engine code</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">LT7</span>
+                                                                    </span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2071,9 +1622,7 @@
                                                         </div>
                                                         <div class="stats__stat">
                                                             <div class="stats__label">
-                                                                <span class="t-6">
-                                                                    power
-                                                                </span>
+                                                                <span class="t-6">power</span>
                                                             </div>
                                                             <div class="stats__value">
                                                                 <span class="t-3b">
@@ -2278,7 +1827,7 @@
                                             </div>
                                             <div class="accord__content" style="display: none;">
                                                 <div class="pt-1 pb-5 pb-md-10">
-                                                    <img loading="lazy" class="mb-3" alt="Corvette ZR1 performance"
+                                                    <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> performance"
                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif" 
                                                         srcset="<?php echo $root_path; ?>/uploads/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif 400w, 
                                                         <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif 600w, 
@@ -2289,7 +1838,7 @@
                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
 
                                                     <p class="small mw-md-60p mb-4">
-                                                        ZR1 transforms raw power into refined performance. With intuitive dynamics and razor-sharp control, it’s engineered to thrill at every turn.
+                                                        ZR1 transforms raw power into refined performance. With intuitive dynamics and razor-sharp control, it's engineered to thrill at every turn.
                                                     </p>
                                                     <div class="stats">
                                                         <div class="pinned-wrap">
@@ -2391,22 +1940,226 @@
                                                                 </span>
                                                                 <span class="stats__note d-block small">240 km/h (150 mph)</span>
                                                             </div>
-                                                        </div>                                                   
+                                                        </div>                                             
                                                     </div><!-- //.stats -->
                                                 </div>
                                             </div>
                                         </div> <!-- //.acord -->
 
-
                                         <div class="accord">
                                             <div class="accord__tab mb-2" no="04">
                                                 <div class="arrow-invert">
-                                                    <div class="arrow-invert__line">
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
+                                                </div>
+
+                                                <h3 class="t-2b text-aqua pl-2">chassis & construction</h3>
+                                            </div>
+                                            <div class="accord__content" style="display:none">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> wheels" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif" 
+                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 400w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 600w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 800w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 1160w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 1920w, 
+                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 3840w" 
+                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                    <div class="stats__label">
+                                                        <span class="t-6">construction</span>
                                                     </div>
-                                                    <div class="arrow-invert__circle">
+                                                    <div class="c-accordion-content c-accordion-content--tech-spec">
+                                                        <ul class="u-b0">
+                                                            <li><p>Mid-engine aluminum-based architecture.</p></li>
+                                                            <li><p>Carbon-fiber aerodynamic and structural components. Purposeful carbon fiber aero package creates over 1,200 pounds of downforce at top speed.</p></li>
+                                                            <li><p>Composite body with integrated cooling and airflow channels.</p></li>
+                                                            <li><p>Reinforced drivetrain and structural components for high-performance loads.</p></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <div class="pinned-wrap">
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">suspension</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">Magnetic Selective Ride Control 4.0</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stats__stat">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">front suspension</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">Short / Long</span>
+                                                                        <span class="metric">Arm</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stats__stat">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">rear suspension</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">Short / Long</span>
+                                                                        <span class="metric">Arm</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="pinned-wrap">
+                                                            <div class="stats__stat">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">Brakes</span>
+                                                                    <span class="ss">Standard</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">Carbon ceramic</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>                                                     
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">front brake rotors</span>
+                                                                    <span class="ss">D x T</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b slash">
+                                                                        <span class="stats__split">0.399 x 0.038</span>
+                                                                        <span class="metric">m</span>
+                                                                    </span>
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">15.7 x 1.5</span>
+                                                                        <span class="metric">in</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">rear brake rotors</span>
+                                                                    <span class="ss">D x T</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b slash">
+                                                                        <span class="stats__split">0.391 x 0.033</span>
+                                                                        <span class="metric">m</span>
+                                                                    </span>
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">15.4 x 1.3</span>
+                                                                        <span class="metric">in</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pinned-wrap">
+                                                            <div class="stats__stat">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">Wheels</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">Aluminum</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>                                                     
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">front wheel</span>
+                                                                    <span class="ss">D x W</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b slash">
+                                                                        <span class="stats__split">0.508 x 0.254</span>
+                                                                        <span class="metric">m</span>
+                                                                    </span>
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">20 x 10</span>
+                                                                        <span class="metric">in</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">rear wheel</span>
+                                                                    <span class="ss">D x W</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b slash">
+                                                                        <span class="stats__split">0.533 x 0.330</span>
+                                                                        <span class="metric">m</span>
+                                                                    </span>
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">21 x 13</span>
+                                                                        <span class="metric">in</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pinned-wrap">
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">tires</span>
+                                                                    <span class="ss">Standard</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">Michelin Pilot Sport 4S</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>   
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">tires</span>
+                                                                    <span class="ss">ZTK package</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">Michelin Pilot Sport Cup 2 R</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>                                                                                                           
+                                                        </div>
+                                                        <div class="pinned-wrap">                                                                                                    
+                                                            <div class="stats__stat">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">Front Tire</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">275/30ZR20</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stats__stat">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">Rear Tire</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">345/25ZR21</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>                                    
                                                     </div>
                                                 </div>
 
+                                            </div>
+                                        </div>
+
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="05">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
+                                                </div>
                                                 <h3 class="t-2b text-aqua pl-2">Body Architecture</h3>
                                             </div>
                                             <div class="accord__content" style="display: none;">
@@ -2415,7 +2168,7 @@
                                                         <div class="swiper slider-2">
                                                             <div class="swiper-wrapper">
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" alt="Corvette ZR1 front view" data-swiper-parallax-scale="0.8"
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> front view" data-swiper-parallax-scale="0.8"
                                                                         data-swiper-parallax-opacity="0.2" 
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-009-1000.jpg"
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 400w, 
@@ -2428,7 +2181,7 @@
                                                                 </div>
 
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" alt="Corvette ZR1 front view detail" data-swiper-parallax-scale="0.8"
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> front view detail" data-swiper-parallax-scale="0.8"
                                                                         data-swiper-parallax-opacity="0.2" 
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif" 
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif 400w, 
@@ -2441,7 +2194,7 @@
                                                                 </div>
 
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" class="" alt="Corvette ZR1  top view" data-swiper-parallax-scale="0.8"
+                                                                    <img loading="lazy" class="" alt="<?php echo $model; ?>  top view" data-swiper-parallax-scale="0.8"
                                                                         data-swiper-parallax-opacity="0.2" 
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-005-1000.avif" 
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-005-1000.avif 400w, 
@@ -2454,7 +2207,7 @@
                                                                 </div>
 
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" class="" alt="Corvette ZR1 side view" data-swiper-parallax-scale="0.8"
+                                                                    <img loading="lazy" class="" alt="<?php echo $model; ?> side view" data-swiper-parallax-scale="0.8"
                                                                         data-swiper-parallax-opacity="0.2" 
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-006-1000.avif"
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-006-1000.avif 400w, 
@@ -2467,7 +2220,7 @@
                                                                 </div>
 
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" class="" alt="Corvette ZR1 side view" data-swiper-parallax-scale="0.8"
+                                                                    <img loading="lazy" class="" alt="<?php echo $model; ?> side view" data-swiper-parallax-scale="0.8"
                                                                         data-swiper-parallax-opacity="0.2" 
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-007-1000.avif"
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-007-1000.avif 400w, 
@@ -2501,39 +2254,10 @@
                                             </div>
                                         </div>
                                         <div class="accord">
-                                            <div class="accord__tab mb-2" no="04">
+                                            <div class="accord__tab mb-2" no="06">
                                                 <div class="arrow-invert">
-                                                    <div class="arrow-invert__line">
-                                                    </div>
-                                                    <div class="arrow-invert__circle">
-                                                    </div>
-                                                </div>
-
-                                                <h3 class="t-2b text-aqua pl-2">
-                                                    New Wheels
-                                                </h3>
-                                            </div>
-                                            <div class="accord__content" style="display:none">
-                                                <div class="pt-1 pb-5 pb-md-10">
-                                                    <img loading="lazy" class="mb-3" src="assets/static/img/11.3%20NEW%20WHEELS.jpg" alt="Nevera R wheels" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                        srcset="assets/static/img/400/11.3%20NEW%20WHEELS.jpg 400w, assets/static/img/600/11.3%20NEW%20WHEELS.jpg 600w, assets/static/img/800/11.3%20NEW%20WHEELS.jpg 800w, assets/static/img/1160/11.3%20NEW%20WHEELS.jpg 1160w, assets/static/img/11.3%20NEW%20WHEELS.jpg 1920w, assets/static/img/3840/11.3%20NEW%20WHEELS.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
-
-
-                                                    <p class="mw-md-60p small">
-                                                        Equipped with the new, bolder 21-inch rear wheels and 20-inch front wheels, the Rimac Nevera R offers enhanced grip and a forward-thrusting stance. These wheels are designed to
-                                                        complement the hypercar's performance and aesthetic, ensuring you stand out on every drive.
-                                                    </p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                        <div class="accord">
-                                            <div class="accord__tab mb-2" no="05">
-                                                <div class="arrow-invert">
-                                                    <div class="arrow-invert__line">
-                                                    </div>
-                                                    <div class="arrow-invert__circle">
-                                                    </div>
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
                                                 </div>
                                                 <h3 class="t-2b text-aqua pl-2">Aerodynamics</h3>
                                             </div>
@@ -2543,7 +2267,7 @@
                                                         <div class="swiper slider-2">
                                                             <div class="swiper-wrapper">
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" alt="Corvette RZ1 aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-015-1000.avif"
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-015-1000.avif 400w, 
                                                                         <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-015-1000.avif 600w, 
@@ -2561,7 +2285,7 @@
                                                                     </div>         
                                                                 </div>
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" alt="Corvette RZ1 aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif"
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif 400w, 
                                                                         <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif 600w, 
@@ -2579,7 +2303,7 @@
                                                                     </div>
                                                                 </div>                                                              
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" alt="Corvette RZ1 aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-011-1000.avif"
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-011-1000.avif 400w, 
                                                                         <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-011-1000.avif 600w, 
@@ -2597,7 +2321,7 @@
                                                                     </div>                                                            
                                                                 </div>
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" alt="Corvette RZ1 aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif"
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 400w, 
                                                                         <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 600w, 
@@ -2633,87 +2357,9 @@
                                                 </div>
 
                                             </div>
-                                        </div>
-                                        <div class="accord">
-                                            <div class="accord__tab mb-2" no="06">
-                                                <div class="arrow-invert">
-                                                    <div class="arrow-invert__line">
-                                                    </div>
-                                                    <div class="arrow-invert__circle">
-                                                    </div>
-                                                </div>
-
-                                                <h3 class="t-2b text-aqua pl-2">
-                                                    More Grip
-                                                </h3>
-                                            </div>
-                                            <div class="accord__content" style="display:none">
-                                                <div class="pt-1 pb-5 pb-md-10">
-                                                    <img loading="lazy" class="mb-3" src="assets/static/img/11.5%20MORE%20GRIP.jpg" alt="Nevera R gripping road" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                        srcset="assets/static/img/400/11.5%20MORE%20GRIP.jpg 400w, assets/static/img/600/11.5%20MORE%20GRIP.jpg 600w, assets/static/img/800/11.5%20MORE%20GRIP.jpg 800w, assets/static/img/1160/11.5%20MORE%20GRIP.jpg 1160w, assets/static/img/11.5%20MORE%20GRIP.jpg 1920w, assets/static/img/3840/11.5%20MORE%20GRIP.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
-
-                                                    <p class="mw-md-60p small">
-                                                        The large, fixed rear wing, combined with an aggressive aero package of intakes and a large diffuser, boosts downforce by 15% and aerodynamic efficiency by 10%. With the new
-                                                        Michelin Cup 2 tires, total understeer is reduced by 10%, lateral grip is up by 5%, and the lap time around the Nardo Handling Track is reduced by 3.8 seconds.
-                                                    </p>
-                                                </div>
-
-                                            </div>
-                                        </div>
+                                        </div>                                      
                                         <div class="accord">
                                             <div class="accord__tab mb-2" no="07">
-                                                <div class="arrow-invert">
-                                                    <div class="arrow-invert__line">
-                                                    </div>
-                                                    <div class="arrow-invert__circle">
-                                                    </div>
-                                                </div>
-
-                                                <h3 class="t-2b text-aqua pl-2">
-                                                    Improved Brakes
-                                                </h3>
-                                            </div>
-                                            <div class="accord__content" style="display:none">
-                                                <div class="pt-1 pb-5 pb-md-10">
-                                                    <img loading="lazy" class="mb-3" src="assets/static/img/11.6%20IMPROVED%20BRAKES.jpg" alt="Nevera R brakes" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                        srcset="assets/static/img/400/11.6%20IMPROVED%20BRAKES.jpg 400w, assets/static/img/600/11.6%20IMPROVED%20BRAKES.jpg 600w, assets/static/img/800/11.6%20IMPROVED%20BRAKES.jpg 800w, assets/static/img/1160/11.6%20IMPROVED%20BRAKES.jpg 1160w, assets/static/img/11.6%20IMPROVED%20BRAKES.jpg 1920w, assets/static/img/3840/11.6%20IMPROVED%20BRAKES.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
-
-                                                    <p class="mw-md-60p small">
-                                                        The Rimac Nevera R features cutting-edge braking technology, providing unprecedented stopping power. The new EVO2 brakes are carbon ceramic with a silicone matrix layer to ensure
-                                                        improved stopping performance, cooling performance, and durability during hard usage.
-                                                    </p>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                        <div class="accord">
-                                            <div class="accord__tab mb-2" no="08">
-                                                <div class="arrow-invert">
-                                                    <div class="arrow-invert__line">
-                                                    </div>
-                                                    <div class="arrow-invert__circle">
-                                                    </div>
-                                                </div>
-
-                                                <h3 class="t-2b text-aqua pl-2">
-                                                    Cornering and Lateral Performance
-                                                </h3>
-                                            </div>
-                                            <div class="accord__content" style="display:none">
-                                                <div class="pt-1 pb-5 pb-md-10">
-                                                    <img loading="lazy" class="mb-3" src="assets/static/img/11.7%20CORNERING.jpg" alt="Nevera R cornering" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                        srcset="assets/static/img/400/11.7%20CORNERING.jpg 400w, assets/static/img/600/11.7%20CORNERING.jpg 600w, assets/static/img/800/11.7%20CORNERING.jpg 800w, assets/static/img/1160/11.7%20CORNERING.jpg 1160w, assets/static/img/11.7%20CORNERING.jpg 1920w, assets/static/img/3840/11.7%20CORNERING.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
-
-                                                    <p class="mw-md-60p small">
-                                                        Designed with cornering in mind, the Rimac Nevera R excels in lateral performance. Our advanced suspension system and dynamic chassis tuning provide exceptional agility, allowing
-                                                        you to navigate corners with precision.
-                                                    </p>
-                                                </div>
-
-                                            </div>
-                                        </div>                                       
-                                        <div class="accord">
-                                            <div class="accord__tab mb-2" no="10">
                                                 <div class="arrow-invert">
                                                     <div class="arrow-invert__line"></div>
                                                     <div class="arrow-invert__circle"></div>
@@ -2727,7 +2373,7 @@
                                                             <div class="swiper-wrapper">
                                                                 <div class="swiper-slide">                                                                
                                                                     <div class="swiper-slide">
-                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif"
                                                                             srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 400w, 
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 600w, 
@@ -2746,7 +2392,7 @@
                                                                 </div>
                                                                 <div class="swiper-slide">                                                                
                                                                     <div class="swiper-slide">
-                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif"
                                                                             srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 400w, 
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 600w, 
@@ -2765,7 +2411,7 @@
                                                                 </div>
                                                                 <div class="swiper-slide">                                                                
                                                                     <div class="swiper-slide">
-                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif"
                                                                             srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 400w, 
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 600w, 
@@ -2784,7 +2430,7 @@
                                                                 </div>
                                                                 <div class="swiper-slide">                                                                
                                                                     <div class="swiper-slide">
-                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif"
                                                                             srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 400w, 
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 600w, 
@@ -2803,7 +2449,7 @@
                                                                 </div>
                                                                 <div class="swiper-slide">                                                                
                                                                     <div class="swiper-slide">
-                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif"
                                                                             srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 400w, 
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 600w, 
@@ -2822,7 +2468,7 @@
                                                                 </div>
                                                                 <div class="swiper-slide">                                                                
                                                                     <div class="swiper-slide">
-                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif"
                                                                             srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 400w, 
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 600w, 
@@ -2841,7 +2487,7 @@
                                                                 </div>
                                                                 <div class="swiper-slide">                                                                
                                                                     <div class="swiper-slide">
-                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif"
                                                                             srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 400w, 
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 600w, 
@@ -2860,7 +2506,7 @@
                                                                 </div>
                                                                 <div class="swiper-slide">                                                                
                                                                     <div class="swiper-slide">
-                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif"
                                                                             srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 400w, 
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 600w, 
@@ -2879,7 +2525,7 @@
                                                                 </div>
                                                                 <div class="swiper-slide">                                                                
                                                                     <div class="swiper-slide">
-                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif"
                                                                             srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 400w, 
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 600w, 
@@ -2898,7 +2544,7 @@
                                                                 </div>
                                                                 <div class="swiper-slide">                                                                
                                                                     <div class="swiper-slide">
-                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif"
                                                                             srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 400w, 
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 600w, 
@@ -2917,7 +2563,7 @@
                                                                 </div>
                                                                 <div class="swiper-slide">                                                                
                                                                     <div class="swiper-slide">
-                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif"
                                                                             srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 400w, 
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 600w, 
@@ -2936,7 +2582,7 @@
                                                                 </div>
                                                                 <div class="swiper-slide">                                                                
                                                                     <div class="swiper-slide">
-                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif"
                                                                             srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 400w, 
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 600w, 
@@ -2955,7 +2601,7 @@
                                                                 </div>
                                                                 <div class="swiper-slide">                                                                
                                                                     <div class="swiper-slide">
-                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif"
                                                                             srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 400w, 
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 600w, 
@@ -2974,7 +2620,7 @@
                                                                 </div>
                                                                 <div class="swiper-slide">                                                                
                                                                     <div class="swiper-slide">
-                                                                        <img loading="lazy" alt="Corvette ZR1 interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif"
                                                                             srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 400w, 
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 600w, 
@@ -3008,12 +2654,10 @@
                                             </div>
                                         </div>
                                         <div class="accord">
-                                            <div class="accord__tab mb-2" no="05">
+                                            <div class="accord__tab mb-2" no="08">
                                                 <div class="arrow-invert">
-                                                    <div class="arrow-invert__line">
-                                                    </div>
-                                                    <div class="arrow-invert__circle">
-                                                    </div>
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
                                                 </div>
                                                 <h3 class="t-2b text-aqua pl-2">safety systems</h3>
                                             </div>
@@ -3023,7 +2667,7 @@
                                                         <div class="swiper slider-2">
                                                             <div class="swiper-wrapper">
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" alt="Corvette RZ1 HD Rear Vision Camera" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> HD Rear Vision Camera" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif"
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 400w, 
                                                                         <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 600w, 
@@ -3049,7 +2693,7 @@
                                                                     </div>         
                                                                 </div>
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" alt="Corvette RZ1 Forward Collision Alert" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> Forward Collision Alert" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg"
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 400w, 
                                                                         <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 600w, 
@@ -3072,7 +2716,7 @@
                                                                     </div>
                                                                 </div>                                                              
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" alt="Corvette RZ1 Lane Keep Assist with Lane Departure Warning" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> Lane Keep Assist with Lane Departure Warning" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg"
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 400w, 
                                                                         <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 600w, 
@@ -3096,7 +2740,7 @@
                                                                     </div>                                                            
                                                                 </div>
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" alt="Corvette RZ1 Automatic Emergency Braking" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> Automatic Emergency Braking" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg"
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 400w, 
                                                                         <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 600w, 
@@ -3119,7 +2763,7 @@
                                                                     </div>                                                                    
                                                                 </div>
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" alt="Corvette RZ1 Rear Park Assist" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> Rear Park Assist" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg"
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 400w, 
                                                                         <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 600w, 
@@ -3142,7 +2786,7 @@
                                                                     </div>                                                                    
                                                                 </div>
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" alt="Corvette RZ1 Teen Driver" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> Teen Driver" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg"
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 400w, 
                                                                         <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 600w, 
@@ -3166,7 +2810,7 @@
                                                                     </div>                                                                    
                                                                 </div>
                                                                 <div class="swiper-slide">
-                                                                    <img loading="lazy" alt="Corvette RZ1 Teen Driver" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> Teen Driver" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg"
                                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 400w, 
                                                                         <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 600w, 
@@ -3210,18 +2854,16 @@
                                             </div>
                                         </div>
                                         <div class="accord">
-                                            <div class="accord__tab mb-2" no="11">
+                                            <div class="accord__tab mb-2" no="09">
                                                 <div class="arrow-invert">
-                                                    <div class="arrow-invert__line">
-                                                    </div>
-                                                    <div class="arrow-invert__circle">
-                                                    </div>
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
                                                 </div>
                                                 <h3 class="t-2b text-aqua pl-2">Dimensions</h3>
                                             </div>
                                             <div class="accord__content" style="display:none">
                                                 <div class="pt-1 pb-5 pb-md-10">
-                                                    <img loading="lazy" class="mb-3" alt="Corvette ZR1 top view in showroom" data-swiper-parallax-scale="0.8"
+                                                    <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> top view in showroom" data-swiper-parallax-scale="0.8"
                                                         data-swiper-parallax-opacity="0.2"
                                                         src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-013-1000.avif"
                                                         srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-013-1000.avif 400w, 
@@ -3363,7 +3005,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
                     <i class="c-scroll-indicator">
                         <i></i>
