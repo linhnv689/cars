@@ -18106,6 +18106,7 @@ input {
 
 .c-layered-scroll-wrapper--simple {
 	position: relative;
+	z-index: 10;
 }
 
 .c-layered-scroll-wrapper--simple .c-layered-scroll {
@@ -18116,11 +18117,16 @@ input {
 .c-layered-scroll-content-wrapper .c-layered-scroll-content {
 	position: relative;
 	height: 100vh;
-	z-index: 3;
+	/* z-index: 3; */
 }
 
 .c-layered-scroll-content-wrapper .c-layered-scroll-content--1 {
 	color: #001217;
+}
+
+.c-layered-scroll-content-wrapper .c-layered-scroll-content .c-article {
+	position: relative;
+	z-index: 10;
 }
 
 .c-layered-scroll-content-wrapper .c-layered-scroll-content--1 .u-b2,

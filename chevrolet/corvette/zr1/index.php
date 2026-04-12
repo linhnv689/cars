@@ -117,9 +117,7 @@
                                     class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
                                     <a href="#engineering"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
-                                        <span class="c-inpage-navigation-link__number">
-                                            05
-                                        </span>
+                                        <span class="c-inpage-navigation-link__number">05</span>
                                         <span class="c-inpage-navigation-link__label">Engineering</span>
                                     </a>
                                 </li>
@@ -210,8 +208,7 @@
                             <div class="spliter__one">
                                 <div class="pr">
                                     <div class="flex-line justify-content-center">
-                                        <span class="c-button c-button--play js-video-popup-btn"
-                                            data-popup="#intro-video">
+                                        <span class="c-button c-button--play js-video-popup-btn" data-popup="#intro-video">
                                             <span class="c-button__inner">
                                                 <span class="c-button__prepend">
                                                     <svg class="u-icon u-icon--play" xmlns="http://www.w3.org/2000/svg"
@@ -226,7 +223,6 @@
                                         </span>
                                     </div>
                                 </div>
-
                             </div>
                             <div class="spliter__one">
                                 <div class="js-nevera-logo js-nevera-logo--text">
@@ -237,7 +233,7 @@
                                     <div class="mx-2 mx-lg-0">
                                         <span class="js-nevera-logo--holder text-shadow t-3c u-uppercase mt-0">The fastest, most powerful Corvette ever</span>
                                     </div>
-                                    <div class="flex-line justify-content-center mt-5">
+                                    <div class="flex-line justify-content-center mt-5" style="display:none;">
                                         <a class="c-button" target="_blank" href="../NeveraR/index.html">
                                             <span class="c-button__inner w-auto">
                                                 <span class="c-button__prepend width">
@@ -787,10 +783,9 @@
                     <section id="welcome" class="o-section">
                         <div class="c-nevera-welcome third">
                             <div class="c-nevera-welcome__footer">
-                                <h4 class="c-nevera-welcome__footer-title u-a3 u-uppercase u-fw-400">Built Beyond Limits</h4>
-                                <div class="c-nevera-welcome__footer-description u-b0 u-fw-400">
-                                    <p class="u-a1">The Apollo EVO is raw emotion packaged into a bold display of engineering mastery.</p>
-                                    <p class="u-a1">Featuring an advanced full carbon monocoque and full suite of active aerodynamics, each intimidating facet is not just for show, but enables daunting power paired with unmatched driving dynamics. Surreal style meets peerless precision.</p>
+                                <h4 class="c-nevera-welcome__footer-title u-a3 u-uppercase u-fw-400">Corvette Custom Engine Build</h4>
+                                <div class="c-nevera-welcome__footer-description u-b0 u-fw-400 col-md-12">
+                                    <p class="u-a1">A coveted opportunity returns. Assemble your own LT6 or LT7 engine alongside a Performance Build Center master technician at the Bowling Green Assembly Plant.* This experience includes a custom engine plaque, an exclusive gift and a professional photo keepsake. Availability is limited.</p>
                                 </div>
                             </div>
                         </div>
@@ -816,37 +811,56 @@
                             </div>
                         </div>
                     </section>
-                    <section id="technology-engineering"
-                        class="o-section o-section--dimmed o-section--layered-scroll js-layered-scroll-wrapper">
-                        <div class="c-layered-scroll-wrapper c-layered-scroll-wrapper--simple js-layered-scroll-simple"
-                            data-animation-type="crossfade">
+                    <section id="technology-engineering" class="o-section o-section--dimmed o-section--layered-scroll js-layered-scroll-wrapper">
+                        <div class="c-layered-scroll-wrapper c-layered-scroll-wrapper--simple js-layered-scroll-simple" data-animation-type="crossfade">
+
                             <!-- LAYER 1 link youtube: https://www.youtube.com/watch?v=tmFuHO_bFqk-->
+                             <?php $aerodynamic_bg = '2026-Chevrolet-Corvette-ZR1-aerodynamics-001-713.png'; ?>
+
                             <div class="c-layered-scroll js-layered-scroll-simple-trigger">
-                                <div class="c-layered-scroll__item c-layered-scroll__item--2">
+                                <div class="c-layered-scroll__item c-layered-scroll__item--1">
                                     <span class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
-                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-aerodynamics-001-375.png)">
+                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/<?php echo $aerodynamic_bg; ?>)">
                                     </span>
                                 </div>
                                 <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
                             </div>
                             <div class="c-layered-scroll js-layered-scroll-simple-trigger">
+                                <div class="c-layered-scroll__item c-layered-scroll__item--2">
+                                    <i class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
+                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/<?php echo $aerodynamic_bg; ?>)"></i>
+                                </div>
+                                <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
+                            </div>              
+                            <!-- //LAYER 1 -->
+                            <div class="c-layered-scroll">                             
+                                <span class="c-button c-button--play js-video-popup-btn mx-0" data-popup="#aerodynamics-video" style="position: absolute; left: 50%; top: 50%; z-index: 99; transform: translate(-50%, -50%);">
+                                    <span class="c-button__inner">
+                                        <span class="c-button__prepend">
+                                            <svg class="u-icon u-icon--play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                                <path class="st0" d="M12.5,8l-9.1,5V3L12.5,8z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="c-button__label">
+                                            <i class="c-button__label-inner" title="Play video">Play video</i>
+                                        </span>
+                                    </span>
+                                </span>
+
                                 <div class="c-layered-scroll__item c-layered-scroll__item--3">
                                     <i class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
                                         style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-aerodynamics-001-375.png)"></i>
                                 </div>
-                                <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
+                                <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>                                            
                             </div>
-
-                            <!-- //LAYER 1 -->
                         </div>
                         <div class="c-layered-scroll-content-wrapper">
-                            <!-- LAYER 1 -->
-
+                            <!-- LAYER 1 -->                           
                             <div class="c-layered-scroll-content c-layered-scroll-content--1">
                                 <div class="o-container">
                                     <div class="c-layered-scroll-content__left">
                                         <div class="c-article-wrapper">
-                                            <div class="c-article js-layered-scroll-simple-item-element">
+                                            <div class="c-article js-layered-scroll-simple-item-element" style="margin-top: 100px;">
                                                 <h3 class="u-a2 u-capitalize">Active Aerodynamics</h3>
                                                 <p class="u-b2">The reigning king of downforce. With a leading-edge design like wide side air inlets, carbon-fiber elements, and a multitude of airflow and cooling features, ZR1 dominates with the highest downforce of any production.</p>
                                             </div>
@@ -877,7 +891,7 @@
                                     </div>
                                     <div class="c-layered-scroll-content__right">
                                         <div class="c-article-wrapper">
-                                            <div class="c-article js-layered-scroll-simple-item-element">
+                                            <div class="c-article js-layered-scroll-simple-item-element" style="margin-bottom: 180px;">
                                                 <h3 class="u-a2">ZR1 Carbon Fiber Aero Package</h3>
                                                 <p class="u-b2">Available on ZR1, the potent carbon-fiber wing, underbody strakes and carbon-fiber dive planes work together to produce over 1,200 lbs. of downforce.</p>
                                             </div>
@@ -887,7 +901,7 @@
                             </div>
                             <!-- //LAYER 1 -->
                         </div>
-                        <!--        todo: temporary fix-->
+                        <!-- todo: temporary fix-->
                         <i class="u-spacer u-spacer--25vh u-spacer--mobile"></i>
                     </section>
 
@@ -943,7 +957,7 @@
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
 
                             <video class="c-scrolling-reveal-bg__video"
-                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2022-apollo-evo-design.mp4" preload="auto"
+                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Corvette-ZR1-Design-Exterior.mp4" preload="auto"
                                 muted playsinline autoplay loop type="video/mp4"></video>
 
                         </div>
@@ -955,16 +969,26 @@
                                     <div class="o-container">
                                         <div class="c-scrolling-reveal__header u-text-center">
                                             <div class="c-scrolling-reveal__heading">
-                                                <h2
-                                                    class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">
-                                                    Design </h2>
+                                                <h2 class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">Design</h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
-                                                    <p class="u-b0">The design, as we have come to expect from Apollo, looks like a Decepticon from the Transformers Action films in the middle of a transformation. </p>
+                                                    <p class="u-b0">ZR1's presence is undeniable. Its sculpted bodywork features smooth, flowing lines and alluring geometry that convey power with precision. Inside, a driver-focused cockpit is wrapped in premium materials, with bespoke options that reflect a commitment to craftsmanship and comfort.</p>
+                                                    <span class="c-button c-button--play js-video-popup-btn" data-popup="#interior-video">
+                                                        <span class="c-button__inner">
+                                                            <span class="c-button__prepend">
+                                                                <svg class="u-icon u-icon--play" xmlns="http://www.w3.org/2000/svg"
+                                                                    viewBox="0 0 16 16">
+                                                                    <path class="st0" d="M12.5,8l-9.1,5V3L12.5,8z" />
+                                                                </svg>
+                                                            </span>
+                                                            <span class="c-button__label">
+                                                                <i class="c-button__label-inner" title="Interior tour">Interior tour</i>
+                                                            </span>
+                                                        </span>
+                                                    </span>
                                                     <a href="design/index.html" class="c-button">
                                                         <span class="c-button__inner">
                                                             <span class="c-button__label">
-                                                                <i class="c-button__label-inner" title="Explore">
-                                                                    Explore </i>
+                                                                <i class="c-button__label-inner" title="Explore">Explore</i>
                                                             </span>
                                                         </span>
                                                     </a>
@@ -987,9 +1011,7 @@
                     </section>
                     <i class="u-spacer u-spacer--50vh"></i>
                     <!--todo: fix overflow-x cant find it-->
-                    <section id="engineering"
-                        class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item"
-                        data-scrollspy-title="Engineering">
+                    <section id="engineering" data-scrollspy-title="Engineering" class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item">
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
 
                             <video class="c-scrolling-reveal-bg__video"
@@ -1005,18 +1027,14 @@
                                     <div class="o-container">
                                         <div class="c-scrolling-reveal__header u-text-center">
                                             <div class="c-scrolling-reveal__heading">
-                                                <h2
-                                                    class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">Technology</h2>
+                                                <h2 class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">Engineering</h2>
                                                 <div class="c-reveal-mask__text js-mask-reveal-text">
-                                                    <p class="u-b0">Precision engineering that pushes performance to the edge of
-                                                        possibility and beyond.</p>
+                                                    <p class="u-b0">"The way the horsepower builds — with that constant torque — feels like you're strapped to an aircraft carrier. You're getting fired off in a jet plane..."</p>
 
-                                                    <a href="https://www.rimac-automobili.com:443/nevera/engineering"
-                                                        class="c-button">
+                                                    <a href="https://www.rimac-automobili.com:443/nevera/engineering" class="c-button">
                                                         <span class="c-button__inner">
                                                             <span class="c-button__label">
-                                                                <i class="c-button__label-inner" title="Explore">
-                                                                    Explore </i>
+                                                                <i class="c-button__label-inner" title="Explore">Explore</i>
                                                             </span>
                                                         </span>
                                                     </a>
@@ -1024,8 +1042,7 @@
                                             </div>
                                         </div>
                                         <div class="c-scrolling-reveal__content js-mask-reveal-content">
-                                            <div class="o-container">
-                                            </div>
+                                            <div class="o-container"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -2469,6 +2486,25 @@
                                                                 <div class="swiper-slide">                                                                
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif"
+                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 400w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 600w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 800w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 1160w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 1920w, 
+                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">06</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">ZR1 3LZ Competition Sport seats in Natural Napa leather</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif"
                                                                             srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 400w, 
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 600w, 
@@ -2478,7 +2514,7 @@
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
-                                                                            <span class="c-image-with-caption__caption-number u-b3">06</span>
+                                                                            <span class="c-image-with-caption__caption-number u-b3">07</span>
                                                                             <div class="c-image-with-caption__caption-text mw-100">
                                                                                 <h5 class="u-a1">Ultimate Suede interior</h5>
                                                                             </div>
@@ -2497,7 +2533,7 @@
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
-                                                                            <span class="c-image-with-caption__caption-number u-b3">07</span>
+                                                                            <span class="c-image-with-caption__caption-number u-b3">08</span>
                                                                             <div class="c-image-with-caption__caption-text mw-100">
                                                                                 <h5 class="u-a1">Driver Mode Selector</h5>
                                                                             </div>
@@ -2516,7 +2552,7 @@
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
-                                                                            <span class="c-image-with-caption__caption-number u-b3">08</span>
+                                                                            <span class="c-image-with-caption__caption-number u-b3">09</span>
                                                                             <div class="c-image-with-caption__caption-text mw-100">
                                                                                 <h5 class="u-a1">Bose Performance Series 14-speaker audio system with Stealth Interior Trim Package and Carbon Fiber Interior Package Level 2</h5>
                                                                             </div>
@@ -2535,7 +2571,7 @@
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
-                                                                            <span class="c-image-with-caption__caption-number u-b3">09</span>
+                                                                            <span class="c-image-with-caption__caption-number u-b3">10</span>
                                                                             <div class="c-image-with-caption__caption-text mw-100">
                                                                                 <h5 class="u-a1">14" reconfigurable Driver Information Center</h5>
                                                                             </div>
@@ -2554,7 +2590,7 @@
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
-                                                                            <span class="c-image-with-caption__caption-number u-b3">10</span>
+                                                                            <span class="c-image-with-caption__caption-number u-b3">11</span>
                                                                             <div class="c-image-with-caption__caption-text mw-100">
                                                                                 <h5 class="u-a1">New interior colorways: Jet Black Ultimate Suede with standard Sky Cool Gray or optional Adrenaline Red, Competition Yellow or Santorini Blue stitching</h5>
                                                                             </div>
@@ -2573,7 +2609,7 @@
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
-                                                                            <span class="c-image-with-caption__caption-number u-b3">11</span>
+                                                                            <span class="c-image-with-caption__caption-number u-b3">12</span>
                                                                             <div class="c-image-with-caption__caption-text mw-100">
                                                                                 <h5 class="u-a1">New interior colorways: Very Dark Atmosphere with Natural Tan accents</h5>
                                                                             </div>
@@ -2592,7 +2628,7 @@
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
-                                                                            <span class="c-image-with-caption__caption-number u-b3">12</span>
+                                                                            <span class="c-image-with-caption__caption-number u-b3">13</span>
                                                                             <div class="c-image-with-caption__caption-text mw-100">
                                                                                 <h5 class="u-a1">New interior colorways: Asymmetrical Adrenaline Red with Jet Black</h5>
                                                                             </div>
@@ -2611,7 +2647,7 @@
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
-                                                                            <span class="c-image-with-caption__caption-number u-b3">13</span>
+                                                                            <span class="c-image-with-caption__caption-number u-b3">14</span>
                                                                             <div class="c-image-with-caption__caption-text mw-100">
                                                                                 <h5 class="u-a1">New interior colorways: Sky Cool Gray & Medium Ash Gray with Habanero accents</h5>
                                                                             </div>
@@ -2630,7 +2666,7 @@
                                                                             <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
-                                                                            <span class="c-image-with-caption__caption-number u-b3">14</span>
+                                                                            <span class="c-image-with-caption__caption-number u-b3">15</span>
                                                                             <div class="c-image-with-caption__caption-text mw-100">
                                                                                 <h5 class="u-a1">New interior colorways: Santorini Blue with Jet Black</h5>
                                                                             </div>
@@ -3034,8 +3070,6 @@
                     <i class="c-hamburger__line c-hamburger__line--bottom"></i>
                 </span>
 
-
-
                 <div class="c-custom-video-player js-custom-video-player no-poster">
 
                     <figure class="c-custom-video-player__cover">
@@ -3060,7 +3094,74 @@
                     </div>
                 </div>
             </div>
+            <div class="c-video-popup js-video-popup" id="aerodynamics-video">
 
+                <span class="c-hamburger is-opened c-video-popup__close js-video-popup-btn" aria-label="Modal close"
+                    aria-controls="modal">
+                    <span class="c-hamburger__label u-b3 u-uppercase">Close</span>
+                    <i class="c-hamburger__line c-hamburger__line--top"></i>
+                    <i class="c-hamburger__line c-hamburger__line--center"></i>
+                    <i class="c-hamburger__line c-hamburger__line--bottom"></i>
+                </span>
+
+                <div class="c-custom-video-player js-custom-video-player no-poster">
+
+                    <figure class="c-custom-video-player__cover">
+                        <figcaption class="c-custom-video-player__cover-text">
+                            <h4 class="u-a1"></h4>
+                            <p class="u-b2"></p>
+                        </figcaption>
+                    </figure>
+
+                    <div class="c-custom-video-player__cover-image-wrapper">
+                        <p class="c-custom-video-player__time">
+                            <span class="js-time-current">00:00</span>
+                            —
+                            <span class="js-time-duration">00:00</span>
+                        </p>
+
+                        <video class="c-custom-video-player__video js-video-element" preload="metadata"
+                            crossorigin="anonymous" playsinline data-autoplay="false" controls>
+                            <source src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Corvette-ZR1-All-About-Aerodynamics.mp4" type="video/mp4" />
+                        </video>
+                        <!--end video source-->
+                    </div>
+                </div>
+            </div>
+            <div class="c-video-popup js-video-popup" id="interior-video">
+
+                <span class="c-hamburger is-opened c-video-popup__close js-video-popup-btn" aria-label="Modal close"
+                    aria-controls="modal">
+                    <span class="c-hamburger__label u-b3 u-uppercase">Close</span>
+                    <i class="c-hamburger__line c-hamburger__line--top"></i>
+                    <i class="c-hamburger__line c-hamburger__line--center"></i>
+                    <i class="c-hamburger__line c-hamburger__line--bottom"></i>
+                </span>
+
+                <div class="c-custom-video-player js-custom-video-player no-poster">
+
+                    <figure class="c-custom-video-player__cover">
+                        <figcaption class="c-custom-video-player__cover-text">
+                            <h4 class="u-a1"></h4>
+                            <p class="u-b2"></p>
+                        </figcaption>
+                    </figure>
+
+                    <div class="c-custom-video-player__cover-image-wrapper">
+                        <p class="c-custom-video-player__time">
+                            <span class="js-time-current">00:00</span>
+                            —
+                            <span class="js-time-duration">00:00</span>
+                        </p>
+
+                        <video class="c-custom-video-player__video js-video-element" preload="metadata"
+                            crossorigin="anonymous" playsinline data-autoplay="false" controls>
+                            <source src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Corvette-ZR1-Design-Interior.mp4" type="video/mp4" />
+                        </video>
+                        <!--end video source-->
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- //PAGE WRAPPER -->
