@@ -81,56 +81,49 @@
                                 </span>
                             </span>
                             <ul class="c-inpage-navigation__links u-b2--A u-uppercase js-context-shifting">
-                                <li
-                                    class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
+                                <li class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
                                     <a href="#intro"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
                                         <span class="c-inpage-navigation-link__number">01</span>
                                         <span class="c-inpage-navigation-link__label">Intro</span>
                                     </a>
                                 </li>
-                                <li
-                                    class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
+                                <li class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
                                     <a href="#performance"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
                                         <span class="c-inpage-navigation-link__number">02</span>
                                         <span class="c-inpage-navigation-link__label">Performance</span>
                                     </a>
                                 </li>
-                                <li
-                                    class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
+                                <li class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
                                     <a href="#driving-experience"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
                                         <span class="c-inpage-navigation-link__number">03</span>
                                         <span class="c-inpage-navigation-link__label">Experience</span>
                                     </a>
                                 </li>
-                                <li
-                                    class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
+                                <li class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
                                     <a href="#design"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
                                         <span class="c-inpage-navigation-link__number">04</span>
                                         <span class="c-inpage-navigation-link__label">Design</span>
                                     </a>
                                 </li>
-                                <li
-                                    class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
+                                <li class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
                                     <a href="#engineering"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
                                         <span class="c-inpage-navigation-link__number">05</span>
                                         <span class="c-inpage-navigation-link__label">Engineering</span>
                                     </a>
                                 </li>
-                                <li
-                                    class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
+                                <li class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
                                     <a href="#in-house-production"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
                                         <span class="c-inpage-navigation-link__number">06</span>
                                         <span class="c-inpage-navigation-link__label">In-house Production</span>
                                     </a>
                                 </li>
-                                <li
-                                    class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
+                                <li class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
                                     <a href="#tech-spec"
                                         class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
                                         <span class="c-inpage-navigation-link__number">07</span>
@@ -145,7 +138,6 @@
                 <div class="o-section-wrapper o-section-wrapper--nevera">
                     <div class="c-nevera-loader js-nevera-loader" data-lottie-json="<?php echo $root_path; ?>/wp-json/nevera-lottie.json">
                         <div class="c-nevera-loader__inner js-nevera-loader-inner">
-
                         </div>
                     </div>
 
@@ -256,17 +248,36 @@
                     <div class="section section--are-you py-md-8 py-4">
                         <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">
                             <div class="swiper slider-1">
-                                <div class="swiper-wrapper">                                    
+                                <div class="swiper-wrapper align-items-center">                                                                       
+                                    <div class="swiper-slide">
+                                        <div class=""> <!-- .wrapper -->
+                                            <div class="container-fluid pr">
+                                                <div class="row pr zi-10">
+                                                    <div class="col-12 col-md-8 offset-md-2">
+                                                        <!-- <span class="t-4">Are you</span> -->
+                                                        <h3 class="t-1 text-gray mb-3 r-margin">The next level</h3>
+                                                    </div>
+                                                    <div class="col-1 offset-1 offset-md-4 line-col"></div>
+                                                    <div class="col-7 col-md-4">
+                                                        <p class="c-nevera-welcome__header-description u-b0 u-a2-400 mb-0">
+                                                            Corvette ZR1 is about pushing the envelope with raw power and cutting-edge innovation. From Stingray, to Z06, E-Ray, and now ZR1, the Corvette family continues to elevate with each new iteration — and challenge the best in the world.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="swiper-slide">
                                         <div class="">
                                             <div class="container-fluid">
                                                 <div class="row pr zi-10">
                                                     <div class="col-12 col-md-8 offset-md-2">
-                                                        <h3 class="t-1 text-gray mb-3 r-margin">ZR1: The unthinkable has arrived</h3>
+                                                        <h3 class="t-1 text-gray mb-3 r-margin">The unthinkable has arrived</h3>
                                                     </div>
                                                     <div class="col-1 offset-1 offset-md-4 line-col"></div>                                      
                                                     <div class="col-7 col-md-4">
-                                                        <p class="c-nevera-welcome__header-description u-b0 u-a2-400">
+                                                        <p class="c-nevera-welcome__header-description u-b0 u-a2-400 mb-0">
                                                             If you seek a performance marvel — a vehicle crafted with luxury materials and top-of-the-line detailing — look no further than Corvette ZR1. With a twin turbocharged 5.5L V8 engine and edge-to-edge aerodynamics, it takes driving dynamics to a whole different level.
                                                         </p>
 
@@ -274,49 +285,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class=""> <!-- .wrapper -->
-                                            <div class="container-fluid pr">
-                                                <div class="row pr zi-10">
-                                                    <div class="col-12 col-md-8 offset-md-2">
-                                                        <!-- <span class="t-4">Are you</span> -->
-                                                        <h3 class="t-1 text-gray mb-3 r-margin">The pinnacle of power and performance</h3>
-                                                    </div>
-                                                    <div class="col-1 offset-1 offset-md-4 line-col"></div>
-                                                    <div class="col-7 col-md-4">
-                                                        <p class="c-nevera-welcome__header-description u-b0 u-a2-400">
-                                                            ZR1 redefines Corvette performance with a twin-turbocharged 5.5L flat-plane crank V8 — the most powerful engine ever offered in a production Corvette. Engineered to push the limits of performance and innovation, it fuses advanced aerodynamics, cutting-edge technology and precision handling to rival the world's most elite supercars.
-                                                        </p>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="container-fluid">
-
-                                                <div class="row pr zi-10">
-                                                    <div class="col-12 col-md-8 offset-md-2">
-                                                        <h3 class="t-1 text-gray mb-3 r-margin">Rimac?</h3>
-                                                    </div>
-
-                                                    <div class="col-1 offset-1 offset-md-5 line-col"></div>
-
-                                                    <div class="col-7 col-md-4">
-                                                        <p class="c-nevera-welcome__header-description u-b0 u-a2-400">
-                                                            To be Rimac means to be relentless in pursuit of perfection. Our hypercars embody this spirit, delivering unmatched performance, cutting-edge technology, and a driving
-                                                            experience
-                                                            like no other. Join the movement and be part of a revolutionary journey.
-                                                        </p>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
                                     </div>
                                 </div>
 
@@ -794,21 +762,46 @@
                         <div class="c-extra-technology">
                             <picture class="c-extra-technology__bg js-nevera-technology">
                                 <img src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" alt="">
+                                
                             </picture>
-                            <i class="js-nevera-technology-overlay c-extra-technology__overlay"></i>
+                            <i class="js-nevera-technology-overlay c-extra-technology__overlay"></i>                          
                             <div class="c-extra-technology__header js-nevera-technology-header">
-                                <h2 class="c-extra-technology__title u-a4">
-                                    EXTRAORDINARY TECHNOLOGY, EXCEPTIONAL ENGINEERING </h2>
+                                <h2 class="c-extra-technology__title u-a4">Cutting-edge technology</h2>
                                 <p class="u-b0">
-                                    Precision engineering that pushes performance to the edge of possibility and beyond.
-                                    Introducing the technology that makes Nevera. </p>
+                                    ZR1 offers cutting-edge technology that's both functional and intuitive. The state-of-the-art command center features three new driver display screens: a larger 12.7-inch diagonal center console display, an expanded 14-inch diagonal Driver Information Center and an all-new 6.6-inch diagonal touchscreen auxiliary display. 
+                                </p>
                             </div>
-                            <div class="c-extra-technology__content js-nevera-technology-content">
-                                <h4 class="u-a3">
-                                    WHY CHOOSE THE APOLLO EVO? </h4>
-                                <p class="u-b0">
-                                    The Apollo EVO is a track-focused hypercar designed for collectors seeking extreme, raw performance. Just 10 Apollo EVOs are being built, and each will be fully bespoke, finished and detailed to each owner’s exact specifications. </p>
-                            </div>
+                            <div class="c-extra-technology__content js-nevera-technology-content text-center">
+                                <div class="c-navigation-menu__menu js-context-shifting-menu">
+                                    <ul class="c-big-menu js-menu-primary">
+                                        <li class="c-big-menu__item" style="">
+                                            <a href="index.html" target="" class="c-big-link js-context-shifting-menu-link justify-content-center">
+                                                <span class="c-big-link__prepend u-b3">01</span>
+                                                <span class="c-big-link__label u-a3" title="New Wireless charging pad">New Wireless charging pad</span>
+                                            </a>
+                                        </li>
+                                        <li class="c-big-menu__item" style="">
+                                            <a href="../development/index.html" target="" class="c-big-link js-context-shifting-menu-link justify-content-center">
+                                                <span class="c-big-link__prepend u-b3">02</span>
+                                                <span class="c-big-link__label u-a3" title="Google built-in">Google built-in</span>
+                                            </a>
+                                        </li>
+                                        <li class="c-big-menu__item" style="">
+                                            <a href="https://www.rimac-technology.com/" target="_blank" class="c-big-link js-context-shifting-menu-link justify-content-center">
+                                                <span class="c-big-link__prepend u-b3">03</span>
+                                                <span class="c-big-link__label u-a3" title="Wireless phone projection">Wireless phone projection</span>
+                                            </a>
+                                        </li>
+                                        <li class="c-big-menu__item" style="">
+                                            <a href="../about-us/index.html" target="" class="c-big-link js-context-shifting-menu-link justify-content-center">
+                                                <span class="c-big-link__prepend u-b3">04</span>
+                                                <span class="c-big-link__label u-a3" title="Drive Modes">Drive Modes</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>                              
+                            </div>                        
                         </div>
                     </section>
                     <section id="technology-engineering" class="o-section o-section--dimmed o-section--layered-scroll js-layered-scroll-wrapper">
@@ -831,7 +824,14 @@
                                         style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/<?php echo $aerodynamic_bg; ?>)"></i>
                                 </div>
                                 <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
-                            </div>              
+                            </div>
+                            <div class="c-layered-scroll js-layered-scroll-simple-trigger">
+                                <div class="c-layered-scroll__item c-layered-scroll__item--3">
+                                    <i class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
+                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/<?php echo $aerodynamic_bg; ?>)"></i>
+                                </div>
+                                <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
+                            </div>         
                             <!-- //LAYER 1 -->
                             <div class="c-layered-scroll">                             
                                 <span class="c-button c-button--play js-video-popup-btn mx-0" data-popup="#aerodynamics-video" style="position: absolute; left: 50%; top: 50%; z-index: 99; transform: translate(-50%, -50%);">
@@ -847,7 +847,7 @@
                                     </span>
                                 </span>
 
-                                <div class="c-layered-scroll__item c-layered-scroll__item--3">
+                                <div class="c-layered-scroll__item c-layered-scroll__item--4">
                                     <i class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
                                         style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-aerodynamics-001-375.png)"></i>
                                 </div>

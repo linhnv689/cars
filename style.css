@@ -2824,6 +2824,7 @@ body .is-layout-grid>* {
 .o-section--layered-scroll {
 	position: relative;
 	overflow: hidden;
+	z-index: 1;
 }
 
 .o-section--technology-engineering-intro {
