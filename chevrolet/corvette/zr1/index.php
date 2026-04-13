@@ -1,5 +1,6 @@
 <?php
     $root_path = "../../..";
+    $media_path = "$root_path/uploads/2021/05/30204415/chevrolet/Corvette-ZR1";
     $site_title = "Gcar";
     $page = $brand = $manufacturer = "Chevrolet";
 
@@ -21,31 +22,12 @@
     <?php require_once "$root_path/navigation.php"; ?>
     <!-- //NAVIGATION -->
 
-
     <!-- PAGE WRAPPER -->
     <div data-barba="wrapper">
         <div id="nevera" class="o-page o-page--nevera" data-barba="container" data-barba-namespace="nevera" data-title="">
 
             <div id="nevera-reveal-images" class="o-page__inner o-page__inner--nevera js-scrollspy-container">
-                <!-- <span class="u-page-logo js-page-logo">
 
-                    <svg class="u-nevera-logo-sign" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 157 10">
-                        <path class="nevera-logo-sign" d="M4.2,0C4,0,3.9,0.1,3.8,0.2L0,9.8C0,9.9,0,10,0.1,10h6.7C7,10,7.1,9.9,7.1,9.8l3.3-8.2c0-0.1,0.2-0.1,0.3,0
-	l7.5,8.2c0.2,0.2,0.3,0.2,0.6,0.2h29.3c0.3,0,0.5-0.1,0.6-0.2l1.4-1.3c0.1-0.2,0-0.3-0.1-0.3H32.9c-0.1,0-0.1-0.1-0.1-0.2l2.3-5.8
-	c0.1-0.2,0.2-0.2,0.4-0.2h15.3c0.2,0,0.3,0.1,0.3,0.3l3.4,7.6c0.1,0.2,0.2,0.2,0.3,0.2h11.6c0.4,0,0.5,0,0.8-0.3l9.4-8.2
-	c0.3-0.2,0.4-0.1,0.3,0.1l-3.2,8c-0.1,0.2,0,0.5,0.2,0.5h33.4c0.2,0,0.3-0.1,0.3-0.2l3.1-7.7c0.1-0.2,0.1-0.2,0.3-0.2h8.7
-	c0.1,0,0.2,0.1,0.3,0.2l0.4,0.9c0.1,0.2,0.1,0.2,0.3,0.2h8.1c0.2,0,0.3-0.1,0.2-0.2l-1.1-2.6C127.8,0,127.7,0,127.4,0h-23.3
-	c-0.2,0-0.3,0.2-0.4,0.3L100.7,8c0,0.1-0.1,0.2-0.3,0.2H81.6c-0.2,0-0.3-0.1-0.2-0.3l2.3-5.8c0-0.1,0.1-0.2,0.3-0.2h16.6
-	c0.1,0,0.2-0.1,0.1-0.3l-0.9-1.3C99.8,0.1,99.7,0,99.4,0H71.3c-0.3,0-0.4,0-0.6,0.2l-9.4,8.1c-0.2,0.2-0.4,0.2-0.4,0l-3.4-8
-	C57.4,0.1,57.2,0,57,0H28.8c-0.1,0-0.3,0.2-0.3,0.3l-3.3,8.2c-0.1,0.2-0.2,0.2-0.3,0l-7.5-8.3C17.2,0,17,0,16.8,0H4.2z M36.8,4.5
-	c0.1-0.3,0.2-0.4,0.5-0.4h10.1c0.3,0,0.4,0.1,0.2,0.4l-0.4,1.1c-0.1,0.2-0.2,0.4-0.4,0.4h-10c-0.3,0-0.4-0.2-0.2-0.5L36.8,4.5z
-	 M85.3,4.5c0.1-0.3,0.2-0.4,0.5-0.4h10.1c0.3,0,0.4,0.1,0.2,0.4l-0.4,1.1c-0.1,0.2-0.2,0.4-0.4,0.4h-10c-0.3,0-0.4-0.2-0.2-0.5
-	L85.3,4.5z M133.9,10h-14c-0.2,0-0.2-0.1-0.3-0.2c0,0,0,0,0,0l-1.7-2.5c-0.1-0.1-0.1-0.3,0-0.4l2.1-2c0.1-0.1,0.2-0.2,0.4-0.2h7.8
-	c0.1,0,0.2,0.2,0.1,0.3l-1.6,1.4c-0.1,0.1-0.1,0.2-0.1,0.4l1.1,1.8c0,0.1,0.1,0.1,0.2,0l9.7-8.2c0.1-0.1,0.3-0.2,0.6-0.2H150
-	c0.3,0,0.4,0.2,0.5,0.3l6.4,9.3c0.1,0.2,0,0.3-0.1,0.3H150c-0.3,0-0.4-0.1-0.5-0.3l-5.4-8c-0.1-0.1-0.2-0.1-0.3,0l-9.3,8.1
-	C134.3,10,134.1,10,133.9,10z" />
-                    </svg>
-                </span> -->
                 <div class="c-scrollspy-wrapper c-scrollspy-wrapper--nevera js-scrollspy js-inpage-navigation-trigger">
                     <div class="c-scrollspy u-b2--A u-fw-semi-bold u-uppercase">
                         <div class="c-scrollspy__prepend"> <!-- show dot -->
@@ -245,7 +227,7 @@
                         </div>
                     </section>
                     
-                    <div class="section section--are-you py-md-8 py-4">
+                    <section class="section section--are-you pt-md-8 py-4">
                         <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">
                             <div class="swiper slider-1">
                                 <div class="swiper-wrapper align-items-center">                                                                       
@@ -301,14 +283,285 @@
 
                             </div>
                         </div>
-                    </div>
+                    </section>
 
-                    <section id="performance" class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item" data-scrollspy-title="Performance">
+                    <section id="welcome" class="o-section">
+                        <div class="c-nevera-welcome">                        
+                            <div class="c-nevera-welcome__slider">
+                                <!-- DRAGGABLE SLIDER -->
+                                <div class="c-draggable-simple-slider-wrapper c-draggable-simple-slider-wrapper--nevera c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">
+                                    
+                                    <div class="o-container c-draggable-simple-slider">
+                                        <div class="c-draggable-simple-slider__container swiper-container js-draggable-simple-slider">
+
+                                            <ul class="c-draggable-simple-slider__wrapper swiper-wrapper">
+                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif" media="(min-width: 2600px)">
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif" media="(min-width: 1600px)">
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif" media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif" class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text"></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-016-1000.avif" media="(min-width: 2600px)">
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-016-1000.avif" media="(min-width: 1600px)">
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-016-1000.avif" media="(min-width: 800px)">
+                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-016-1000.avif" class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text"></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif" media="(min-width: 2600px)">
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif" media="(min-width: 1600px)">
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif" media="(min-width: 800px)">
+                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif" class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-017-1000.avif" media="(min-width: 2600px)">
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-017-1000.avif" media="(min-width: 1600px)">
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-017-1000.avif" media="(min-width: 800px)">
+                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-017-1000.avif" class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text"></div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-018-1000.avif" media="(min-width: 2600px)">
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-018-1000.avif" media="(min-width: 1600px)">
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-018-1000.avif" media="(min-width: 800px)">
+                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-018-1000.avif" class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text"></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif" media="(min-width: 2600px)">
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif" media="(min-width: 1600px)">
+                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif" media="(min-width: 800px)">
+                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-018-1000.avif" class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text"></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-008.jpg"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-008.jpg"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-008.jpg"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-008.jpg"
+                                                                    class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg"
+                                                                    class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text"></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.webp"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.webp"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.webp"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.webp"
+                                                                    class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text u-uppercase"></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp"
+                                                                    class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text u-uppercase"></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp"
+                                                                    class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text u-uppercase"></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li
+                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-011.jpg"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-011.jpg"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-011.jpg"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-011.jpg"
+                                                                    class="swiper-lazy" alt="">
+                                                            </picture>
+                                                        </figure>
+                                                        <div class="c-image-with-caption__caption">
+                                                            <div class="c-image-with-caption__caption-text u-uppercase"></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- //DRAGGABLE SLIDER -->
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="performance" data-scrollspy-title="Performance" class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item">
+                        
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
-
                             <video class="c-scrolling-reveal-bg__video"
-                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2022-apollo-evo-performance-001.mp4" preload="auto" muted
-                                playsinline autoplay loop type="video/mp4"></video>
+                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2022-apollo-evo-performance-001.mp4" 
+                                preload="auto" muted playsinline autoplay loop type="video/mp4">
+                            </video>
                         </div>
 
                         <div class="c-scrolling-reveal-content">
@@ -1065,8 +1318,6 @@
                         </div>
                         <div class="o-section__content">
                             <div class="o-container o-container--narrow">
-
-
                                 <div class="c-article-wrapper">
                                     <div class="c-article c-article--narrow">
                                         <h3 class="u-a2">
