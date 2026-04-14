@@ -112,6 +112,13 @@
                                         <span class="c-inpage-navigation-link__label">Technical Specs</span>
                                     </a>
                                 </li>
+                                <li class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
+                                    <a href="#full-gallery"
+                                        class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
+                                        <span class="c-inpage-navigation-link__number">08</span>
+                                        <span class="c-inpage-navigation-link__label">Full Gallery</span>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -281,293 +288,6 @@
                                     </div>
                                 </div>
 
-                            </div>
-                        </div>
-                    </section>
-
-                    <section id="welcome" class="o-section">
-                        <div class="c-nevera-welcome">                        
-                            <div class="c-nevera-welcome__slider">
-                                <!-- DRAGGABLE SLIDER -->
-                                <div class="c-draggable-simple-slider-wrapper c-draggable-simple-slider-wrapper--nevera c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">
-                                    
-                                    <div class="o-container c-draggable-simple-slider">
-                                        <div class="c-draggable-simple-slider__container swiper-container js-draggable-simple-slider">
-
-                                            <ul class="c-draggable-simple-slider__wrapper swiper-wrapper">
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner"
-                                                        data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/22026-Chevrolet-Corvette-ZR1-019-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-019-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-019-2410.avif" media="(min-width: 800px)">
-                                                                <img data-src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-019-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner"
-                                                        data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li
-                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner"
-                                                        data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text">
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner"
-                                                        data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li
-                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner"
-                                                        data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text">
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner"
-                                                        data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- //DRAGGABLE SLIDER -->
-                                </div>
                             </div>
                         </div>
                     </section>
@@ -1121,7 +841,7 @@
 
                                 <div class="c-layered-scroll__item c-layered-scroll__item--4">
                                     <i class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
-                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-aerodynamics-001-375.png)"></i>
+                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/<?php echo $aerodynamic_bg; ?>)"></i>
                                 </div>
                                 <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>                                            
                             </div>
@@ -1649,7 +1369,7 @@
                         </div>
                     </section>
                     
-                    <section id="tech-spec" class="section section--explore o-section--dark js-scrollspy-item pt-2 pb-5 pb-md-10" data-scrollspy-title="Technical Specs">
+                    <section id="tech-spec" data-scrollspy-title="Technical Specs" class="section section--explore o-section--dark js-scrollspy-item pt-2 pb-5 pb-md-10">
                         <div class="wrapper">
                             <div class="container-fluid">
                                 <div class="row scrub">
@@ -3313,310 +3033,296 @@
                         </div>
                     </section>
 
-                    <section class="section section--gallery pt-2 pb-5 pb-md-10 bt">
-                        <div class="">
-                            <div class="container-fluid">
-                                <div class="row scrub">
-                                    <div class="col-12 text-center">
-                                        <h2 class="t-1 text-gray mb-3 mb-md-6">
-                                            Gallery
-                                        </h2>
-                                    </div>
-                                    <div class="o-container c-draggable-simple-slider">
-                                        <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">
-                                           
-                                        <div class="swiper slider-2 c-draggable-simple-slider__container swiper-container js-draggable-simple-slider ">
-        
-
-                                            <ul class="c-draggable-simple-slider__wrapper swiper-wrapper">
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner"
-                                                        data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-019-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-019-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-019-2410.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-019-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner"
-                                                        data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li
-                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner"
-                                                        data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text">
+                    <section id="full-gallery" data-scrollspy-title="Full Gallery" class="section section--gallery o-section--dark js-scrollspy-item"> <!-- .pb-5 pb-md-10 -->                                
+                        <div class="container-fluid">
+                            <div class="row scrub">
+                                <div class="col-12 text-center">
+                                    <h2 class="t-1 text-gray mb-10">Full Gallery</h2>
+                                </div>
+                                
+                                <div class="c-nevera-welcome__slider">
+                                    <!-- DRAGGABLE SLIDER -->
+                                    <div class="c-draggable-simple-slider-wrapper c-draggable-simple-slider-wrapper--nevera c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">                                     
+                                        <div class="o-container c-draggable-simple-slider">
+                                            <div class="c-draggable-simple-slider__container swiper-container js-draggable-simple-slider">
+                                                <ul class="c-draggable-simple-slider__wrapper swiper-wrapper">
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner"
+                                                            data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/22026-Chevrolet-Corvette-ZR1-019-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-019-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-019-2410.avif" media="(min-width: 800px)">
+                                                                    <img data-src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-019-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
                                                             </div>
-
                                                         </div>
-                                                    </div>
-                                                </li>
+                                                    </li>
 
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner"
-                                                        data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-
-                                                <li
-                                                    class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner"
-                                                        data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text">
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner"
+                                                            data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
                                                             </div>
-
                                                         </div>
-                                                    </div>
-                                                </li>
+                                                    </li>
 
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner"
-                                                        data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
+                                                    <li
+                                                        class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner"
+                                                            data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text">
+                                                                </div>
+
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </li>
+                                                    </li>
 
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner"
+                                                            data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </li>
+                                                    </li>
 
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </li>
+                                                    </li>
 
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </li>
+                                                    </li>
 
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </li>
+                                                    </li>
 
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
+                                                    <li
+                                                        class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner"
+                                                            data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text">
+                                                                </div>
+
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </li>
+                                                    </li>
 
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner"
+                                                            data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </li>
+                                                    </li>
 
-                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                    <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
-                                                        <figure class="c-image-with-caption">
-                                                            <picture>
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" media="(min-width: 2600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" media="(min-width: 1600px)">
-                                                                <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" media="(min-width: 800px)">
-                                                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" class="swiper-lazy" alt="">
-                                                            </picture>
-                                                        </figure>
-                                                        <div class="c-image-with-caption__caption">
-                                                            <div class="c-image-with-caption__caption-text"></div>
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                                    </li>
 
-                                                <div class="swiper-button-next is-v2 arrow arrow--right arrow--no-text">
-                                                    <div class="arrow__line">
-                                                        <div style="background: white;"></div>
-                                                        <div style="background: white;"></div>
-                                                        <div style="background: rgba(215, 215, 215, 0.843);"></div>
-                                                    </div>
-                                                    <div class="arrow__circle">
-                                                        <div class="arrow__cap"></div>
-                                                    </div>
-                                                </div>
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
                                             </div>
                                         </div>
-
+                                        <!-- //DRAGGABLE SLIDER -->
                                     </div>
-                                </div>
+                                </div>                                  
                             </div>
                         </div>
+                        
                     </section>
 
                     <i class="c-scroll-indicator">
