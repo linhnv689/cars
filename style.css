@@ -11942,6 +11942,12 @@ span.wpcf7-not-valid-tip {
 	}
 }
 
+@media (max-width: 480px) {
+	.c-stats--price {
+		width: 100%;
+	}
+}
+
 .c-stats__inner {
 	min-width: 105px;
 }
@@ -18522,7 +18528,7 @@ input {
 }
 
 .c-scrolling-reveal-content {
-	min-height: 100vh;
+	min-height: 120vh;
 	position: relative;
 	z-index: 3;
 }
@@ -18579,7 +18585,8 @@ input {
 @media (max-width: 480px) {
 	.c-scrolling-reveal__header {
 		/* min-height: 60vh; */
-		min-height: 80vh;
+		/* min-height: 80vh; */
+		min-height: 100vh
 	}
 }
 
@@ -27080,7 +27087,7 @@ all and (-ms-high-contrast: none),
 
 .c-extra-technology__header {
 	min-height: 100vh;
-	padding-top: 25vh;
+	/* padding-top: 25vh; */
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -28521,6 +28528,10 @@ all and (-ms-high-contrast: none),
 	width: 100%;
 }
 
+.u-spacer--15vh {
+	height: 15vh;
+}
+
 .u-spacer--25vh {
 	height: 25vh;
 }
@@ -29234,7 +29245,8 @@ all and (-ms-high-contrast: none),
 
 	.u-b4,
 	.c-newsletter-form .wpcf7 .your-email .wpcf7-not-valid-tip {
-		font-size: 10px;
+		/* font-size: 10px; */
+		font-size: 12px;
 		line-height: 12px;
 	}
 }
