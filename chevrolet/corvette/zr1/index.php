@@ -489,20 +489,86 @@
                     </section>
 
                     <i class="u-spacer u-spacer--25vh"></i>
-                    <i class="u-spacer u-spacer--25vh d-sm-none"></i>
-                    <i class="u-spacer u-spacer--15vh d-sm-none"></i>
+                    
                     <!--todo fix spacer on mobile-->
 
-                    <section id="welcome" class="o-section">
-                        <div class="c-nevera-welcome third">
-                            <div class="c-nevera-welcome__footer">
-                                <h4 class="c-nevera-welcome__footer-title u-a3 u-uppercase u-fw-400">Corvette Custom Engine Build</h4>
-                                <div class="c-nevera-welcome__footer-description u-b0 u-fw-400 col-md-12">
-                                    <p class="u-a1">A coveted opportunity returns. Assemble your own LT6 or LT7 engine alongside a Performance Build Center master technician at the Bowling Green Assembly Plant.* This experience includes a custom engine plaque, an exclusive gift and a professional photo keepsake. Availability is limited.</p>
+                    
+
+                    <section class="section section--are-you c-nevera-welcome third pb-8">
+                        <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">
+                            <div class="swiper slider-2">
+                                <div class="swiper-wrapper align-items-center">                                                                       
+                                    <div class="swiper-slide">
+                                        <div class=""> <!-- .wrapper -->
+                                            <div class="container-fluid px-1">
+                                                <div class="row pr zi-10">
+                                                    <div class="col-12 col-md-8 offset-md-2">
+                                                        <h3 class="t-1 text-gray mb-3 r-margin">Corvette Custom Engine Build</h3>
+                                                    </div>
+                                                    <div class="col-1 offset-1 offset-md-4 line-col"></div>
+                                                    <div class="c-nevera-welcome__footer-description u-b0 u-fw-400 col-8 col-md-4">                                           
+                                                        <p class="u-a1">
+                                                            A coveted opportunity returns. Assemble your own LT6 or LT7 engine alongside a Performance Build Center master technician at the Bowling Green Assembly Plant.* This experience includes a custom engine plaque, an exclusive gift and a professional photo keepsake. Availability is limited.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="">
+                                            <div class="container-fluid px-1">
+                                                <div class="row pr zi-10">
+                                                    <div class="col-12 col-md-8 offset-md-2">
+                                                        <h3 class="t-1 text-gray mb-3 r-margin">Magnetic Selective Ride Control™ 4.0</h3>
+                                                    </div>
+                                                    <div class="col-1 offset-1 offset-md-4 line-col"></div>                                      
+                                                    <div class="c-nevera-welcome__footer-description u-b0 u-fw-400 col-8 col-md-4">
+                                                        <p class="u-a1">
+                                                            This standard advanced damping system reads the road in milliseconds and adapts in as little as 10-15 milliseconds, giving you more confidence and control for the track and beyond.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="">
+                                            <div class="container-fluid px-1">
+                                                <div class="row pr zi-10">
+                                                    <div class="col-12 col-md-8 offset-md-2">
+                                                        <h3 class="t-1 text-gray mb-3 r-margin">ZTK Performance Package</h3>
+                                                    </div>
+                                                    <div class="col-1 offset-1 offset-md-4 line-col"></div>                                      
+                                                    <div class="c-nevera-welcome__footer-description u-b0 u-fw-400 col-8 col-md-4">
+                                                        <p class="u-a1">
+                                                            Engineered for driving enthusiasts, the available ZTK Performance Package enhances ZR1’s capability with track-focused upgrades that deliver sharper handling, improved cooling and increased performance. Ultra-performance tires, a sport-tuned suspension, and new brakes with Alcon® 10-piston front and 6-piston rear calipers deliver superior heat resistance and exceptionally-responsive braking. Requires the Carbon Fiber Aero Package which includes a carbon fiber high-wing, ground effects and dive planes.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+
+                                <div class="swiper-button-next arrow arrow--right arrow--no-text">
+                                    <div class="arrow__line">
+                                        <div style="background: white;"></div>
+                                        <div style="background: white;"></div>
+                                        <div style="background: rgba(215, 215, 215, 0.843);"></div>
+                                    </div>
+                                    <div class="arrow__circle">
+                                        <div class="arrow__cap"></div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </section>
+                    
                     <section id="technology" class="o-section" style="z-index: 2; position: relative;">
                         <div class="c-extra-technology">
                             <picture class="c-extra-technology__bg js-nevera-technology">
@@ -549,6 +615,8 @@
                             </div>                        
                         </div>
                     </section>
+
+
 
                     <section id="technology-engineering" class="o-section o-section--dimmed o-section--layered-scroll js-layered-scroll-wrapper">
                         <div class="c-layered-scroll-wrapper c-layered-scroll-wrapper--simple js-layered-scroll-simple" data-animation-type="crossfade">
