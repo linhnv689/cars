@@ -1121,6 +1121,11 @@ body .is-layout-grid>* {
 	padding-right: 12.5%;
 }
 
+.o-footer-wrapper .o-container--narrow {
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
 @media (max-width: 1140px) {
 	.o-container--narrow {
 		padding-left: 8.33333%;

@@ -151,7 +151,7 @@
 
                                     <video class="c-custom-video-player__video js-video-element" preload="metadata"
                                         crossorigin="anonymous" playsinline data-autoplay="true">
-                                        <source src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/Chevrolet-Corvette-ZR1.mp4" type="video/mp4" />
+                                        <source src="<?php echo $media_path; ?>/Chevrolet-Corvette-ZR1.mp4" type="video/mp4" />
                                     </video>
                                     <!--end video source-->
                                 </div>
@@ -174,13 +174,7 @@
                                         <span class="js-time-duration">00:00</span>
                                     </p>
 
-                                    <!-- <video class="c-custom-video-player__video js-video-element" preload="metadata"
-                                        crossorigin="anonymous" playsinline data-autoplay="true">
-                                        <source src="<?php echo $root_path; ?>/uploads/2021/05/30204415/NeveraR.mp4" type="video/mp4" />
-                                    </video> -->
-                                    <img src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2025-Chevrolet-Corvette-ZR1-001-1080.jpg" 
-                                        style="object-position:center" alt="<?php echo $model; ?>">
-                                    <!--end video source-->
+                                    <img src="<?php echo $media_path; ?>/2025-Chevrolet-Corvette-ZR1-001-1080.jpg" style="object-position:center" alt="<?php echo $model; ?>">
                                 </div>
                             </div>
                             <!--<i class="c-scrolling-reveal-bg__video-overlay js-mask-reveal-video-overlay"></i>-->
@@ -407,24 +401,6 @@
                                                                     <span class="u-b4 u-uppercase">sec</span>
                                                                 </div>
                                                             </div>
-                                                            <!-- <div class="c-stats__inner">
-                                                                <div class="c-stats__header">
-                                                                    <span class="u-b4 u-uppercase">&nbsp;</span>
-                                                                    <i class="u-b4 u-uppercase js-data-toggler-data"
-                                                                        data-toggler-default="402 meter time"
-                                                                        data-toggler-alt="1/4 mile time">
-                                                                        402 meter time
-                                                                    </i>
-                                                                </div>
-                                                                <div class="c-stats__content">
-                                                                    <span class="u-a4">
-                                                                        8.25
-                                                                    </span>
-                                                                    <span class="u-b4 u-uppercase">
-                                                                        sec
-                                                                    </span>
-                                                                </div>
-                                                            </div> -->
                                                         </li>
                                                         <!-- //STATS ITEM -->
 
@@ -504,229 +480,6 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="c-accordion c-accordion--tech-spec js-accordion" style="display:none;">
-                                                    <div
-                                                        class="c-accordion__item c-accordion__item--performance js-accordion-single">
-                                                        <div
-                                                            class="c-accordion-header c-accordion-header--tech-spec js-accordion-header">
-                                                            <div class="c-accordion-header__title-row">
-
-                                                                <div class="spec-logo--r">
-                                                                    <svg id="Layer_2" data-name="Layer 2"
-                                                                        xmlns="http://www.w3.org/2000/svg"
-                                                                        viewBox="0 0 180 25.64">
-                                                                        <defs>
-                                                                            <style>
-                                                                                .cls-1 {
-                                                                                    fill: #fff;
-                                                                                    stroke-width: 0
-                                                                                }
-                                                                            </style>
-                                                                        </defs>
-                                                                        <g id="ARTWORK">
-                                                                            <path class="cls-1"
-                                                                                d="M78.22 10.48c-.23 0-.33.1-.44.33l-.32.76c-.11.23-.08.43.21.43h9.08c.23 0 .33-.13.4-.3l.39-.89c.11-.23.01-.33-.22-.33h-9.11Zm-44.38 0c-.23 0-.33.1-.44.33l-.32.76c-.11.23-.08.43.21.43h9.08c.23 0 .33-.13.4-.3l.39-.89c.11-.23.01-.33-.22-.33h-9.11Z" />
-                                                                            <path class="cls-1"
-                                                                                d="M3.79 6.98c-.16 0-.23.07-.3.2L.02 15.29c-.03.1-.03.2.1.2h6.15c.1 0 .16-.07.23-.2l2.98-6.94c.04-.1.18-.12.26-.03l6.86 6.97c.16.16.3.2.52.2h26.75c.3 0 .43-.07.56-.2l1.25-1.11c.13-.13.03-.26-.07-.26H29.97c-.1 0-.13-.1-.1-.2l2.14-4.96c.07-.16.16-.2.36-.2h13.92c.16 0 .23.1.3.23l3.09 6.5c.07.13.16.2.3.2h10.59c.33 0 .43-.03.72-.26l8.61-6.99c.23-.2.33-.1.26.07l-2.92 6.79c-.1.2 0 .39.2.39h30.48c.16 0 .25-.11.3-.2l2.79-6.54c.07-.13.13-.2.26-.2h7.93c.13 0 .2.07.23.13l.36.79c.07.13.13.16.3.16h7.34c.16 0 .23-.07.16-.2l-.98-2.23c-.1-.2-.2-.23-.39-.23H95c-.16 0-.3.13-.36.3l-2.8 6.5c-.03.1-.13.13-.23.13H74.46c-.16 0-.23-.1-.16-.26l2.11-4.9c.03-.1.13-.2.26-.2h15.16c.1 0 .2-.1.1-.26l-.82-1.15c-.07-.1-.16-.16-.43-.16H65.05c-.23 0-.36.03-.59.2l-8.6 6.9c-.2.16-.33.13-.39 0l-3.08-6.8c-.07-.2-.2-.3-.36-.3H26.27c-.13 0-.23.13-.3.3l-2.99 6.95c-.06.13-.15.14-.26.03l-6.87-7.09c-.16-.16-.3-.2-.49-.2H3.79Z" />
-                                                                            <path class="cls-1"
-                                                                                d="M109.39 15.49h12.64c.23 0 .39-.03.59-.2l8.43-6.92c.1-.08.19-.08.26.01l4.88 6.84c.1.16.23.26.46.26h6.13c.13 0 .23-.13.13-.3l-5.8-7.91c-.1-.16-.23-.3-.46-.3H126c-.26 0-.43.1-.52.2l-8.82 7.04c-.1.07-.17.03-.21-.02l-1.03-1.54c-.07-.13-.03-.23.07-.33l1.44-1.19c.1-.1.07-.26-.07-.26h-7.05c-.16 0-.26.07-.33.13l-1.91 1.73c-.1.1-.12.25-.04.37l1.54 2.17c.05.06.14.2.3.2ZM171.46.48c.24-.33.17-.48-.24-.48H128c-.44 0-.52.19-.21.51l1.61 1.66c.14.14.33.22.53.22h32c.13 0 .15.08.03.14l-11.76 5.2c-.82.36-.84.7-.08 1.17l26.39 16.55c.2.12.42.19.66.19h2.41c.48 0 .56-.22.21-.54L159.96 6.58c-.4-.37-.36-.55.15-.73l9.6-3.34c.22-.08.42-.22.56-.41l1.19-1.62Z" />
-                                                                        </g>
-                                                                    </svg>
-                                                                </div>
-                                                            </div>
-                                                            <div
-                                                                class="c-accordion-header__state c-accordion-header__state--tech-spec u-b2">
-                                                                <div
-                                                                    class="c-accordion-header__state-label c-accordion-header__state-label--closed">
-                                                                    Show specifications
-                                                                </div>
-                                                                <div
-                                                                    class="c-accordion-header__state-label c-accordion-header__state-label--opened">
-                                                                    Close specifications
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="c-accordion-panel js-accordion-panel">
-                                                            <div class="c-accordion-content">
-                                                                <div class="c-stats-wrapper js-data-toggler">
-
-                                                                    <div class="c-stats-wrapper__list">
-                                                                        <!-- STATS ITEM -->
-                                                                        <div class="c-stats">
-                                                                            <div class="c-stats__inner">
-                                                                                <div class="c-stats__header">
-                                                                                    <span
-                                                                                        class="u-b4 u-uppercase">Power</span>
-                                                                                    <i class="u-b4 u-uppercase">
-                                                                                        (1.55 MW)
-                                                                                    </i>
-                                                                                </div>
-                                                                                <div class="c-stats__content">
-                                                                                    <span class="u-a4">
-                                                                                        2.107
-                                                                                    </span>
-                                                                                    <span class="u-b4 u-uppercase">
-                                                                                        hp
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!-- //STATS ITEM -->
-
-                                                                        <!-- STATS ITEM -->
-                                                                        <div class="c-stats">
-                                                                            <div class="c-stats__inner">
-                                                                                <div class="c-stats__header">
-                                                                                    <span
-                                                                                        class="u-b4 u-uppercase">TORQUE</span>
-                                                                                </div>
-                                                                                <div class="c-stats__content">
-                                                                                    <span class="u-a4">
-                                                                                        2.340
-                                                                                    </span>
-                                                                                    <span class="u-b4 u-uppercase">
-                                                                                        nm
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!-- //STATS ITEM -->
-
-                                                                        <!-- STATS ITEM -->
-                                                                        <div class="c-stats c-stats--3-column">
-                                                                            <div class="c-stats__inner">
-                                                                                <div class="c-stats__header">
-                                                                                    <span
-                                                                                        class="u-b4 u-uppercase">Acceleration</span>
-                                                                                    <i class="u-b4 u-uppercase js-data-toggler-data"
-                                                                                        data-toggler-default="0-100 km/h"
-                                                                                        data-toggler-alt="0-60 mph">
-                                                                                        0-100 km/h
-                                                                                    </i>
-                                                                                </div>
-                                                                                <div class="c-stats__content">
-                                                                                    <span
-                                                                                        class="u-a4 js-data-toggler-data"
-                                                                                        data-toggler-default="1.72"
-                                                                                        data-toggler-alt="1.66">
-                                                                                        1.72
-                                                                                    </span>
-                                                                                    <span class="u-b4 u-uppercase">
-                                                                                        sec
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="c-stats__inner">
-                                                                                <div class="c-stats__header">
-                                                                                    <span
-                                                                                        class="u-b4 u-uppercase">&nbsp;</span>
-                                                                                    <i class="u-b4 u-uppercase js-data-toggler-data"
-                                                                                        data-toggler-default="0-300 km/h"
-                                                                                        data-toggler-alt="0-186 mph">
-                                                                                        0-300 km/h
-                                                                                    </i>
-                                                                                </div>
-                                                                                <div class="c-stats__content">
-                                                                                    <span class="u-a4">
-                                                                                        7.89
-                                                                                    </span>
-                                                                                    <span class="u-b4 u-uppercase">
-                                                                                        sec
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="c-stats__inner">
-                                                                                <div class="c-stats__header">
-                                                                                    <span
-                                                                                        class="u-b4 u-uppercase">&nbsp;</span>
-                                                                                    <i class="u-b4 u-uppercase js-data-toggler-data"
-                                                                                        data-toggler-default="402 meter time"
-                                                                                        data-toggler-alt="1/4 mile time">
-                                                                                        402 meter time
-                                                                                    </i>
-                                                                                </div>
-                                                                                <div class="c-stats__content">
-                                                                                    <span class="u-a4">
-                                                                                        7.90
-                                                                                    </span>
-                                                                                    <span class="u-b4 u-uppercase">
-                                                                                        sec
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!-- //STATS ITEM -->
-
-                                                                        <!-- STATS ITEM -->
-                                                                        <div class="c-stats">
-                                                                            <div class="c-stats__inner">
-                                                                                <div class="c-stats__header">
-                                                                                    <span class="u-b4 u-uppercase">Top
-                                                                                        speed</span>
-                                                                                </div>
-                                                                                <div class="c-stats__content">
-                                                                                    <span
-                                                                                        class="u-a4 js-data-toggler-data"
-                                                                                        data-toggler-default="430"
-                                                                                        data-toggler-alt="267">
-                                                                                        430
-                                                                                    </span>
-                                                                                    <span
-                                                                                        class="u-b4 u-uppercase js-data-toggler-data"
-                                                                                        data-toggler-default="km/h"
-                                                                                        data-toggler-alt="mph">
-                                                                                        km/h
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!-- //STATS ITEM -->
-
-                                                                        <!-- STATS ITEM -->
-                                                                        <div class="c-stats">
-                                                                            <div class="c-stats__inner">
-                                                                                <div class="c-stats__header">
-                                                                                    <span
-                                                                                        class="u-b4 u-uppercase">Battery
-                                                                                        Capacity</span>
-                                                                                </div>
-                                                                                <div class="c-stats__content">
-                                                                                    <span class="u-a4">
-                                                                                        108
-                                                                                    </span>
-                                                                                    <span class="u-b4 u-uppercase">
-                                                                                        kWh
-                                                                                    </span>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <!-- //STATS ITEM -->
-                                                                    </div>
-                                                                    <div class="c-stats-wrapper__header">
-                                                                        <div class="c-stats-toggler">
-                                                                            <button
-                                                                                class="c-stats-toggler__button js-data-toggler-trigger-alt">
-                                                                                <span
-                                                                                    class="c-stats-toggler__button-label u-b4 u-uppercase"
-                                                                                    data-label="mph">
-                                                                                    <span>mph</span>
-                                                                                </span>
-                                                                            </button>
-                                                                            <button
-                                                                                class="c-stats-toggler__button is-active js-data-toggler-trigger-default">
-                                                                                <span
-                                                                                    class="c-stats-toggler__button-label u-b4 u-uppercase"
-                                                                                    data-label="km/h">
-                                                                                    <span>km/h</span>
-                                                                                </span>
-                                                                            </button>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -796,35 +549,25 @@
                             </div>                        
                         </div>
                     </section>
+
                     <section id="technology-engineering" class="o-section o-section--dimmed o-section--layered-scroll js-layered-scroll-wrapper">
                         <div class="c-layered-scroll-wrapper c-layered-scroll-wrapper--simple js-layered-scroll-simple" data-animation-type="crossfade">
-
-                            <!-- LAYER 1 link youtube: https://www.youtube.com/watch?v=tmFuHO_bFqk-->
-                             <?php $aerodynamic_bg = '2026-Chevrolet-Corvette-ZR1-aerodynamics-001-713.png'; ?>
-
-                            <div class="c-layered-scroll js-layered-scroll-simple-trigger">
-                                <div class="c-layered-scroll__item c-layered-scroll__item--1">
-                                    <span class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
-                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/<?php echo $aerodynamic_bg; ?>)">
-                                    </span>
-                                </div>
-                                <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
-                            </div>
+                            <!-- LAYER 1 -->
+                            
                             <div class="c-layered-scroll js-layered-scroll-simple-trigger">
                                 <div class="c-layered-scroll__item c-layered-scroll__item--2">
                                     <i class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
-                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/<?php echo $aerodynamic_bg; ?>)"></i>
+                                        style="background-image: url(<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-aerodynamics-001-713.png)"></i>
                                 </div>
                                 <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
                             </div>
                             <div class="c-layered-scroll js-layered-scroll-simple-trigger">
                                 <div class="c-layered-scroll__item c-layered-scroll__item--3">
                                     <i class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
-                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/<?php echo $aerodynamic_bg; ?>)"></i>
+                                        style="background-image: url(<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-aerodynamics-001-713.png)"></i>
                                 </div>
                                 <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
-                            </div>         
-                            <!-- //LAYER 1 -->
+                            </div>
                             <div class="c-layered-scroll">                             
                                 <span class="c-button c-button--play js-video-popup-btn mx-0" data-popup="#aerodynamics-video" style="position: absolute; left: 50%; top: 50%; z-index: 99; transform: translate(-50%, -50%);">
                                     <span class="c-button__inner">
@@ -841,20 +584,24 @@
 
                                 <div class="c-layered-scroll__item c-layered-scroll__item--4">
                                     <i class="c-layered-scroll__item-bg js-layered-scroll-simple-bg"
-                                        style="background-image: url(<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/<?php echo $aerodynamic_bg; ?>)"></i>
+                                        style="background-image: url(<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-aerodynamics-001-713.png)"></i>
                                 </div>
                                 <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>                                            
                             </div>
+
+                            <!-- //LAYER 1 -->
                         </div>
                         <div class="c-layered-scroll-content-wrapper">
-                            <!-- LAYER 1 -->                           
+                            <!-- LAYER 1 -->
                             <div class="c-layered-scroll-content c-layered-scroll-content--1">
                                 <div class="o-container">
                                     <div class="c-layered-scroll-content__left">
                                         <div class="c-article-wrapper">
-                                            <div class="c-article js-layered-scroll-simple-item-element" style="margin-top: 100px;">
-                                                <h3 class="u-a2 u-capitalize">Active Aerodynamics</h3>
-                                                <p class="u-b2">The reigning king of downforce. With a leading-edge design like wide side air inlets, carbon-fiber elements, and a multitude of airflow and cooling features, ZR1 dominates with the highest downforce of any production.</p>
+                                            <div class="c-article js-layered-scroll-simple-item-element">
+                                                <h3 class="u-a2">Active Aerodynamics</h3>
+                                                <p class="u-b2">
+                                                    The reigning king of downforce. With a leading-edge design like wide side air inlets, carbon-fiber elements, and a multitude of airflow and cooling features, ZR1 dominates with the highest downforce of any production.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -862,8 +609,10 @@
                                     <div class="c-layered-scroll-content__right">
                                         <div class="c-article-wrapper">
                                             <div class="c-article js-layered-scroll-simple-item-element">
-                                                <h3 class="u-a2 u-capitalize">Flow-Through Hood and ground effects</h3>
-                                                <p class="u-b2">The flow through hood and spoiler help to extract airflow through the intercooler and cool the turbocharged air. The front splitter, paired with an underwing and smooth underbody, helps generate suction under the vehicle to maximize downforce and reduce drag.</p>
+                                                <h3 class="u-a2">Flow-Through Hood and ground effects</h3>
+                                                <p class="u-b2">
+                                                    The flow through hood and spoiler help to extract airflow through the intercooler and cool the turbocharged air. The front splitter, paired with an underwing and smooth underbody, helps generate suction under the vehicle to maximize downforce and reduce drag.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -875,15 +624,18 @@
                                     <div class="c-layered-scroll-content__left">
                                         <div class="c-article-wrapper">
                                             <div class="c-article js-layered-scroll-simple-item-element">
-                                                <h3 class="u-a2 u-capitalize">Side Inlets</h3>
-                                                <p class="u-b2">Large side air inlets feature signature carbon-fiber wishbone bezels. This, paired with the rear brake cooling ducts, allow for additional engine cooling while maximizing air intake.</p>
+                                                <h3 class="u-a2">Side Inlets</h3>
+                                                <p class="u-b2">
+                                                    Large side air inlets feature signature carbon-fiber wishbone bezels. This, paired with the rear brake cooling ducts, allow for additional engine cooling while maximizing air intake.
+                                                </p>
 
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="c-layered-scroll-content__right">
                                         <div class="c-article-wrapper">
-                                            <div class="c-article js-layered-scroll-simple-item-element" style="margin-bottom: 180px;">
+                                            <div class="c-article js-layered-scroll-simple-item-element" style="margin-bottom: 150px;">
                                                 <h3 class="u-a2">ZR1 Carbon Fiber Aero Package</h3>
                                                 <p class="u-b2">Available on ZR1, the potent carbon-fiber wing, underbody strakes and carbon-fiber dive planes work together to produce over 1,200 lbs. of downforce.</p>
                                             </div>
@@ -893,9 +645,9 @@
                             </div>
                             <!-- //LAYER 1 -->
                         </div>
-                        <!-- todo: temporary fix-->
+                        <!--        todo: temporary fix-->
                         <i class="u-spacer u-spacer--25vh u-spacer--mobile"></i>
-                    </section>
+                    </section> <!-- #technology-engineering -->
 
                     <section id="driving-experience"
                         class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item" data-scrollspy-title="Experience">
@@ -944,12 +696,11 @@
                         </div>
                     </section>
 
-                    <section id="design"
-                        class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item" data-scrollspy-title="Design">
+                    <section id="design" class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item" data-scrollspy-title="Design">
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
 
                             <video class="c-scrolling-reveal-bg__video"
-                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Corvette-ZR1-Design-Exterior.mp4" preload="auto"
+                                src="<?php echo $media_path; ?>/2026-Corvette-ZR1-Design-Exterior.mp4" preload="auto"
                                 muted playsinline autoplay loop type="video/mp4"></video>
 
                         </div>
@@ -1004,12 +755,11 @@
                     <i class="u-spacer u-spacer--50vh"></i>
                     <!--todo: fix overflow-x cant find it-->
                     <section id="engineering" data-scrollspy-title="Engineering" class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item">
+                        
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
-
                             <video class="c-scrolling-reveal-bg__video"
-                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Beyond-Extreme-Apollo-Project-Evo-Reinvents-The-Hypercar-Experience.mp4" preload="auto" muted
-                                playsinline autoplay loop type="video/mp4"></video>
-
+                                src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-Engine-001.mp4" 
+                                preload="auto" muted playsinline autoplay loop type="video/mp4"></video>
                         </div>
 
                         <div class="c-scrolling-reveal-content">
@@ -1111,7 +861,7 @@
                                                             01 </span>
                                                         <div class="c-image-with-caption__caption-text">
                                                             <h5 class="u-a1">Meticulously reimagined</h5>
-                                                            <p class="u-b2">The subtle art of improvement realized in the new Apollo EVO exhaust. Every finished piece has its story; it’s in the first sketches, the countless iterations, and the moment when lines connect into a 3D world. Here’s a peek into that process, see the unfolding, not just the form.</p>
+                                                            <p class="u-b2">The subtle art of improvement realized in the new Apollo EVO exhaust. Every finished piece has its story; it's in the first sketches, the countless iterations, and the moment when lines connect into a 3D world. Here's a peek into that process, see the unfolding, not just the form.</p>
                                                         </div>
 
                                                     </div>
@@ -1369,7 +1119,7 @@
                         </div>
                     </section>
                     
-                    <section id="tech-spec" data-scrollspy-title="Technical Specs" class="section section--explore o-section--dark js-scrollspy-item pt-2 pb-5 pb-md-10">
+                    <section id="tech-spec" data-scrollspy-title="Technical Specs" class="section section--explore o-section--dark js-scrollspy-item pt-2 pb-5 pb-md-12">
                         <div class="wrapper">
                             <div class="container-fluid">
                                 <div class="row scrub">
@@ -1409,13 +1159,13 @@
                                             <div class="accord__content">
                                                 <div class="pt-1 pb-5 pb-md-10">
                                                     <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> side view on road"
-                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.avif"
-                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.avif 400w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.avif 600w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.avif 800w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.avif 1160w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.avif 1920w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-003-1080.avif 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1080.avif"
+                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1080.avif 400w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1080.avif 600w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1080.avif 800w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1080.avif 1160w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1080.avif 1920w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1080.avif 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                     <p class="small mw-md-60p mb-4">
                                                         The <?php echo $model; ?> is the pinnacle of performance within the Corvette lineup — a track-focused, street-legal supercar that represents the most powerful and technologically advanced variant of its generation.
                                                     </p>                                                   
@@ -1569,13 +1319,13 @@
                                             <div class="accord__content" style="display: none;">
                                                 <div class="pt-1 pb-5 pb-md-10">
                                                     <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> performance"
-                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif" 
+                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif" 
                                                         srcset="<?php echo $root_path; ?>/uploads/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 400w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 600w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 800w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 1160w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 1920w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 3840w" 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif 600w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif 800w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif 1160w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif 1920w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif 3840w" 
                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
 
                                                     <div class="stats__label">
@@ -1835,13 +1585,13 @@
                                             <div class="accord__content" style="display: none;">
                                                 <div class="pt-1 pb-5 pb-md-10">
                                                     <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> performance"
-                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif" 
+                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif" 
                                                         srcset="<?php echo $root_path; ?>/uploads/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif 400w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif 600w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif 800w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif 1160w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif 1920w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif 3840w" 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif 600w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif 800w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif 1160w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif 1920w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif 3840w" 
                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
 
                                                     <p class="small mw-md-60p mb-4">
@@ -1965,13 +1715,13 @@
                                             <div class="accord__content" style="display:none">
                                                 <div class="pt-1 pb-5 pb-md-10">
                                                     <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> wheels" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif" 
-                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 400w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 600w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 800w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 1160w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 1920w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 3840w" 
+                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif" 
+                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 400w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 600w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 800w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 1160w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 1920w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 3840w" 
                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                     <div class="stats__label">
                                                         <span class="t-6">construction</span>
@@ -2177,65 +1927,65 @@
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" alt="<?php echo $model; ?> front view" data-swiper-parallax-scale="0.8"
                                                                         data-swiper-parallax-opacity="0.2" 
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-009-1000.jpg"
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-009-1000.jpg"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                 </div>
 
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" alt="<?php echo $model; ?> front view detail" data-swiper-parallax-scale="0.8"
                                                                         data-swiper-parallax-opacity="0.2" 
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif" 
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif" 
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                 </div>
 
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" class="" alt="<?php echo $model; ?>  top view" data-swiper-parallax-scale="0.8"
                                                                         data-swiper-parallax-opacity="0.2" 
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-005-1000.avif" 
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-005-1000.avif 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-005-1000.avif 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-005-1000.avif 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-005-1000.avif 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-005-1000.avif 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-005-1000.avif 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif" 
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                 </div>
 
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" class="" alt="<?php echo $model; ?> side view" data-swiper-parallax-scale="0.8"
                                                                         data-swiper-parallax-opacity="0.2" 
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-006-1000.avif"
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-006-1000.avif 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-006-1000.avif 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-006-1000.avif 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-006-1000.avif 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-006-1000.avif 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-006-1000.avif 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-006-1000.avif"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-006-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-006-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-006-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-006-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-006-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-006-1000.avif 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                 </div>
 
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" class="" alt="<?php echo $model; ?> side view" data-swiper-parallax-scale="0.8"
                                                                         data-swiper-parallax-opacity="0.2" 
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-007-1000.avif"
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-007-1000.avif 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-007-1000.avif 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-007-1000.avif 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-007-1000.avif 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-007-1000.avif 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-007-1000.avif 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                 </div>
 
@@ -2275,13 +2025,13 @@
                                                             <div class="swiper-wrapper">
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" alt="<?php echo $model; ?> aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-015-1000.avif"
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-015-1000.avif 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-015-1000.avif 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-015-1000.avif 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-015-1000.avif 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-015-1000.avif 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-015-1000.avif 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-015-1000.avif"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-015-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-015-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-015-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-015-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-015-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-015-1000.avif 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                     <div class="c-image-with-caption__caption">
                                                                         <span class="c-image-with-caption__caption-number u-b3">01</span>
@@ -2293,13 +2043,13 @@
                                                                 </div>
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" alt="<?php echo $model; ?> aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif"
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-004-1000.avif 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                     <div class="c-image-with-caption__caption">
                                                                         <span class="c-image-with-caption__caption-number u-b3">02</span>
@@ -2311,13 +2061,13 @@
                                                                 </div>                                                              
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" alt="<?php echo $model; ?> aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-011-1000.avif"
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-011-1000.avif 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-011-1000.avif 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-011-1000.avif 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-011-1000.avif 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-011-1000.avif 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-011-1000.avif 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                     <div class="c-image-with-caption__caption">
                                                                         <span class="c-image-with-caption__caption-number u-b3">03</span>
@@ -2329,13 +2079,13 @@
                                                                 </div>
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" alt="<?php echo $model; ?> aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif"
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-012-1000.avif 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                     <div class="c-image-with-caption__caption">
                                                                         <span class="c-image-with-caption__caption-number u-b3">04</span>
@@ -2382,12 +2132,12 @@
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif"
-                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 400w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 600w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 800w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 1160w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 1920w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 3840w" 
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
                                                                             <span class="c-image-with-caption__caption-number u-b3">01</span>
@@ -2401,12 +2151,12 @@
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif"
-                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 400w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 600w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 800w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 1160w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 1920w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 3840w" 
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
                                                                             <span class="c-image-with-caption__caption-number u-b3">02</span>
@@ -2420,12 +2170,12 @@
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif"
-                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 400w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 600w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 800w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 1160w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 1920w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 3840w" 
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
                                                                             <span class="c-image-with-caption__caption-number u-b3">03</span>
@@ -2439,12 +2189,12 @@
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif"
-                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 400w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 600w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 800w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 1160w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 1920w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 3840w" 
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
                                                                             <span class="c-image-with-caption__caption-number u-b3">04</span>
@@ -2458,12 +2208,12 @@
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif"
-                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 400w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 600w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 800w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 1160w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 1920w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 3840w" 
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
                                                                             <span class="c-image-with-caption__caption-number u-b3">05</span>
@@ -2477,12 +2227,12 @@
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif"
-                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 400w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 600w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 800w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 1160w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 1920w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 3840w" 
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
                                                                             <span class="c-image-with-caption__caption-number u-b3">06</span>
@@ -2496,12 +2246,12 @@
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif"
-                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 400w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 600w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 800w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 1160w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 1920w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 3840w" 
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
                                                                             <span class="c-image-with-caption__caption-number u-b3">07</span>
@@ -2515,12 +2265,12 @@
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif"
-                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 400w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 600w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 800w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 1160w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 1920w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 3840w" 
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
                                                                             <span class="c-image-with-caption__caption-number u-b3">08</span>
@@ -2534,12 +2284,12 @@
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif"
-                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 400w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 600w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 800w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 1160w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 1920w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 3840w" 
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
                                                                             <span class="c-image-with-caption__caption-number u-b3">09</span>
@@ -2553,12 +2303,12 @@
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif"
-                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 400w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 600w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 800w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 1160w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 1920w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 3840w" 
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
                                                                             <span class="c-image-with-caption__caption-number u-b3">10</span>
@@ -2572,12 +2322,12 @@
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif"
-                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 400w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 600w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 800w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 1160w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 1920w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 3840w" 
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
                                                                             <span class="c-image-with-caption__caption-number u-b3">11</span>
@@ -2591,12 +2341,12 @@
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif"
-                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 400w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 600w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 800w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 1160w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 1920w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 3840w" 
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
                                                                             <span class="c-image-with-caption__caption-number u-b3">12</span>
@@ -2610,12 +2360,12 @@
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif"
-                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 400w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 600w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 800w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 1160w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 1920w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 3840w" 
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
                                                                             <span class="c-image-with-caption__caption-number u-b3">13</span>
@@ -2629,12 +2379,12 @@
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif"
-                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 400w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 600w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 800w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 1160w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 1920w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 3840w" 
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
                                                                             <span class="c-image-with-caption__caption-number u-b3">14</span>
@@ -2648,12 +2398,12 @@
                                                                     <div class="swiper-slide">
                                                                         <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
                                                                             src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif"
-                                                                            srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 400w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 600w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 800w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 1160w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 1920w, 
-                                                                            <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 3840w" 
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 3840w" 
                                                                             size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                         <div class="c-image-with-caption__caption">
                                                                             <span class="c-image-with-caption__caption-number u-b3">15</span>
@@ -2694,13 +2444,13 @@
                                                             <div class="swiper-wrapper">
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" alt="<?php echo $model; ?> HD Rear Vision Camera" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif"
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                     <div class="c-image-with-caption__caption">
                                                                         <span class="c-image-with-caption__caption-number u-b3">01</span>
@@ -2720,13 +2470,13 @@
                                                                 </div>
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" alt="<?php echo $model; ?> Forward Collision Alert" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg"
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                     <div class="c-image-with-caption__caption">
                                                                         <span class="c-image-with-caption__caption-number u-b3">02</span>
@@ -2743,13 +2493,13 @@
                                                                 </div>                                                              
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" alt="<?php echo $model; ?> Lane Keep Assist with Lane Departure Warning" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg"
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                     <div class="c-image-with-caption__caption">
                                                                         <span class="c-image-with-caption__caption-number u-b3">03</span>
@@ -2767,13 +2517,13 @@
                                                                 </div>
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" alt="<?php echo $model; ?> Automatic Emergency Braking" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg"
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                     <div class="c-image-with-caption__caption">
                                                                         <span class="c-image-with-caption__caption-number u-b3">04</span>
@@ -2790,13 +2540,13 @@
                                                                 </div>
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" alt="<?php echo $model; ?> Rear Park Assist" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg"
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                     <div class="c-image-with-caption__caption">
                                                                         <span class="c-image-with-caption__caption-number u-b3">05</span>
@@ -2813,13 +2563,13 @@
                                                                 </div>
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" alt="<?php echo $model; ?> Teen Driver" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg"
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                     <div class="c-image-with-caption__caption">
                                                                         <span class="c-image-with-caption__caption-number u-b3">06</span>
@@ -2837,13 +2587,13 @@
                                                                 </div>
                                                                 <div class="swiper-slide">
                                                                     <img loading="lazy" alt="<?php echo $model; ?> Teen Driver" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
-                                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg"
-                                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 400w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 600w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 800w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 1160w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 1920w, 
-                                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 3840w" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 3840w" 
                                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                                     <div class="c-image-with-caption__caption">
                                                                         <span class="c-image-with-caption__caption-number u-b3">07</span>
@@ -2891,13 +2641,13 @@
                                                 <div class="pt-1 pb-5 pb-md-10">
                                                     <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> top view in showroom" data-swiper-parallax-scale="0.8"
                                                         data-swiper-parallax-opacity="0.2"
-                                                        src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-013-1000.avif"
-                                                        srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-013-1000.avif 400w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-013-1000.avif 600w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-013-1000.avif 800w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-013-1000.avif 1160w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-013-1000.avif 1920w, 
-                                                        <?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-013-1000.avif 3840w" 
+                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-013-1000.avif"
+                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-013-1000.avif 400w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-013-1000.avif 600w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-013-1000.avif 800w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-013-1000.avif 1160w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-013-1000.avif 1920w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-013-1000.avif 3840w" 
                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">                                                   
                                                     <div class="stats">
                                                         <div class="pinned-wrap">
@@ -3370,7 +3120,7 @@
 
                         <video class="c-custom-video-player__video js-video-element" preload="metadata"
                             crossorigin="anonymous" playsinline data-autoplay="false" controls>
-                            <source src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2025-Corvette-Insider_An-Overview-of-ZR1.mp4" type="video/mp4" />
+                            <source src="<?php echo $media_path; ?>/2025-Corvette-Insider_An-Overview-of-ZR1.mp4" type="video/mp4" />
                         </video>
                         <!--end video source-->
                     </div>
@@ -3404,7 +3154,7 @@
 
                         <video class="c-custom-video-player__video js-video-element" preload="metadata"
                             crossorigin="anonymous" playsinline data-autoplay="false" controls>
-                            <source src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Corvette-ZR1-All-About-Aerodynamics.mp4" type="video/mp4" />
+                            <source src="<?php echo $media_path; ?>/2026-Corvette-ZR1-All-About-Aerodynamics.mp4" type="video/mp4" />
                         </video>
                         <!--end video source-->
                     </div>
@@ -3438,7 +3188,7 @@
 
                         <video class="c-custom-video-player__video js-video-element" preload="metadata"
                             crossorigin="anonymous" playsinline data-autoplay="false" controls>
-                            <source src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Corvette-ZR1-Design-Interior.mp4" type="video/mp4" />
+                            <source src="<?php echo $media_path; ?>/2026-Corvette-ZR1-Design-Interior.mp4" type="video/mp4" />
                         </video>
                         <!--end video source-->
                     </div>
