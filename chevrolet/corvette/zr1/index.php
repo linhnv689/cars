@@ -151,7 +151,7 @@
 
                                     <video class="c-custom-video-player__video js-video-element" preload="metadata"
                                         crossorigin="anonymous" playsinline data-autoplay="true">
-                                        <source src="<?php echo $media_path; ?>/Chevrolet-Corvette-ZR1.mp4" type="video/mp4" />
+                                        <source src="<?php echo $media_path; ?>/Chevrolet-Corvette-ZR1-Intro-001.mp4" type="video/mp4" />
                                     </video>
                                     <!--end video source-->
                                 </div>
@@ -572,7 +572,7 @@
                     <section id="technology" class="o-section" style="z-index: 2; position: relative;">
                         <div class="c-extra-technology">
                             <picture class="c-extra-technology__bg js-nevera-technology">
-                                <img src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" alt="">
+                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-029-1845.jpg" alt="">
                                 
                             </picture>
                             <i class="js-nevera-technology-overlay c-extra-technology__overlay"></i>                          
@@ -722,8 +722,7 @@
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
 
                             <video class="c-scrolling-reveal-bg__video"
-                                src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2022-apollo-evo-experience-001.mp4"
-                                preload="auto" muted playsinline autoplay loop type="video/mp4"></video>
+                                src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-Experience-001.mp4" preload="auto" muted playsinline autoplay loop type="video/mp4"></video>
                         </div>
 
                         <div class="c-scrolling-reveal-content">
@@ -768,7 +767,7 @@
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
 
                             <video class="c-scrolling-reveal-bg__video"
-                                src="<?php echo $media_path; ?>/2026-Corvette-ZR1-Design-Exterior.mp4" preload="auto"
+                                src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-Design-Exterior-001.mp4" preload="auto"
                                 muted playsinline autoplay loop type="video/mp4"></video>
 
                         </div>
@@ -1227,13 +1226,13 @@
                                             <div class="accord__content">
                                                 <div class="pt-1 pb-5 pb-md-10">
                                                     <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> side view on road"
-                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1080.avif"
-                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1080.avif 400w, 
-                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1080.avif 600w, 
-                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1080.avif 800w, 
-                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1080.avif 1160w, 
-                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1080.avif 1920w, 
-                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1080.avif 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif"
+                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif 400w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif 600w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif 800w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif 1160w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif 1920w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
                                                     <p class="small mw-md-60p mb-4">
                                                         The <?php echo $model; ?> is the pinnacle of performance within the Corvette lineup — a track-focused, street-legal supercar that represents the most powerful and technologically advanced variant of its generation.
                                                     </p>                                                   
@@ -2709,13 +2708,13 @@
                                                 <div class="pt-1 pb-5 pb-md-10">
                                                     <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> top view in showroom" data-swiper-parallax-scale="0.8"
                                                         data-swiper-parallax-opacity="0.2"
-                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-013-1000.avif"
-                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-013-1000.avif 400w, 
-                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-013-1000.avif 600w, 
-                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-013-1000.avif 800w, 
-                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-013-1000.avif 1160w, 
-                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-013-1000.avif 1920w, 
-                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-013-1000.avif 3840w" 
+                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif"
+                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 400w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 600w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 800w,
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 1160w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 1920w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 3840w" 
                                                         size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">                                                   
                                                     <div class="stats">
                                                         <div class="pinned-wrap">
@@ -3025,10 +3024,74 @@
                                                         <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
                                                             <figure class="c-image-with-caption">
                                                                 <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
                                                                     <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" media="(min-width: 2600px)">
                                                                     <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" media="(min-width: 1600px)">
                                                                     <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" media="(min-width: 800px)">
                                                                     <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif" class="swiper-lazy" alt="">
                                                                 </picture>
                                                             </figure>
                                                             <div class="c-image-with-caption__caption">
@@ -3105,10 +3168,106 @@
                                                         <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
                                                             <figure class="c-image-with-caption">
                                                                 <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
                                                                     <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" media="(min-width: 2600px)">
                                                                     <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" media="(min-width: 1600px)">
                                                                     <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" media="(min-width: 800px)">
                                                                     <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif" class="swiper-lazy" alt="">
                                                                 </picture>
                                                             </figure>
                                                             <div class="c-image-with-caption__caption">
@@ -3139,8 +3298,182 @@
                                     </div>
                                 </div>                                  
                             </div>
+                        </div>                 
+                    </section>
+
+                    <section class="section section--milestones pt-0 pb-5 pb-md-10">
+                        <div class="">
+                            <div class="container-fluid">
+                                
+                                <div class="scrub">
+                                    <div class="row mb-6">
+                                        <div class="col-12 text-center">
+                                            <h2 class="t-1 text-gray mb-3 mb-md-5">Milestones</h2>
+                                        </div>
+
+                                        <div class="row row-offset-minus-1">
+                                            <div class="col-12 mb-2">
+                                                <img loading="lazy" class="pr zi-10" src="assets/static/img/10%20RIMAC%20NEVERA%20R.jpg" alt="Nevera R in concrete hall"
+                                                    srcset="assets/static/img/400/10%20RIMAC%20NEVERA%20R.jpg 400w, assets/static/img/600/10%20RIMAC%20NEVERA%20R.jpg 600w, assets/static/img/800/10%20RIMAC%20NEVERA%20R.jpg 800w, assets/static/img/1160/10%20RIMAC%20NEVERA%20R.jpg 1160w, assets/static/img/10%20RIMAC%20NEVERA%20R.jpg 1920w, assets/static/img/3840/10%20RIMAC%20NEVERA%20R.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-1 col-md-3 offset-md-2">
+                                            <div class="arrow">
+                                                <div class="arrow__rot">
+                                                    <span class="arrow__text">read here</span>
+                                                </div>
+                                                <div class="arrow__line">
+                                                    <div></div>
+                                                    <div></div>
+                                                    <div></div>
+                                                </div>
+                                                <div class="arrow__circle">
+                                                    <div class="arrow__cap"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="offset-1 offset-sm-0 col-8 col-md-5">
+                                            <h3 class="t-3 mb-1 text-aqua">0 to 15 Years<br>Hyper-Fast</h3>
+                                            <p class="big">In 15 years, Rimac has revolutionized the automotive industry. From a radical vision to record-breaking speeds, we have been defying expectations. Our journey has been
+                                                rebellious and
+                                                relentless. Here is a look at our biggest milestones:</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="toggle__group">
+                                        <div class="row toggle active">
+                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                                <span class="t-5 toggle__year ml-1 d-block">
+                                                    2009 - 2010
+                                                </span>
+                                                <h4 class="t-5 ml-1">The garage phase</h4>
+                                            </div>
+                                            <div class="col-7 col-sm-8 col-md-5 toggle__text">
+                                                <p class="small">The idea of an electric supercar was born.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row toggle">
+                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                                <span class="t-5 toggle__year ml-1 d-block">
+                                                    2011
+                                                </span>
+                                                <h4 class="t-5 ml-1">Setting World Records</h4>
+                                            </div>
+                                            <div class="col-7 col-sm-8 col-md-5 toggle__text">
+                                                <p class="small">Mate Rimac set 5 Guinness and FIA World records for the fastest accelerating electric car.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row toggle">
+                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                                <span class="t-5 toggle__year ml-1 d-block">
+                                                    2011
+                                                </span>
+                                                <h4 class="t-5 ml-1">Rimac Automobili is Born</h4>
+                                            </div>
+                                            <div class="col-5  toggle__text">
+
+                                                <p class="small">The prototype Concept_One was first shown at the Frankfurt Motor Show.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row toggle">
+                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                                <span class="t-5 toggle__year ml-1 d-block">
+                                                    2013 - 2014
+                                                </span>
+                                                <h4 class="t-5 ml-1">Getting Traction</h4>
+                                            </div>
+                                            <div class="col-7 col-sm-8 col-md-5 toggle__text">
+                                                <p class="small">Delivery of the first car developed and manufactured for another automotive company - a Concept_One prototype went global as the FIA Formula E Race Director's car.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row toggle">
+                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                                <span class="t-5 toggle__year ml-1 d-block">
+                                                    2016
+                                                </span>
+                                                <h4 class="t-5 ml-1">The First Production Car</h4>
+                                            </div>
+                                            <div class="col-7 col-sm-8 col-md-5 toggle__text">
+                                                <p class="small">The first customer Concept_One was delivered.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row toggle">
+                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                                <span class="t-5 toggle__year ml-1 d-block">
+                                                    2018
+                                                </span>
+                                                <h4 class="t-5 ml-1">The Next Generation</h4>
+                                            </div>
+                                            <div class="col-7 col-sm-8 col-md-5 toggle__text">
+                                                <p class="small">The C_Two, today known as the Nevera, was launched at the Geneva Motor
+                                                    Show with performance and character that elevated the genre.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row toggle">
+                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                                <span class="t-5 toggle__year ml-1 d-block">
+                                                    2019
+                                                </span>
+                                                <h4 class="t-5 ml-1">Future in the Works</h4>
+                                            </div>
+                                            <div class="col-7 col-sm-8 col-md-5 toggle__text">
+                                                <p class="small">The Nevera testing and homologation intensified. Rimac continued to develop
+                                                    components for Aston Martin, Renault, Porsche, Cupra, Automobili Pininfarina,
+                                                    Koenigsegg and others.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row toggle">
+                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                                <span class="t-5 toggle__year ml-1 d-block">
+                                                    2021
+                                                </span>
+                                                <h4 class="t-5 ml-1">The Milestone Year</h4>
+                                            </div>
+                                            <div class="col-7 col-sm-8 col-md-5 toggle__text">
+                                                <p class="small">The production version of the Nevera was launched; Rimac Automobili and Bugatti merged into Bugatti Rimac, the best hypercar company in the world.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row toggle">
+                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                                <span class="t-5 toggle__year ml-1 d-block">
+                                                    2022
+                                                </span>
+                                                <h4 class="t-5 ml-1">The Perfect Storm</h4>
+                                            </div>
+                                            <div class="col-7 col-sm-8 col-md-5 toggle__text">
+                                                <p class="small">Nevera hit the streets - shortly after, it broke the world record for the fastest top speed for an electric road car: 412kph. </p>
+                                            </div>
+                                        </div>
+                                        <div class="row toggle">
+                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                                <span class="t-5 toggle__year ml-1 d-block">
+                                                    2023
+                                                </span>
+                                                <h4 class="t-5 ml-1">Time Attack</h4>
+                                            </div>
+                                            <div class="col-7 col-sm-8 col-md-5 toggle__text">
+                                                <p class="small">The Time Attack Edition was revealed, celebrating a record-breaking year in which the Nevera smashed 23 performance records in a single day.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row toggle mb-0">
+                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                                <span class="t-5 toggle__year ml-1 d-block">
+                                                    2024
+                                                </span>
+                                                <h4 class="t-5 ml-1">The story continues…</h4>
+                                            </div>
+                                            <div class="col-7 col-sm-8 col-md-5 toggle__text">
+                                                <p class="small">The Rimac brand celebrates its 15th anniversary and launches the Nevera R - setting a new standard in electric hypercars.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        
                     </section>
 
                     <i class="c-scroll-indicator">
@@ -3188,7 +3521,7 @@
 
                         <video class="c-custom-video-player__video js-video-element" preload="metadata"
                             crossorigin="anonymous" playsinline data-autoplay="false" controls>
-                            <source src="<?php echo $media_path; ?>/2025-Corvette-Insider_An-Overview-of-ZR1.mp4" type="video/mp4" />
+                            <source src="<?php echo $media_path; ?>/2026-Chervolet-Corvette-ZR1-Insider-An-Overview-001.mp4" type="video/mp4" />
                         </video>
                         <!--end video source-->
                     </div>
@@ -3222,7 +3555,7 @@
 
                         <video class="c-custom-video-player__video js-video-element" preload="metadata"
                             crossorigin="anonymous" playsinline data-autoplay="false" controls>
-                            <source src="<?php echo $media_path; ?>/2026-Corvette-ZR1-All-About-Aerodynamics.mp4" type="video/mp4" />
+                            <source src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-Aerodynamics-001.mp4" type="video/mp4" />
                         </video>
                         <!--end video source-->
                     </div>
@@ -3256,7 +3589,7 @@
 
                         <video class="c-custom-video-player__video js-video-element" preload="metadata"
                             crossorigin="anonymous" playsinline data-autoplay="false" controls>
-                            <source src="<?php echo $media_path; ?>/2026-Corvette-ZR1-Design-Interior.mp4" type="video/mp4" />
+                            <source src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-Design-Interior-002.mp4" type="video/mp4" />
                         </video>
                         <!--end video source-->
                     </div>
