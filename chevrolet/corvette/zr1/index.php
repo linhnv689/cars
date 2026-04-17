@@ -2850,7 +2850,7 @@
                         </div>
                     </section>
 
-                    <section id="full-gallery" data-scrollspy-title="Full Gallery" class="section section--gallery o-section--dark js-scrollspy-item"> <!-- .pb-5 pb-md-10 -->                                
+                    <section id="full-gallery" data-scrollspy-title="Full Gallery" class="section section--gallery js-scrollspy-item"> <!-- .pb-5 pb-md-10 -->                                
                         <div class="container-fluid">
                             <div class="row scrub">
                                 <div class="col-12 text-center">
@@ -3303,8 +3303,7 @@
 
                     <section class="section section--milestones pt-0 pb-5 pb-md-10">
                         <div class="">
-                            <div class="container-fluid">
-                                
+                            <div class="container-fluid">                              
                                 <div class="scrub">
                                     <div class="row mb-6">
                                         <div class="col-12 text-center">
@@ -3336,26 +3335,25 @@
                                         </div>
                                         <div class="offset-1 offset-sm-0 col-8 col-md-5">
                                             <h3 class="t-3 mb-1 text-aqua">0 to 15 Years<br>Hyper-Fast</h3>
-                                            <p class="big">In 15 years, Rimac has revolutionized the automotive industry. From a radical vision to record-breaking speeds, we have been defying expectations. Our journey has been
-                                                rebellious and
-                                                relentless. Here is a look at our biggest milestones:</p>
+                                            <p class="big lh-sm">In 15 years, Rimac has revolutionized the automotive industry. From a radical vision to record-breaking speeds, we have been defying expectations. Our journey has been
+                                                rebellious and relentless. Here is a look at our biggest milestones:</p>
 
                                         </div>
                                     </div>
                                     <div class="toggle__group">
                                         <div class="row toggle active">
-                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
-                                                <span class="t-5 toggle__year ml-1 d-block">
-                                                    2009 - 2010
-                                                </span>
+                                            <div class="col-5 col-sm-3 offset-md-2 toggle__title">
+                                                <span class="t-5 toggle__year ml-1 d-block">2009 - 2010</span>
                                                 <h4 class="t-5 ml-1">The garage phase</h4>
                                             </div>
                                             <div class="col-7 col-sm-8 col-md-5 toggle__text">
+                                                <img loading="lazy" class="pr zi-10" src="assets/static/img/10%20RIMAC%20NEVERA%20R.jpg" alt="Nevera R in concrete hall"
+                                                    srcset="assets/static/img/400/10%20RIMAC%20NEVERA%20R.jpg 400w, assets/static/img/600/10%20RIMAC%20NEVERA%20R.jpg 600w, assets/static/img/800/10%20RIMAC%20NEVERA%20R.jpg 800w, assets/static/img/1160/10%20RIMAC%20NEVERA%20R.jpg 1160w, assets/static/img/10%20RIMAC%20NEVERA%20R.jpg 1920w, assets/static/img/3840/10%20RIMAC%20NEVERA%20R.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">                                         
                                                 <p class="small">The idea of an electric supercar was born.</p>
                                             </div>
                                         </div>
                                         <div class="row toggle">
-                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                            <div class="col-5 col-sm-3 offset-md-2 toggle__title">
                                                 <span class="t-5 toggle__year ml-1 d-block">
                                                     2011
                                                 </span>
@@ -3366,7 +3364,7 @@
                                             </div>
                                         </div>
                                         <div class="row toggle">
-                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                            <div class="col-5 col-sm-3 offset-md-2 toggle__title">
                                                 <span class="t-5 toggle__year ml-1 d-block">
                                                     2011
                                                 </span>
@@ -3378,7 +3376,7 @@
                                             </div>
                                         </div>
                                         <div class="row toggle">
-                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                            <div class="col-5 col-sm-3 offset-md-2 toggle__title">
                                                 <span class="t-5 toggle__year ml-1 d-block">
                                                     2013 - 2014
                                                 </span>
@@ -3390,7 +3388,7 @@
                                             </div>
                                         </div>
                                         <div class="row toggle">
-                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                            <div class="col-5 col-sm-3 offset-md-2 toggle__title">
                                                 <span class="t-5 toggle__year ml-1 d-block">
                                                     2016
                                                 </span>
@@ -3401,7 +3399,7 @@
                                             </div>
                                         </div>
                                         <div class="row toggle">
-                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                            <div class="col-5 col-sm-3 offset-md-2 toggle__title">
                                                 <span class="t-5 toggle__year ml-1 d-block">
                                                     2018
                                                 </span>
@@ -3413,7 +3411,7 @@
                                             </div>
                                         </div>
                                         <div class="row toggle">
-                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                            <div class="col-5 col-sm-3 offset-md-2 toggle__title">
                                                 <span class="t-5 toggle__year ml-1 d-block">
                                                     2019
                                                 </span>
@@ -3426,7 +3424,7 @@
                                             </div>
                                         </div>
                                         <div class="row toggle">
-                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                            <div class="col-5 col-sm-3 offset-md-2 toggle__title">
                                                 <span class="t-5 toggle__year ml-1 d-block">
                                                     2021
                                                 </span>
@@ -3437,7 +3435,7 @@
                                             </div>
                                         </div>
                                         <div class="row toggle">
-                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                            <div class="col-5 col-sm-3 offset-md-2 toggle__title">
                                                 <span class="t-5 toggle__year ml-1 d-block">
                                                     2022
                                                 </span>
@@ -3448,7 +3446,7 @@
                                             </div>
                                         </div>
                                         <div class="row toggle">
-                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                            <div class="col-5 col-sm-3 offset-md-2 toggle__title">
                                                 <span class="t-5 toggle__year ml-1 d-block">
                                                     2023
                                                 </span>
@@ -3459,7 +3457,7 @@
                                             </div>
                                         </div>
                                         <div class="row toggle mb-0">
-                                            <div class="col-5 col-sm-4 offset-md-2 toggle__title">
+                                            <div class="col-5 col-sm-3 offset-md-2 toggle__title">
                                                 <span class="t-5 toggle__year ml-1 d-block">
                                                     2024
                                                 </span>
