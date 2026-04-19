@@ -241,7 +241,7 @@
                         alt="Chevrolet-ZR1X">
                 </li>
                 <li class="c-menu-images__item" title="Chevrolet ZR1">
-                    <img src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/Chevrolet-Corvette-ZR1.avif"
+                    <img src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif"
                         alt="Chevrolet-ZR1">
                 </li>
                 <li class="c-menu-images__item" title="Chevrolet E‑Ray">

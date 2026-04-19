@@ -83,7 +83,7 @@
                     <div class="slides">
                         <div class="slide">
                             <div class="slide-media">
-                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/Chevrolet-Corvette-ZR1.mp4" autoplay muted
+                                <video src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/Chevrolet-Corvette-ZR1-Intro-001.mp4" autoplay muted
                                     loop></video>
                             </div>
                             <div class="slide-content">

@@ -490,9 +490,7 @@
 
                     <i class="u-spacer u-spacer--25vh"></i>
                     
-                    <!--todo fix spacer on mobile-->
-
-                    
+                    <!--todo fix spacer on mobile-->                
 
                     <section class="section section--are-you c-nevera-welcome third pb-8">
                         <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">
@@ -821,7 +819,7 @@
                     </section>
                     <i class="u-spacer u-spacer--50vh"></i>
                     <!--todo: fix overflow-x cant find it-->
-                    <section id="engineering" data-scrollspy-title="Engineering" class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item">
+                    <section id="engineering" data-scrollspy-title="Engineering" class="section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item pt-2 pb-5 pb-md-16 ">
                         
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
                             <video class="c-scrolling-reveal-bg__video"
@@ -858,345 +856,341 @@
                             </div>
                         </div>
                     </section>
-                    <i class="u-spacer u-spacer--50vh"></i>
-                    <section id="in-house-production" class="o-section o-section--dark o-section--in-house-production js-scrollspy-item pt-2 pd-5 pd-md-10" data-scrollspy-title="in-house production">
-                        
-                        <div class="scrub">
-                            <div class="o-section__heading">
+
+                    <section id="in-house-production" data-scrollspy-title="in-house production" class="section o-section--in-house-production o-section--dark js-scrollspy-item pt-2 pb-5" >
+                        <div class="container-fluid">
+                            <div class="row scrub">                          
                                 <div class="o-container o-container--narrow">
                                     <div class="c-heading c-heading--narrow u-text-center">
-                                        <h2 class="t-1 text-gray mb-3 mb-md-5">in-house production</h2>
+                                        <h2 class="t-1 text-gray u-a4 u-uppercase">in-house production</h2>
                                         <p class="u-b0">
                                             From bytes to bolts. Our expert engineers find and develop the very best
                                             materials to craft everything from powertrain components to composites and
                                             in-car controls. All designed and created in our headquarters in Croatia, our
                                             cars are handcrafted to perform far beyond expectations. </p>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="o-section__content">
-                            <div class="o-container o-container--narrow">
-                                <div class="c-article-wrapper">
-                                    <div class="c-article c-article--narrow">
-                                        <h3 class="u-a2">
-                                            Down to the last detail </h3>
-                                        <p class="u-b2">Rebellious German Engineering, made tangible by the Apollo x Ideenion partnership.</p>
+                                </div>    
+                            <div class="o-section__content">
+                                <div class="o-container o-container--narrow">
+                                    <div class="c-article-wrapper">
+                                        <div class="c-article c-article--narrow">
+                                            <h3 class="u-a2">Down to the last detail </h3>
+                                            <p class="u-b2">Rebellious German Engineering, made tangible by the Apollo x Ideenion partnership.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- DRAGGABLE SLIDER -->
-                            <div
-                                class="c-draggable-simple-slider-wrapper c-draggable-simple-slider-wrapper--nevera c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">
-                                <!-- CURSOR -->
-                                <div class="c-draggable-slider-cursor js-draggable-simple-slider-cursor">
-                                    <div class="c-draggable-slider-cursor__circle">
-                                        <div class="c-draggable-slider-cursor__label u-b3 u-uppercase">Drag</div>
+                                <!-- DRAGGABLE SLIDER -->
+                                <div class="c-draggable-simple-slider-wrapper c-draggable-simple-slider-wrapper--nevera c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">
+                                    <!-- CURSOR -->
+                                    <div class="c-draggable-slider-cursor js-draggable-simple-slider-cursor">
+                                        <div class="c-draggable-slider-cursor__circle">
+                                            <div class="c-draggable-slider-cursor__label u-b3 u-uppercase">Drag</div>
 
-                                        <div class="c-draggable-slider-cursor__label--click u-b3 u-uppercase">Click</div>
-                                        <i class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--prev"></i>
-                                        <i class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--next"></i>
+                                            <div class="c-draggable-slider-cursor__label--click u-b3 u-uppercase">Click</div>
+                                            <i class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--prev"></i>
+                                            <i class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--next"></i>
+                                        </div>
                                     </div>
-                                </div>
-                                <!-- //CURSOR -->
-                                <div class="o-container c-draggable-simple-slider">
-                                    <div
-                                        class="c-draggable-simple-slider__container swiper-container js-draggable-simple-slider">
-                                        <ul class="c-draggable-simple-slider__wrapper swiper-wrapper">
+                                    <!-- //CURSOR -->
+                                    <div class="o-container c-draggable-simple-slider">
+                                        <div
+                                            class="c-draggable-simple-slider__container swiper-container js-draggable-simple-slider">
+                                            <ul class="c-draggable-simple-slider__wrapper swiper-wrapper">
 
-                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                <div class="c-draggable-simple-slider__item-inner"
-                                                    data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
-                                                        <picture>
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg"
-                                                                media="(min-width: 2600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg"
-                                                                media="(min-width: 1600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg"
-                                                                media="(min-width: 800px)">
-                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg" class="swiper-lazy" alt="Apollo Evo Monocoque">
-                                                        </picture>                                                       
-                                                    </figure>
-                                                    <!-- <figure class="c-instagram-with-caption">
-                                                        <blockquote class="instagram-media"
-                                                            data-instgrm-permalink="https://www.instagram.com/reel/DWUEvBWjDa9/">
-                                                        </blockquote>
-                                                    </figure> -->
-                                                    <div class="c-image-with-caption__caption">
-                                                        <span class="c-image-with-caption__caption-number u-b3">
-                                                            01 </span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">Meticulously reimagined</h5>
-                                                            <p class="u-b2">The subtle art of improvement realized in the new Apollo EVO exhaust. Every finished piece has its story; it's in the first sketches, the countless iterations, and the moment when lines connect into a 3D world. Here's a peek into that process, see the unfolding, not just the form.</p>
+                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg" class="swiper-lazy" alt="Apollo Evo Monocoque">
+                                                            </picture>                                                       
+                                                        </figure>
+                                                        <!-- <figure class="c-instagram-with-caption">
+                                                            <blockquote class="instagram-media"
+                                                                data-instgrm-permalink="https://www.instagram.com/reel/DWUEvBWjDa9/">
+                                                            </blockquote>
+                                                        </figure> -->
+                                                        <div class="c-image-with-caption__caption">
+                                                            <span class="c-image-with-caption__caption-number u-b3">
+                                                                01 </span>
+                                                            <div class="c-image-with-caption__caption-text">
+                                                                <h5 class="u-a1">Meticulously reimagined</h5>
+                                                                <p class="u-b2">The subtle art of improvement realized in the new Apollo EVO exhaust. Every finished piece has its story; it's in the first sketches, the countless iterations, and the moment when lines connect into a 3D world. Here's a peek into that process, see the unfolding, not just the form.</p>
+                                                            </div>
+
                                                         </div>
-
                                                     </div>
-                                                </div>
-                                            </li>
+                                                </li>
 
-                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide"><!-- .instagram-slide -->
-                                                <div class="c-draggable-simple-slider__item-inner"
-                                                    data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
-                                                        <picture>
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp"
-                                                                media="(min-width: 2600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp"
-                                                                media="(min-width: 1600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp"
-                                                                media="(min-width: 800px)">
-                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp" class="swiper-lazy" alt="Apollo Evo Monocoque">
-                                                        </picture>                                                       
-                                                    </figure>
-                                                    <!-- <figure class="c-instagram-with-caption">
-                                                        <blockquote class="instagram-media"
-                                                            data-instgrm-permalink="https://www.instagram.com/reel/DWB99PyjGDM/">
-                                                        </blockquote>
-                                                    </figure> -->
-                                                    <div class="c-image-with-caption__caption"> <!-- .instagram -->
-                                                        <span class="c-image-with-caption__caption-number u-b3">
-                                                            02 </span>
-                                                        <div class="c-image-with-caption__caption-text"> <!-- .instagram -->
-                                                            <h5 class="u-a1">Where craftsmanship meets performance</h5>
-                                                            <p class="u-b2">Precision-cut carbon fibre, hand-laid with purpose. Every sheet is placed to shape strength, safety, and performance from the inside out.</p>
+                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide"><!-- .instagram-slide -->
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp"
+                                                                    media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp"
+                                                                    media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp"
+                                                                    media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp" class="swiper-lazy" alt="Apollo Evo Monocoque">
+                                                            </picture>                                                       
+                                                        </figure>
+                                                        <!-- <figure class="c-instagram-with-caption">
+                                                            <blockquote class="instagram-media"
+                                                                data-instgrm-permalink="https://www.instagram.com/reel/DWB99PyjGDM/">
+                                                            </blockquote>
+                                                        </figure> -->
+                                                        <div class="c-image-with-caption__caption"> <!-- .instagram -->
+                                                            <span class="c-image-with-caption__caption-number u-b3">
+                                                                02 </span>
+                                                            <div class="c-image-with-caption__caption-text"> <!-- .instagram -->
+                                                                <h5 class="u-a1">Where craftsmanship meets performance</h5>
+                                                                <p class="u-b2">Precision-cut carbon fibre, hand-laid with purpose. Every sheet is placed to shape strength, safety, and performance from the inside out.</p>
+                                                            </div>
+
                                                         </div>
-
                                                     </div>
-                                                </div>
-                                            </li>
+                                                </li>
 
-                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                <div class="c-draggable-simple-slider__item-inner"
-                                                    data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
-                                                        <picture>
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" media="(min-width: 2600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" media="(min-width: 1600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" media="(min-width: 800px)">
-                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
-                                                        </picture>
-                                                    </figure>
-                                                    <!-- <figure class="c-instagram-with-caption">
-                                                        <blockquote class="instagram-media"
-                                                            data-instgrm-permalink="https://www.instagram.com/reel/DV1I0F5jF2E/">
-                                                        </blockquote>
-                                                    </figure> -->
-                                                    <div class="c-image-with-caption__caption">
-                                                        <span class="c-image-with-caption__caption-number u-b3">03</span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1 u-capitalize">monocoque</h5>
-                                                            <p class="u-b2">Where heat, pressure and vision converge. The Apollo EVO monocoque.</p>
+                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
+                                                            </picture>
+                                                        </figure>
+                                                        <!-- <figure class="c-instagram-with-caption">
+                                                            <blockquote class="instagram-media"
+                                                                data-instgrm-permalink="https://www.instagram.com/reel/DV1I0F5jF2E/">
+                                                            </blockquote>
+                                                        </figure> -->
+                                                        <div class="c-image-with-caption__caption">
+                                                            <span class="c-image-with-caption__caption-number u-b3">03</span>
+                                                            <div class="c-image-with-caption__caption-text">
+                                                                <h5 class="u-a1 u-capitalize">monocoque</h5>
+                                                                <p class="u-b2">Where heat, pressure and vision converge. The Apollo EVO monocoque.</p>
+                                                            </div>
+
                                                         </div>
-
                                                     </div>
-                                                </div>
-                                            </li>
+                                                </li>
 
-                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                <div class="c-draggable-simple-slider__item-inner"
-                                                    data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
-                                                        <picture>
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" media="(min-width: 2600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" media="(min-width: 1600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" media="(min-width: 800px)">
-                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
-                                                        </picture>
-                                                    </figure>
-                                                    <!-- <figure class="c-instagram-with-caption">
-                                                        <blockquote class="instagram-media"
-                                                            data-instgrm-permalink="https://www.instagram.com/reel/DVi3zvPjDto/">
-                                                        </blockquote>
-                                                    </figure> -->
-                                                    <div class="c-image-with-caption__caption">
-                                                        <span class="c-image-with-caption__caption-number u-b3">
-                                                            04 </span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">Strength is engineered, not added</h5>
-                                                            <p class="u-b2">Advanced composite layups, optimized fiber orientation, and controlled curing cycles — all to maximize stiffness while cutting unnecessary weight.</p>
+                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
+                                                            </picture>
+                                                        </figure>
+                                                        <!-- <figure class="c-instagram-with-caption">
+                                                            <blockquote class="instagram-media"
+                                                                data-instgrm-permalink="https://www.instagram.com/reel/DVi3zvPjDto/">
+                                                            </blockquote>
+                                                        </figure> -->
+                                                        <div class="c-image-with-caption__caption">
+                                                            <span class="c-image-with-caption__caption-number u-b3">
+                                                                04 </span>
+                                                            <div class="c-image-with-caption__caption-text">
+                                                                <h5 class="u-a1">Strength is engineered, not added</h5>
+                                                                <p class="u-b2">Advanced composite layups, optimized fiber orientation, and controlled curing cycles — all to maximize stiffness while cutting unnecessary weight.</p>
+                                                            </div>
+
                                                         </div>
-
                                                     </div>
-                                                </div>
-                                            </li>
+                                                </li>
 
-                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                <div class="c-draggable-simple-slider__item-inner"
-                                                    data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
-                                                        <picture>
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" media="(min-width: 2600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" media="(min-width: 1600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" media="(min-width: 800px)">
-                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
-                                                        </picture>
-                                                    </figure>
-                                                    <!-- <figure class="c-instagram-with-caption">
-                                                        <blockquote class="instagram-media"
-                                                            data-instgrm-permalink="https://www.instagram.com/reel/DVJYlxUDG5o/">
-                                                        </blockquote>
-                                                    </figure> -->
-                                                    <div class="c-image-with-caption__caption">
-                                                        <span class="c-image-with-caption__caption-number u-b3">05</span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">Carbon at the core</h5>
-                                                            <p class="u-b2">Precision in every bracket, every mount, every load path. The all new Apollo EVO monocoque — Rebellious German Engineering for precision, strength and control.</p>
+                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
+                                                            </picture>
+                                                        </figure>
+                                                        <!-- <figure class="c-instagram-with-caption">
+                                                            <blockquote class="instagram-media"
+                                                                data-instgrm-permalink="https://www.instagram.com/reel/DVJYlxUDG5o/">
+                                                            </blockquote>
+                                                        </figure> -->
+                                                        <div class="c-image-with-caption__caption">
+                                                            <span class="c-image-with-caption__caption-number u-b3">05</span>
+                                                            <div class="c-image-with-caption__caption-text">
+                                                                <h5 class="u-a1">Carbon at the core</h5>
+                                                                <p class="u-b2">Precision in every bracket, every mount, every load path. The all new Apollo EVO monocoque — Rebellious German Engineering for precision, strength and control.</p>
+                                                            </div>
+
                                                         </div>
-
                                                     </div>
-                                                </div>
-                                            </li>
+                                                </li>
 
-                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                <div class="c-draggable-simple-slider__item-inner"
-                                                    data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
-                                                        <picture>
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-004.webp" media="(min-width: 2600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-004.webp" media="(min-width: 1600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-004.webp" media="(min-width: 800px)">
-                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-004.webp" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
-                                                        </picture>
-                                                    </figure>
-                                                    <!-- <figure class="c-instagram-with-caption">
-                                                        <blockquote class="instagram-media"
-                                                            data-instgrm-permalink="https://www.instagram.com/reel/DVJYlxUDG5o/">
-                                                        </blockquote>
-                                                    </figure> -->
-                                                    <div class="c-image-with-caption__caption">
-                                                        <span class="c-image-with-caption__caption-number u-b3">
-                                                            06 </span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1 u-capitalize">Making</h5>
-                                                            <p class="u-b2">Hours in the making. Performance for a lifetime. Cured under extreme pressure and temperature, the monocoque emerges lighter, stiffer, and ready to hit the track.</p>
+                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-004.webp" media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-004.webp" media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-004.webp" media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-004.webp" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
+                                                            </picture>
+                                                        </figure>
+                                                        <!-- <figure class="c-instagram-with-caption">
+                                                            <blockquote class="instagram-media"
+                                                                data-instgrm-permalink="https://www.instagram.com/reel/DVJYlxUDG5o/">
+                                                            </blockquote>
+                                                        </figure> -->
+                                                        <div class="c-image-with-caption__caption">
+                                                            <span class="c-image-with-caption__caption-number u-b3">
+                                                                06 </span>
+                                                            <div class="c-image-with-caption__caption-text">
+                                                                <h5 class="u-a1 u-capitalize">Making</h5>
+                                                                <p class="u-b2">Hours in the making. Performance for a lifetime. Cured under extreme pressure and temperature, the monocoque emerges lighter, stiffer, and ready to hit the track.</p>
+                                                            </div>
+
                                                         </div>
-
                                                     </div>
-                                                </div>
-                                            </li>
+                                                </li>
 
-                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                <div class="c-draggable-simple-slider__item-inner"
-                                                    data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
-                                                        <picture>
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" media="(min-width: 2600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" media="(min-width: 1600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" media="(min-width: 800px)">
-                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
-                                                        </picture>
-                                                    </figure>
-                                                    <!-- <figure class="c-instagram-with-caption">
-                                                        <blockquote class="instagram-media"
-                                                            data-instgrm-permalink="https://www.instagram.com/reel/DUpsaxUDBNH/">
-                                                        </blockquote>
-                                                    </figure> -->
-                                                    <div class="c-image-with-caption__caption">
-                                                        <span class="c-image-with-caption__caption-number u-b3">07</span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1 u-capitalize">Interior</h5>
-                                                            <p class="u-b2">We questioned the status quo, and turned it into art.<br>
-                                                            The all-new Apollo EVO interior doesn’t follow hypercar conventions. It rewrites them. Aluminum bones. Carbon-fiber muscle. Nothing extra, just everything essential.</p>
+                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
+                                                            </picture>
+                                                        </figure>
+                                                        <!-- <figure class="c-instagram-with-caption">
+                                                            <blockquote class="instagram-media"
+                                                                data-instgrm-permalink="https://www.instagram.com/reel/DUpsaxUDBNH/">
+                                                            </blockquote>
+                                                        </figure> -->
+                                                        <div class="c-image-with-caption__caption">
+                                                            <span class="c-image-with-caption__caption-number u-b3">07</span>
+                                                            <div class="c-image-with-caption__caption-text">
+                                                                <h5 class="u-a1 u-capitalize">Interior</h5>
+                                                                <p class="u-b2">We questioned the status quo, and turned it into art.<br>
+                                                                The all-new Apollo EVO interior doesn’t follow hypercar conventions. It rewrites them. Aluminum bones. Carbon-fiber muscle. Nothing extra, just everything essential.</p>
+                                                            </div>
+
                                                         </div>
-
                                                     </div>
-                                                </div>
-                                            </li>
+                                                </li>
 
-                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                <div class="c-draggable-simple-slider__item-inner"
-                                                    data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
-                                                        <picture>
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg" media="(min-width: 2600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg" media="(min-width: 1600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg" media="(min-width: 800px)">
-                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
-                                                        </picture>
-                                                    </figure>
-                                                    <!-- <figure class="c-instagram-with-caption">
-                                                        <blockquote class="instagram-media"
-                                                            data-instgrm-permalink="https://www.instagram.com/reel/DUbF6MDDGp0/">
-                                                        </blockquote>
-                                                        <script async src="//www.instagram.com/embed.js"></script>
-                                                    </figure> -->
-                                                    <div class="c-image-with-caption__caption">
-                                                        <span class="c-image-with-caption__caption-number u-b3">08</span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1 u-capitalize">cockpit</h5>
-                                                            <p class="u-b2">Just pure anatomical precision shaped by Rebellious German Engineering, topology-optimised components, visible load-bearing structures, and a cockpit defined entirely by function.</p>
+                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg" media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg" media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg" media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
+                                                            </picture>
+                                                        </figure>
+                                                        <!-- <figure class="c-instagram-with-caption">
+                                                            <blockquote class="instagram-media"
+                                                                data-instgrm-permalink="https://www.instagram.com/reel/DUbF6MDDGp0/">
+                                                            </blockquote>
+                                                            <script async src="//www.instagram.com/embed.js"></script>
+                                                        </figure> -->
+                                                        <div class="c-image-with-caption__caption">
+                                                            <span class="c-image-with-caption__caption-number u-b3">08</span>
+                                                            <div class="c-image-with-caption__caption-text">
+                                                                <h5 class="u-a1 u-capitalize">cockpit</h5>
+                                                                <p class="u-b2">Just pure anatomical precision shaped by Rebellious German Engineering, topology-optimised components, visible load-bearing structures, and a cockpit defined entirely by function.</p>
+                                                            </div>
+
                                                         </div>
-
                                                     </div>
-                                                </div>
-                                            </li>
+                                                </li>
 
-                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
-                                                <div class="c-draggable-simple-slider__item-inner"
-                                                    data-swiper-parallax-opacity="0.2">
-                                                    <figure class="c-image-with-caption">
-                                                        <picture>
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.jpg" media="(min-width: 2600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.jpg" media="(min-width: 1600px)">
-                                                            <source
-                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.jpg" media="(min-width: 800px)">
-                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.jpg" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
-                                                        </picture>
-                                                    </figure>           
-                                                    <div class="c-image-with-caption__caption">
-                                                        <span class="c-image-with-caption__caption-number u-b3">09</span>
-                                                        <div class="c-image-with-caption__caption-text">
-                                                            <h5 class="u-a1">Individual expression</h5>
-                                                            <p class="u-b2">Uncompromising structure. Individual expression. Each Apollo EVO is shaped through the exclusive Apollo FORGE program — where every element, from colour to material to detail, reflects a personal vision.</p>
+                                                <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                    <div class="c-draggable-simple-slider__item-inner"
+                                                        data-swiper-parallax-opacity="0.2">
+                                                        <figure class="c-image-with-caption">
+                                                            <picture>
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.jpg" media="(min-width: 2600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.jpg" media="(min-width: 1600px)">
+                                                                <source
+                                                                    data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.jpg" media="(min-width: 800px)">
+                                                                <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.jpg" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
+                                                            </picture>
+                                                        </figure>           
+                                                        <div class="c-image-with-caption__caption">
+                                                            <span class="c-image-with-caption__caption-number u-b3">09</span>
+                                                            <div class="c-image-with-caption__caption-text">
+                                                                <h5 class="u-a1">Individual expression</h5>
+                                                                <p class="u-b2">Uncompromising structure. Individual expression. Each Apollo EVO is shaped through the exclusive Apollo FORGE program — where every element, from colour to material to detail, reflects a personal vision.</p>
+                                                            </div>
+
                                                         </div>
-
                                                     </div>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
+                                    <!-- //DRAGGABLE SLIDER -->
                                 </div>
-                                <!-- //DRAGGABLE SLIDER -->
-                            </div>
 
-                        </div>
+                            </div>
+                        </div> 
+                        </div>                      
                     </section>
-                    
-                    <section id="tech-spec" data-scrollspy-title="Technical Specs" class="section section--explore o-section--dark js-scrollspy-item pt-2 pb-5 pb-md-10">
+                    <section id="tech-spec" data-scrollspy-title="Technical Specs" class="section section--explore o-section--dark js-scrollspy-item pt-2 pb-5 pb-md-12">
                         <div class="wrapper">
                             <div class="container-fluid">
                                 <div class="row scrub">
-                                    <div class="col-12 text-center">
+                                    <div class="col-12 col-md-10 offset-md-1">
                                         <h2 class="t-1 text-gray mb-3 mb-md-5">Tech specification</h2>
                                     </div>
-                                    <div class="col-12 mb-4 mb-md-8">
+                                    <div class="col-12 col-sm-10 offset-sm-1 mb-4 mb-md-8">
                                         <div class="c-heading__button u-full-width text-center">
                                             <a href="https://web-cdn.rimac-automobili.com/wp-content/uploads/2023/11/20171226/Nevera_Technical-specifications.pdf"
                                                 download class="c-button c-button--play" data-popup="#technology-header-video">
@@ -1453,7 +1447,9 @@
                                                             </div>
                                                             <div class="stats__value">
                                                                 <span class="t-3b">
-                                                                    <span class="stats__split">1,064 </span>
+                                                                    <span class="stats__split">
+                                                                        1,064
+                                                                    </span>
                                                                     <span class="metric">hp @ 8000 rpm</span>
                                                                 </span>
                                                             </div>
@@ -2706,7 +2702,7 @@
                                                 <h3 class="t-2b text-aqua pl-2">Dimensions</h3>
                                             </div>
                                             <div class="accord__content" style="display:none">
-                                                <div class="pt-1">
+                                                <div class="pt-1 pb-5 pb-md-10">
                                                     <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> top view in showroom" data-swiper-parallax-scale="0.8"
                                                         data-swiper-parallax-opacity="0.2"
                                                         src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif"
@@ -2851,14 +2847,14 @@
                         </div>
                     </section>
 
-                    <section id="full-gallery" data-scrollspy-title="Full Gallery" class="section section--gallery js-scrollspy-item pt-2 pb-5 pb-md-10">           
+                    <section id="full-gallery" data-scrollspy-title="Full Gallery" class="section section--gallery js-scrollspy-item pb-5 pb-md-10"> <!-- .pb-5 pb-md-10 -->                                
                         <div class="container-fluid">
                             <div class="row scrub">
                                 <div class="col-12 text-center">
                                     <h2 class="t-1 text-gray mb-10">Full Gallery</h2>
                                 </div>
                                 
-                                <div class="c-nevera-welcome__slider pb-0">
+                                <div class="c-nevera-welcome__slider">
                                     <!-- DRAGGABLE SLIDER -->
                                     <div class="c-draggable-simple-slider-wrapper c-draggable-simple-slider-wrapper--nevera c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">                                     
                                         <div class="o-container c-draggable-simple-slider">
@@ -3302,117 +3298,6 @@
                         </div>                 
                     </section>
 
-                    <section class="section section--milestones pt-0 pb-5">
-                        <div class="container-fluid">                              
-                            <div class="scrub">
-                                <div class="row">
-                                    <div class="col-12 text-center">
-                                        <h2 class="t-1 text-gray mb-10">Milestones</h2>
-                                    </div>
-
-                                    <div class="row row-offset-minus-1">
-                                        <div class="col-12 mb-2">
-                                            <img loading="lazy" class="pr zi-10" src="assets/static/img/10%20RIMAC%20NEVERA%20R.jpg" alt="Nevera R in concrete hall"
-                                                srcset="assets/static/img/400/10%20RIMAC%20NEVERA%20R.jpg 400w, assets/static/img/600/10%20RIMAC%20NEVERA%20R.jpg 600w, assets/static/img/800/10%20RIMAC%20NEVERA%20R.jpg 800w, assets/static/img/1160/10%20RIMAC%20NEVERA%20R.jpg 1160w, assets/static/img/10%20RIMAC%20NEVERA%20R.jpg 1920w, assets/static/img/3840/10%20RIMAC%20NEVERA%20R.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
-
-                                        </div>
-                                    </div>
-
-                                    <div class="col-1 col-md-2 offset-md-2">
-                                        <div class="arrow">
-                                            <div class="arrow__rot">
-                                                <span class="arrow__text">read here</span>
-                                            </div>
-                                            <div class="arrow__line">
-                                                <div></div>
-                                                <div></div>
-                                                <div></div>
-                                            </div>
-                                            <div class="arrow__circle">
-                                                <div class="arrow__cap"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="offset-1 offset-sm-0 col-8 col-md-4">
-                                        <h3 class="t-3 mb-1 text-aqua">0 to 15 Years<br>Hyper-Fast</h3>
-                                        <p class="big lh-sm">In 15 years, Rimac has revolutionized the automotive industry. From a radical vision to record-breaking speeds, we have been defying expectations. Our journey has been
-                                            rebellious and relentless. Here is a look at our biggest milestones:</p>
-
-                                    </div>
-                                </div>                                   
-                                    
-                                <section class="rz-timeline">
-                                    <div class="rz-nav offset-md-2">
-                                        <ul>
-                                            <div class="rz-nav-indicator"></div>
-                                            <li class="active" data-index="0">2006-2007</li>
-                                            <li data-index="1">2008</li>
-                                            <li data-index="2">2011</li>
-                                            <li data-index="3">2012</li>
-                                            <li data-index="4">2013</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="rz-slider">
-                                        <div class="rz-track">
-                                            <div class="rz-card" data-index="0">
-                                                <div class="rz-card__img-wrapper">
-                                                    <img src="https://autopro8.mediacdn.vn/2021/6/2/rimac-nevera-13-1622620590671368856284.jpg">
-                                                    <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title u-a3">The garage phase</h2>
-                                                        <span class="c-timeline-item__para u-a1">The idea of an electric supercar was born.</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="rz-card" data-index="1">
-                                                <div class="rz-card__img-wrapper">
-                                                    <img src="https://www.topgear.com/sites/default/files/2024/08/NEVERA_R_ROAD_5.jpg">
-                                                    <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title u-a3">Rimac Automobili is Born</h2>
-                                                        <span class="c-timeline-item__para">The prototype Concept_One was first shown at the Frankfurt Motor Show.</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="rz-card" data-index="2">
-                                                <div class="rz-card__img-wrapper">
-                                                    <img
-                                                        src="https://hips.hearstapps.com/hmg-prod/images/2025-rimac-nevera-pr-101-691b428773e01.jpg">
-                                                    <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title u-a3">Getting Traction</h2>
-                                                        <span class="c-timeline-item__para">Delivery of the first car developed and manufactured for another automotive company - a Concept_One prototype went global as the FIA Formula E Race Director's car.</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="rz-card" data-index="3">
-                                                <div class="rz-card__img-wrapper">
-                                                    <img src="https://carpassion.vn/wp-content/uploads/2024/08/Rimac-Nevera-R-21.jpg">
-                                                    <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title u-a3">Engineering Excellence</h2>
-                                                        <span class="c-timeline-item__para">The C_Two, today known as the Nevera, was launched at the Geneva Motor Show with performance and character that elevated the genre.</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="rz-card" data-index="4">
-                                                <div class="rz-card__img-wrapper">
-                                                    <img
-                                                        src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=2070&auto=format&fit=crop">
-                                                    <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title u-a3">Production Ready</h2>
-                                                        <span class="c-timeline-item__para">The production version of the Nevera was launched; Rimac Automobili and Bugatti merged into Bugatti Rimac, the best hypercar company in the world.</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>                                                                           
-
-                            </div>
-                        </div>
-                    </section>
 
                     <i class="c-scroll-indicator">
                         <i></i>

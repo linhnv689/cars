@@ -1687,7 +1687,8 @@ body .is-layout-grid>* {
 }
 
 .o-section--dark {
-	background-color: #0a222e;
+	/* background-color: #0a222e; */
+	background-color: #0d2936;
 	color: #ffffff;
 }
 
@@ -12486,8 +12487,9 @@ span.wpcf7-not-valid-tip {
 
 .c-image-with-caption img {
 	display: block;
-	max-width: 110%;
-	width: 110%;
+	/* max-width: 110%;
+	width: 110%; */
+	width: 100%;
 }
 
 .c-draggable-slider__item .c-image-with-caption img {
@@ -34594,4 +34596,175 @@ p.button-solo>a {
 	.pad-y-sm {
 		padding-top: 40px;
 	}
+}
+
+/* Container chính sử dụng Flex để tách biệt Nav và Slider */
+.rz-timeline {
+	display: flex;
+	justify-content: center;
+	/* Đưa Slider vào giữa */
+	align-items: center;
+	height: 100vh;
+	/* background-color: #021417; */
+	position: relative;
+	overflow: hidden;
+}
+
+/* NAV BÊN TRÁI */
+.rz-nav {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: auto;
+	/* Để width tự co giãn theo nội dung */
+	z-index: 2000;
+}
+
+
+/* Đường kẻ dọc mờ chạy suốt danh sách */
+/* Đường ray nền - Màu tối hơn màu nền một chút hoặc dùng rgba tối */
+.rz-nav ul {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	border-left: 2px solid rgba(255, 255, 255, 0.1);
+	/* Đảm bảo border-left bao phủ vừa đủ chiều cao của các li */
+	display: inline-block;
+}
+
+/* Thanh trắng đè lên */
+.rz-nav-indicator {
+	position: absolute;
+	left: -2px;
+	width: 2px;
+	background: #ffffff;
+	z-index: 10;
+	height: 0;
+	/* Mặc định ẩn */
+	pointer-events: none;
+	/* Đảm bảo không có bo góc hay shadow làm lộ vệt trắng khi height = 0 */
+	border: none;
+	box-shadow: none;
+}
+
+.rz-nav li {
+	padding: 10px 0 10px 10px;
+	color: #ffffff;
+	opacity: 0.2;
+	font-size: 16px;
+	cursor: pointer;
+	transition: opacity 0.3s, font-size 0.3s;
+}
+
+.rz-nav>ul>li:first-of-type {
+	padding-top: 0px;
+}
+
+.rz-nav>ul>li:last-of-type {
+	padding-bottom: 0px;
+}
+
+.rz-nav li.active {
+	opacity: 1;
+}
+
+/* SLIDER ENGINE */
+.rz-slider {
+	width: 100%;
+	/* Hoặc 80% tùy theo layout cha */
+	margin: 0 auto;
+	/* Căn giữa container 80% này so với màn hình */
+	height: 100vh;
+	perspective: 3000px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+	position: relative;
+	touch-action: pan-y;
+	/* Cho phép cuộn trang theo chiều dọc trên mobile nhưng chặn theo chiều ngang */
+	user-select: none;
+	/* Chặn bôi đen nội dung khi đang kéo */
+	-webkit-user-drag: none;
+	/* Chặn trình duyệt tự kéo ảnh ra ngoài */
+}
+
+.rz-track {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	/* transform-style: preserve-3d; */
+	pointer-events: none;
+	will-change: transform;
+	gap: 150px;
+	/* Tăng khoảng cách để không bị đè góc khi xoay chéo */
+	/* Đảm bảo track nằm ở giữa trục dọc */
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+}
+
+/* CARD STYLE */
+.rz-card {
+	/* Thay vì 700px, ta dùng phần trăm của container 80% đó */
+	width: 60vw;
+	max-width: 700px;
+	/* Không cho quá to trên màn hình lớn */
+	height: auto;
+	aspect-ratio: 16 / 10;
+	/* Giữ tỷ lệ khung hình cho ảnh */
+	flex-shrink: 0;
+	position: relative;
+	transform-style: preserve-3d;
+	pointer-events: auto;
+	/* Cho phép tương tác lên card */
+	cursor: grab;
+}
+
+.rz-card:active {
+	cursor: grabbing;
+}
+
+.rz-card__img-wrapper {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	/* overflow: hidden; */
+	box-shadow: 0 50px 100px rgba(0, 0, 0, 0.6);
+	/* Đổ bóng đậm hơn */
+	border-radius: 4px;
+}
+
+.rz-card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	pointer-events: none;
+}
+
+.rz-card__content {
+	position: absolute;
+	/* Đẩy sát xuống đáy ảnh và cộng thêm một khoảng đệm cố định (ví dụ 40px) */
+	top: calc(100% - 40px);
+	left: 50%;
+	width: 100%;
+	/* Cho phép nội dung rộng hơn ảnh một chút nếu cần */
+	max-width: 420px;
+	z-index: 2;
+	opacity: 0;
+	/* Dùng translate để căn giữa X, và translateY để tạo hiệu ứng trồi lên */
+	transform: translate(-50%, 20px);
+	transition: opacity 0.5s ease, transform 0.5s ease;
+	/* KHÔNG cho nội dung chặn thao tác kéo */
+	pointer-events: none;
+	display: flex;
+	flex-direction: column;
+}
+
+.rz-card.is-active .rz-card__content {
+	opacity: 1;
+	/* Chỉ thay đổi Y để trồi lên, vẫn giữ -50% của X */
+	transform: translate(-50%, 0);
 }

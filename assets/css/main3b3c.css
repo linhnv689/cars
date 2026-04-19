@@ -1805,10 +1805,6 @@ hr {
     width: 100%
 }
 
-.text-center {
-    text-align: center
-}
-
 @media (min-width:576px) {
     .text-sm-center {
         text-align: center

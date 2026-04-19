@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ZR1 Timeline - Perfect Grid Alignment</title>
+    <style>
+        body {
+            margin: 0;
+            background: #021417;
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+            overflow: hidden;
+        }
+
+        .rz-timeline {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            align-items: center;
+            position: relative;
+        }
+
+        .offset-md-2 {
+            margin-left: 16.66666667%;
+        }
+
+        .col-md-2 {
+            flex: 0 0 auto;
+            width: 16.66666667%;
+        }
+
+        .col-md-5 {
+            flex: 0 0 auto;
+            width: 41.66666667%;
+        }
+
+        .offset-sm-0 {
+            margin-left: 0;
+        }
+
+        /* VÙNG CHỨA NAV (2 cột + 2 cột offset) */
+        .rz-left-side {
+            /* Tương đương offset-2 + col-2 */
+            /* display: flex;
+            justify-content: flex-end; */
+            /* Đẩy nội dung nav về sát lề của slider */
+            /* padding-right: 50px; */
+            z-index: 100;
+        }
+
+        /* VÙNG CHỨA SLIDER (8 cột) */
+        .rz-slider {
+            /* flex: 0 0 66.666667%; */
+            /* Chiếm trọn 8 cột còn lại */
+            height: 100vh;
+            position: relative;
+            perspective: 2000px;
+            overflow: visible;
+        }
+
+        .rz-track {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            /* Giữ nguyên sát lề trái của .rz-slider */
+            display: flex;
+            align-items: center;
+            transform: translateY(-50%);
+            /* Chỉ căn giữa theo chiều dọc */
+            transform-style: preserve-3d;
+            will-change: transform;
+        }
+
+        /* STYLE CÁC THÀNH PHẦN */
+        .rz-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            border-left: 2px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+        }
+
+        .rz-nav li {
+            padding: 15px 20px;
+            opacity: 0.3;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 14px;
+        }
+
+        .rz-nav li.active {
+            opacity: 1;
+            font-weight: bold;
+        }
+
+        .rz-nav-indicator {
+            position: absolute;
+            left: -2px;
+            width: 2px;
+            background: #fff;
+            height: 0;
+            transition: 0.5s ease;
+        }
+
+        .rz-card {
+            width: 60vw;
+            max-width: 700px;
+            aspect-ratio: 16/9;
+            flex-shrink: 0;
+            position: relative;
+            margin-right: 150px;
+            /* Giữ margin chuẩn để JS tính toán */
+            transform-style: preserve-3d;
+            transform-origin: center center;
+            /* Cần thiết để Scale và Xoay tại tâm */
+            will-change: transform, opacity, filter;
+            /* Tối ưu performance */
+        }
+
+        .rz-card__img-wrapper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .rz-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .rz-card__content {
+            position: absolute;
+            top: 105%;
+            left: 50%;
+            transform: translate(-50%, 20px);
+            width: 100%;
+            text-align: center;
+            opacity: 0;
+            transition: 0.5s;
+        }
+
+        .rz-card.is-active .rz-card__content {
+            opacity: 1;
+            transform: translate(-50%, 0);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="rz-timeline">
+        <div class="rz-left-side col-md-2 offset-md-2">
+            <div class="rz-nav">
+                <ul>
+                    <div class="rz-nav-indicator"></div>
+                    <li class="active">2006-2007</li>
+                    <li>2008</li>
+                    <li>2011</li>
+                    <li>2012</li>
+                    <li>2013</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="rz-slider col-md-5 offset-sm-0">
+            <div class="rz-track">
+                <div class="rz-card">
+                    <div class="rz-card__img-wrapper">
+                        <img src="https://autopro8.mediacdn.vn/2021/6/2/rimac-nevera-13-1622620590671368856284.jpg">
+                    </div>
+                    <div class="rz-card__content">
+                        <h2>The Garage Phase</h2>
+                        <p>The idea of an electric supercar was born.</p>
+                    </div>
+                </div>
+                <div class="rz-card">
+                    <div class="rz-card__img-wrapper">
+                        <img src="https://www.topgear.com/sites/default/files/2024/08/NEVERA_R_ROAD_5.jpg">
+                    </div>
+                    <div class="rz-card__content">
+                        <h2>Rimac Automobili Is Born</h2>
+                        <p>The prototype Concept_One was shown.</p>
+                    </div>
+                </div>
+                <div class="rz-card">
+                    <div class="rz-card__img-wrapper">
+                        <img
+                            src="https://hips.hearstapps.com/hmg-prod/images/2025-rimac-nevera-pr-101-691b428773e01.jpg">
+                    </div>
+                    <div class="rz-card__content">
+                        <h2>Getting Traction</h2>
+                        <p>Delivery of the first car global.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/Draggable.min.js"></script>
+
+    <script>
+        gsap.registerPlugin(Draggable);
+
+        const track = document.querySelector(".rz-track");
+        const cards = document.querySelectorAll(".rz-card");
+        const slider = document.querySelector(".rz-slider");
+        const navItems = document.querySelectorAll(".rz-nav li");
+        const indicator = document.querySelector(".rz-nav-indicator");
+
+        let current = 0;
+        const gap = 150;
+
+        function getX(index) {
+            const cardWidth = cards[0].offsetWidth;
+            const sliderWidth = slider.offsetWidth;
+
+            // Vị trí chuẩn để tâm card (đã scale) nằm chính giữa slider vùng 8 cột
+            // Chúng ta vẫn tính toán dựa trên cardWidth gốc, GSAP scale sẽ tự nở ra từ tâm
+            return (sliderWidth / 2) - (cardWidth / 2) - (index * (cardWidth + gap));
+        }
+        function updateUI() {
+            cards.forEach((card, i) => {
+                const offset = i - current; // Vị trí so với card active (-1, 0, 1,...)
+                const abs = Math.abs(offset);
+
+                // --- LOGIC MỚI: TẠO ĐỘ DẠT RA (EXTRA X OFFSET) ---
+                // Nếu là card trung tâm (offset=0) thì không dạt.
+                // Càng ở xa trung tâm, độ dạt càng lớn.
+                let extraX = 0;
+                if (offset > 0) extraX = 180 * abs; // Dạt sang phải 180px
+                if (offset < 0) extraX = -180 * abs; // Dạt sang trái 180px
+
+                // --- LOGIC MỚI: TẠO ĐỘ SCALE ---
+                // Card trung tâm (abs=0) scale 1.15 hoặc 1.2
+                // Các card hai bên nhỏ hẳn (0.8, 0.7...)
+                const scale = i === current ? 1.15 : 0.85 - (abs * 0.1);
+
+                gsap.to(card, {
+                    x: extraX, // Đẩy card dạt ra khỏi tâm
+                    scale: scale,
+                    rotationY: offset * -35, // Tăng góc xoay để giống mẫu hơn
+                    rotationZ: offset * 8,
+                    y: abs * 80, // Tạo hiệu ứng đường cong chữ V
+                    z: abs * -500, // Đẩy sâu về phía sau màn hình
+                    opacity: 1 - (abs * 0.3),
+                    filter: `blur(${abs * 5}px)`, // Giữ độ mờ
+                    duration: 0.8,
+                    ease: "power2.out",
+                    overwrite: true
+                });
+
+                // Xử lý hiển thị content khi active
+                if (abs < 0.1) {
+                    card.classList.add("is-active");
+                    gsap.to(card.querySelector('.rz-card__content'), {
+                        y: 0,
+                        opacity: 1,
+                        duration: 0.5
+                    });
+                } else {
+                    card.classList.remove("is-active");
+                    gsap.to(card.querySelector('.rz-card__content'), {
+                        y: 30,
+                        opacity: 0,
+                        duration: 0.3
+                    });
+                }
+            });
+
+            // Phần Nav Indicator giữ nguyên logic cũ của bạn
+            updateNavIndicator();
+        }
+
+        function animateTo(index) {
+            current = index;
+            gsap.to(track, {
+                x: getX(index),
+                // Nếu dùng CSS translateY thì không cần yPercent ở đây, 
+                // hoặc dùng y: "-50%" để GSAP hiểu là cộng dồn
+                duration: 0.8,
+                ease: "power2.out"
+            });
+            updateUI();
+        }
+
+        Draggable.create(track, {
+            type: "x",
+            onDragEnd: function () {
+                const cardWidth = cards[0].offsetWidth + gap;
+                const index = Math.round((getX(0) - this.x) / cardWidth);
+                animateTo(Math.max(0, Math.min(cards.length - 1, index)));
+            }
+        });
+
+        navItems.forEach((li, i) => li.addEventListener("click", () => animateTo(i)));
+
+        window.addEventListener("resize", () => animateTo(current));
+        window.onload = () => animateTo(0);
+    </script>
+</body>
+
+</html>
