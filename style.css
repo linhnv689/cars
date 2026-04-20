@@ -34604,10 +34604,12 @@ p.button-solo>a {
 	justify-content: center;
 	/* Đưa Slider vào giữa */
 	align-items: center;
-	height: 100vh;
+	/* height: 100vh; */
 	/* background-color: #021417; */
 	position: relative;
-	overflow: hidden;
+	/* overflow: hidden; */
+	padding-top: 350px;
+	padding-bottom: 400px;
 }
 
 /* NAV BÊN TRÁI */
@@ -34676,7 +34678,7 @@ p.button-solo>a {
 	/* Hoặc 80% tùy theo layout cha */
 	margin: 0 auto;
 	/* Căn giữa container 80% này so với màn hình */
-	height: 100vh;
+	/* height: 100vh; */
 	perspective: 3000px;
 	display: flex;
 	align-items: center;
@@ -34720,11 +34722,11 @@ p.button-solo>a {
 	transform-style: preserve-3d;
 	pointer-events: auto;
 	/* Cho phép tương tác lên card */
-	cursor: grab;
+	/* cursor: grab; */
 }
 
 .rz-card:active {
-	cursor: grabbing;
+	/* cursor: grabbing; */
 }
 
 .rz-card__img-wrapper {
@@ -34746,12 +34748,10 @@ p.button-solo>a {
 
 .rz-card__content {
 	position: absolute;
-	/* Đẩy sát xuống đáy ảnh và cộng thêm một khoảng đệm cố định (ví dụ 40px) */
 	top: calc(100% - 40px);
 	left: 50%;
 	width: 100%;
-	/* Cho phép nội dung rộng hơn ảnh một chút nếu cần */
-	max-width: 420px;
+	max-width: 450px;
 	z-index: 2;
 	opacity: 0;
 	/* Dùng translate để căn giữa X, và translateY để tạo hiệu ứng trồi lên */
@@ -34765,6 +34765,5 @@ p.button-solo>a {
 
 .rz-card.is-active .rz-card__content {
 	opacity: 1;
-	/* Chỉ thay đổi Y để trồi lên, vẫn giữ -50% của X */
 	transform: translate(-50%, 0);
 }

@@ -519,6 +519,25 @@ function initDraggable() {
 //     setTimeout(() => isScrolling = false, 500); // Giảm delay spam scroll
 // }, { passive: false });
 
+// Button Next Timeline click
+const btnNextTimeline = document.querySelector(".swiper-button-next--timeline");
+
+if (btnNextTimeline) {
+    btnNextTimeline.addEventListener("click", (e) => {
+        e.stopPropagation(); // Ngăn sự kiện kéo của Draggable bị kích hoạt
+        onUserInteraction();
+
+        if (current < cards.length - 1) {
+            current++;
+            snapTo(current);
+        } else {
+            // Option: Quay lại từ đầu nếu muốn
+            current = 0;
+            snapTo(current);
+        }
+    });
+}
+
 // Nav Click
 navItems.forEach((item, i) => {
     item.addEventListener("click", () => {

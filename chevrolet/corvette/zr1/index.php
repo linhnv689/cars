@@ -577,8 +577,8 @@
                             </picture>
                             <i class="js-nevera-technology-overlay c-extra-technology__overlay"></i>                          
                             <div class="c-extra-technology__header js-nevera-technology-header">
-                                <h2 class="c-extra-technology__title u-a4">Cutting-edge technology</h2>
-                                <p class="u-b0">
+                                <h2 class="c-extra-technology__title u-a4 u-uppercase">Cutting-edge technology</h2>
+                                <p class="u-b0 mb-0">
                                     ZR1 offers cutting-edge technology that's both functional and intuitive. The state-of-the-art command center features three new driver display screens: a larger 12.7-inch diagonal center console display, an expanded 14-inch diagonal Driver Information Center and an all-new 6.6-inch diagonal touchscreen auxiliary display. 
                                 </p>
                             </div>
@@ -3341,15 +3341,15 @@
                                     </div>
                                 </div>                                   
                                     
-                                <section class="rz-timeline">
+                                <section class="rz-timeline js-draggable-simple-slider-cursor-wrapper">
                                     <div class="rz-nav offset-md-2">
                                         <ul>
                                             <div class="rz-nav-indicator"></div>
-                                            <li class="active" data-index="0">2006-2007</li>
-                                            <li data-index="1">2008</li>
-                                            <li data-index="2">2011</li>
-                                            <li data-index="3">2012</li>
-                                            <li data-index="4">2013</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet active" data-index="0">2006 - 2007</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="1">2008</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="2">2011</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="3">2012</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="4">2013</li>
                                         </ul>
                                     </div>
 
@@ -3359,8 +3359,8 @@
                                                 <div class="rz-card__img-wrapper">
                                                     <img src="https://autopro8.mediacdn.vn/2021/6/2/rimac-nevera-13-1622620590671368856284.jpg">
                                                     <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title u-a3">The garage phase</h2>
-                                                        <span class="c-timeline-item__para u-a1">The idea of an electric supercar was born.</span>
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua">The garage phase</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">The idea of an electric supercar was born.</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3369,8 +3369,8 @@
                                                 <div class="rz-card__img-wrapper">
                                                     <img src="https://www.topgear.com/sites/default/files/2024/08/NEVERA_R_ROAD_5.jpg">
                                                     <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title u-a3">Rimac Automobili is Born</h2>
-                                                        <span class="c-timeline-item__para">The prototype Concept_One was first shown at the Frankfurt Motor Show.</span>
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua">Rimac Automobili is Born</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">The prototype Concept_One was first shown at the Frankfurt Motor Show.</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3380,8 +3380,8 @@
                                                     <img
                                                         src="https://hips.hearstapps.com/hmg-prod/images/2025-rimac-nevera-pr-101-691b428773e01.jpg">
                                                     <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title u-a3">Getting Traction</h2>
-                                                        <span class="c-timeline-item__para">Delivery of the first car developed and manufactured for another automotive company - a Concept_One prototype went global as the FIA Formula E Race Director's car.</span>
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua">Getting Traction</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">Delivery of the first car developed and manufactured for another automotive company - a Concept_One prototype went global as the FIA Formula E Race Director's car.</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3390,8 +3390,8 @@
                                                 <div class="rz-card__img-wrapper">
                                                     <img src="https://carpassion.vn/wp-content/uploads/2024/08/Rimac-Nevera-R-21.jpg">
                                                     <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title u-a3">Engineering Excellence</h2>
-                                                        <span class="c-timeline-item__para">The C_Two, today known as the Nevera, was launched at the Geneva Motor Show with performance and character that elevated the genre.</span>
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua">Engineering Excellence</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">The C_Two, today known as the Nevera, was launched at the Geneva Motor Show with performance and character that elevated the genre.</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3401,11 +3401,21 @@
                                                     <img
                                                         src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=2070&auto=format&fit=crop">
                                                     <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title u-a3">Production Ready</h2>
-                                                        <span class="c-timeline-item__para">The production version of the Nevera was launched; Rimac Automobili and Bugatti merged into Bugatti Rimac, the best hypercar company in the world.</span>
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua">Production Ready</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">The production version of the Nevera was launched; Rimac Automobili and Bugatti merged into Bugatti Rimac, the best hypercar company in the world.</span>
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next swiper-button-next--timeline arrow arrow--right arrow--no-text">
+                                        <div class="arrow__line">
+                                            <div style="background: white;"></div>
+                                            <div style="background: white;"></div>
+                                            <div style="background: rgba(215, 215, 215, 0.843);"></div>
+                                        </div>
+                                        <div class="arrow__circle">
+                                            <div class="arrow__cap"></div>
                                         </div>
                                     </div>
                                 </section>                                                                           
