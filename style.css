@@ -18187,6 +18187,13 @@ input {
 	align-items: center;
 }
 
+@media (max-width: 480px) {
+	.c-layered-scroll__item {
+		width: 100%;
+		align-items: end;
+	}
+}
+
 .c-layered-scroll__item-bg {
 	/* position: absolute; */
 	display: block;
@@ -18195,7 +18202,7 @@ input {
 	/* -webkit-transform: translate(-50%, -50%); */
 	/* transform: translate(-50%, -50%); */
 	width: 100%;
-	height: 80%;
+	/* height: 80%; */
 	padding-bottom: 0;
 	background-position: center center;
 	background-size: cover;
