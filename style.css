@@ -17729,8 +17729,12 @@ input {
 }
 
 .c-scrolling-reveal__content--performance {
+	display: flex;
+	align-items: center;
 	position: relative;
 	bottom: 0;
+	min-height: 100vh;
+	min-height: 100dvh;
 }
 
 .c-reveal-mask-wrapper {
@@ -18179,19 +18183,21 @@ input {
 	margin: 0 auto;
 	height: 100%;
 	position: relative;
+	display: flex;
+	align-items: center;
 }
 
 .c-layered-scroll__item-bg {
-	position: absolute;
+	/* position: absolute; */
 	display: block;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	/* top: 50%;
+    left: 50%; */
+	/* -webkit-transform: translate(-50%, -50%); */
+	/* transform: translate(-50%, -50%); */
 	width: 100%;
-	height: 0;
-	padding-bottom: 62.5%;
-	background-position: center;
+	height: 80%;
+	padding-bottom: 0;
+	background-position: center center;
 	background-size: cover;
 }
 
@@ -18200,6 +18206,10 @@ input {
 		top: 70%;
 		width: 130%;
 	}
+}
+
+.c-layered-scroll__item-bg img {
+	width: 100%;
 }
 
 .c-layered-scroll__item--1 {
@@ -18588,32 +18598,12 @@ input {
 	}
 }
 
-.c-scrolling-reveal__heading {
-	position: relative;
-	width: 100%;
-	max-width: 840px;
-	margin: 0 auto;
-}
-
 .c-scrolling-reveal__heading .u-b2,
 .c-scrolling-reveal__heading .c-development-statistics p.c-development-statistics__subtitle,
 .c-development-statistics .c-scrolling-reveal__heading p.c-development-statistics__subtitle {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 500px;
-}
-
-.c-scrolling-reveal__content {
-	position: absolute;
-	bottom: 4.86111vw;
-	left: 0;
-	width: 100%;
-	z-index: 2;
-}
-
-.c-scrolling-reveal__content--performance {
-	position: relative;
-	bottom: 0;
 }
 
 .c-reveal-mask-wrapper {
@@ -26914,15 +26904,6 @@ all and (-ms-high-contrast: none),
 	padding-bottom: 80px;
 }
 
-.c-nevera-welcome.third {
-	padding-top: 460px;
-}
-
-@media (max-width: 800px) {
-	.c-nevera-welcome.third {
-		padding-top: 40px;
-	}
-}
 
 @media (min-width: 480px) {
 	.c-nevera-welcome {
@@ -27071,6 +27052,11 @@ all and (-ms-high-contrast: none),
 	padding-bottom: 0;
 }
 
+.o-section-technology {
+	position: relative;
+	z-index: 2;
+}
+
 .c-extra-technology {
 	position: relative;
 }
@@ -27105,6 +27091,7 @@ all and (-ms-high-contrast: none),
 
 .c-extra-technology__header {
 	min-height: 100vh;
+	min-height: 100dvh;
 	/* padding-top: 25vh; */
 	display: -webkit-box;
 	display: -ms-flexbox;

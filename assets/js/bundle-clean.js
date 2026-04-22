@@ -11900,34 +11900,53 @@
                                 key: "animate",
                                 value: function () {
                                     var e = r.gsap.timeline();
-                                    (e
+                                    e.fromTo(
+                                        this.header,
+                                        { autoAlpha: 0 },
+                                        { autoAlpha: 1, duration: 1.2, ease: "power2.out" }
+                                    )
+
+                                        // giữ sáng ở center
                                         .fromTo(
                                             this.header,
-                                            { autoAlpha: 0 },
-                                            { autoAlpha: 1, duration: 0.3 },
+                                            { autoAlpha: 1 },
+                                            { autoAlpha: 1, duration: 0.8 }
                                         )
+
+                                        // fade out khi đi lên
+                                        .fromTo(
+                                            this.header,
+                                            { autoAlpha: 1 },
+                                            { autoAlpha: 0, duration: 0.6 }
+                                        )
+
+                                        // ===== OVERLAY (show) =====
                                         .fromTo(
                                             this.overlay,
                                             { autoAlpha: 0 },
-                                            { autoAlpha: 1, duration: 0.2 },
-                                            "-=0.1",
+                                            { autoAlpha: 1, duration: 0.4 },
+                                            "-=0.2"
                                         )
-                                        .fromTo(
-                                            this.header,
-                                            { autoAlpha: 1 },
-                                            { autoAlpha: 0, duration: 0.3 },
-                                            "-=0.2",
-                                        )
+
+                                        // ===== CONTENT =====
                                         .fromTo(
                                             this.content,
                                             { autoAlpha: 0 },
-                                            { autoAlpha: 1, duration: 0.3 },
-                                            "-=0.2",
+                                            { autoAlpha: 1, duration: 0.4 }
                                         )
+
+                                        // fade in at center
                                         .fromTo(
                                             this.content,
                                             { autoAlpha: 1 },
-                                            { autoAlpha: 0, duration: 0.3 },
+                                            { autoAlpha: 1, duration: 0.8 }
+                                        )
+
+                                        // fade out content
+                                        .fromTo(
+                                            this.content,
+                                            { autoAlpha: 1 },
+                                            { autoAlpha: 0, duration: 0.4 }
                                         ),
                                         o.ScrollTrigger.create({
                                             trigger: this.trigger,
@@ -11945,8 +11964,8 @@
                                             pin: !0,
                                             scrub: !0,
                                             pinSpacing: !1,
-                                        }));
-                                },
+                                        })
+                                }
                             },
                         ]) && a(t.prototype, n),
                         i && a(t, i),

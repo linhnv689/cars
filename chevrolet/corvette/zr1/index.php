@@ -213,7 +213,7 @@
                         </div>
                     </section><!-- //Intro section -->
 
-                    <section class="section section--are-you py-4 py-md-6">
+                    <section class="section section--are-you py-4 py-md-8">
                         <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">
                             <div class="swiper slider-1">
                                 <div class="swiper-wrapper align-items-center">                                                                       
@@ -311,7 +311,7 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="c-stats-wrapper pad-y-sm js-data-toggler">
+                                                <div class="c-stats-wrapper js-data-toggler pad-y-sm mb-0">
                                                     <ul class="c-stats-wrapper__list">
 
                                                         <!-- STATS ITEM -->
@@ -472,7 +472,7 @@
                         </div>
                     </section> <!-- //Performance section -->
 
-                    <section class="section section--are-you c-nevera-welcome third pb-8">
+                    <section class="section section--are-you my-4 my-md-8">
                         <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">
                             <div class="swiper slider-2">
                                 <div class="swiper-wrapper align-items-center">                                                                       
@@ -545,10 +545,156 @@
 
                             </div>
                         </div>
-                    </section>
+                    </section> <!-- //Are you section -->
                     
-                    
-                    <!--todo fix spacer on mobile-->
+                    <section id="technology" class="o-section o-section-technology">
+                        <div class="c-extra-technology">
+                            <picture class="c-extra-technology__bg js-nevera-technology">
+                                <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-029-1845.jpg" alt="">
+                                
+                            </picture>
+                            <i class="js-nevera-technology-overlay c-extra-technology__overlay"></i>                          
+                            <div class="c-extra-technology__header js-nevera-technology-header">
+                                <h2 class="c-extra-technology__title u-a4 u-uppercase mb-3">Cutting-edge technology</h2>
+                                <p class="u-b0 mb-0">
+                                    ZR1 offers cutting-edge technology that's both functional and intuitive. The state-of-the-art command center features three new driver display screens: a larger 12.7-inch diagonal center console display, an expanded 14-inch diagonal Driver Information Center and an all-new 6.6-inch diagonal touchscreen auxiliary display. 
+                                </p>
+                            </div>
+                            <div class="c-extra-technology__content js-nevera-technology-content text-center">
+                                <div class="c-navigation-menu__menu js-context-shifting-menu">
+                                    <ul class="c-big-menu js-menu-primary">
+                                        <li class="c-big-menu__item" style="">
+                                            <a href="index.html" target="" class="c-big-link js-context-shifting-menu-link justify-content-center">
+                                                <span class="c-big-link__prepend u-b3">01</span>
+                                                <span class="c-big-link__label u-a3" title="New Wireless charging pad">New Wireless charging pad</span>
+                                            </a>
+                                        </li>
+                                        <li class="c-big-menu__item" style="">
+                                            <a href="../development/index.html" target="" class="c-big-link js-context-shifting-menu-link justify-content-center">
+                                                <span class="c-big-link__prepend u-b3">02</span>
+                                                <span class="c-big-link__label u-a3" title="Google built-in">Google built-in</span>
+                                            </a>
+                                        </li>
+                                        <li class="c-big-menu__item" style="">
+                                            <a href="https://www.rimac-technology.com/" target="_blank" class="c-big-link js-context-shifting-menu-link justify-content-center">
+                                                <span class="c-big-link__prepend u-b3">03</span>
+                                                <span class="c-big-link__label u-a3" title="Wireless phone projection">Wireless phone projection</span>
+                                            </a>
+                                        </li>
+                                        <li class="c-big-menu__item" style="">
+                                            <a href="../about-us/index.html" target="" class="c-big-link js-context-shifting-menu-link justify-content-center">
+                                                <span class="c-big-link__prepend u-b3">04</span>
+                                                <span class="c-big-link__label u-a3" title="Drive Modes">Drive Modes</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>                              
+                            </div>                        
+                        </div>
+                    </section>  <!-- //Technology section -->
+
+                    <section id="technology-engineering" class="o-section o-section--dimmed o-section--layered-scroll js-layered-scroll-wrapper">
+                        <div class="c-layered-scroll-wrapper c-layered-scroll-wrapper--simple js-layered-scroll-simple" data-animation-type="crossfade">
+                            <!-- LAYER 1 -->
+                            
+                            <div class="c-layered-scroll js-layered-scroll-simple-trigger">
+                                <div class="c-layered-scroll__item c-layered-scroll__item--2">
+                                    <span class="c-layered-scroll__item-bg js-layered-scroll-simple-bg">
+                                        <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-aerodynamics-001-713.png" alt="">
+                                    </span>
+                                </div>
+                                <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
+                            </div>
+                            <div class="c-layered-scroll js-layered-scroll-simple-trigger">
+                                <div class="c-layered-scroll__item c-layered-scroll__item--3">
+                                    <span class="c-layered-scroll__item-bg js-layered-scroll-simple-bg">
+                                        <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-aerodynamics-001-713.png" alt="">
+                                    </span>
+                                </div>
+                                <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
+                            </div>
+                            <div class="c-layered-scroll">                             
+                                <span class="c-button c-button--play js-video-popup-btn mx-0" data-popup="#aerodynamics-video" style="position: absolute; left: 50%; top: 50%; z-index: 99; transform: translate(-50%, -50%);">
+                                    <span class="c-button__inner">
+                                        <span class="c-button__prepend">
+                                            <svg class="u-icon u-icon--play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                                                <path class="st0" d="M12.5,8l-9.1,5V3L12.5,8z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="c-button__label">
+                                            <i class="c-button__label-inner" title="Play video">Play video</i>
+                                        </span>
+                                    </span>
+                                </span>
+
+                                <div class="c-layered-scroll__item c-layered-scroll__item--4">
+                                    <span class="c-layered-scroll__item-bg js-layered-scroll-simple-bg">
+                                        <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-aerodynamics-001-713.png" alt="">
+                                    </span>
+                                </div>
+                                <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>                                            
+                            </div>
+
+                            <!-- //LAYER 1 -->
+                        </div>
+                        <div class="c-layered-scroll-content-wrapper">
+                            <!-- LAYER 1 -->
+                            <div class="c-layered-scroll-content c-layered-scroll-content--1">
+                                <div class="o-container">
+                                    <div class="c-layered-scroll-content__left">
+                                        <div class="c-article-wrapper">
+                                            <div class="c-article js-layered-scroll-simple-item-element">
+                                                <h3 class="u-a2">Active Aerodynamics</h3>
+                                                <p class="u-b2">
+                                                    The reigning king of downforce. With a leading-edge design like wide side air inlets, carbon-fiber elements, and a multitude of airflow and cooling features, ZR1 dominates with the highest downforce of any production.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="c-layered-scroll-content__right">
+                                        <div class="c-article-wrapper">
+                                            <div class="c-article js-layered-scroll-simple-item-element">
+                                                <h3 class="u-a2">Flow-Through Hood and ground effects</h3>
+                                                <p class="u-b2">
+                                                    The flow through hood and spoiler help to extract airflow through the intercooler and cool the turbocharged air. The front splitter, paired with an underwing and smooth underbody, helps generate suction under the vehicle to maximize downforce and reduce drag.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="c-layered-scroll-content c-layered-scroll-content--1">
+                                <div class="o-container">
+                                    <div class="c-layered-scroll-content__left">
+                                        <div class="c-article-wrapper">
+                                            <div class="c-article js-layered-scroll-simple-item-element">
+                                                <h3 class="u-a2">Side Inlets</h3>
+                                                <p class="u-b2">
+                                                    Large side air inlets feature signature carbon-fiber wishbone bezels. This, paired with the rear brake cooling ducts, allow for additional engine cooling while maximizing air intake.
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="c-layered-scroll-content__right">
+                                        <div class="c-article-wrapper">
+                                            <div class="c-article js-layered-scroll-simple-item-element" style="margin-bottom: 130px;">
+                                                <h3 class="u-a2">ZR1 Carbon Fiber Aero Package</h3>
+                                                <p class="u-b2">Available on ZR1, the potent carbon-fiber wing, underbody strakes and carbon-fiber dive planes work together to produce over 1,200 lbs. of downforce.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //LAYER 1 -->
+                        </div>
+                        <!--        todo: temporary fix-->
+                        <!-- <i class="u-spacer u-spacer--25vh u-spacer--mobile"></i> -->
+                    </section> <!-- //Technology Engineering section -->
             
 
                     <i class="c-scroll-indicator">
