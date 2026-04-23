@@ -2763,6 +2763,11 @@ body .is-layout-grid>* {
 	z-index: 1;
 }
 
+.o-section--scrolling-section-reveal .pin-spacer {
+	height: unset !important;
+	position: unset !important;
+}
+
 .o-section--in-house-production {
 	position: relative;
 	z-index: 2;
@@ -18187,36 +18192,50 @@ input {
 	align-items: center;
 }
 
+.c-layered-scroll__item-bg {
+	/* position: absolute; */
+	display: block;
+	/* top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); */
+	width: 100%;
+	/* height: 80%; */
+	/* padding-bottom: 0;
+	background-position: center center;
+	background-size: cover; */
+}
+
+.c-layered-scroll__item-bg img {
+	width: 100%;
+}
+
+.c-layered-scroll .c-button {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 99;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
 @media (max-width: 480px) {
 	.c-layered-scroll__item {
 		width: 100%;
 		align-items: end;
 	}
-}
 
-.c-layered-scroll__item-bg {
-	/* position: absolute; */
-	display: block;
-	/* top: 50%;
-    left: 50%; */
-	/* -webkit-transform: translate(-50%, -50%); */
-	/* transform: translate(-50%, -50%); */
-	width: 100%;
-	/* height: 80%; */
-	padding-bottom: 0;
-	background-position: center center;
-	background-size: cover;
-}
-
-@media (max-width: 800px) {
 	.c-layered-scroll__item-bg {
-		top: 70%;
-		width: 130%;
+		-webkit-transform: translateY(-160px);
+		transform: translateY(-160px);
 	}
-}
 
-.c-layered-scroll__item-bg img {
-	width: 100%;
+	.c-layered-scroll .c-button {
+		top: 85%;
+		-webkit-transform: translate(-50%, -85%);
+		transform: translate(-50%, -85%);
+		border-color: #817365;
+	}
 }
 
 .c-layered-scroll__item--1 {
@@ -18243,6 +18262,16 @@ input {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+}
+
+.c-layered-scroll-content--last .c-layered-scroll-content__right .c-article {
+	margin-bottom: 130px;
+}
+
+@media (max-width: 480px) {
+	.c-layered-scroll-content--last .c-layered-scroll-content__right .c-article {
+		margin-bottom: 450px;
+	}
 }
 
 .c-layered-scroll-content .o-container {
@@ -27139,14 +27168,9 @@ all and (-ms-high-contrast: none),
 .c-extra-technology__content {
 	min-height: 100vh;
 	padding-bottom: 50vh;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
+
 	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;

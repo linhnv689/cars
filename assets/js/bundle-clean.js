@@ -11939,7 +11939,7 @@
                                         .fromTo(
                                             this.content,
                                             { autoAlpha: 1 },
-                                            { autoAlpha: 1, duration: 0.8 }
+                                            { autoAlpha: 1, duration: 1.5 }
                                         )
 
                                         // fade out content

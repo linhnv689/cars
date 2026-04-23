@@ -764,12 +764,11 @@
                     </section>
 
                     <section id="design" class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item" data-scrollspy-title="Design">
+                        
                         <div class="c-scrolling-reveal-bg js-mask-reveal-video">
-
                             <video class="c-scrolling-reveal-bg__video"
                                 src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-Design-Exterior-001.mp4" preload="auto"
                                 muted playsinline autoplay loop type="video/mp4"></video>
-
                         </div>
 
                         <div class="c-scrolling-reveal-content">

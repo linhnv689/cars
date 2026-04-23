@@ -225,8 +225,8 @@
                                                         <!-- <span class="t-4">Are you</span> -->
                                                         <h3 class="t-1 text-gray mb-3 r-margin">The next level</h3>
                                                     </div>
-                                                    <div class="col-1 offset-1 offset-md-4 line-col"></div>
-                                                    <div class="c-nevera-welcome__footer-description u-b0 u-fw-400 col-8 col-md-4">                                           
+                                                    <div class="col-1 offset-md-4 line-col"></div>
+                                                    <div class="c-nevera-welcome__footer-description u-b0 u-fw-400 col-10 col-md-4">                                           
                                                         <p class="u-a1">
                                                             Corvette ZR1 is about pushing the envelope with raw power and cutting-edge innovation. From Stingray, to Z06, E-Ray, and now ZR1, the Corvette family continues to elevate with each new iteration — and challenge the best in the world.
                                                         </p>
@@ -243,12 +243,11 @@
                                                     <div class="col-12 col-md-8 offset-md-2">
                                                         <h3 class="t-1 text-gray mb-3 r-margin">The unthinkable has arrived</h3>
                                                     </div>
-                                                    <div class="col-1 offset-1 offset-md-4 line-col"></div>                                      
-                                                    <div class="c-nevera-welcome__footer-description u-b0 u-fw-400 col-8 col-md-4">
+                                                    <div class="col-1 offset-md-4 line-col"></div>                                      
+                                                    <div class="c-nevera-welcome__footer-description u-b0 u-fw-400 col-10 col-md-4">
                                                         <p class="u-a1">
                                                             If you seek a performance marvel — a vehicle crafted with luxury materials and top-of-the-line detailing — look no further than Corvette ZR1. With a twin turbocharged 5.5L V8 engine and edge-to-edge aerodynamics, it takes driving dynamics to a whole different level.
                                                         </p>
-
                                                     </div>
                                                 </div>
                                             </div>
@@ -483,8 +482,8 @@
                                                     <div class="col-12 col-md-8 offset-md-2">
                                                         <h3 class="t-1 text-gray mb-3 r-margin">Corvette Custom Engine Build</h3>
                                                     </div>
-                                                    <div class="col-1 offset-1 offset-md-4 line-col"></div>
-                                                    <div class="c-nevera-welcome__footer-description u-b0 u-fw-400 col-8 col-md-4">                                           
+                                                    <div class="col-1 offset-md-4 line-col"></div>
+                                                    <div class="c-nevera-welcome__footer-description u-b0 u-fw-400 col-10 col-md-4">                                           
                                                         <p class="u-a1">
                                                             A coveted opportunity returns. Assemble your own LT6 or LT7 engine alongside a Performance Build Center master technician at the Bowling Green Assembly Plant.* This experience includes a custom engine plaque, an exclusive gift and a professional photo keepsake. Availability is limited.
                                                         </p>
@@ -501,8 +500,8 @@
                                                     <div class="col-12 col-md-8 offset-md-2">
                                                         <h3 class="t-1 text-gray mb-3 r-margin">Magnetic Selective Ride Control™ 4.0</h3>
                                                     </div>
-                                                    <div class="col-1 offset-1 offset-md-4 line-col"></div>                                      
-                                                    <div class="c-nevera-welcome__footer-description u-b0 u-fw-400 col-8 col-md-4">
+                                                    <div class="col-1 offset-md-4 line-col"></div>                                      
+                                                    <div class="c-nevera-welcome__footer-description u-b0 u-fw-400 col-10 col-md-4">
                                                         <p class="u-a1">
                                                             This standard advanced damping system reads the road in milliseconds and adapts in as little as 10-15 milliseconds, giving you more confidence and control for the track and beyond.
                                                         </p>
@@ -519,8 +518,8 @@
                                                     <div class="col-12 col-md-8 offset-md-2">
                                                         <h3 class="t-1 text-gray mb-3 r-margin">ZTK Performance Package</h3>
                                                     </div>
-                                                    <div class="col-1 offset-1 offset-md-4 line-col"></div>                                      
-                                                    <div class="c-nevera-welcome__footer-description u-b0 u-fw-400 col-8 col-md-4">
+                                                    <div class="col-1 offset-md-4 line-col"></div>                                      
+                                                    <div class="c-nevera-welcome__footer-description u-b0 u-fw-400 col-10 col-md-4">
                                                         <p class="u-a1">
                                                             Engineered for driving enthusiasts, the available ZTK Performance Package enhances ZR1’s capability with track-focused upgrades that deliver sharper handling, improved cooling and increased performance. Ultra-performance tires, a sport-tuned suspension, and new brakes with Alcon® 10-piston front and 6-piston rear calipers deliver superior heat resistance and exceptionally-responsive braking. Requires the Carbon Fiber Aero Package which includes a carbon fiber high-wing, ground effects and dive planes.
                                                         </p>
@@ -561,7 +560,7 @@
                                 </p>
                             </div>
                             <div class="c-extra-technology__content js-nevera-technology-content text-center">
-                                <div class="c-navigation-menu__menu js-context-shifting-menu">
+                                <div class="c-navigation-menu__menu js-context-shifting-menu py-0">
                                     <ul class="c-big-menu js-menu-primary">
                                         <li class="c-big-menu__item" style="">
                                             <a href="index.html" target="" class="c-big-link js-context-shifting-menu-link justify-content-center">
@@ -615,7 +614,7 @@
                                 <i class="c-layered-scroll__spacer js-layered-scroll-simple-spacer"></i>
                             </div>
                             <div class="c-layered-scroll">                             
-                                <span class="c-button c-button--play js-video-popup-btn mx-0" data-popup="#aerodynamics-video" style="position: absolute; left: 50%; top: 50%; z-index: 99; transform: translate(-50%, -50%);">
+                                <span class="c-button c-button--play js-video-popup-btn mx-0" data-popup="#aerodynamics-video">
                                     <span class="c-button__inner">
                                         <span class="c-button__prepend">
                                             <svg class="u-icon u-icon--play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -666,7 +665,7 @@
                                 </div>
                             </div>
 
-                            <div class="c-layered-scroll-content c-layered-scroll-content--1">
+                            <div class="c-layered-scroll-content c-layered-scroll-content--last c-layered-scroll-content--1">
                                 <div class="o-container">
                                     <div class="c-layered-scroll-content__left">
                                         <div class="c-article-wrapper">
@@ -682,7 +681,7 @@
 
                                     <div class="c-layered-scroll-content__right">
                                         <div class="c-article-wrapper">
-                                            <div class="c-article js-layered-scroll-simple-item-element" style="margin-bottom: 130px;">
+                                            <div class="c-article js-layered-scroll-simple-item-element">
                                                 <h3 class="u-a2">ZR1 Carbon Fiber Aero Package</h3>
                                                 <p class="u-b2">Available on ZR1, the potent carbon-fiber wing, underbody strakes and carbon-fiber dive planes work together to produce over 1,200 lbs. of downforce.</p>
                                             </div>
@@ -695,6 +694,151 @@
                         <!--        todo: temporary fix-->
                         <!-- <i class="u-spacer u-spacer--25vh u-spacer--mobile"></i> -->
                     </section> <!-- //Technology Engineering section -->
+
+                    <section id="driving-experience" class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item" data-scrollspy-title="Experience">
+
+                        <div class="c-scrolling-reveal-bg js-mask-reveal-video">
+                            <video class="c-scrolling-reveal-bg__video"
+                                src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-Experience-001.mp4" preload="auto" muted playsinline autoplay loop type="video/mp4">
+                            </video>
+                        </div>
+
+                        <div class="c-scrolling-reveal-content">
+                            <!-- <i class="c-scrolling-reveal-content__spacer"></i> -->
+                            <div class="c-scrolling-reveal-wrapper js-mask-reveal-content-trigger">
+                                <div class="c-scrolling-reveal">
+                                    <div class="o-container">
+                                        <div class="c-scrolling-reveal__header u-text-center">
+                                            <div class="c-scrolling-reveal__heading">                                              
+                                                <div class="c-reveal-mask__text c-reveal-mask__text--custom js-mask-reveal-text">
+                                                    <h2 class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">Experience</h2>
+                                                    <p class="u-b0">
+                                                        It offers an intense, unfiltered driving experience with active aerodynamics, carbon fiber monocoque construction, and radical spaceship-like styling</p>
+                                                    <a href="https://www.rimac-automobili.com:443/nevera/driving-experience"
+                                                        class="c-button">
+                                                        <span class="c-button__inner">
+                                                            <span class="c-button__label">
+                                                                <i class="c-button__label-inner" title="Explore">
+                                                                    Explore </i>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="c-scrolling-reveal__content js-mask-reveal-content">
+                                            <div class="o-container">
+                                                <div class="c-subpage-links-wrapper">
+                                                    <ul class="c-subpage-links">
+                                                        <li>123</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <i class="u-spacer u-spacer--25vh"></i>
+                        </div>
+                    </section> <!-- //Driving Experience section -->
+
+                    <section id="design" class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item" data-scrollspy-title="Design">
+                        
+                        <div class="c-scrolling-reveal-bg js-mask-reveal-video">
+                            <video class="c-scrolling-reveal-bg__video"
+                                src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-Design-Exterior-001.mp4" preload="auto"
+                                muted playsinline autoplay loop type="video/mp4"></video>
+                        </div>
+
+                        <div class="c-scrolling-reveal-content">
+                            <!--        <i class="c-scrolling-reveal-content__spacer"></i>-->
+                            <div class="c-scrolling-reveal-wrapper js-mask-reveal-content-trigger">
+                                <div class="c-scrolling-reveal">
+                                    <div class="o-container">
+                                        <div class="c-scrolling-reveal__header u-text-center">
+                                            <div class="c-scrolling-reveal__heading">
+                                                
+                                                <div class="c-reveal-mask__text c-reveal-mask__text--custom js-mask-reveal-text">
+                                                    <h2 class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">Design</h2>
+                                                    <p class="u-b0">ZR1's presence is undeniable. Its sculpted bodywork features smooth, flowing lines and alluring geometry that convey power with precision. Inside, a driver-focused cockpit is wrapped in premium materials, with bespoke options that reflect a commitment to craftsmanship and comfort.</p>
+                                                    <div class="d-flex justify-content-center gap-3">
+                                                        <span class="c-button c-button--play js-video-popup-btn" data-popup="#interior-video">
+                                                            <span class="c-button__inner">
+                                                                <span class="c-button__prepend">
+                                                                    <svg class="u-icon u-icon--play" xmlns="http://www.w3.org/2000/svg"
+                                                                        viewBox="0 0 16 16">
+                                                                        <path class="st0" d="M12.5,8l-9.1,5V3L12.5,8z" />
+                                                                    </svg>
+                                                                </span>
+                                                                <span class="c-button__label">
+                                                                    <i class="c-button__label-inner" title="Interior">Interior</i>
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                        <a href="design/index.html" class="c-button">
+                                                            <span class="c-button__inner">
+                                                                <span class="c-button__label">
+                                                                    <i class="c-button__label-inner" title="Explore">Explore</i>
+                                                                </span>
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="c-scrolling-reveal__content js-mask-reveal-content">
+                                            <div class="o-container">
+                                                <div class="c-subpage-links-wrapper">
+                                                    <ul class="c-subpage-links">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <i class="u-spacer u-spacer--25vh"></i>
+                        </div>
+                    </section> <!-- //Design section -->
+
+                    <section id="engineering" data-scrollspy-title="Engineering" class="o-section o-section--scrolling-section-reveal js-mask-reveal-trigger js-scrollspy-item">
+                        
+                        <div class="c-scrolling-reveal-bg js-mask-reveal-video">
+                            <video class="c-scrolling-reveal-bg__video"
+                                src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-Engine-001.mp4" 
+                                preload="auto" muted playsinline autoplay loop type="video/mp4"></video>
+                        </div>
+
+                        <div class="c-scrolling-reveal-content">
+                            <!--        <i class="c-scrolling-reveal-content__spacer"></i>-->
+                            <div class="c-scrolling-reveal-wrapper js-mask-reveal-content-trigger">
+                                <div class="c-scrolling-reveal">
+                                    <div class="o-container">
+                                        <div class="c-scrolling-reveal__header u-text-center">
+                                            <div class="c-scrolling-reveal__heading">                                              
+                                                <div class="c-reveal-mask__text c-reveal-mask__text--custom js-mask-reveal-text">
+                                                    <h2 class="c-reveal-mask__title js-mask-reveal-title u-a4 u-fw-medium u-uppercase">Engineering</h2>
+                                                    <p class="u-b0">"The way the horsepower builds — with that constant torque — feels like you're strapped to an aircraft carrier. You're getting fired off in a jet plane..."</p>
+                                                    <a href="https://www.rimac-automobili.com:443/nevera/engineering" class="c-button">
+                                                        <span class="c-button__inner">
+                                                            <span class="c-button__label">
+                                                                <i class="c-button__label-inner" title="Explore">Explore</i>
+                                                            </span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="c-scrolling-reveal__content js-mask-reveal-content">
+                                            <div class="o-container"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <i class="u-spacer u-spacer--25vh"></i>
+                        </div>
+                    </section> <!-- //Engineering section -->
             
 
                     <i class="c-scroll-indicator">
