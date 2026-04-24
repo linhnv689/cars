@@ -24936,12 +24936,10 @@ all and (-ms-high-contrast: none),
 
 .c-draggable-simple-slider__item .c-image-with-caption img {
 	display: block;
-	/* width: 100%; */
+	width: 100%;
 	height: 100%;
-	/* -o-object-fit: cover;
-	object-fit: cover; */
-	-o-object-fit: contain;
-	object-fit: contain;
+	/* -o-object-fit: contain;
+	object-fit: contain; */
 }
 
 .c-draggable-simple-slider__item .c-instagram-with-caption iframe {
@@ -34754,10 +34752,12 @@ p.button-solo>a {
 	pointer-events: auto;
 	/* Cho phép tương tác lên card */
 	/* cursor: grab; */
+	filter: none !important;
 }
 
-.rz-card:active {
+.rz-card.is-active {
 	/* cursor: grabbing; */
+	filter: none !important;
 }
 
 .rz-card__img-wrapper {

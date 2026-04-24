@@ -839,6 +839,2569 @@
                             <i class="u-spacer u-spacer--25vh"></i>
                         </div>
                     </section> <!-- //Engineering section -->
+
+                    <section id="in-house-production" class="o-section o-section--dark o-section--in-house-production js-scrollspy-item py-5 py-md-8" data-scrollspy-title="in-house production">                     
+                        <div class="scrub">
+                            <div class="o-section__heading pt-0">
+                                <div class="o-container o-container--narrow">
+                                    <div class="c-heading c-heading--narrow u-text-center">
+                                        <h2 class="t-1 text-gray mb-3 mb-md-5">in-house production</h2>
+                                        <p class="u-b0">
+                                            From bytes to bolts. Our expert engineers find and develop the very best
+                                            materials to craft everything from powertrain components to composites and
+                                            in-car controls. All designed and created in our headquarters in Croatia, our
+                                            cars are handcrafted to perform far beyond expectations. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="o-section__content">
+                            <div class="o-container o-container--narrow">
+                                <div class="c-article-wrapper">
+                                    <div class="c-article c-article--narrow">
+                                        <h3 class="u-a2">
+                                            Down to the last detail </h3>
+                                        <p class="u-b2">Rebellious German Engineering, made tangible by the Apollo x Ideenion partnership.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- DRAGGABLE SLIDER -->
+                            <div class="c-draggable-simple-slider-wrapper c-draggable-simple-slider-wrapper--nevera c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">
+                                <!-- CURSOR -->
+                                <div class="c-draggable-slider-cursor js-draggable-simple-slider-cursor">
+                                    <div class="c-draggable-slider-cursor__circle">
+                                        <div class="c-draggable-slider-cursor__label u-b3 u-uppercase">Drag</div>
+
+                                        <div class="c-draggable-slider-cursor__label--click u-b3 u-uppercase">Click</div>
+                                        <i class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--prev"></i>
+                                        <i class="c-draggable-slider-cursor__arrow c-draggable-slider-cursor__arrow--next"></i>
+                                    </div>
+                                </div>
+                                <!-- //CURSOR -->
+                                <div class="o-container c-draggable-simple-slider">
+                                    <div
+                                        class="c-draggable-simple-slider__container swiper-container js-draggable-simple-slider">
+                                        <ul class="c-draggable-simple-slider__wrapper swiper-wrapper">
+
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                <div class="c-draggable-simple-slider__item-inner"
+                                                    data-swiper-parallax-opacity="0.2">
+                                                    <figure class="c-image-with-caption">
+                                                        <picture>
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg"
+                                                                media="(min-width: 2600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg"
+                                                                media="(min-width: 1600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg"
+                                                                media="(min-width: 800px)">
+                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-001.jpg" class="swiper-lazy" alt="Apollo Evo Monocoque">
+                                                        </picture>                                                       
+                                                    </figure>
+                                                    <!-- <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DWUEvBWjDa9/">
+                                                        </blockquote>
+                                                    </figure> -->
+                                                    <div class="c-image-with-caption__caption pb-0">
+                                                        <span class="c-image-with-caption__caption-number u-b3">
+                                                            01 </span>
+                                                        <div class="c-image-with-caption__caption-text">
+                                                            <h5 class="u-a1">Meticulously reimagined</h5>
+                                                            <p class="u-b2">The subtle art of improvement realized in the new Apollo EVO exhaust. Every finished piece has its story; it's in the first sketches, the countless iterations, and the moment when lines connect into a 3D world. Here's a peek into that process, see the unfolding, not just the form.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide"><!-- .instagram-slide -->
+                                                <div class="c-draggable-simple-slider__item-inner"
+                                                    data-swiper-parallax-opacity="0.2">
+                                                    <figure class="c-image-with-caption">
+                                                        <picture>
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp"
+                                                                media="(min-width: 2600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp"
+                                                                media="(min-width: 1600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp"
+                                                                media="(min-width: 800px)">
+                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-002.webp" class="swiper-lazy" alt="Apollo Evo Monocoque">
+                                                        </picture>                                                       
+                                                    </figure>
+                                                    <!-- <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DWB99PyjGDM/">
+                                                        </blockquote>
+                                                    </figure> -->
+                                                    <div class="c-image-with-caption__caption pb-0"> <!-- .instagram -->
+                                                        <span class="c-image-with-caption__caption-number u-b3">
+                                                            02 </span>
+                                                        <div class="c-image-with-caption__caption-text"> <!-- .instagram -->
+                                                            <h5 class="u-a1">Where craftsmanship meets performance</h5>
+                                                            <p class="u-b2">Precision-cut carbon fibre, hand-laid with purpose. Every sheet is placed to shape strength, safety, and performance from the inside out.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                <div class="c-draggable-simple-slider__item-inner"
+                                                    data-swiper-parallax-opacity="0.2">
+                                                    <figure class="c-image-with-caption">
+                                                        <picture>
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" media="(min-width: 2600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" media="(min-width: 1600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" media="(min-width: 800px)">
+                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-013.webp" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
+                                                        </picture>
+                                                    </figure>
+                                                    <!-- <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DV1I0F5jF2E/">
+                                                        </blockquote>
+                                                    </figure> -->
+                                                    <div class="c-image-with-caption__caption pb-0">
+                                                        <span class="c-image-with-caption__caption-number u-b3">03</span>
+                                                        <div class="c-image-with-caption__caption-text">
+                                                            <h5 class="u-a1 u-capitalize">monocoque</h5>
+                                                            <p class="u-b2">Where heat, pressure and vision converge. The Apollo EVO monocoque.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                <div class="c-draggable-simple-slider__item-inner"
+                                                    data-swiper-parallax-opacity="0.2">
+                                                    <figure class="c-image-with-caption">
+                                                        <picture>
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" media="(min-width: 2600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" media="(min-width: 1600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" media="(min-width: 800px)">
+                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-003.webp" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
+                                                        </picture>
+                                                    </figure>
+                                                    <!-- <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DVi3zvPjDto/">
+                                                        </blockquote>
+                                                    </figure> -->
+                                                    <div class="c-image-with-caption__caption pb-0">
+                                                        <span class="c-image-with-caption__caption-number u-b3">
+                                                            04 </span>
+                                                        <div class="c-image-with-caption__caption-text">
+                                                            <h5 class="u-a1">Strength is engineered, not added</h5>
+                                                            <p class="u-b2">Advanced composite layups, optimized fiber orientation, and controlled curing cycles — all to maximize stiffness while cutting unnecessary weight.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                <div class="c-draggable-simple-slider__item-inner"
+                                                    data-swiper-parallax-opacity="0.2">
+                                                    <figure class="c-image-with-caption">
+                                                        <picture>
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" media="(min-width: 2600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" media="(min-width: 1600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" media="(min-width: 800px)">
+                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-014.webp" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
+                                                        </picture>
+                                                    </figure>
+                                                    <!-- <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DVJYlxUDG5o/">
+                                                        </blockquote>
+                                                    </figure> -->
+                                                    <div class="c-image-with-caption__caption pb-0">
+                                                        <span class="c-image-with-caption__caption-number u-b3">05</span>
+                                                        <div class="c-image-with-caption__caption-text">
+                                                            <h5 class="u-a1">Carbon at the core</h5>
+                                                            <p class="u-b2">Precision in every bracket, every mount, every load path. The all new Apollo EVO monocoque — Rebellious German Engineering for precision, strength and control.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                <div class="c-draggable-simple-slider__item-inner"
+                                                    data-swiper-parallax-opacity="0.2">
+                                                    <figure class="c-image-with-caption">
+                                                        <picture>
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-004.webp" media="(min-width: 2600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-004.webp" media="(min-width: 1600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-004.webp" media="(min-width: 800px)">
+                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/Apollo-Evo-Monocoque-004.webp" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
+                                                        </picture>
+                                                    </figure>
+                                                    <!-- <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DVJYlxUDG5o/">
+                                                        </blockquote>
+                                                    </figure> -->
+                                                    <div class="c-image-with-caption__caption pb-0">
+                                                        <span class="c-image-with-caption__caption-number u-b3">
+                                                            06 </span>
+                                                        <div class="c-image-with-caption__caption-text">
+                                                            <h5 class="u-a1 u-capitalize">Making</h5>
+                                                            <p class="u-b2">Hours in the making. Performance for a lifetime. Cured under extreme pressure and temperature, the monocoque emerges lighter, stiffer, and ready to hit the track.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                <div class="c-draggable-simple-slider__item-inner"
+                                                    data-swiper-parallax-opacity="0.2">
+                                                    <figure class="c-image-with-caption">
+                                                        <picture>
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" media="(min-width: 2600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" media="(min-width: 1600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" media="(min-width: 800px)">
+                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-010.jpg" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
+                                                        </picture>
+                                                    </figure>
+                                                    <!-- <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DUpsaxUDBNH/">
+                                                        </blockquote>
+                                                    </figure> -->
+                                                    <div class="c-image-with-caption__caption pb-0">
+                                                        <span class="c-image-with-caption__caption-number u-b3">07</span>
+                                                        <div class="c-image-with-caption__caption-text">
+                                                            <h5 class="u-a1 u-capitalize">Interior</h5>
+                                                            <p class="u-b2">We questioned the status quo, and turned it into art.<br>
+                                                            The all-new Apollo EVO interior doesn’t follow hypercar conventions. It rewrites them. Aluminum bones. Carbon-fiber muscle. Nothing extra, just everything essential.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                <div class="c-draggable-simple-slider__item-inner"
+                                                    data-swiper-parallax-opacity="0.2">
+                                                    <figure class="c-image-with-caption">
+                                                        <picture>
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg" media="(min-width: 2600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg" media="(min-width: 1600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg" media="(min-width: 800px)">
+                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-009.jpg" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
+                                                        </picture>
+                                                    </figure>
+                                                    <!-- <figure class="c-instagram-with-caption">
+                                                        <blockquote class="instagram-media"
+                                                            data-instgrm-permalink="https://www.instagram.com/reel/DUbF6MDDGp0/">
+                                                        </blockquote>
+                                                        <script async src="//www.instagram.com/embed.js"></script>
+                                                    </figure> -->
+                                                    <div class="c-image-with-caption__caption pb-0">
+                                                        <span class="c-image-with-caption__caption-number u-b3">08</span>
+                                                        <div class="c-image-with-caption__caption-text">
+                                                            <h5 class="u-a1 u-capitalize">cockpit</h5>
+                                                            <p class="u-b2">Just pure anatomical precision shaped by Rebellious German Engineering, topology-optimised components, visible load-bearing structures, and a cockpit defined entirely by function.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                <div class="c-draggable-simple-slider__item-inner"
+                                                    data-swiper-parallax-opacity="0.2">
+                                                    <figure class="c-image-with-caption">
+                                                        <picture>
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.jpg" media="(min-width: 2600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.jpg" media="(min-width: 1600px)">
+                                                            <source
+                                                                data-srcset="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.jpg" media="(min-width: 800px)">
+                                                            <img data-src="<?php echo $root_path; ?>/uploads/2021/05/30204415/apollo-automobil/project-x/2021-project-x-evo-012.jpg" class="swiper-lazy" alt="Apollo EVO Carbon Fibre Monocoque">
+                                                        </picture>
+                                                    </figure>           
+                                                    <div class="c-image-with-caption__caption pb-0">
+                                                        <span class="c-image-with-caption__caption-number u-b3">09</span>
+                                                        <div class="c-image-with-caption__caption-text">
+                                                            <h5 class="u-a1">Individual expression</h5>
+                                                            <p class="u-b2">Uncompromising structure. Individual expression. Each Apollo EVO is shaped through the exclusive Apollo FORGE program — where every element, from colour to material to detail, reflects a personal vision.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- //DRAGGABLE SLIDER -->
+                            </div>
+
+                        </div>
+                    </section> <!-- //In-house Production section -->
+
+                    <section id="tech-spec" data-scrollspy-title="Technical Specs" class="section section--explore o-section--dark js-scrollspy-item pb-5 pb-md-8">
+                        <div class="wrapper">
+                            <div class="container-fluid">
+                                <div class="row scrub">
+                                    <div class="col-12 text-center">
+                                        <h2 class="t-1 text-gray mb-3 mb-md-5">Tech specification</h2>
+                                    </div>
+                                    <div class="col-12 mb-4 mb-md-8">
+                                        <div class="c-heading__button u-full-width text-center">
+                                            <a href="https://web-cdn.rimac-automobili.com/wp-content/uploads/2023/11/20171226/Nevera_Technical-specifications.pdf"
+                                                download class="c-button c-button--play" data-popup="#technology-header-video">
+                                                <span class="c-button__inner">
+                                                    <span class="c-button__prepend">
+                                                        <svg class="u-icon u-icon--download" viewBox="0 0 11 16" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M5.889.967A.514.514 0 005.5.819a.54.54 0 00-.407.166.587.587 0 00-.159.424v8.385l-2.44-2.505c-.259-.294-.524-.3-.795-.018s-.265.558.018.828l3.394 3.536a.344.344 0 00.177.148.642.642 0 00.424 0 .344.344 0 00.177-.148L9.283 8.1c.283-.27.29-.546.018-.828-.271-.283-.536-.276-.796.018l-2.44 2.505V1.409A.616.616 0 005.89.967z">
+                                                            </path>
+                                                            <path d="M0 14.319h11v1H0z"></path>
+                                                        </svg>
+                                                    </span>
+                                                    <span class="c-button__label">
+                                                        <i class="c-button__label-inner" title="Download tech specs">Download tech specs</i>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-10 offset-md-1">
+                                        <div class="accord active">
+                                            <div class="accord__tab mb-2" no="01">
+                                                <div class="arrow-invert active">
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
+                                                </div>
+                                                <h3 class="t-2b text-aqua pl-2">General</h3>
+                                            </div>
+                                            <div class="accord__content">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> side view on road"
+                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif"
+                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif 400w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif 600w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif 800w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif 1160w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif 1920w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                    <p class="small mw-md-60p mb-4">
+                                                        The <?php echo $model; ?> is the pinnacle of performance within the Corvette lineup — a track-focused, street-legal supercar that represents the most powerful and technologically advanced variant of its generation.
+                                                    </p>                                                   
+                                                    <div class="stats">
+                                                        <div class="pinned-wrap">
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">manufacturer</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">Chevrolet</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">price</span>
+                                                                    <span class="ss">2026</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">
+                                                                            185,000
+                                                                        </span>
+                                                                        <span class="metric small">$</span>
+                                                                    </span>
+                                                                    <span class="stats__note d-block small">Starting at</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">production</span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">1990</span>
+                                                                    <span class="metric">year</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">units
+                                                                    <span class="ss">to date</span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">~9,000</span>
+                                                                    <span class="metric">units</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">origin country</span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">US</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    class
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        Supercar
+                                                                    </span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    body style
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        2-door coupe / convertible
+                                                                    </span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    seating
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        2
+                                                                    </span>
+                                                                    <span class="metric">seats</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    layout
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        Mid-engine, RWD
+                                                                    </span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    build time
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">~2</span>
+                                                                    <span class="metric">days</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="02">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
+                                                </div>
+                                                <h3 class="t-2b text-aqua pl-2">powertrain</h3>
+                                            </div>
+                                            <div class="accord__content" style="display: none;">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> performance"
+                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif" 
+                                                        srcset="<?php echo $root_path; ?>/uploads/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-008-1000.avif 400w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif 600w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif 800w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif 1160w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif 1920w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-008-1000.avif 3840w" 
+                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+
+                                                    <div class="stats__label">
+                                                        <span class="t-6">highlights</span>
+                                                    </div>
+
+                                                    <div class="c-accordion-content c-accordion-content--tech-spec">
+                                                        <ul class="u-b0">
+                                                            <li><p>8-speed dual clutch transmission</p></li>
+                                                            <li><p>5.5L V8 twin turbocharged, TPI, DI high-output flat plane crank 8000 rpm redline engine</p></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <div class="pinned-wrap">
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">engine type</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">5.5L DOHC V8 engine</span>
+                                                                    </span>
+                                                                    <span class="stats__note d-block small">Twin turbo with flat-plane crankshaft</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">engine code</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">LT7</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">displacement</span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b slash">
+                                                                    <span class="stats__split">5.5</span>
+                                                                    <span class="metric">L</span>
+                                                                </span>
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">336</span>
+                                                                    <span class="metric">ci</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">power</span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">1,064 </span>
+                                                                    <span class="metric">hp @ 8000 rpm</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">tested power</span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">~1,100 - 1,200</span>
+                                                                    <span class="metric">hp</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    wheel power
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        1,028
+                                                                    </span>
+                                                                    <span class="metric">hp</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    power / liter
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        193
+                                                                    </span>
+                                                                    <span class="metric">hp</span>                                                                 
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    power / weight
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        608
+                                                                    </span>
+                                                                    <span class="metric">hp / t</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">torque</span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b slash">
+                                                                    <span class="stats__split">1,112</span>
+                                                                    <span class="metric">Nm</span>
+                                                                </span>
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">820</span>
+                                                                    <span class="metric">lb-ft</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">tested torque</span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b slash">
+                                                                    <span class="stats__split">1,220</span>
+                                                                    <span class="metric">Nm</span>
+                                                                </span>
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">900</span>
+                                                                    <span class="metric">lb-ft</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">wheel torque</span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b slash">
+                                                                    <span class="stats__split">1,138</span>
+                                                                    <span class="metric">Nm</span>
+                                                                </span>
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">839</span>
+                                                                    <span class="metric">lb-ft</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    torque / weight
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        645
+                                                                    </span>
+                                                                    <span class="metric">Nm / t</span>
+																</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    redline
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        8,000
+                                                                    </span>
+                                                                    <span class="metric">rpm</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    efficiency
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        35
+                                                                    </span>
+                                                                    <span class="metric">PS / (l/100 km)</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    transmission
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        8-Speed Dual-clutch 
+                                                                    </span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    drivetrain
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        Rear-wheel drive
+                                                                    </span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- //.stats -->
+                                                </div>
+                                            </div>
+                                        </div> <!-- //.acord -->
+
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="03">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line">
+                                                    </div>
+                                                    <div class="arrow-invert__circle">
+                                                    </div>
+                                                </div>
+                                                <h3 class="t-2b text-aqua pl-2">
+                                                    performance
+                                                </h3>
+                                            </div>
+                                            <div class="accord__content" style="display: none;">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> performance"
+                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif" 
+                                                        srcset="<?php echo $root_path; ?>/uploads/uploads/2021/05/30204415/chevrolet/Corvette-ZR1/2026-Chevrolet-Corvette-ZR1-002-1000.avif 400w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif 600w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif 800w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif 1160w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif 1920w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-002-1000.avif 3840w" 
+                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+
+                                                    <p class="small mw-md-60p mb-4">
+                                                        ZR1 transforms raw power into refined performance. With intuitive dynamics and razor-sharp control, it's engineered to thrill at every turn.
+                                                    </p>
+                                                    <div class="stats">
+                                                        <div class="pinned-wrap">
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">
+                                                                        top speed
+                                                                    </span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b slash">
+                                                                        <span class="stats__split">375</span>
+                                                                        <span class="metric">km/h</span>
+                                                                    </span>
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">233</span>
+                                                                        <span class="metric">mph</span>
+                                                                    </span>
+                                                                    <span class="stats__note d-block small">with manufacturer oversight</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    0-60
+                                                                    <span class="ss">mph</span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        2.3
+                                                                    </span>
+                                                                    <span class="metric">s</span>
+                                                                </span>
+                                                                <span class="stats__note d-block small">with manufacturer oversight</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    0-100
+                                                                    <span class="ss">km/h</span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        2.7
+                                                                    </span>
+                                                                    <span class="metric">s</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    0-200
+                                                                    <span class="ss">km/h</span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        6.9
+                                                                    </span>
+                                                                    <span class="metric">s</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    0-300
+                                                                    <span class="ss">km/h</span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">
+                                                                        17.3
+                                                                    </span>
+                                                                    <span class="metric">s</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">
+                                                                    1/4
+                                                                    <span class="ss">mile</span>
+                                                                </span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">9.6</span>
+                                                                    <span class="metric">s</span>
+                                                                </span>
+                                                                <span class="stats__note d-block small">240 km/h (150 mph)</span>
+                                                            </div>
+                                                        </div>                                             
+                                                    </div><!-- //.stats -->
+                                                </div>
+                                            </div>
+                                        </div> <!-- //.acord -->
+
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="04">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
+                                                </div>
+
+                                                <h3 class="t-2b text-aqua pl-2">chassis & construction</h3>
+                                            </div>
+                                            <div class="accord__content" style="display:none">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> wheels" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif" 
+                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 400w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 600w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 800w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 1160w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 1920w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 3840w" 
+                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                    <div class="stats__label">
+                                                        <span class="t-6">construction</span>
+                                                    </div>
+                                                    <div class="c-accordion-content c-accordion-content--tech-spec">
+                                                        <ul class="u-b0">
+                                                            <li><p>Mid-engine aluminum-based architecture.</p></li>
+                                                            <li><p>Carbon-fiber aerodynamic and structural components. Purposeful carbon fiber aero package creates over 1,200 pounds of downforce at top speed.</p></li>
+                                                            <li><p>Composite body with integrated cooling and airflow channels.</p></li>
+                                                            <li><p>Reinforced drivetrain and structural components for high-performance loads.</p></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="stats">
+                                                        <div class="pinned-wrap">
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">suspension</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">Magnetic Selective Ride Control 4.0</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stats__stat">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">front suspension</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">Short / Long</span>
+                                                                        <span class="metric">Arm</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stats__stat">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">rear suspension</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">Short / Long</span>
+                                                                        <span class="metric">Arm</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="pinned-wrap">
+                                                            <div class="stats__stat">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">Brakes</span>
+                                                                    <span class="ss">Standard</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">Carbon ceramic</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>                                                     
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">front brake rotors</span>
+                                                                    <span class="ss">D x T</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b slash">
+                                                                        <span class="stats__split">0.399 x 0.038</span>
+                                                                        <span class="metric">m</span>
+                                                                    </span>
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">15.7 x 1.5</span>
+                                                                        <span class="metric">in</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">rear brake rotors</span>
+                                                                    <span class="ss">D x T</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b slash">
+                                                                        <span class="stats__split">0.391 x 0.033</span>
+                                                                        <span class="metric">m</span>
+                                                                    </span>
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">15.4 x 1.3</span>
+                                                                        <span class="metric">in</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pinned-wrap">
+                                                            <div class="stats__stat">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">Wheels</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">Aluminum</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>                                                     
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">front wheel</span>
+                                                                    <span class="ss">D x W</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b slash">
+                                                                        <span class="stats__split">0.508 x 0.254</span>
+                                                                        <span class="metric">m</span>
+                                                                    </span>
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">20 x 10</span>
+                                                                        <span class="metric">in</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">rear wheel</span>
+                                                                    <span class="ss">D x W</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b slash">
+                                                                        <span class="stats__split">0.533 x 0.330</span>
+                                                                        <span class="metric">m</span>
+                                                                    </span>
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">21 x 13</span>
+                                                                        <span class="metric">in</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pinned-wrap">
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">tires</span>
+                                                                    <span class="ss">Standard</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">Michelin Pilot Sport 4S</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>   
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">tires</span>
+                                                                    <span class="ss">ZTK package</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">Michelin Pilot Sport Cup 2 R</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>                                                                                                           
+                                                        </div>
+                                                        <div class="pinned-wrap">                                                                                                    
+                                                            <div class="stats__stat">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">Front Tire</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">275/30ZR20</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stats__stat">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">Rear Tire</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">345/25ZR21</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>                                    
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="05">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
+                                                </div>
+                                                <h3 class="t-2b text-aqua pl-2">Body Architecture</h3>
+                                            </div>
+                                            <div class="accord__content" style="display: none;">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper mb-3">
+                                                        <div class="swiper slider-2">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> front view" data-swiper-parallax-scale="0.8"
+                                                                        data-swiper-parallax-opacity="0.2" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-009-1000.jpg"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-009-1000.jpg 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                </div>
+
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> front view detail" data-swiper-parallax-scale="0.8"
+                                                                        data-swiper-parallax-opacity="0.2" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif" 
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                </div>
+
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" class="" alt="<?php echo $model; ?>  top view" data-swiper-parallax-scale="0.8"
+                                                                        data-swiper-parallax-opacity="0.2" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif" 
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                </div>
+
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" class="" alt="<?php echo $model; ?> side view" data-swiper-parallax-scale="0.8"
+                                                                        data-swiper-parallax-opacity="0.2" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-006-1000.avif"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-006-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-006-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-006-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-006-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-006-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-006-1000.avif 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                </div>
+
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" class="" alt="<?php echo $model; ?> side view" data-swiper-parallax-scale="0.8"
+                                                                        data-swiper-parallax-opacity="0.2" 
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                </div>
+
+                                                            </div>
+                                                            <div class="swiper-button-next is-v2 arrow arrow--right arrow--no-text">
+                                                                <div class="arrow__line">
+                                                                    <div style="background: white;"></div>
+                                                                    <div style="background: white;"></div>
+                                                                    <div style="background: rgba(215, 215, 215, 0.843);"></div>
+                                                                </div>
+                                                                <div class="arrow__circle">
+                                                                    <div class="arrow__cap"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <p class="mw-md-60p small">
+                                                        Carbon-fiber wheels were engineered for structural load paths first, then handed over to the styling department. The hood extractor means the only storage is now in the rear trunk. Such is the price of ultimate performance. Arched eyebrow-like contours on the front bumper and hood are one of the more subtle body tweaks unique to the ZR1.
+                                                        The full open-air experience means skipping the return of the split rear window, which offers a glimpse of the Edge Blue finish on the engine intake. It's a purely cosmetic feature but awfully pretty.
+                                                    </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="06">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
+                                                </div>
+                                                <h3 class="t-2b text-aqua pl-2">Aerodynamics</h3>
+                                            </div>
+                                            <div class="accord__content" style="display:none">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper mb-3">
+                                                        <div class="swiper slider-2">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-015-1000.avif"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-015-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-015-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-015-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-015-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-015-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-015-1000.avif 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                    <div class="c-image-with-caption__caption">
+                                                                        <span class="c-image-with-caption__caption-number u-b3">01</span>
+                                                                        <div class="c-image-with-caption__caption-text">
+                                                                            <h5 class="u-a1">Flow-Through Hood and ground effects</h5>
+                                                                            <p class="u-b2">The flow through hood and spoiler help to extract airflow through the intercooler and cool the turbocharged air. The front splitter, paired with an underwing and smooth underbody, helps generate suction under the vehicle to maximize downforce and reduce drag.</p>
+                                                                        </div>
+                                                                    </div>         
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                    <div class="c-image-with-caption__caption">
+                                                                        <span class="c-image-with-caption__caption-number u-b3">02</span>
+                                                                        <div class="c-image-with-caption__caption-text">
+                                                                            <h5 class="u-a1 text-white">Side Inlets</h5>
+                                                                            <p class="u-b2">Large side air inlets feature signature carbon-fiber wishbone bezels. This, paired with the rear brake cooling ducts, allow for additional engine cooling while maximizing air intake.</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>                                                              
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                    <div class="c-image-with-caption__caption">
+                                                                        <span class="c-image-with-caption__caption-number u-b3">03</span>
+                                                                        <div class="c-image-with-caption__caption-text">
+                                                                            <h5 class="u-a1 text-white">ZR1 Carbon Fiber Aero Package</h5>
+                                                                            <p class="u-b2">Available on ZR1, the potent carbon-fiber wing, underbody strakes and carbon-fiber dive planes work together to produce over 1,200 lbs. of downforce.</p>
+                                                                        </div>
+                                                                    </div>                                                            
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> aerodynamics" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-012-1000.avif 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                    <div class="c-image-with-caption__caption">
+                                                                        <span class="c-image-with-caption__caption-number u-b3">04</span>
+                                                                        <div class="c-image-with-caption__caption-text">
+                                                                            <h5 class="u-a1 text-white">Carbon fiber components</h5>
+                                                                            <p class="u-b2">Leveraging the strength of carbon fiber, ZR1 incorporates multiple standard carbon fiber elements including the front splitter, rocker panels, split rear window surround, roof panels with body-color surround and side air inlets, which help improve handling and performance.</p>
+                                                                        </div>
+                                                                    </div>                                                                    
+                                                                </div>                                                           
+                                                            </div>
+                                                            <div class="swiper-button-next is-v2 arrow arrow--right arrow--no-text">
+                                                                <div class="arrow__line">
+                                                                    <div style="background: white;"></div>
+                                                                    <div style="background: white;"></div>
+                                                                    <div style="background: rgba(215, 215, 215, 0.843);"></div>
+                                                                </div>
+                                                                <div class="arrow__circle">
+                                                                    <div class="arrow__cap"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <p class="mw-md-60p small">
+                                                        The reigning king of downforce. With a leading-edge design like wide side air inlets, carbon-fiber elements, and a multitude of airflow and cooling features, ZR1 dominates with the highest downforce of any production.
+                                                    </p> -->
+                                                </div>
+
+                                            </div>
+                                        </div>                                      
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="07">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
+                                                </div>
+                                                <h3 class="t-2b text-aqua pl-2">Interior</h3>
+                                            </div>
+                                            <div class="accord__content" style="display:none">
+                                                <div class="pt-1 pb-0">
+                                                    <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper mb-3">
+                                                        <div class="swiper slider-2">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif"
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-001-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">01</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Ultimate Suede interior</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif"
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-002-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">02</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Carbon fiber and sueded microfiber-wrapped steering wheel</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif"
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-003-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">03</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Wireless charging pad</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif"
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-004-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">04</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Leather-wrapped passenger grab handle</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif"
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">05</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Ultimate Suede seats</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif"
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">06</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">ZR1 3LZ Competition Sport seats in Natural Napa leather</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif"
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">07</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Ultimate Suede interior</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif"
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">08</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Driver Mode Selector</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif"
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">09</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">Bose Performance Series 14-speaker audio system with Stealth Interior Trim Package and Carbon Fiber Interior Package Level 2</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif"
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-009-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">10</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">14" reconfigurable Driver Information Center</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif"
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">11</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">New interior colorways: Jet Black Ultimate Suede with standard Sky Cool Gray or optional Adrenaline Red, Competition Yellow or Santorini Blue stitching</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif"
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">12</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">New interior colorways: Very Dark Atmosphere with Natural Tan accents</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif"
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">13</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">New interior colorways: Asymmetrical Adrenaline Red with Jet Black</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif"
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">14</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">New interior colorways: Sky Cool Gray & Medium Ash Gray with Habanero accents</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="swiper-slide">                                                                
+                                                                    <div class="swiper-slide">
+                                                                        <img loading="lazy" alt="<?php echo $model; ?> interior" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                            src="<?php echo $root_path; ?>/uploads/2021/05/30204415/chevrolet/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif"
+                                                                            srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 400w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 600w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 800w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 1160w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 1920w, 
+                                                                            <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif 3840w" 
+                                                                            size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                        <div class="c-image-with-caption__caption">
+                                                                            <span class="c-image-with-caption__caption-number u-b3">15</span>
+                                                                            <div class="c-image-with-caption__caption-text mw-100">
+                                                                                <h5 class="u-a1">New interior colorways: Santorini Blue with Jet Black</h5>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="swiper-button-next is-v2 arrow arrow--right arrow--no-text">
+                                                                <div class="arrow__line">
+                                                                    <div style="background: white;"></div>
+                                                                    <div style="background: white;"></div>
+                                                                    <div style="background: rgba(215, 215, 215, 0.843);"></div>
+                                                                </div>
+                                                                <div class="arrow__circle">
+                                                                    <div class="arrow__cap"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="08">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
+                                                </div>
+                                                <h3 class="t-2b text-aqua pl-2">safety systems</h3>
+                                            </div>
+                                            <div class="accord__content" style="display:none">
+                                                <div class="pt-1 pb-5 pb-md-10">
+                                                    <div class="c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper mb-3">
+                                                        <div class="swiper slider-2">
+                                                            <div class="swiper-wrapper">
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> HD Rear Vision Camera" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-001-653.avif 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                    <div class="c-image-with-caption__caption">
+                                                                        <span class="c-image-with-caption__caption-number u-b3">01</span>
+                                                                        <div class="c-image-with-caption__caption-text mw-100">
+                                                                            <h5 class="u-a1">HD Rear Vision Camera</h5>
+                                                                            <div class="c-accordion-content c-accordion-content--tech-spec py-1">
+                                                                                <ul class="">
+                                                                                    <li><p>Shows high-resolution digital image of area directly behind your vehicle while in Reverse.</p></li>
+                                                                                    <li><p>Can help you park or avoid vehicles and objects.</p></li>
+                                                                                    <li>
+                                                                                        <p>You can also display an overlay of where your vehicle is heading.</p>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>         
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> Forward Collision Alert" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-002-653.jpg 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                    <div class="c-image-with-caption__caption">
+                                                                        <span class="c-image-with-caption__caption-number u-b3">02</span>
+                                                                        <div class="c-image-with-caption__caption-text mw-100">
+                                                                            <h5 class="u-a1 text-white">Forward Collision Alert</h5>
+                                                                            <div class="c-accordion-content c-accordion-content--tech-spec py-1">
+                                                                                <ul class="">
+                                                                                    <li><p>Warns you if it detects a potential collision with a detected vehicle you're following so you can take action.</p></li>
+                                                                                    <li><p>Can also provide a tailgating alert if you're following a vehicle much too closely.</p></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>                                                              
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> Lane Keep Assist with Lane Departure Warning" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-003-653.jpg 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                    <div class="c-image-with-caption__caption">
+                                                                        <span class="c-image-with-caption__caption-number u-b3">03</span>
+                                                                        <div class="c-image-with-caption__caption-text mw-100">
+                                                                            <h5 class="u-a1 text-white">Lane Keep Assist with Lane Departure Warning</h5>
+                                                                            <div class="c-accordion-content c-accordion-content--tech-spec py-1">
+                                                                                <ul class="">
+                                                                                    <li><p>Uses a brief steering wheel turn to alert you when it detects you are unintentionally drifting out of your lane lines.</p></li>
+                                                                                    <li><p>System alerts do not occur if you're using your turn signal, or it detects you may be intentionally leaving your lane.</p></li>
+                                                                                    <li><p>You may receive additional Lane Departure Warning alerts if needed.</p></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>                                                            
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> Automatic Emergency Braking" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                    <div class="c-image-with-caption__caption">
+                                                                        <span class="c-image-with-caption__caption-number u-b3">04</span>
+                                                                        <div class="c-image-with-caption__caption-text mw-100">
+                                                                            <h5 class="u-a1 text-white">Automatic Emergency Braking</h5>
+                                                                            <div class="c-accordion-content c-accordion-content--tech-spec py-1">
+                                                                                <ul class="">
+                                                                                    <li><p>At speeds above 5 mph and up to highway speeds, can help you avoid or reduce the severity of a collision with a detected vehicle you're following using camera technology.</p></li>
+                                                                                    <li><p>Can automatically provide hard emergency braking or enhance your hard braking.</p></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>                                                                    
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> Rear Park Assist" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-005-653.jpg 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                    <div class="c-image-with-caption__caption">
+                                                                        <span class="c-image-with-caption__caption-number u-b3">05</span>
+                                                                        <div class="c-image-with-caption__caption-text mw-100">
+                                                                            <h5 class="u-a1 text-white">Rear Park Assist</h5>
+                                                                            <div class="c-accordion-content c-accordion-content--tech-spec py-1">
+                                                                                <ul class="">
+                                                                                    <li><p>When in Reverse, provides alerts of nearby detected vehicles and objects behind your vehicle.</p></li>
+                                                                                    <li><p>Alerts can help you park and avoid collisions.</p></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>                                                                    
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> Teen Driver" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-006-653.jpg 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                    <div class="c-image-with-caption__caption">
+                                                                        <span class="c-image-with-caption__caption-number u-b3">06</span>
+                                                                        <div class="c-image-with-caption__caption-text mw-100">
+                                                                            <h5 class="u-a1 text-white">Teen Driver</h5>
+                                                                            <div class="c-accordion-content c-accordion-content--tech-spec py-1">
+                                                                                <ul class="">
+                                                                                    <li><p>Helps encourage safe driving habits for teens by providing an in-vehicle report card.</p></li>
+                                                                                    <li><p>Activates certain safety systems, if equipped, when a Teen Driver-designated key fob is used.</p></li>
+                                                                                    <li><p>Mutes the radio until the front-seat occupants fasten their seat belts.</p></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>                                                                    
+                                                                </div>
+                                                                <div class="swiper-slide">
+                                                                    <img loading="lazy" alt="<?php echo $model; ?> Teen Driver" data-swiper-parallax-scale="0.8" data-swiper-parallax-opacity="0.2"
+                                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg"
+                                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 400w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 600w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 800w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 1160w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-007-653.jpg 1920w, 
+                                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-safety-system-004-653.jpg 3840w" 
+                                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                                                    <div class="c-image-with-caption__caption">
+                                                                        <span class="c-image-with-caption__caption-number u-b3">07</span>
+                                                                        <div class="c-image-with-caption__caption-text mw-100">
+                                                                            <h5 class="u-a1 text-white">Front Pedestrian and Bicyclist Braking</h5>
+                                                                            <div class="c-accordion-content c-accordion-content--tech-spec py-1">
+                                                                                <ul class="">
+                                                                                    <li><p>At speeds between 5 and 50 mph, can help you avoid or reduce the severity of a collision with a pedestrian or bicyclist it detects directly in front of you.</p></li>
+                                                                                    <li><p>Provides alerts and can automatically provide hard emergency braking or enhance driver's hard braking.</p></li>
+                                                                                    <li><p>Limited nighttime and low visibility performance.</p></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>                                                                    
+                                                                </div>                                                  
+                                                            </div>
+                                                            <div class="swiper-button-next is-v2 arrow arrow--right arrow--no-text">
+                                                                <div class="arrow__line">
+                                                                    <div style="background: white;"></div>
+                                                                    <div style="background: white;"></div>
+                                                                    <div style="background: rgba(215, 215, 215, 0.843);"></div>
+                                                                </div>
+                                                                <div class="arrow__circle">
+                                                                    <div class="arrow__cap"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <p class="mw-md-60p small">
+                                                        The reigning king of downforce. With a leading-edge design like wide side air inlets, carbon-fiber elements, and a multitude of airflow and cooling features, ZR1 dominates with the highest downforce of any production.
+                                                    </p> -->
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="accord">
+                                            <div class="accord__tab mb-2" no="09">
+                                                <div class="arrow-invert">
+                                                    <div class="arrow-invert__line"></div>
+                                                    <div class="arrow-invert__circle"></div>
+                                                </div>
+                                                <h3 class="t-2b text-aqua pl-2">Dimensions</h3>
+                                            </div>
+                                            <div class="accord__content" style="display:none">
+                                                <div class="pt-1">
+                                                    <img loading="lazy" class="mb-3" alt="<?php echo $model; ?> top view in showroom" data-swiper-parallax-scale="0.8"
+                                                        data-swiper-parallax-opacity="0.2"
+                                                        src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif"
+                                                        srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 400w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 600w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 800w,
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 1160w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 1920w, 
+                                                        <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif 3840w" 
+                                                        size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">                                                   
+                                                    <div class="stats">
+                                                        <div class="pinned-wrap">
+                                                            <div class="stats__stat is-pinned">
+                                                                <div class="stats__label">
+                                                                    <span class="t-6">curb weight</span>
+                                                                </div>
+                                                                <div class="stats__value">
+                                                                    <span class="t-3b slash">
+                                                                        <span class="stats__split">1,665</span>
+                                                                        <span class="metric">kg</span>
+                                                                    </span>
+                                                                    <span class="t-3b">
+                                                                        <span class="stats__split">3,670</span>
+                                                                        <span class="metric">lbs</span>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">length, overall</span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b slash">
+                                                                    <span class="stats__split">4.74</span>
+                                                                    <span class="metric">m</span>
+                                                                </span>
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">186.70</span>
+                                                                    <span class="metric">in</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">Width, Max w/o mirrors</span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b slash">
+                                                                    <span class="stats__split">2.02</span>
+                                                                    <span class="metric">m</span>
+                                                                </span>
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">79.71</span>
+                                                                    <span class="metric">in</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">Height, Overall</span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b slash">
+                                                                    <span class="stats__split">1.23</span>
+                                                                    <span class="metric">m</span>
+                                                                </span>
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">48.60</span>
+                                                                    <span class="metric">in</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">Wheelbase</span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b slash">
+                                                                    <span class="stats__split">2.72</span>
+                                                                    <span class="metric">m</span>
+                                                                </span>
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">107.00</span>
+                                                                    <span class="metric">in</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">Min Ground Clearance</span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b slash">
+                                                                    <span class="stats__split">0.135</span>
+                                                                    <span class="metric">m</span>
+                                                                </span>
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">5.30</span>
+                                                                    <span class="metric">in</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">Trunk Volume</span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b slash">
+                                                                    <span class="stats__split">258</span>
+                                                                    <span class="metric">L</span>
+                                                                </span>
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">9.10</span>
+                                                                    <span class="metric">ft³</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="stats__stat">
+                                                            <div class="stats__label">
+                                                                <span class="t-6">Fuel Tank Capacity</span>
+                                                            </div>
+                                                            <div class="stats__value">
+                                                                <span class="t-3b slash">
+                                                                    <span class="stats__split">~70</span>
+                                                                    <span class="metric">L</span>
+                                                                </span>
+                                                                <span class="t-3b">
+                                                                    <span class="stats__split">~18.5</span>
+                                                                    <span class="metric">gal</span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- //.stats -->                                              
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section> <!-- //Tech-spec section -->
+
+                    <section id="full-gallery" data-scrollspy-title="Full Gallery" class="section section--gallery js-scrollspy-item pb-5 pb-md-8">           
+                        <div class="container-fluid">
+                            <div class="row scrub">
+                                <div class="col-12 text-center">
+                                    <h2 class="t-1 text-gray mb-10">Full Gallery</h2>
+                                </div>
+                                
+                                <div class="c-nevera-welcome__slider pb-0">
+                                    <!-- DRAGGABLE SLIDER -->
+                                    <div class="c-draggable-simple-slider-wrapper c-draggable-simple-slider-wrapper--nevera c-draggable-slider-cursor-wrapper js-draggable-simple-slider-cursor-wrapper">                                     
+                                        <div class="o-container c-draggable-simple-slider">
+                                            <div class="c-draggable-simple-slider__container swiper-container js-draggable-simple-slider">
+                                                <ul class="c-draggable-simple-slider__wrapper swiper-wrapper">
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner"
+                                                            data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/22026-Chevrolet-Corvette-ZR1-019-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-019-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-019-2410.avif" media="(min-width: 800px)">
+                                                                    <img data-src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-019-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner"
+                                                            data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-020-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li
+                                                        class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner"
+                                                            data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-021-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text">
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner"
+                                                            data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-022-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-023-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-024-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-025-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li
+                                                        class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner"
+                                                            data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-011-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text">
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner"
+                                                            data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-026-2410.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-004-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-027-2161.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-003-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-005-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-007-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-006-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-007-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-008-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-010-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-011-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-012-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-013-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-014-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-005-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-interior-015-1000.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li class="js-draggable-simple-slider-item c-draggable-simple-slider__item swiper-slide">
+                                                        <div class="c-draggable-simple-slider__item-inner" data-swiper-parallax-opacity="0.2">
+                                                            <figure class="c-image-with-caption">
+                                                                <picture>
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" media="(min-width: 2600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" media="(min-width: 1600px)">
+                                                                    <source data-srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" media="(min-width: 800px)">
+                                                                    <img src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-028-2577.avif" class="swiper-lazy" alt="">
+                                                                </picture>
+                                                            </figure>
+                                                            <div class="c-image-with-caption__caption">
+                                                                <div class="c-image-with-caption__caption-text"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- //DRAGGABLE SLIDER -->
+                                    </div>
+                                </div>                                  
+                            </div>
+                        </div>                 
+                    </section> <!-- //Full Gallery section -->
+
+                    <section id="milestones" class="section section--milestones pb-5 pb-md-8">
+                        <div class="container-fluid">                              
+                            <div class="scrub">
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <h2 class="t-1 text-gray mb-10">Milestones</h2>
+                                    </div>
+
+                                    <div class="row row-offset-minus-1">
+                                        <div class="col-12 mb-4">
+                                            <img loading="lazy" class="pr zi-10" src="assets/static/img/10%20RIMAC%20NEVERA%20R.jpg" alt="Nevera R in concrete hall"
+                                                srcset="assets/static/img/400/10%20RIMAC%20NEVERA%20R.jpg 400w, assets/static/img/600/10%20RIMAC%20NEVERA%20R.jpg 600w, assets/static/img/800/10%20RIMAC%20NEVERA%20R.jpg 800w, assets/static/img/1160/10%20RIMAC%20NEVERA%20R.jpg 1160w, assets/static/img/10%20RIMAC%20NEVERA%20R.jpg 1920w, assets/static/img/3840/10%20RIMAC%20NEVERA%20R.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-1 col-md-2 offset-md-2">
+                                        <div class="arrow">
+                                            <div class="arrow__rot">
+                                                <span class="arrow__text">read here</span>
+                                            </div>
+                                            <div class="arrow__line">
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                            </div>
+                                            <div class="arrow__circle">
+                                                <div class="arrow__cap"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="offset-1 offset-sm-0 col-8 col-md-4">
+                                        <h3 class="t-3 mb-1 text-aqua">0 to 15 Years<br>Hyper-Fast</h3>
+                                        <p class="big lh-sm">In 15 years, Rimac has revolutionized the automotive industry. From a radical vision to record-breaking speeds, we have been defying expectations. Our journey has been
+                                            rebellious and relentless. Here is a look at our biggest milestones:</p>
+
+                                    </div>
+                                </div>                                   
+                                    
+                                <section class="rz-timeline js-draggable-simple-slider-cursor-wrapper">
+                                    <div class="rz-nav offset-md-2">
+                                        <ul>
+                                            <div class="rz-nav-indicator"></div>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet active" data-index="0">2006 - 2007</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="1">2008</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="2">2011</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="3">2012</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="4">2013</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="rz-slider">
+                                        <div class="rz-track">
+                                            <div class="rz-card" data-index="0">
+                                                <div class="rz-card__img-wrapper">
+                                                    <img src="https://autopro8.mediacdn.vn/2021/6/2/rimac-nevera-13-1622620590671368856284.jpg">
+                                                    <div class="rz-card__content">
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua">The garage phase</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">The idea of an electric supercar was born.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="rz-card" data-index="1">
+                                                <div class="rz-card__img-wrapper">
+                                                    <img src="https://www.topgear.com/sites/default/files/2024/08/NEVERA_R_ROAD_5.jpg">
+                                                    <div class="rz-card__content">
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua">Rimac Automobili is Born</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">The prototype Concept_One was first shown at the Frankfurt Motor Show.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="rz-card" data-index="2">
+                                                <div class="rz-card__img-wrapper">
+                                                    <img
+                                                        src="https://hips.hearstapps.com/hmg-prod/images/2025-rimac-nevera-pr-101-691b428773e01.jpg">
+                                                    <div class="rz-card__content">
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua">Getting Traction</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">Delivery of the first car developed and manufactured for another automotive company - a Concept_One prototype went global as the FIA Formula E Race Director's car.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="rz-card" data-index="3">
+                                                <div class="rz-card__img-wrapper">
+                                                    <img src="https://carpassion.vn/wp-content/uploads/2024/08/Rimac-Nevera-R-21.jpg">
+                                                    <div class="rz-card__content">
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua">Engineering Excellence</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">The C_Two, today known as the Nevera, was launched at the Geneva Motor Show with performance and character that elevated the genre.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="rz-card" data-index="4">
+                                                <div class="rz-card__img-wrapper">
+                                                    <img
+                                                        src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=2070&auto=format&fit=crop">
+                                                    <div class="rz-card__content">
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua">Production Ready</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">The production version of the Nevera was launched; Rimac Automobili and Bugatti merged into Bugatti Rimac, the best hypercar company in the world.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-button-next swiper-button-next--timeline arrow arrow--right arrow--no-text">
+                                        <div class="arrow__line">
+                                            <div style="background: white;"></div>
+                                            <div style="background: white;"></div>
+                                            <div style="background: rgba(215, 215, 215, 0.843);"></div>
+                                        </div>
+                                        <div class="arrow__circle">
+                                            <div class="arrow__cap"></div>
+                                        </div>
+                                    </div>
+                                </section>                                                                           
+
+                            </div>
+                        </div>
+                    </section><!-- //Milestones section -->
             
 
                     <i class="c-scroll-indicator">

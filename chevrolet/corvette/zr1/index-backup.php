@@ -859,8 +859,8 @@
                         </div>
                     </section>
                     <i class="u-spacer u-spacer--50vh"></i>
-                    <section id="in-house-production" class="o-section o-section--dark o-section--in-house-production js-scrollspy-item pt-2 pd-5 pd-md-10" data-scrollspy-title="in-house production">
-                        
+                    
+                    <section id="in-house-production" class="o-section o-section--dark o-section--in-house-production js-scrollspy-item pt-2 pd-5 pd-md-10" data-scrollspy-title="in-house production">                     
                         <div class="scrub">
                             <div class="o-section__heading">
                                 <div class="o-container o-container--narrow">
