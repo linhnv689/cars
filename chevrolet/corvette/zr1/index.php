@@ -119,6 +119,13 @@
                                         <span class="c-inpage-navigation-link__label">Full Gallery</span>
                                     </a>
                                 </li>
+                                <li class="c-inpage-navigation__links-item js-inpage-navigation-item js-context-shifting-link">
+                                    <a href="#milestones"
+                                        class="c-inpage-navigation-link js-inpage-navigation-link js-scroll-to">
+                                        <span class="c-inpage-navigation-link__number">09</span>
+                                        <span class="c-inpage-navigation-link__label">Milestones</span>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -586,7 +593,24 @@
                                                 <span class="c-big-link__label u-a3" title="Drive Modes">Drive Modes</span>
                                             </a>
                                         </li>
-
+                                        <li class="c-big-menu__item" style="">
+                                            <a href="../about-us/index.html" target="" class="c-big-link js-context-shifting-menu-link justify-content-center">
+                                                <span class="c-big-link__prepend u-b3">05</span>
+                                                <span class="c-big-link__label u-a3" title="Enhanced Performance Data Recorder">Enhanced Performance Data Recorder</span>
+                                            </a>
+                                        </li>
+                                        <li class="c-big-menu__item" style="">
+                                            <a href="../about-us/index.html" target="" class="c-big-link js-context-shifting-menu-link justify-content-center">
+                                                <span class="c-big-link__prepend u-b3">06</span>
+                                                <span class="c-big-link__label u-a3" title="Performance App">Performance App</span>
+                                            </a>
+                                        </li>
+                                        <li class="c-big-menu__item" style="">
+                                            <a href="../about-us/index.html" target="" class="c-big-link js-context-shifting-menu-link justify-content-center">
+                                                <span class="c-big-link__prepend u-b3">07</span>
+                                                <span class="c-big-link__label u-a3" title="Performance Traction Management">Performance Traction Management</span>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>                              
                             </div>                        
@@ -718,8 +742,7 @@
                                                         class="c-button">
                                                         <span class="c-button__inner">
                                                             <span class="c-button__label">
-                                                                <i class="c-button__label-inner" title="Explore">
-                                                                    Explore </i>
+                                                                <i class="c-button__label-inner" title="Explore">Explore </i>
                                                             </span>
                                                         </span>
                                                     </a>
@@ -840,7 +863,7 @@
                         </div>
                     </section> <!-- //Engineering section -->
 
-                    <section id="in-house-production" class="o-section o-section--dark o-section--in-house-production js-scrollspy-item py-5 py-md-8" data-scrollspy-title="in-house production">                     
+                    <section id="in-house-production" data-scrollspy-title="in-house production" class="o-section o-section--dark o-section--in-house-production js-scrollspy-item pb-5 pb-md-8">                     
                         <div class="scrub">
                             <div class="o-section__heading pt-0">
                                 <div class="o-container o-container--narrow">
@@ -3281,7 +3304,7 @@
                         </div>                 
                     </section> <!-- //Full Gallery section -->
 
-                    <section id="milestones" class="section section--milestones pb-5 pb-md-8">
+                    <section id="milestones" data-scrollspy-title="Milestones" class="section section--milestones js-scrollspy-item pb-5 pb-md-8">
                         <div class="container-fluid">                              
                             <div class="scrub">
                                 <div class="row">
@@ -3290,9 +3313,17 @@
                                     </div>
 
                                     <div class="row row-offset-minus-1">
-                                        <div class="col-12 mb-4">
-                                            <img loading="lazy" class="pr zi-10" src="assets/static/img/10%20RIMAC%20NEVERA%20R.jpg" alt="Nevera R in concrete hall"
-                                                srcset="assets/static/img/400/10%20RIMAC%20NEVERA%20R.jpg 400w, assets/static/img/600/10%20RIMAC%20NEVERA%20R.jpg 600w, assets/static/img/800/10%20RIMAC%20NEVERA%20R.jpg 800w, assets/static/img/1160/10%20RIMAC%20NEVERA%20R.jpg 1160w, assets/static/img/10%20RIMAC%20NEVERA%20R.jpg 1920w, assets/static/img/3840/10%20RIMAC%20NEVERA%20R.jpg 3840w" size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px">
+                                        <div class="col-12 mb-8">
+                                            <img loading="lazy" class="pr zi-10" alt="Chevrolet Corvette ZR1 in concrete hall"
+                                                src="assets/static/img/10%20RIMAC%20NEVERA%20R.jpg" 
+                                                srcset="assets/static/img/400/10%20RIMAC%20NEVERA%20R.jpg 400w, 
+                                                assets/static/img/600/10%20RIMAC%20NEVERA%20R.jpg 600w, 
+                                                assets/static/img/800/10%20RIMAC%20NEVERA%20R.jpg 800w, 
+                                                assets/static/img/1160/10%20RIMAC%20NEVERA%20R.jpg 1160w, 
+                                                assets/static/img/10%20RIMAC%20NEVERA%20R.jpg 1920w, 
+                                                assets/static/img/3840/10%20RIMAC%20NEVERA%20R.jpg 3840w" 
+                                                size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px"
+                                            >
 
                                         </div>
                                     </div>
@@ -3324,10 +3355,10 @@
                                     <div class="rz-nav offset-md-2">
                                         <ul>
                                             <div class="rz-nav-indicator"></div>
-                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet active" data-index="0">2006 - 2007</li>
-                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="1">2008</li>
-                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="2">2011</li>
-                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="3">2012</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet active" data-index="0">1970 - 1972</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="1">1990 - 1995</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="2">2004 - 2013</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="3">2019</li>
                                             <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="4">2013</li>
                                         </ul>
                                     </div>
@@ -3336,31 +3367,30 @@
                                         <div class="rz-track">
                                             <div class="rz-card" data-index="0">
                                                 <div class="rz-card__img-wrapper">
-                                                    <img src="https://autopro8.mediacdn.vn/2021/6/2/rimac-nevera-13-1622620590671368856284.jpg">
+                                                    <img src="<?php echo $media_path; ?>/1973-Chevrolet-Corvette-C3-Stingray-001-1276.jpg">
                                                     <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title t-3 text-aqua">The garage phase</h2>
-                                                        <span class="c-timeline-item__para big lh-sm">The idea of an electric supercar was born.</span>
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua mb-1">For the 3rd generation (C3)</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">The ZR1 & ZR2 were special engine packages. Only 53 of these packages were optioned during this time .</span>
                                                     </div>
                                                 </div>
                                             </div>
 
                                             <div class="rz-card" data-index="1">
                                                 <div class="rz-card__img-wrapper">
-                                                    <img src="https://www.topgear.com/sites/default/files/2024/08/NEVERA_R_ROAD_5.jpg">
+                                                    <img src="<?php echo $media_path; ?>/1994-Chevrolet-Corvette-coupe-001-1193.jpg">
                                                     <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title t-3 text-aqua">Rimac Automobili is Born</h2>
-                                                        <span class="c-timeline-item__para big lh-sm">The prototype Concept_One was first shown at the Frankfurt Motor Show.</span>
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua mb-1">For the 4th generation (C4)</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">The ZR1 was the top-tier package that was available from 1990 to 1995, with a special engine designed in partnership with Lotus, after General Motors acquired Group Lotus, and with the objective of creating the world's fastest production car. Other upgrades included steering, braking, specially designed Goodyear tires, and changes to body fascia.</span>
                                                     </div>
                                                 </div>
                                             </div>
 
                                             <div class="rz-card" data-index="2">
                                                 <div class="rz-card__img-wrapper">
-                                                    <img
-                                                        src="https://hips.hearstapps.com/hmg-prod/images/2025-rimac-nevera-pr-101-691b428773e01.jpg">
+                                                    <img src="<?php echo $media_path; ?>/2004-Chevrolet-Corvette-C6-001-1280.jpg">
                                                     <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title t-3 text-aqua">Getting Traction</h2>
-                                                        <span class="c-timeline-item__para big lh-sm">Delivery of the first car developed and manufactured for another automotive company - a Concept_One prototype went global as the FIA Formula E Race Director's car.</span>
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua mb-1">For the 6th generation (C6)</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">The ZR1 was a top-tier model package, the centerpiece of which was a new supercharged engine, with the supercharger visible through a window in the hood. There were numerous other upgrades to virtually every aspect of the car.</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -3369,7 +3399,7 @@
                                                 <div class="rz-card__img-wrapper">
                                                     <img src="https://carpassion.vn/wp-content/uploads/2024/08/Rimac-Nevera-R-21.jpg">
                                                     <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title t-3 text-aqua">Engineering Excellence</h2>
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua mb-1">For the 7th generation (C7)</h2>
                                                         <span class="c-timeline-item__para big lh-sm">The C_Two, today known as the Nevera, was launched at the Geneva Motor Show with performance and character that elevated the genre.</span>
                                                     </div>
                                                 </div>

@@ -34631,14 +34631,19 @@ p.button-solo>a {
 .rz-timeline {
 	display: flex;
 	justify-content: center;
-	/* Đưa Slider vào giữa */
 	align-items: center;
-	/* height: 100vh; */
+	min-height: 100vh;
 	/* background-color: #021417; */
 	position: relative;
 	/* overflow: hidden; */
 	padding-top: 350px;
 	padding-bottom: 400px;
+}
+
+@media (max-width: 480px) {
+	.rz-timeline {
+		min-height: unset;
+	}
 }
 
 /* NAV BÊN TRÁI */
@@ -34779,10 +34784,10 @@ p.button-solo>a {
 
 .rz-card__content {
 	position: absolute;
-	top: calc(100% - 40px);
+	top: calc(100% + 40px);
 	left: 50%;
 	width: 100%;
-	max-width: 450px;
+	max-width: 500px;
 	z-index: 2;
 	opacity: 0;
 	/* Dùng translate để căn giữa X, và translateY để tạo hiệu ứng trồi lên */
