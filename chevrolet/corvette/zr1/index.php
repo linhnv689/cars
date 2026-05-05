@@ -3315,13 +3315,13 @@
                                     <div class="row row-offset-minus-1">
                                         <div class="col-12 mb-8">
                                             <img loading="lazy" class="pr zi-10" alt="Chevrolet Corvette ZR1 in concrete hall"
-                                                src="assets/static/img/10%20RIMAC%20NEVERA%20R.jpg" 
-                                                srcset="assets/static/img/400/10%20RIMAC%20NEVERA%20R.jpg 400w, 
-                                                assets/static/img/600/10%20RIMAC%20NEVERA%20R.jpg 600w, 
-                                                assets/static/img/800/10%20RIMAC%20NEVERA%20R.jpg 800w, 
-                                                assets/static/img/1160/10%20RIMAC%20NEVERA%20R.jpg 1160w, 
-                                                assets/static/img/10%20RIMAC%20NEVERA%20R.jpg 1920w, 
-                                                assets/static/img/3840/10%20RIMAC%20NEVERA%20R.jpg 3840w" 
+                                                src="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-010-1000.jpg" 
+                                                srcset="<?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-010-1000.jpg 400w, 
+                                                <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-010-1000.jpg 600w, 
+                                                <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-010-1000.jpg 800w, 
+                                                <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-010-1000.jpg 1160w, 
+                                                <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-010-1000.jpg 1920w, 
+                                                <?php echo $media_path; ?>/2026-Chevrolet-Corvette-ZR1-010-1000.jpg 3840w"
                                                 size="(max-width: 350px) 400px, (max-width: 576px) 600px, (max-width: 768px) 800px, (max-width: 1021px) 1160px, 3840px"
                                             >
 
@@ -3355,11 +3355,10 @@
                                     <div class="rz-nav offset-md-2">
                                         <ul>
                                             <div class="rz-nav-indicator"></div>
-                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet active" data-index="0">1970 - 1972</li>
-                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="1">1990 - 1995</li>
-                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="2">2004 - 2013</li>
-                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="3">2019</li>
-                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="4">2013</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet active" data-index="0">1990 - 1995</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="1">2004 - 2013</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="2">2019</li>
+                                            <li class="c-timeline__pagination-bullet js-timeline-bullet t-5 swiper-pagination-bullet" data-index="3">2025 - present</li>
                                         </ul>
                                     </div>
 
@@ -3367,56 +3366,46 @@
                                         <div class="rz-track">
                                             <div class="rz-card" data-index="0">
                                                 <div class="rz-card__img-wrapper">
-                                                    <img src="<?php echo $media_path; ?>/1973-Chevrolet-Corvette-C3-Stingray-001-1276.jpg">
+                                                    <img src="<?php echo $media_path; ?>/1994-Chevrolet-Corvette-coupe-001-1193.jpg">
                                                     <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title t-3 text-aqua mb-1">For the 3rd generation (C3)</h2>
-                                                        <span class="c-timeline-item__para big lh-sm">The ZR1 & ZR2 were special engine packages. Only 53 of these packages were optioned during this time .</span>
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua mb-1">Corvette C4 ZR-1</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">The ZR1 was the top-tier package that was available from 1990 to 1995, with a special engine designed in partnership with Lotus, after General Motors acquired Group Lotus, and with the objective of creating the world's fastest production car. Other upgrades included steering, braking, specially designed Goodyear tires, and changes to body fascia.</span>
                                                     </div>
                                                 </div>
                                             </div>
 
                                             <div class="rz-card" data-index="1">
                                                 <div class="rz-card__img-wrapper">
-                                                    <img src="<?php echo $media_path; ?>/1994-Chevrolet-Corvette-coupe-001-1193.jpg">
+                                                    <img src="<?php echo $media_path; ?>/2004-Chevrolet-Corvette-C6-001-1280.jpg">
                                                     <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title t-3 text-aqua mb-1">For the 4th generation (C4)</h2>
-                                                        <span class="c-timeline-item__para big lh-sm">The ZR1 was the top-tier package that was available from 1990 to 1995, with a special engine designed in partnership with Lotus, after General Motors acquired Group Lotus, and with the objective of creating the world's fastest production car. Other upgrades included steering, braking, specially designed Goodyear tires, and changes to body fascia.</span>
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua mb-1">Corvette C6 ZR1</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">The ZR1 was a top-tier model package, the centerpiece of which was a new supercharged engine, with the supercharger visible through a window in the hood. There were numerous other upgrades to virtually every aspect of the car.</span>
                                                     </div>
                                                 </div>
                                             </div>
 
                                             <div class="rz-card" data-index="2">
                                                 <div class="rz-card__img-wrapper">
-                                                    <img src="<?php echo $media_path; ?>/2004-Chevrolet-Corvette-C6-001-1280.jpg">
+                                                    <img src="<?php echo $media_path; ?>/2019-Chevrolet-Corvette-C7-coupe-001-1217.jpg">
                                                     <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title t-3 text-aqua mb-1">For the 6th generation (C6)</h2>
-                                                        <span class="c-timeline-item__para big lh-sm">The ZR1 was a top-tier model package, the centerpiece of which was a new supercharged engine, with the supercharger visible through a window in the hood. There were numerous other upgrades to virtually every aspect of the car.</span>
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua mb-1">Corvette C7 ZR1</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">The ZR1 was again the top-tier variant available, beginning in 2019. While improvements were made and there were significant changes to the body styling, the engine retained the same displacement and was again supercharged, with the unit visible through a hood window.</span>
                                                     </div>
                                                 </div>
                                             </div>
 
                                             <div class="rz-card" data-index="3">
                                                 <div class="rz-card__img-wrapper">
-                                                    <img src="https://carpassion.vn/wp-content/uploads/2024/08/Rimac-Nevera-R-21.jpg">
+                                                    <img src="<?php echo $media_path; ?>/2025-Chevrolet-Corvette-C8-coupe-001-2002.jpg">
                                                     <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title t-3 text-aqua mb-1">For the 7th generation (C7)</h2>
-                                                        <span class="c-timeline-item__para big lh-sm">The C_Two, today known as the Nevera, was launched at the Geneva Motor Show with performance and character that elevated the genre.</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="rz-card" data-index="4">
-                                                <div class="rz-card__img-wrapper">
-                                                    <img
-                                                        src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=2070&auto=format&fit=crop">
-                                                    <div class="rz-card__content">
-                                                        <h2 class="c-timeline-item__title t-3 text-aqua">Production Ready</h2>
-                                                        <span class="c-timeline-item__para big lh-sm">The production version of the Nevera was launched; Rimac Automobili and Bugatti merged into Bugatti Rimac, the best hypercar company in the world.</span>
+                                                        <h2 class="c-timeline-item__title t-3 text-aqua mb-1">Corvette C8 ZR1</h2>
+                                                        <span class="c-timeline-item__para big lh-sm">The ZR1 was again on offer as the top variant for 2025, but major changes had been made to the car, not the least of which was to the Corvette layout, switching from a front mid-engine, rear-wheel-drive layout (FMR) to a rear mid-engine, rear-wheel-drive layout (RMR), moving the engine to the rear for the first time since the Corvette was first introduced 65 years prior.</span>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                    
                                     <div class="swiper-button-next swiper-button-next--timeline arrow arrow--right arrow--no-text">
                                         <div class="arrow__line">
                                             <div style="background: white;"></div>
@@ -3432,8 +3421,81 @@
                             </div>
                         </div>
                     </section><!-- //Milestones section -->
-            
 
+                    <div class="c-timeline__popup js-timeline-popup is-active" style="opacity: 1; visibility: inherit;">
+                        <div class="o-container--wide">
+                            <div class="c-timeline__popup-inner">
+                                <div class="c-timeline__popup-slider">
+                                    <div class="js-timeline-popup-slider swiper-container swiper-container-initialized swiper-container-horizontal"
+                                        style="cursor: grab; opacity: 1; visibility: inherit;">
+                                        <div class="swiper-wrapper js-timeline-popup-slider-wrapper"
+                                            style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+                                            <div class="c-timeline-item__slide swiper-slide swiper-slide-active"
+                                                style="width: 992px; transition: all;">
+                                                <div class="slide-inner" style="transform: translate(0px, 0px); transition: all;">
+                                                    <i class="slide-inner-image"
+                                                        style="background-image: url(&quot;https://web-cdn.rimac-automobili.com/wp-content/uploads/2020/10/06150404/Korea-092-1600x1200.jpg&quot;);">
+                                                    </i>
+                                                </div>
+                                            </div>
+                                            <div class="c-timeline-item__slide swiper-slide swiper-slide-next"
+                                                style="width: 992px; transition: all;">
+                                                <div class="slide-inner" style="transform: translate(-557.25px, 0px); transition: all;">
+                                                    <i class="slide-inner-image"
+                                                        style="background-image: url(&quot;https://web-cdn.rimac-automobili.com/wp-content/uploads/2020/10/06150402/4496d102a781916b049c2dc3e67a1bbe-1.jpg&quot;);">
+                                                    </i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                                    </div>
+
+                                    <div class="c-timeline__buttons">
+                                        <button
+                                            class="c-timeline__button c-timeline__button--previous c-link js-timeline-slider-previous swiper-button-disabled"
+                                            style="opacity: 1; visibility: inherit;" tabindex="-1" role="button" aria-label="Previous slide"
+                                            aria-disabled="true">
+                                            <svg class="u-icon u-icon--arrow-left" viewBox="0 0 14 11" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M4.64 11L0 6.061V4.714L4.16 0h1.28v.561L1.784 4.5H13.92V6H1.56l4.359 4.439V11H4.64z"></path>
+                                            </svg>
+                                        </button>
+
+                                        <button class="c-timeline__button c-timeline__button--next c-link js-timeline-slider-next"
+                                            style="opacity: 1; visibility: inherit;" tabindex="0" role="button" aria-label="Next slide"
+                                            aria-disabled="false">
+                                            <svg class="u-icon u-icon--arrow-right" viewBox="0 0 14 11" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.28 11l4.64-4.939V4.714L9.76 0H8.48v.561L12.136 4.5H0V6h12.359l-4.36 4.439V11h1.28z"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+
+                                    <div class="c-timeline__popup-pagination js-timeline-popup-pagination swiper-pagination-clickable swiper-pagination-bullets"
+                                        style="opacity: 1; visibility: inherit;"><span
+                                            class="js-popup-pagination-bullet swiper-pagination-bullet swiper-pagination-bullet-active"
+                                            tabindex="0" role="button" aria-label="Go to slide 1"><span
+                                                class="js-popup-pagination-bullet-inner"
+                                                style="transform: translate3d(-1.9123%, 0px, 0px);"></span></span><span
+                                            class="js-popup-pagination-bullet swiper-pagination-bullet" tabindex="0" role="button"
+                                            aria-label="Go to slide 2"><span class="js-popup-pagination-bullet-inner"
+                                                style="transform: translate(-100%, 0px);"></span></span></div>
+                                </div>
+
+                                <div class="c-timeline__popup-main">
+                                    <div class="c-timeline__popup-year">
+                                        <p class="u-a5 js-timeline-popup-year"
+                                            style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);">2006 - 2007</p>
+                                    </div>
+                                    <p class="u-a3 c-timeline__popup-title js-timeline-popup-title"
+                                        style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);">Corvette C4 ZR-1</p>
+                                    <p class="u-b2 c-timeline__popup-content js-timeline-popup-content"
+                                        style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);">As a high school student,
+                                        Mate wins local, national and international awards for innovation and electronics with the iGlove, a
+                                        device that replaced a keyboard and a mouse.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
                     <i class="c-scroll-indicator">
                         <i></i>
                     </i>

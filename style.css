@@ -34778,7 +34778,7 @@ p.button-solo>a {
 .rz-card img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	/* object-fit: cover; */
 	pointer-events: none;
 }
 
@@ -34790,7 +34790,6 @@ p.button-solo>a {
 	max-width: 500px;
 	z-index: 2;
 	opacity: 0;
-	/* Dùng translate để căn giữa X, và translateY để tạo hiệu ứng trồi lên */
 	transform: translate(-50%, 20px);
 	transition: opacity 0.5s ease, transform 0.5s ease;
 	/* KHÔNG cho nội dung chặn thao tác kéo */

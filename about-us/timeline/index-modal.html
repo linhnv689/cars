@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ZR1 Timeline - Sequential Sync</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #0a0a0a;
+            font-family: 'Segoe UI', sans-serif;
+            overflow-x: hidden;
+            perspective: 1200px;
+        }
+
+        .thumbnail-container {
+            padding-top: 100px;
+            width: 700px;
+            margin: 0 auto;
+            cursor: pointer;
+            transition: transform 1s cubic-bezier(0.2, 0, 0.2, 1),
+                opacity 0.8s ease-in-out;
+            position: relative;
+            z-index: 1;
+        }
+
+        .thumbnail-container img {
+            width: 100%;
+            border-radius: 6px;
+            display: block;
+        }
+
+        .thumbnail-container.zoomed {
+            position: fixed;
+            /* z-index: 10001; */
+            margin: 0 !important;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(5, 10, 20, 0.97);
+            backdrop-filter: blur(25px);
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.8s ease;
+        }
+
+        .modal.show {
+            display: flex;
+            opacity: 1;
+        }
+
+        .modal-wrapper {
+            padding-left: 40px;
+            padding-right: 40px;
+            display: flex;
+            padding: 0 40px;
+            gap: 80px;
+            align-items: center;
+            position: relative;
+            width: 100%;
+            /* max-width: 1200px; */
+        }
+
+        /* KHỐI TEXT & NĂM (XUẤT HIỆN CÙNG LÚC) */
+        .modal-right,
+        .year-label {
+            opacity: 0;
+            transform: translateX(40px);
+            transition: all 0.8s cubic-bezier(0.2, 0, 0.2, 1);
+        }
+
+        .modal-right {
+            color: white;
+            flex: 1;
+        }
+
+        .year-label {
+            font-size: 6rem;
+            font-weight: bold;
+            position: absolute;
+            left: 60%;
+            top: 90%;
+            transform: translate(-50%, -50%) translateX(40px);
+            /* Sync initial state with right text */
+            color: #fff;
+            pointer-events: none;
+        }
+
+        /* KHỐI ẢNH (XUẤT HIỆN SAU) */
+        .modal-left {
+            flex: 1.3;
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.8s cubic-bezier(0.2, 0, 0.2, 1);
+        }
+
+        .modal-left img {
+            width: 100%;
+            border-radius: 4px;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.7);
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 40px;
+            right: 50px;
+            color: white;
+            font-size: 40px;
+            cursor: pointer;
+            opacity: 0.5;
+            z-index: 10;
+        }
+
+        h2 {
+            font-size: 3.8rem;
+            margin: 0 0 25px 0;
+            font-weight: 300;
+        }
+
+        p {
+            color: #bcbcbc;
+            line-height: 1.9;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="thumbnail-container" id="originalThumb">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/2025-rimac-nevera-pr-101-691b428773e01.jpg" alt="Car">
+    </div>
+
+    <div id="detailModal" class="modal">
+        <span class="close-btn">&times;</span>
+        <div class="modal-wrapper">
+            <div class="modal-left">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/2025-rimac-nevera-pr-101-691b428773e01.jpg"
+                    alt="Detail">
+            </div>
+
+            <div class="modal-right">
+                <h2>First patents</h2>
+                <p>As a high school student, Mate wins awards for innovation with the iGlove, a device that replaced a
+                    keyboard and a mouse.</p>
+            </div>
+
+            <!-- Tách Năm ra ngoài nhưng nằm trong wrapper -->
+            <div class="year-label" id="modalYear">2006 - 2018</div>
+        </div>
+    </div>
+
+    <script>
+        const thumbContainer = document.getElementById('originalThumb');
+        const modal = document.getElementById('detailModal');
+        const mLeft = modal.querySelector('.modal-left');
+        const mRight = modal.querySelector('.modal-right');
+        const mYear = document.getElementById('modalYear');
+        const closeBtn = document.querySelector('.close-btn');
+
+        let originalRect = null;
+
+        thumbContainer.addEventListener('click', function () {
+            originalRect = thumbContainer.getBoundingClientRect();
+            const scale = 1.5;
+
+            thumbContainer.style.top = originalRect.top + 'px';
+            thumbContainer.style.left = originalRect.left + 'px';
+            thumbContainer.style.width = originalRect.width + 'px';
+            thumbContainer.classList.add('zoomed');
+
+            requestAnimationFrame(() => {
+                const centerX = window.innerWidth / 2;
+                const centerY = window.innerHeight / 2;
+                const moveX = centerX - (originalRect.left + originalRect.width / 2);
+                const moveY = centerY - originalRect.top - (originalRect.height * scale / 2);
+
+                thumbContainer.style.transform = `translate3d(${moveX}px, ${moveY}px, 150px) scale(${scale})`;
+                thumbContainer.style.opacity = '0';
+            });
+
+            // LOGIC HIỆN THEO THỨ TỰ
+            setTimeout(() => {
+                modal.classList.add('show');
+
+                // 1. Text và Năm hiện cùng lúc (sau 300ms)
+                setTimeout(() => {
+                    mRight.style.opacity = '1';
+                    mRight.style.transform = 'translateX(0)';
+
+                    mYear.style.opacity = '1'; // Giữ độ mờ ảo như thiết kế cũ
+                    mYear.style.transform = 'translate(-50%, -50%) translateX(0)';
+                }, 300);
+
+                // 2. Hình ảnh hiện sau cùng (sau 700ms)
+                setTimeout(() => {
+                    mLeft.style.opacity = '1';
+                    mLeft.style.transform = 'translateY(0)';
+                }, 700);
+
+            }, 600);
+        });
+
+        function closeAll() {
+            mLeft.style.opacity = '0';
+            mRight.style.opacity = '0';
+            mYear.style.opacity = '0';
+            modal.style.opacity = '0';
+
+            setTimeout(() => {
+                modal.classList.remove('show');
+                modal.style.opacity = '';
+
+                thumbContainer.style.opacity = '1';
+                thumbContainer.style.transform = `translate3d(0, 0, 0) scale(1)`;
+
+                const onTransitionEnd = (e) => {
+                    if (e.propertyName === 'transform') {
+                        thumbContainer.classList.remove('zoomed');
+                        thumbContainer.style.top = '';
+                        thumbContainer.style.left = '';
+                        thumbContainer.style.width = '';
+                        thumbContainer.style.transform = '';
+                        thumbContainer.removeEventListener('transitionend', onTransitionEnd);
+                    }
+                };
+                thumbContainer.addEventListener('transitionend', onTransitionEnd);
+            }, 400);
+        }
+
+        closeBtn.onclick = closeAll;
+    </script>
+</body>
+
+</html>
